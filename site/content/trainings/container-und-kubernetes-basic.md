@@ -116,6 +116,12 @@ testimonials:
     - title : "Das sagt unser Trainingsteilnehmer<br/>Corsin Decurtins, Zürich"
       image : "images/trainings/ACEND_Jeremy@4x.jpg"
       logo : "images/testimonials/netceterea_logo.png"
-      text : "Wir konnten in mehreren Schulungen das Know-How, unserer Entwickler in ganz Europa, im Bereich Kubernetes aufbauen. Dies hilft uns auch in Zukunft, unsere Kunden mit innovativen Softwarelösungen zu  beliefern. Einfach tolle Trainings und super Trainer."       
+      text : "Wir konnten in mehreren Schulungen das Know-How, unserer Entwickler in ganz Europa, im Bereich Kubernetes aufbauen. Dies hilft uns auch in Zukunft, unsere Kunden mit innovativen Softwarelösungen zu  beliefern. Einfach tolle Trainings und super Trainer."
+  
+  testimonial:
+    - title : "Das sagt unser Trainingsteilnehmer<br/>Nicolas Bonfils, Bern"
+      image : "images/trainings/ACEND_Jeremy@4x.jpg"
+      text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
+    
       
 ---
