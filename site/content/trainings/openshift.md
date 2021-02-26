@@ -15,7 +15,7 @@ personen:
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
-  img2 : "images/trainings/ACEND_Dave@2x.jpg"
+  img2 : "images/trainings/ACEND_Philip@2x.jpg"
   img3 : "images/trainings/ACEND_CodeD@2x.jpg"
   
 
