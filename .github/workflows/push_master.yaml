@@ -1,8 +1,8 @@
-name: push_master
+name: push_main
 
 on:
   push:
-    branches: master
+    branches: main
 
 jobs:
   main:
