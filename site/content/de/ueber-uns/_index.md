@@ -96,7 +96,7 @@ team:
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
       
-    - title : "Thomas Philippona"
+    - title : "Thomas Philipona"
       image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Trainer"
       abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
