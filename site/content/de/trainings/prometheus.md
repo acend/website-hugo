@@ -33,7 +33,7 @@ accordion:
  
         - title : "Voraussetzungen"
           icon : "2"
-          content : "¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet.<br/>¬ Die Teilnehmenden sollten über grundlegende Linux-Kenntnisse verfügen."
+          content : "¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet.<br/>¬ Die Teilnehmenden sollten über grundlegende Linux und Kubernetes Kenntnisse verfügen."
 
         - title : "Zielpublikum"
           icon : "3"

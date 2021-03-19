@@ -34,7 +34,7 @@ accordion:
         - title : "Prerequisites"
           icon : "2"
           content : "¬ Participants will need a laptop with direct access to the Internet<br/>
-¬ Participants should have basic Linux knowledge<br/>"
+¬ Participants should have basic Linux and Kubernetes knowledge<br/>"
 
         - title : "Target Audience"
           icon : "3"
