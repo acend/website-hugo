@@ -65,14 +65,14 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
       title: "OpenShift 4 Overview"
       liste:
         - el: "Architekur"
-        - el: "&nbsp;Cluster-Komponenten und -Rollen"
-        - el: "&nbsp;Netzwerk und Zonierung"
-        - el: "&nbsp;Storage"
+        - el: &nbsp;"Cluster-Komponenten und -Rollen"
+        - el: " Netzwerk und Zonierung"
+        - el: " Storage"
         - el: "Installation und Konfiguration"
-        - el: "&nbsp;Installationsvarianten"
-        - el: "&nbsp;Infrastruktur-Provider"
-        - el: "&nbsp;Basiskonfiguration"
-        - el: "&nbsp;Automatisierung"
+        - el: " Installationsvarianten"
+        - el: " Infrastruktur-Provider"
+        - el: " Basiskonfiguration"
+        - el: " Automatisierung"
 
     liste2:
       title: "Day 2-Operations"
@@ -85,10 +85,10 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
         - el: "Monitoring / Logging"
         - el: "Troubleshooting"
         - el: "Real Life-Szenarien hands-on erleben"
-        - el: "&nbsp;Disk ist voll"
-        - el: "&nbsp;Pod wird OOM Killed"
-        - el: "&nbsp;Netzwerkprobleme"
-        - el: "&nbsp;Surprise..."
+        - el: " Disk ist voll"
+        - el: " Pod wird OOM Killed"
+        - el: " Netzwerkprobleme"
+        - el: " Surprise..."
 
 
 # trainer
