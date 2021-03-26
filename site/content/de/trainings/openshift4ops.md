@@ -67,6 +67,8 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
         - el: "Cluster-Komponenten und -Rollen"
         - el: "Netzwerk und Zonierung"
         - el: "Storage"
+  
+    liste2:      
       title: "Installation und Konfiguration"
       liste:
         - el: "Installationsvarianten"
@@ -74,7 +76,7 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
         - el: "Basiskonfiguration"
         - el: "Automatisierung"
 
-    liste2:
+    liste3:
       title: "Day 2-Operations"
       liste:
         - el: "Infra Nodes"
@@ -83,13 +85,15 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
         - el: "Backup & Restore"
         - el: "OpenShift 4 Updates und Optionen"
         - el: "Monitoring / Logging"
+
+    liste4:
       title: "Troubleshooting"
       liste:
         - el: "Real Life-Szenarien hands-on erleben"
-        - el: "- Disk ist voll"
-        - el: "- Pod wird OOM Killed"
-        - el: "- Netzwerkprobleme"
-        - el: "- Surprise..."
+        - el: "Disk ist voll"
+        - el: "Pod wird OOM Killed"
+        - el: "Netzwerkprobleme"
+        - el: "Surprise..."
 
 
 # trainer
