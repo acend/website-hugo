@@ -20,7 +20,7 @@ headerimages:
   
 
 main_text: "
-Mit OpenShift 4 verspricht Red Hat eine Kubernetes-Lösung, die mit `“automated operations`” und weiteren Vorzügen für Betrieb und Entwicklung auftrumpft. Dieses zweitägige Training auf Deutsch oder Englisch bietet eine praktische und klar verständliche Übersicht über die verbleibenden, täglichen Herausforderungen im Betrieb. Unsere Trainer kommen aus der Praxis und sind erfahrene OpenShift Engineers.
+Mit OpenShift 4 verspricht Red Hat eine Kubernetes-Lösung, die mit «automated operations» und weiteren Vorzügen für Betrieb und Entwicklung auftrumpft. Dieses zweitägige Training auf Deutsch oder Englisch bietet eine praktische und klar verständliche Übersicht über die verbleibenden, täglichen Herausforderungen im Betrieb. Unsere Trainer kommen aus der Praxis und sind erfahrene OpenShift Engineers.
 <br/>
 Die Durchführung findet online oder vor Ort statt."
 
@@ -62,21 +62,19 @@ trainingsinhalt:
     text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln.<br/>
 Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf deinen Wunsch hin Anpassungen vornehmen."
     liste1:
-      title: "OpenShift 4 Architektur und Komponenten"
+      title: "OpenShift 4 Overview"
       liste:
-        - el: "Cluster-Komponenten und -Rollen"
-        - el: "Netzwerk und Zonierung"
-        - el: "Storage"
-  
-    liste2:      
-      title: "Installation und Konfiguration"
-      liste:
-        - el: "Installationsvarianten"
-        - el: "Infrastruktur-Provider"
-        - el: "Basiskonfiguration"
-        - el: "Automatisierung"
+        - el: "Architekur"
+        - el: " Cluster-Komponenten und -Rollen"
+        - el: " Netzwerk und Zonierung"
+        - el: " Storage"
+        - el: "Installation und Konfiguration"
+        - el: " Installationsvarianten"
+        - el: " Infrastruktur-Provider"
+        - el: " Basiskonfiguration"
+        - el: " Automatisierung"
 
-    liste3:
+    liste2:
       title: "Day 2-Operations"
       liste:
         - el: "Infra Nodes"
@@ -85,15 +83,12 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
         - el: "Backup & Restore"
         - el: "OpenShift 4 Updates und Optionen"
         - el: "Monitoring / Logging"
-
-    liste4:
-      title: "Troubleshooting"
-      liste:
+        - el: "Troubleshooting"
         - el: "Real Life-Szenarien hands-on erleben"
-        - el: "Disk ist voll"
-        - el: "Pod wird OOM Killed"
-        - el: "Netzwerkprobleme"
-        - el: "Surprise..."
+        - el: " Disk ist voll"
+        - el: " Pod wird OOM Killed"
+        - el: " Netzwerkprobleme"
+        - el: " Surprise..."
 
 
 # trainer
