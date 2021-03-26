@@ -65,7 +65,7 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
       title: "OpenShift 4 Overview"
       liste:
         - el: "Architekur"
-        - el: &nbsp;"Cluster-Komponenten und -Rollen"
+        - el: "Cluster-Komponenten und -Rollen"
         - el: " Netzwerk und Zonierung"
         - el: " Storage"
         - el: "Installation und Konfiguration"
