@@ -80,7 +80,7 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
         - el: "Infra Nodes"
         - el: "Austausch von Masters sowie etcd"
         - el: "Austausch und Ergänzung von Worker Nodes"
-        - el: "Backup & Restore"
+        - el: "Backup / Restore"
         - el: ""OpenShift 4 Updates und Optionen
         - el: "Monitoring / Logging"
       title: "Troubleshooting"
