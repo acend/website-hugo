@@ -66,14 +66,15 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
       liste:
         - el: "Architekur"
         - el: "Cluster-Komponenten und -Rollen"
-        - el: " Netzwerk und Zonierung"
-        - el: " Storage"
+          liste:
+          - el: "Netzwerk und Zonierung"
+          - el: "Storage"
         - el: "Installation und Konfiguration"
-        - el: " Installationsvarianten"
-        - el: " Infrastruktur-Provider"
-        - el: " Basiskonfiguration"
-        - el: " Automatisierung"
-
+          liste:
+          - el: "Installationsvarianten"
+          - el: "Infrastruktur-Provider"
+          - el: "Basiskonfiguration"
+          - el: "Automatisierung"
     liste2:
       title: "Day 2-Operations"
       liste:
@@ -85,11 +86,11 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
         - el: "Monitoring / Logging"
         - el: "Troubleshooting"
         - el: "Real Life-Szenarien hands-on erleben"
-        - el: " Disk ist voll"
-        - el: " Pod wird OOM Killed"
-        - el: " Netzwerkprobleme"
-        - el: " Surprise..."
-
+          liste:
+          - el: "Disk ist voll"
+          - el: "Pod wird OOM Killed"
+          - el: "Netzwerkprobleme"
+          - el: "Surprise..."
 
 # trainer
 trainers:
