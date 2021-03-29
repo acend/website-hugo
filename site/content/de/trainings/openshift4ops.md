@@ -1,13 +1,13 @@
 ---
 title: "Openshift 4 Operations"
-description: "Openshift 4 Operations Mastery für System Engineers."
+description: "Openshift 4 - Operations Mastery für System Engineers."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 0
 categories: ["Advanced"]
 duration: "2 Tage"
-abstract: "Openshift 4 Operations Mastery für System Engineers."
-main_title: "Openshift 4 Operations Mastery für System Engineers."
+abstract: "Openshift 4 - Operations Mastery für System Engineers."
+main_title: "Openshift 4 - Operations Mastery für System Engineers."
 
 personen: 
   daten : "19.08.21, 20.08.21"
@@ -20,7 +20,7 @@ headerimages:
   
 
 main_text: "
-Mit OpenShift 4 verspricht Red Hat eine Kubernetes-Lösung, die mit «automated operations» und weiteren Vorzügen für Betrieb und Entwicklung auftrumpft. Dieses zweitägige Training auf Deutsch oder Englisch bietet eine praktische und klar verständliche Übersicht über die verbleibenden, täglichen Herausforderungen im Betrieb. Unsere Trainer kommen aus der Praxis und sind erfahrene OpenShift Engineers.
+Mit OpenShift 4 verspricht Red Hat eine Kubernetes-Lösung, die mit «automated operations» und weiteren Vorzügen für Betrieb und Entwicklung auftrumpft. Dieses zweitägige Training auf Deutsch oder Englisch bietet eine praktische und klar verständliche Übersicht über die Herausforderungen im Day 2 Betrieb. Unsere Trainer kommen aus der Praxis und sind erfahrene OpenShift Engineers.
 <br/>
 Die Durchführung findet online oder vor Ort statt."
 
@@ -60,7 +60,7 @@ accordion:
 trainingsinhalt: 
     title : "Trainingsinhalt"
     text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln.<br/>
-Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf deinen Wunsch hin Anpassungen vornehmen."
+Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
     liste1:
       title: "OpenShift 4 Overview"
       liste:
