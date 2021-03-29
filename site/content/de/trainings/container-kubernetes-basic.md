@@ -54,7 +54,7 @@ trainingsinhalt:
     title : "Trainingsinhalt"
     text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln.  
 
-    Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf deinen Wunsch hin Anpassungen vornehmen."
+    Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
     liste1:
       title: "Container Basics"
       liste:
