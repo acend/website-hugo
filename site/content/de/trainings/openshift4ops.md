@@ -99,17 +99,20 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
 # trainer
 trainers:
   enable: true
-  title : "Lerne zwei deiner Trainer kennen"
+  title : "Lerne deine Trainer kennen"
   trainer:
     - title : "Benjamin Affolter"
-      image : "images/team/AC_Benji@2x.jpg"
       designation : "Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
       linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
       twitter : "https://twitter.com/bliemli"
 
+    - title : "Christian Haller"
+      designation : "Trainer"
+      abstract : "I would rather have questions that can't be answered than answers that can't be questioned. - Richard Feynman"
+      linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
+
     - title : "Thomas Philipona"
-      image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Trainer"
       abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
       linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
