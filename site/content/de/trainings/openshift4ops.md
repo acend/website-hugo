@@ -33,28 +33,32 @@ accordion:
 ¬ OpenShift 4 Architektur und Komponenten kennenlernen<br/>
 ¬ Den eigenen OpenShift 4 Cluster installieren<br/>
 ¬ Unterbruchsfreie Day 2-Operations Tasks meistern<br/>
-¬ Monitoring und Troubleshooting Know-how vertiefen<br/>"
+¬ Monitoring und Troubleshooting Know-how vertiefen
+"
  
         - title : "Voraussetzungen"
           icon : "2"
           content : "
-¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet.<br/>
-¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig.<br/>
-¬ Die Teilnehmenden sollten über grundlegende Linux und Kubernetes Kenntnisse verfügen."
+¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet<br/>
+¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig<br/>
+¬ Die Teilnehmenden sollten über grundlegende Linux und Kubernetes Kenntnisse verfügen
+"
 
         - title : "Zielpublikum"
           icon : "3"
           content : "
-¬ Unser Training richtet sich an System Engineers, OpenShift Engineers und weitere, die die Betriebsaspekte von OpenShift 4 kennenlernen wollen.<br/>
-¬ Grundkenntnisse mit Container-Technologien sowie OpenShift oder Kubernetes  werden vorausgesetzt."
+¬ Unser Training richtet sich an System Engineers, OpenShift Engineers und weitere, die die Betriebsaspekte von OpenShift 4 kennenlernen wollen<br/>
+¬ Grundkenntnisse mit Container-Technologien sowie OpenShift oder Kubernetes werden vorausgesetzt
+"
 
         - title : "Konditionen"
           icon : "4"
           content : "
 ¬ CHF 2200 / Person für 2 Tage<br/>
 ¬ Gruppen von 8–24 Personen<br/>
-¬ Inklusive Verpflegung, Unterlagen und einem cloud-basierten OpenShift Cluster pro Teilnehmer.<br/>
-¬ Rabatt ab 12 Personen"
+¬ Inklusive Verpflegung, Unterlagen und einem cloud-basierten OpenShift Cluster pro Teilnehmer<br/>
+¬ Rabatt ab 12 Personen
+"
 
 # Trainingsinhalt
 trainingsinhalt: 

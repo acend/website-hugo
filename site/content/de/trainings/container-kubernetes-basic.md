@@ -29,25 +29,34 @@ accordion:
     item:
         - title : "Trainingsziele"
           icon : "1"
-          content : "¬ Den Einstieg in eine moderne Technologie finden<br/>     
-          ¬ Konzepte von Containern und Kubernetes verstehen<br/>    
-          ¬ Applikationen auf Kubernetes deployen"
+          content : "
+¬ Den Einstieg in eine moderne Technologie finden<br/>
+¬ Konzepte von Containern und Kubernetes verstehen<br/>
+¬ Applikationen auf Kubernetes deployen
+"
   
         - title : "Voraussetzungen"
           icon : "2"
-          content : "¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet.<br/>
-          ¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig."
+          content : "
+¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet<br/>
+¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig
+"
 
         - title : "Zielpublikum"
           icon : "3"
-          content : "¬ Unser Training richtet sich an Personen aus dem Software und System Engineering. Es sind keine Vorkenntnisse mit Container-Technologien oder Kubernetes notwendig."
+          content : "
+¬ Unser Training richtet sich an Personen aus dem Software und System Engineering
+¬ Es sind keine Vorkenntnisse mit Container-Technologien oder Kubernetes notwendig
+"
 
         - title : "Konditionen"
           icon : "4"
-          content : "¬ CHF 1900 / Person für 2 Tage<br/>
-          ¬ Gruppen von 8-24 Personen<br/>
-          ¬ Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud<br/> 
-          ¬ Rabatt ab 12 Personen<br/>"
+          content : "
+¬ CHF 1900 / Person für 2 Tage<br/>
+¬ Gruppen von 8-24 Personen<br/>
+¬ Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud<br/>
+¬ Rabatt ab 12 Personen
+"
 
 # Trainingsinhalt
 trainingsinhalt: 
