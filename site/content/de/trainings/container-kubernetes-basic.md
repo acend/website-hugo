@@ -45,7 +45,7 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "
-¬ Unser Training richtet sich an Personen aus dem Software und System Engineering
+¬ Unser Training richtet sich an Personen aus dem Software und System Engineering<br/>
 ¬ Es sind keine Vorkenntnisse mit Container-Technologien oder Kubernetes notwendig
 "
 
