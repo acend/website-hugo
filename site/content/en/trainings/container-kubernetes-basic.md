@@ -27,25 +27,34 @@ accordion:
     item:
         - title : "Outcomes"
           icon : "1"
-          content : "¬ Become acquainted with a modern technology<br/>     
-          ¬ Understand the concepts of Containers and Kubernetes<br/>    
-          ¬ Deploy applications on Kubernetes"
+          content : "
+¬ Become acquainted with a modern technology<br/>
+¬ Understand the concepts of Containers and Kubernetes<br/>
+¬ Deploy applications on Kubernetes
+"
   
         - title : "Prerequisites"
           icon : "2"
-          content : "¬ Participants need a laptop with direct internet access via WLAN.<br/>
-          ¬ Additionally, local admin rights or access to a terminal (in the browser) are required."
+          content : "
+¬ Participants will need a laptop with direct access to the Internet<br/>
+¬ Additionally, local admin rights or access to a terminal (in the browser) are required
+"
 
         - title : "Target Audience"
           icon : "3"
-          content : "¬ Our training is designed for software and system engineers. No prior knowledge of Container technologies or Kubernetes is required."
+          content : "
+¬ Our training is designed for software and system engineers<br/>
+¬ No prior knowledge of Container technologies or Kubernetes is required
+"
 
         - title : "Conditions"
           icon : "4"
-          content : "¬ CHF 1900 / participant for 2 days<br/>
-          ¬ Group classes consisting of 8 to 24 participants<br/>
-          ¬ Includes catering, documentation and Kubernetes Cluster in the Cloud<br/> 
-          ¬ Discounts available for groups of 12 participants or more<br/>"
+          content : "
+¬ CHF 1900 / participant for 2 days<br/>
+¬ Group classes consisting of 8 to 24 participants<br/>
+¬ Includes catering, documentation and a Kubernetes cluster in the cloud<br/>
+¬ Discounts available for groups of 12 participants or more
+"
 
 # Trainingsinhalt
 trainingsinhalt: 
