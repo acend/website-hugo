@@ -26,3 +26,10 @@ jobs:
             quay.io/acend/website-hugo:latest
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
+      - 
+        name: Redeploy Prod Deployment
+        uses: actions-hub/kubectl@master
+        env:
+          KUBE_CONFIG: ${{ secrets.KUBECONFIG_TEST_BASE64 }}
+        with:
+          args: rollout restart deployment/acend-website --namespace acend-website

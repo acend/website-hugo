@@ -98,11 +98,8 @@ podman run --rm --rmi --interactive -e BACKEND_URL=http://localhost:8080 --publi
 
 ### Pull Request (PR)
 
-Upon each PR, a GitHub Action [pull_request.yaml](.github/workflows/pull_request.yaml) is triggered which builds a 
-Docker image and pushes it to `acend/website-hugo:staging` on Docker Hub. The push to Docker Hub will trigger a 
-deployment to <https://staging.acend.ch> by using a Webhook for Keel.
+Upon each PR, a GitHub Action [pull_request.yaml](.github/workflows/pull_request.yaml) is triggered which builds a Docker image and pushes it to `quay.io/acend/website-hugo:staging` on Quai.io. The image will be deployed by the Workflow.
 
 ### Push to Master
 
-Once a PR gets accepted and merged to master, a similar GitHub Action [push.yaml](.github/workflows/pull_request.yaml) 
-will trigger with a push to `acend/website-hugo:latest` and a deployment to <https://acend.ch>.
+Once a PR gets accepted and merged to master, a similar GitHub Action [push.yaml](.github/workflows/pull_request.yaml) will trigger with a push to `quay.io/acend/website-hugo:latest` and a deployment to <https://acend.ch>.
