@@ -58,14 +58,6 @@ jobs:
         with:
           args: rollout restart deployment/pr-${{ github.event.pull_request.number }}-acend-website --namespace acend-website-test
       - 
-        name: Redeploy Staging Deployment
-        uses: actions-hub/kubectl@master
-        env:
-          KUBE_CONFIG: ${{ secrets.KUBECONFIG_BASE64 }}
-        with:
-          args: rollout restart deployment/acend-website-staging --namespace acend-website
-
-      - 
         name: Comment PR Environments in PR
         uses: marocchino/sticky-pull-request-comment@v2
         with:
