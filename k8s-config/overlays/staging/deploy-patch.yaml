@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: acend-website
-        image: acend/website-hugo:staging
+        image: quay.io/acend/website-hugo:staging

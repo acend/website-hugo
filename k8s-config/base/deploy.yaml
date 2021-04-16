@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: acend-website
-        image: acend/website-hugo:latest
+        image: quay.io/acend/website-hugo:latest
         imagePullPolicy: Always
         livenessProbe:
           failureThreshold: 3
