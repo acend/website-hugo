@@ -41,14 +41,11 @@ jobs:
           release: 'pr-${{ github.event.pull_request.number }}'
           namespace: 'acend-website-test'
           version: '${{ github.sha }}'
-          repository: 'https://acend.github.io/helm-charts/'
-          chart: 'acend-training-chart'
+          chart: 'helm-chart'
           token: '${{ github.token }}'
           helm: 'helm3'
-          value-files: |
-            [
-              "helm-chart/values.yaml"
-            ]
+          values: |
+            backendurl: http://localhost:8080
 
         env:
           KUBECONFIG_FILE: '${{ secrets.KUBECONFIG_TEST }}'
