@@ -1,11 +1,10 @@
-name: push_main
+name: Build Website
 
 on:
-  push:
-    branches: main
+  pull_request:
 
 jobs:
-  main:
+  build:
     runs-on: ubuntu-latest
     steps:
       - 
@@ -27,35 +26,44 @@ jobs:
           username: ${{ secrets.QUAYIO_USERNAME }}
           password: ${{ secrets.QUAYIO_TOKEN }}
       - 
-        name: Build and Push Latest Version
-        id: docker_build
+        name: Build and Push
         uses: docker/build-push-action@v2
         with:
           context: .
           file: ./Dockerfile
           push: true
           tags: |
-            quay.io/acend/website-hugo:latest
+            quay.io/acend/website-hugo:staging
+            quay.io/acend/website-hugo:pr-${{ github.event.pull_request.number }}
       - 
         name: 'Deploy Helm Release'
         uses: 'deliverybot/helm@v1'
         with:
-          release: 'latest'
-          namespace: 'acend-website'
+          release: 'pr-${{ github.event.pull_request.number }}'
+          namespace: 'acend-website-test'
           version: '${{ github.sha }}'
-          repository: 'https://acend.github.io/helm-charts/'
           chart: 'helm-chart'
           token: '${{ github.token }}'
           helm: 'helm3'
           values: |
-            backendurl: http://acend-website-backend:8000
+            backendurl: http://localhost:8080
 
         env:
-          KUBECONFIG_FILE: '${{ secrets.KUBECONFIG }}'
+          KUBECONFIG_FILE: '${{ secrets.KUBECONFIG_TEST }}'
       - 
-        name: Redeploy Prod Deployment
+        name: Redeploy Latest Deployment
         uses: actions-hub/kubectl@master
         env:
-          KUBE_CONFIG: ${{ secrets.KUBECONFIG_BASE64 }}
+          KUBE_CONFIG: ${{ secrets.KUBECONFIG_TEST_BASE64 }}
         with:
-          args: rollout restart deployment/latest-acend-website --namespace acend-website
+          args: rollout restart deployment/pr-${{ github.event.pull_request.number }}-acend-website --namespace acend-website-test
+      - 
+        name: Comment PR Environments in PR
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          message: |
+           PR Environments: 
+           * acend website <https://website-pr-${{ github.event.pull_request.number }}.test.acend.ch>
+           
+
