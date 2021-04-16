@@ -55,7 +55,7 @@ jobs:
         env:
           KUBE_CONFIG: ${{ secrets.KUBECONFIG_TEST_BASE64 }}
         with:
-          args: rollout restart deployment/pr-${{ github.event.pull_request.number }}-acend-website-acend --namespace acend-website-test
+          args: rollout restart deployment/pr-${{ github.event.pull_request.number }}-acend-website --namespace acend-website-test
       - 
         name: Comment PR Environments in PR
         uses: marocchino/sticky-pull-request-comment@v2
@@ -63,6 +63,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           message: |
            PR Environments: 
-           * acend version <https://website-pr-${{ github.event.pull_request.number }}.training.acend.ch>
+           * acend version <https://website-pr-${{ github.event.pull_request.number }}.test.acend.ch>
            
 

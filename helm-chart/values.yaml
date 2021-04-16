@@ -26,7 +26,7 @@ ingress:
 backendurl: http://acend-website-backend:8000
 
 imagePullSecrets: []
-nameOverride: ""
+nameOverride: "acend-website"
 fullnameOverride: ""
 
 serviceAccount:
