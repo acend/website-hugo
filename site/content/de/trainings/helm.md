@@ -33,36 +33,41 @@ accordion:
     item:
         - title : "Trainingsziele"
           icon : "1"
-          content : "¬ Den Einstieg in eine moderne Technologie finden<br/> 
+          content : "
+¬ Den Einstieg in eine moderne Technologie finden<br/>
 ¬ Grundkonzepte von Helm verstehen<br/> 
-¬ Applikationen mittels Helm installieren<br/>
+¬ Applikationen mittels Helm installieren
 "
  
         - title : "Voraussetzungen"
           icon : "2"
-          content : "¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet.<br/>
-¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig.
+          content : "
+¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet<br/>
+¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig
 "
 
         - title : "Zielpublikum"
           icon : "3"
-          content : "¬ Unser Training richtet sich an Personen, welche bereits Vorkenntnisse im Bereich von Container-Technologien besitzen.<br/>
-¬ Ein vorgängiger Besuch des Trainings Container & Kubernetes Basics wird empfohlen.<br/>
+          content : "
+¬ Unser Training richtet sich an Personen, welche bereits Vorkenntnisse im Bereich von Container-Technologien besitzen<br/>
+¬ Ein vorgängiger Besuch des Trainings Container & Kubernetes Basics wird empfohlen
 "
 
         - title : "Konditionen"
           icon : "4"
-          content : "¬ CHF 600 / Person für 1/2 Tag<br/>
+          content : "
+¬ CHF 600 / Person für 1/2 Tag<br/>
 ¬ Gruppen von 8-24 Personen<br/>
-¬ Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud.<br/> 
-¬ Rabatt ab 12 Personen<br/>"
+¬ Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud<br/>
+¬ Rabatt ab 12 Personen
+"
 
 # Trainingsinhalt
 trainingsinhalt: 
     title : "Trainingsinhalt"
     text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln.
 
-Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf deinen Wunsch hin Anpassungen vornehmen."
+Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
 
     liste1:
       title: "Helm Basics"

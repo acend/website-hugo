@@ -29,32 +29,41 @@ accordion:
     item:
         - title : "Trainingsziele"
           icon : "1"
-          content : "¬ Den Einstieg in eine moderne Technologie finden<br/>     
-          ¬ Konzepte von Containern und Kubernetes verstehen<br/>    
-          ¬ Applikationen auf Kubernetes deployen"
+          content : "
+¬ Den Einstieg in eine moderne Technologie finden<br/>
+¬ Konzepte von Containern und Kubernetes verstehen<br/>
+¬ Applikationen auf Kubernetes deployen
+"
   
         - title : "Voraussetzungen"
           icon : "2"
-          content : "¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet.<br/>
-          ¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig."
+          content : "
+¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet<br/>
+¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig
+"
 
         - title : "Zielpublikum"
           icon : "3"
-          content : "¬ Unser Training richtet sich an Personen aus dem Software und System Engineering. Es sind keine Vorkenntnisse mit Container-Technologien oder Kubernetes notwendig."
+          content : "
+¬ Unser Training richtet sich an Personen aus dem Software und System Engineering<br/>
+¬ Es sind keine Vorkenntnisse mit Container-Technologien oder Kubernetes notwendig
+"
 
         - title : "Konditionen"
           icon : "4"
-          content : "¬ CHF 1900 / Person für 2 Tage<br/>
-          ¬ Gruppen von 8-24 Personen<br/>
-          ¬ Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud<br/> 
-          ¬ Rabatt ab 12 Personen<br/>"
+          content : "
+¬ CHF 1900 / Person für 2 Tage<br/>
+¬ Gruppen von 8-24 Personen<br/>
+¬ Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud<br/>
+¬ Rabatt ab 12 Personen
+"
 
 # Trainingsinhalt
 trainingsinhalt: 
     title : "Trainingsinhalt"
     text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln.  
 
-    Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf deinen Wunsch hin Anpassungen vornehmen."
+    Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
     liste1:
       title: "Container Basics"
       liste:

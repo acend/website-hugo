@@ -10,7 +10,7 @@ abstract: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 main_title: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 
 personen: 
-  daten : "08.04.21, 09.04.21"
+  daten : "20.05.21, 21.05.21"
   preis : "CHF 2200"
 
 headerimages:
@@ -29,26 +29,40 @@ accordion:
     item:
         - title : "Trainingsziele"
           icon : "1"
-          content : "¬ Den Einstieg in die moderne Monitoring Plattform Prometheus finden<br/>¬ Konzepte von Prometheus verstehen<br/>¬ Mehr über PromQL und deren Anwendungsbereiche erfahren<br/>"
+          content : "
+¬ Den Einstieg in die moderne Monitoring Plattform Prometheus finden<br/>
+¬ Konzepte von Prometheus verstehen<br/>
+¬ Mehr über PromQL und deren Anwendungsbereiche erfahren
+"
  
         - title : "Voraussetzungen"
           icon : "2"
-          content : "¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet.<br/>¬ Die Teilnehmenden sollten über grundlegende Linux-Kenntnisse verfügen."
+          content : "
+¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet<br/>
+¬ Die Teilnehmenden sollten über grundlegende Linux und Kubernetes Kenntnisse verfügen
+"
 
         - title : "Zielpublikum"
           icon : "3"
-          content : "¬ Unser Training richtet sich an Software Developers, System Engineers, Architects und alle, die Prometheus verstehen und für das Monitoring einsetzen möchten."
+          content : "
+¬ Unser Training richtet sich an Software Developers, System Engineers, Architects und alle, die Prometheus verstehen und für das Monitoring einsetzen möchten
+"
 
         - title : "Konditionen"
           icon : "4"
-          content : "¬ CHF 2200 / Person für 2 Tage<br/>¬ Gruppen von 8–24 Personen<br/>¬ Inklusive Verpflegung, Unterlagen und cloud-basierter Lab-Umgebung.<br/>¬ Rabatt ab 12 Personen"
+          content : "
+¬ CHF 2200 / Person für 2 Tage<br/>
+¬ Gruppen von 8–24 Personen<br/>
+¬ Inklusive Verpflegung, Unterlagen und cloud-basierter Lab-Umgebung<br/>
+¬ Rabatt ab 12 Personen
+"
 
 # Trainingsinhalt
 trainingsinhalt: 
     title : "Trainingsinhalt"
     text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln. 
 
-Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf deinen Wunsch hin Anpassungen vornehmen."
+Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
     liste1:
       title: "Prometheus Basics"
       liste:
@@ -74,6 +88,12 @@ trainers:
       designation : "Trainer"
       abstract : "Sitzt er nicht konzentriert vor dem Computer, dann am ehesten in einem schnellen Auto – er dreht nur auf dem Nürburgring Extrarunden."
       linkedin : "https://www.linkedin.com/in/christoph-aymon-b5948a122/"
+
+    - title : "Julius Volz"
+      designation : "Trainer, PromLabs"
+      abstract : "Im Prometheus-Universum ist er quasi der Zeus und bei uns übernimmt er als Special Guest einen Teil des Trainings."
+      linkedin : "https://www.linkedin.com/in/julius-volz/"
+      twitter: "https://twitter.com/juliusvolz"
 
     - title : "Martin Abegglen"
       designation : "Trainer, Puzzle ITC"

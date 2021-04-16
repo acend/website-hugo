@@ -99,7 +99,7 @@ team:
     - title : "Thomas Philipona"
       image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Trainer"
-      abstract : "He’s been in the IT world for years – and he discovers everything else on this bicycle."
+      abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
       linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
       twitter : "https://twitter.com/tphilipona"
 
