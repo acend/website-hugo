@@ -72,7 +72,7 @@ email = "hello@acend.ch"
 
 
 # copyright
-copyright = "&copy; 2020 acend gmbh"
+copyright = "&copy; __YEAR__ acend gmbh"
 
 
 # preloader

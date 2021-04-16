@@ -1,9 +1,7 @@
 # Acend Website
 
-This website is built with [Victor Hugo](https://github.com/netlify-templates/victor-hugo), a boilerplate for using 
-[Hugo](https://gohugo.io/) as a static site generator and [Webpack](https://webpack.js.org/) as your asset pipeline. 
-Victor Hugo uses [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for CSS and JavaScript 
-compiling/transpiling.
+This website is built with [Victor Hugo](https://github.com/netlify-templates/victor-hugo), a boilerplate for using [Hugo](https://gohugo.io/) as a static site generator and [Webpack](https://webpack.js.org/) as your asset pipeline.
+Victor Hugo uses [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for CSS and JavaScript compiling/transpiling.
 
 ## Usage
 
@@ -33,7 +31,7 @@ or for developing your website with `hugo server --buildDrafts --buildFuture`, u
 npm run preview
 ```
 
-Then visit http://localhost:3000/ _- or a new browser windows popped-up already -_ to preview your new website. Webpack Dev Server will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
+Then visit <http://localhost:3000/> _- or a new browser windows popped-up already -_ to preview your new website. Webpack Dev Server will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
 
 ### Static build
 
@@ -51,9 +49,39 @@ npm run build:preview
 
 See [package.json](package.json#L8) for all tasks.
 
+### Build using Docker
+
+Build the image:
+
+```bash
+docker build -t acend/website-hugo .
+```
+
+Run it locally:
+
+```bash
+docker run -i -p 8080:8080 -e BACKEND_URL=http://localhost:8080 acend/website-hugo
+```
+
+**Note:** the `-e BACKEND_URL` param is needed due to the fact that we expect a Backend to be ready for the integration of several Backends.
+
+### Using Buildah and Podman
+
+Build the image:
+
+```bash
+buildah build-using-dockerfile -t acend/website-hugo:latest .
+```
+
+Run it locally with the following command. Beware that `--rmi` automatically removes the built image when the container stops, so you either have to rebuild it or remove the parameter from the command.
+
+```bash
+podman run --rm --rmi --interactive -e BACKEND_URL=http://localhost:8080 --publish 8080:8080 localhost/acend/website-hugo
+```
+
 ## Structure
 
-```
+```bash
 |--site                // Everything in here will be built with hugo
 |  |--content          // Pages and collections - ask if you need extra pages
 |  |--data             // YAML data files with any data for use in examples
