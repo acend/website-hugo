@@ -28,7 +28,7 @@ spec:
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: {{ $fullName }}
+  name: {{ $fullName }}-www
   labels:
     {{- include "acend-website-chart.labels" . | nindent 4 }}
   {{- with .Values.ingress.annotations }}
