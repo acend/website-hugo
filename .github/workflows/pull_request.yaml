@@ -23,7 +23,6 @@ jobs:
           push: true
           tags: |
             quay.io/acend/website-hugo:staging
-            quay.io/acend/website-hugo:pr-${{ github.event.pull_request.number }}
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
       - 
