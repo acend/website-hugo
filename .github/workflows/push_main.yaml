@@ -30,6 +30,6 @@ jobs:
         name: Redeploy Prod Deployment
         uses: actions-hub/kubectl@master
         env:
-          KUBE_CONFIG: ${{ secrets.KUBECONFIG_TEST_BASE64 }}
+          KUBE_CONFIG: ${{ secrets.KUBECONFIG_BASE64 }}
         with:
           args: rollout restart deployment/acend-website --namespace acend-website
