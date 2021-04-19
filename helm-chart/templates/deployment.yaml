@@ -6,11 +6,13 @@ metadata:
   name: {{ include "acend-website-chart.fullname" . }}
   labels:
     {{- include "acend-website-chart.labels" . | nindent 4 }}
+    tier: frontend
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
       {{- include "acend-website-chart.selectorLabels" . | nindent 6 }}
+      tier: frontend
   strategy:
     rollingUpdate:
       maxSurge: 1
@@ -24,6 +26,7 @@ spec:
       {{- end }}
       labels:
         {{- include "acend-website-chart.selectorLabels" . | nindent 8 }}
+        tier: frontend
     spec:
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
