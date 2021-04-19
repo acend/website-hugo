@@ -1,16 +1,18 @@
+{{- $fullName := include "acend-website-chart.fullname" . -}}
+{{- $backendUrl := printf "%s%s%s" $fullName "-backend:" (.Values.backend.service.port | toString) }}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ include "acend-website-chart.fullname" . }}
   labels:
     {{- include "acend-website-chart.labels" . | nindent 4 }}
+    tier: frontend
 spec:
-  {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
-  {{- end }}
   selector:
     matchLabels:
       {{- include "acend-website-chart.selectorLabels" . | nindent 6 }}
+      tier: frontend
   strategy:
     rollingUpdate:
       maxSurge: 1
@@ -24,6 +26,7 @@ spec:
       {{- end }}
       labels:
         {{- include "acend-website-chart.selectorLabels" . | nindent 8 }}
+        tier: frontend
     spec:
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
@@ -42,7 +45,7 @@ spec:
           - name: SERVER_HOST
             value: ":8080"
           - name: BACKEND_URL
-            value: "{{.Values.backendurl}}"
+            value: "{{ .Values.backendurlprotocol}}{{ .Values.backendurl | default $backendUrl}}"
           ports:
             - name: http
               containerPort: 8080
