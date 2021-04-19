@@ -1,5 +1,5 @@
 {{- $fullName := include "acend-website-chart.fullname" . -}}
-{{- $backendUrl := printf "%s%s%s" $fullName "-backend:" .Values.backend.service.port }}
+{{- $backendUrl := printf "%s%s%s" $fullName "-backend:" (.Values.backend.service.port | toString) }}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
