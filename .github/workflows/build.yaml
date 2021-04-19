@@ -45,8 +45,6 @@ jobs:
           chart: 'helm-chart'
           token: '${{ github.token }}'
           helm: 'helm3'
-          values: |
-            backendurl: http://localhost:8080
 
         env:
           KUBECONFIG_FILE: '${{ secrets.KUBECONFIG_TEST }}'
