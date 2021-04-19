@@ -27,6 +27,8 @@ imagePullSecrets: []
 nameOverride: "acend-website"
 fullnameOverride: ""
 
+backendurlprotocol: http://
+
 serviceAccount:
   # Specifies whether a service account should be created
   create: true

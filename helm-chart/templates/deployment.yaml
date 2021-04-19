@@ -45,7 +45,7 @@ spec:
           - name: SERVER_HOST
             value: ":8080"
           - name: BACKEND_URL
-            value: "http://{{ .Values.backendurl | default $backendUrl}}"
+            value: "{{ .Values.backendurlprotocol}}{{ .Values.backendurl | default $backendUrl}}"
           ports:
             - name: http
               containerPort: 8080
