@@ -4,7 +4,7 @@ FROM klakegg/hugo:0.82.0-ext-ubuntu AS builder
 COPY package.json /src
 COPY package-lock.json /src
 COPY yarn.lock /src
-RUN npm install
+RUN npm ci
 
 COPY . /src
 
