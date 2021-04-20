@@ -1,8 +1,9 @@
 FROM klakegg/hugo:0.82.0-ext-ubuntu AS builder
 
 # Add package.json before rest of repo for caching
-COPY package.json package-lock.json yarn.lock /src/
+COPY package.json package-lock.json /src/
 RUN npm ci
+RUN yarn -v
 
 COPY . /src
 
