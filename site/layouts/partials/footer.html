@@ -116,7 +116,7 @@
           <div class="col-md-6 small py-5  text-center  text-md-right">
                 <div class="d-md-inline pr-md-3"><a class="link-border" href="{{ i18n "impressumLink" }}">{{ i18n "impressum" }}</a></div>
                 <div class="d-md-inline pr-md-3"><a class="link-border" href="{{ i18n "privacyLink" }}">{{ i18n "privacy" }}</a></div>
-                <div class="d-md-inline ">{{ site.Params.copyright | markdownify }}</div>
+                <div class="d-md-inline ">{{ replace site.Params.copyright "__YEAR__" now.Year | markdownify }}</div>
           </div>
         </div>
 

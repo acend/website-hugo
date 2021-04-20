@@ -1,6 +1,0 @@
-bases:
-  - ../../base
-resources:
-  - ing-puzzle.yaml
-  - ing-www.yaml
-
