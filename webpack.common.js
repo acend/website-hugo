@@ -48,12 +48,13 @@ module.exports = {
       prettyPrint: true
     }),
 
-    new CopyWebpackPlugin([
-      {
-        from: "./src/fonts/",
-        to: "fonts/",
-        flatten: true
-      }
-    ])
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: "./src/fonts/**/*",
+          to: "fonts/[name][ext]",
+        }
+      ]
+    })
   ]
 };
