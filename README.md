@@ -5,14 +5,15 @@ Victor Hugo uses [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/)
 
 ## Usage
 
+You don't have to have npm installed locally with this setup
+
 ### Prerequisites
 
-You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed in order to use Victor Hugo.
-
-Next step, clone this repository and run:
+First step, clone this repository and run:
 
 ```bash
-npm install
+export HUGO_VERSION=$(grep "FROM klakegg/hugo" Dockerfile | sed 's/FROM klakegg\/hugo://g' | sed 's/ AS builder//g')
+docker run --rm --interactive -p 8080:8080 -v $(pwd):/src klakegg/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm ci"
 ```
 
 This will take some time and will install all packages necessary to run Victor Hugo and its tasks.
@@ -22,32 +23,18 @@ This will take some time and will install all packages necessary to run Victor H
 While developing your website, use:
 
 ```bash
-npm start
+export HUGO_VERSION=$(grep "FROM klakegg/hugo" Dockerfile | sed 's/FROM klakegg\/hugo://g' | sed 's/ AS builder//g')
+docker run --rm --interactive -p 8080:8080 -v $(pwd):/src klakegg/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail; npm start"
 ```
 
 or for developing your website with `hugo server --buildDrafts --buildFuture`, use:
 
 ```bash
-npm run preview
+export HUGO_VERSION=$(grep "FROM klakegg/hugo" Dockerfile | sed 's/FROM klakegg\/hugo://g' | sed 's/ AS builder//g')
+docker run --rm --interactive -p 8080:8080 -v $(pwd):/src klakegg/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm run preview"
 ```
 
-Then visit <http://localhost:3000/> _- or a new browser windows popped-up already -_ to preview your new website. Webpack Dev Server will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
-
-### Static build
-
-To build a static version of the website inside the `/dist` folder, run:
-
-```bash
-npm run build
-```
-
-To get a preview of posts or articles not yet published, run:
-
-```bash
-npm run build:preview
-```
-
-See [package.json](package.json#L8) for all tasks.
+Then visit <http://localhost:8080/> _- or a new browser windows popped-up already -_ to preview your new website. Webpack Dev Server will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
 
 ### Build using Docker
 
@@ -93,6 +80,20 @@ podman run --rm --rmi --interactive -e BACKEND_URL=http://localhost:8080 --publi
 |  |--css              // Webpack will bundle imported css separately
 |  |--index.js         // index.js is the webpack entry for your css & js assets
 ```
+
+## Update Dependencies
+
+First update dependency in the `package.json` file.
+Then run the following command:
+
+```bash
+export HUGO_VERSION=$(grep "FROM klakegg/hugo" Dockerfile | sed 's/FROM klakegg\/hugo://g' | sed 's/ AS builder//g')
+docker run --rm --interactive -v $(pwd):/src klakegg/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm install"
+```
+
+This will make sure, the package-lock.json file is updates accordingly.
+
+Build the container image and test the deployment.
 
 ## Deployment
 
