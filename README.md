@@ -94,6 +94,20 @@ podman run --rm --rmi --interactive -e BACKEND_URL=http://localhost:8080 --publi
 |  |--index.js         // index.js is the webpack entry for your css & js assets
 ```
 
+## Update Dependencies
+
+First update dependency in the `package.json` file.
+Then run the following command:
+
+```bash
+export HUGO_VERSION=$(grep "FROM klakegg/hugo" Dockerfile | sed 's/FROM klakegg\/hugo://g' | sed 's/ AS builder//g')
+docker run --rm --interactive -v $(pwd):/src klakegg/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm install"
+```
+
+This will make sure, the package-lock.json file is updates accordingly.
+
+Build the container image and test the deployment.
+
 ## Deployment
 
 ### Pull Request (PR)
