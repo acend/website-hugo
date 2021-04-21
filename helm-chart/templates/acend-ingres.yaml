@@ -11,6 +11,8 @@ metadata:
   {{- with .Values.ingress.annotations }}
   annotations:
     {{- toYaml . | nindent 4 }}
+    kubernetes.io/tls-acme: "true"
+    cert-manager.io/cluster-issuer: acend-letsencrypt
   {{- end }}
 spec:
   rules:
@@ -34,6 +36,8 @@ metadata:
   {{- with .Values.ingress.annotations }}
   annotations:
     {{- toYaml . | nindent 4 }}
+    kubernetes.io/tls-acme: "true"
+    cert-manager.io/cluster-issuer: acend-letsencrypt
   {{- end }}
 spec:
   rules:
@@ -51,13 +55,13 @@ spec:
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
+  {{- with .Values.ingress.annotations }}
   annotations:
-    kubernetes.io/ingress.class: nginx-public
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
   name: {{ $fullName }}-puzzle
   labels:
     {{- include "acend-website-chart.labels" . | nindent 4 }}
-  annotations:
-    kubernetes.io/ingress.class: nginx-public
 spec:
   rules:
   - host: acend-website.k8s.puzzle.ch
@@ -94,5 +98,5 @@ spec:
   tls:
   - hosts:
     - website-{{ .Release.Name }}.test.acend.ch
-    secretName: website-{{ .Release.Name }}-test-acend-ch
+    secretName: acend-test-wildcard
 {{- end }}
