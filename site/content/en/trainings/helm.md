@@ -83,17 +83,17 @@ trainers:
   enable: true
   title : "Meet two of Your Trainers"
   trainer:
-    - title : "Benjamin"
+    - title : "Benjamin Affolter"
       image : "images/team/AC_Benji@2x.jpg"
-      designation : "Co-Founder & Trainer"
+      designation : "Trainer"
       abstract : "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
       linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
       twitter : "https://twitter.com/bliemli"
     
     
-    - title : "Daniel"
+    - title : "Daniel Strohecker"
       image : "images/team/AC_Daenu@2x.jpg"
-      designation : "Co-Founder & Trainer"
+      designation : "Trainer"
       abstract : "He’s been picking up speed on his bike as of late. He can slow down, though, and make sure our clients proceed through our trainings on sure feet."
       linkedin : "https://www.linkedin.com/in/dstrohecker/"
       twitter : "https://twitter.com/sybnex"
