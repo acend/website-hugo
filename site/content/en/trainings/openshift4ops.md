@@ -18,9 +18,7 @@ headerimages:
   img2 : "images/trainings/ACEND_Gabriel@2x.jpg"
   img3 : "images/trainings/ACEND_CodeD@2x.jpg"
   
-
-main_text: "
-With OpenShift 4, Red Hat promises a Kubernetes solution that boasts "automated operations" and other benefits for operations and development. 
+main_text: "With OpenShift 4, Red Hat promises a Kubernetes solution that boasts "automated operations" and other benefits for operations and development.
 This two-day training in German or English provides a practical and clearly understandable overview of the challenges in Day 2 operations. 
 Our trainers come from the field and are experienced OpenShift Engineers. Delivery takes place online or on-site."
 
@@ -60,11 +58,9 @@ accordion:
 # Trainingsinhalt
 trainingsinhalt: 
     title : "Content"
-    text : "
-Our trainings consist of varied presentations and hands-on labs to convey their content in an exciting way.
+    text : "Our trainings consist of varied presentations and hands-on labs to convey their content in an exciting way.
 We are also happy to make reference to your infrastructure in consultation with you. 
-If there is a need for additional content, we can make adjustments at your request.
-"
+If there is a need for additional content, we can make adjustments at your request."
     liste1:
       title: "OpenShift 4 Overview"
       liste:
