@@ -44,7 +44,7 @@ accordion:
           icon : "3"
           content : "
 ¬ Our training is designed for people who already have prior knowledge of container technologies<br/>
-¬ We recommend attending the Container & Kubernetes Basics training before registering for this course
+¬ We recommend attending the Container & Kubernetes Basics or Container & OpenShift Basics training before registering for this course
 "
 
         - title : "Conditions"
@@ -59,7 +59,10 @@ accordion:
 # Trainingsinhalt
 trainingsinhalt: 
     title : "Content"
-    text : "Our trainings consist of varied presentations and hands-on labs in order to teach content in an appealing fashion. We are happy to discuss the possibility of tailoring the content to your infrastructure. Should you require additional contents, we can adapt the program to your needs."
+    text : "
+    Our trainings consist of varied presentations and hands-on labs in order to teach content in an appealing fashion. 
+    We are happy to discuss the possibility of tailoring the content to your infrastructure. Should you require additional contents, we can adapt the program to your needs.
+    If desired, the training can also be conducted on OpenShift."
 
     liste1:
       title: "Helm Basics"
