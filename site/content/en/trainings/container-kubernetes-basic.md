@@ -99,16 +99,16 @@ trainers:
   enable: true
   title : "Meet two of Your Trainers"
   trainer:
-    - title : "Johann"
+    - title : "Johann Gyger"
       image : "images/team/AC_Johann@2x.jpg"
-      designation : "Co-Founder & Trainer"
+      designation : "Trainer"
       abstract : "Still waters run deep, and he’s one to deep dive into Cloud Native technologies. As a supporter of sustainability and a climate-friendly world, he prefers Lake Thun to the ocean."
       linkedin : "https://www.linkedin.com/in/johanngyger/"
       twitter : "https://twitter.com/johanngyger"
       
-    - title : "Sebastian"
+    - title : "Sebastian Plattner"
       image : "images/team/AC_Seba@2x.jpg"
-      designation : "Co-Founder & Trainer"
+      designation : "Trainer"
       abstract : "He always has his fingers on the pulse of technological developments and stays one step ahead – the more complex the problem, the bigger his motivation. And because nothing explains itself, he’ll also take care of that."
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
