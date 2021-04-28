@@ -3,7 +3,7 @@ title: "Helm"
 description: "A practical introduction to the best-known Package Manager for applications on Kubernetes."
 date: 2019-05-12T12:14:34+06:00
 draft: false
-weight: 0
+weight: 2
 slug: 
 categories: ["Basics"]
 duration: "0.5 Day"
