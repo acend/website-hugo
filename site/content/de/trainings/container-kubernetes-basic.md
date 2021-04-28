@@ -1,9 +1,9 @@
 ---
 title: "Container & Kubernetes"
 description: "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
-date: 2019-05-12T12:14:34+06:00
+date: 2019-03-12T12:14:34+06:00
 draft: false
-weight: 0
+weight: 3
 slug: 
 categories: ["Basics"]
 duration: "2 Tage"
