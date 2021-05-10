@@ -95,5 +95,5 @@ linkedin = "https://www.linkedin.com/company/acend-ch/"
 twitter = "https://www.twitter.com/acendch"
 
 [imaging]
-quality = 60
+quality = 50
 hint = "photo"
