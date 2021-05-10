@@ -13,7 +13,7 @@
 
                         {{ if .logo }}
                             <div class="ml-auto">
-                                <img  src="{{ .logo | relURL }}" height="50" width="auto">
+                                {{ partial "img-srcset.html" (dict "img" .logo "size" 100) }}
                             </div>
                         {{ end }}
                     </div>

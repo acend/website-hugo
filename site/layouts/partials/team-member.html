@@ -2,7 +2,7 @@
         <div class="row">
          {{ if .image }}
          <div class="col-sm-6">
-            <img src="{{ .image | relURL }}" class="img-fluid">
+            {{ partial "img-srcset.html" (dict "img" .image "size" 230) }}
          </div>
          {{ end }}
           <div class="col-sm-6">

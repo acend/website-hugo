@@ -59,7 +59,6 @@ defaultContentLanguage = "de"
     weight = 3
 
 
-
 # default parameters
 [params]
 home = "Home"
@@ -94,3 +93,7 @@ form_action = "/backend/form"
 [params.social]
 linkedin = "https://www.linkedin.com/company/acend-ch/"
 twitter = "https://www.twitter.com/acendch"
+
+[imaging]
+quality = 60
+hint = "photo"
