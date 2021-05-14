@@ -45,14 +45,14 @@ team:
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Trainer"
       abstract : "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
+      linkedin : "https://www.linkedin.com/in/benjamin-affolter/"
       twitter : "https://twitter.com/bliemli"
 
     - title : "Christoph Aymon"
       image : "images/team/AC_Chrigu@2x.jpg"
       designation : "Trainer"
       abstract : "When he’s not concentrated on a computer screen, you’re most likely to find him in a fast car – he only does extra laps on the Nürburgring."
-      linkedin : "https://www.linkedin.com/in/christoph-aymon-b5948a122/"
+      linkedin : "https://www.linkedin.com/in/christoph-aymon/"
           
     - title : "Daniel Strohecker"
       image : "images/team/AC_Daenu@2x.jpg"
@@ -65,7 +65,7 @@ team:
       image : "images/team/AC_Dave@2x.jpg"
       designation : "Sales"
       abstract : "He is the dream of all mothers-in-law and also us and especially our customers he always brings a smile to the face."
-      linkedin : "https://www.linkedin.com/in/david-kilchenmann-004aaa68/"
+      linkedin : "https://www.linkedin.com/in/david-kilchenmann/"
       twitter : "https://twitter.com/DKilchenmann"
       
     - title : "Johann Gyger"
@@ -100,14 +100,14 @@ team:
       image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Trainer"
       abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
+      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter : "https://twitter.com/tphilipona"
 
     - title : "Tobias Tröhler"
       image : "images/team/AC_Tobi@2x.jpg"
       designation : "Sales & Experience"
       abstract : "Colorful socks and wild ideas: he’s just the man to design our visual presence whenever he’s not riding a wave."
-      linkedin : "https://www.linkedin.com/in/tobias-tr%C3%B6hler-13a37885/"
+      linkedin : "https://www.linkedin.com/in/tobias-troehler/"
       twitter : "https://twitter.com/Tobee_Tr"
 
 memberships:

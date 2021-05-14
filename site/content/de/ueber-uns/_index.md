@@ -44,14 +44,14 @@ team:
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
+      linkedin : "https://www.linkedin.com/in/benjamin-affolter/"
       twitter : "https://twitter.com/bliemli"
 
     - title : "Christoph Aymon"
       image : "images/team/AC_Chrigu@2x.jpg"
       designation : "Trainer"
       abstract : "Sitzt er nicht konzentriert vor dem Computer, dann am ehesten in einem schnellen Auto – er dreht nur auf dem Nürburgring Extrarunden."
-      linkedin : "https://www.linkedin.com/in/christoph-aymon-b5948a122/"
+      linkedin : "https://www.linkedin.com/in/christoph-aymon/"
           
     - title : "Daniel Strohecker"
       image : "images/team/AC_Daenu@2x.jpg"
@@ -64,7 +64,7 @@ team:
       image : "images/team/AC_Dave@2x.jpg"
       designation : "Sales"
       abstract : "Der Mann ist der Traum aller Schwiegermütter und auch uns und unseren Kunden zaubert er immer wieder ein Lächeln ins Gesicht."
-      linkedin : "https://www.linkedin.com/in/david-kilchenmann-004aaa68/"
+      linkedin : "https://www.linkedin.com/in/david-kilchenmann/"
       twitter : "https://twitter.com/DKilchenmann"
       
     - title : "Johann Gyger"
@@ -99,14 +99,14 @@ team:
       image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Trainer"
       abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
+      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter : "https://twitter.com/tphilipona"
 
     - title : "Tobias Tröhler"
       image : "images/team/AC_Tobi@2x.jpg"
       designation : "Sales & Experience"
       abstract : "Farbige Socken, wilde Ideen: Der richtige Mann, um unseren Auftritt zu gestalten, wenn er nicht gerade Wellen reitet."
-      linkedin : "https://www.linkedin.com/in/tobias-tr%C3%B6hler-13a37885/"
+      linkedin : "https://www.linkedin.com/in/tobias-troehler/"
       twitter : "https://twitter.com/Tobee_Tr"
       
 memberships:
