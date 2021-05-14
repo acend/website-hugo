@@ -1,3 +1,3 @@
 {{ $image := resources.Get .img  }}
 {{ $size := .size   }}
-<img class="img-fluid optimized"  width="{{$size}}" height="auto" srcset="{{  ($image.Resize (printf "%sx" (string  $size))).RelPermalink }} {{$size}}w,{{  ($image.Resize (printf "%sx" (string (mul $size 2)))).RelPermalink }}  {{mul $size 2}}w" sizes="(max-width:768px) 100px, 100vw" src="{{  ($image.Resize (printf "%sx" (string  $size))).RelPermalink }}" alt=""  />
+<img class="img-fluid optimized"  width="{{$size}}" height="{{ ($image.Resize (printf "%sx" (string  $size))).Height }}" srcset="{{  ($image.Resize (printf "%sx" (string  $size))).RelPermalink }} {{$size}}w,{{  ($image.Resize (printf "%sx" (string (mul $size 2)))).RelPermalink }}  {{mul $size 2}}w" sizes="(max-width:768px) 100px, 100vw" src="{{  ($image.Resize (printf "%sx" (string  $size))).RelPermalink }}" alt=""  />
