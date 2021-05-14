@@ -63,6 +63,11 @@ defaultContentLanguage = "de"
 [params]
 home = "Home"
 
+# open graph info
+twitterAccount = "@acendch"
+domain = "https://acend.ch"
+twitterimage = "images/acend-og.jpg"
+
 # contact info
 phone = "+41 31 370 22 20"
 name = "**acend gmbh**"
