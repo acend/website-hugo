@@ -59,10 +59,14 @@ defaultContentLanguage = "de"
     weight = 3
 
 
-
 # default parameters
 [params]
 home = "Home"
+
+# open graph info
+twitterAccount = "@acendch"
+domain = "https://acend.ch"
+twitterimage = "images/acend-og.jpg"
 
 # contact info
 phone = "+41 31 370 22 20"
@@ -94,3 +98,7 @@ form_action = "/backend/form"
 [params.social]
 linkedin = "https://www.linkedin.com/company/acend-ch/"
 twitter = "https://www.twitter.com/acendch"
+
+[imaging]
+quality = 50
+hint = "photo"
