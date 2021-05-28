@@ -5,6 +5,8 @@ server {
     listen       8080;
     server_name  localhost;
 
+    root   /usr/share/nginx/html;
+
 
     gzip on;
     gzip_disable "msie6";
@@ -43,7 +45,6 @@ server {
     #access_log  /var/log/nginx/host.access.log  main;
 
     location / {
-        root   /usr/share/nginx/html;
         index  index.html index.htm;
     }
 
