@@ -14,7 +14,7 @@
       <div class="row mb-minus">
         <div class="col-lg-5 col-xl-6 px-4  mb-3 mb-lg-0  d-flex flex-column">
             <p class="pl-lg-3">{{ .Params.abstract }}</p>
-            <div class="border-outline  mt-auto ml-lg-3  mr-md-auto d-none d-lg-inline"><a class="btn btn-primary py-3 px-5" href="{{ .Permalink | safeURL }}">Mehr erfahren</a></div>
+            <div class="border-outline  mt-auto ml-lg-3  mr-md-auto d-none d-lg-inline"><a class="btn btn-primary py-3 px-5" href="{{ .Permalink | safeURL }}">{{ i18n "readMore" }}</a></div>
 
           </div>
 
@@ -25,7 +25,7 @@
                   <a role="button" class="d-flex align-items-center" data-toggle="collapse" data-target="#personen_{{ .Title | urlize}}" aria-expanded="true" aria-controls="personen_{{ .Title | urlize}}">
 
                 <h5 class="mb-3  d-flex align-items-end">
-                    <svg class="icon img-fluid mr-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Avatar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Avatar_RGB_Schwarz" transform="translate(6 6)" fill="#000" fill-rule="nonzero"><path d="M37.4 33.82A14.52 14.52 0 0 0 40 25.6V10H20v8h4v-4h12v11.6a10.64 10.64 0 0 1-2.2 6.48v.09A9.92 9.92 0 0 1 16 26V13c0-6.22 2.48-9 8.05-9a17.28 17.28 0 0 1 6 1.29C33.4 6.46 36.87 7.67 42 4.74l1.73-1-2-3.47-1.73.99c-3.54 2-5.57 1.32-8.64.25A21 21 0 0 0 24 0c-7.77 0-12 4.62-12 13v13a13.87 13.87 0 0 0 2.36 7.79L0 40.75V52h4v-8.75l13.17-6.38A13.88 13.88 0 0 0 25.94 40h.27a13.66 13.66 0 0 0 8.36-3.1L48 43.26V52h4V40.74l-14.6-6.92z" id="Path"/></g></g></svg> Personen</h5><div class="icon-plus ml-auto"></div></a>
+                    <svg class="icon img-fluid mr-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Avatar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Avatar_RGB_Schwarz" transform="translate(6 6)" fill="#000" fill-rule="nonzero"><path d="M37.4 33.82A14.52 14.52 0 0 0 40 25.6V10H20v8h4v-4h12v11.6a10.64 10.64 0 0 1-2.2 6.48v.09A9.92 9.92 0 0 1 16 26V13c0-6.22 2.48-9 8.05-9a17.28 17.28 0 0 1 6 1.29C33.4 6.46 36.87 7.67 42 4.74l1.73-1-2-3.47-1.73.99c-3.54 2-5.57 1.32-8.64.25A21 21 0 0 0 24 0c-7.77 0-12 4.62-12 13v13a13.87 13.87 0 0 0 2.36 7.79L0 40.75V52h4v-8.75l13.17-6.38A13.88 13.88 0 0 0 25.94 40h.27a13.66 13.66 0 0 0 8.36-3.1L48 43.26V52h4V40.74l-14.6-6.92z" id="Path"/></g></g></svg> {{ i18n "personen" }}</h5><div class="icon-plus ml-auto"></div></a>
                     <div id="personen_{{ .Title | urlize}}" class="collapse fade show border-top small-bold" data-parent=".{{ .Title | urlize}}">
 
                       <div class="border-bottom  py-2 d-flex">
@@ -50,9 +50,7 @@
 
                           <div class="py-2  d-flex">
                               <svg class="icon icon-sm img-fluid flex-shrink-0 mr-2" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Sprechblase" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Sprechblase" transform="translate(6 12)" fill="#010101" fill-rule="nonzero"><path id="Path" d="M0 0v41l12.52-7H40v-4H11.48L4 34.18V4h44v26h-4v4h8V0z"/><path id="Rectangle" d="M12 10h28v4H12zm0 10h24v4H12z"/></g></g></svg>
-                              <p class="mb-0 pt-1">Individuelle Firmen-Trainings möglich.<br>
-                                  Preis und Termine 
-                                  nach Absprache.</p></div>
+                              <p class="mb-0 pt-1">{{ i18n "textTeams" }}</p></div>
     
                         </div>
                         
@@ -64,7 +62,7 @@
             </div>
           </div>
 
-          <div class="border-outline mt-3 mx-2 d-lg-none  w-100"><a class="btn btn-primary py-3 px-5  w-100" href="{{ .Permalink | safeURL }}">Mehr erfahren</a></div>
+          <div class="border-outline mt-3 mx-2 d-lg-none  w-100"><a class="btn btn-primary py-3 px-5  w-100" href="{{ .Permalink | safeURL }}">{{ i18n "readMore" }}</a></div>
         </div>
           
 

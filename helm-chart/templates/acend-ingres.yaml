@@ -1,0 +1,102 @@
+{{- $fullName := include "acend-website-chart.fullname" . -}}
+{{- $svcPort := .Values.service.port -}}
+{{- if eq .Release.Name "latest" -}}
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{ $fullName }}
+  labels:
+    {{- include "acend-website-chart.labels" . | nindent 4 }}
+  {{- with .Values.ingress.annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+    kubernetes.io/tls-acme: "true"
+    cert-manager.io/cluster-issuer: acend-letsencrypt
+  {{- end }}
+spec:
+  rules:
+  - host: acend.ch
+    http:
+      paths:
+      - backend:
+          serviceName: {{ $fullName }}
+          servicePort: {{ $svcPort }}
+  tls:
+  - hosts:
+    - acend.ch
+    secretName: acend-ch
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{ $fullName }}-www
+  labels:
+    {{- include "acend-website-chart.labels" . | nindent 4 }}
+  {{- with .Values.ingress.annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+    kubernetes.io/tls-acme: "true"
+    cert-manager.io/cluster-issuer: acend-letsencrypt
+  {{- end }}
+spec:
+  rules:
+  - host: www.acend.ch
+    http:
+      paths:
+      - backend:
+          serviceName: {{ $fullName }}
+          servicePort: {{ $svcPort }}
+  tls:
+  - hosts:
+    - www.acend.ch
+    secretName: www-acend-ch
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  {{- with .Values.ingress.annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  name: {{ $fullName }}-puzzle
+  labels:
+    {{- include "acend-website-chart.labels" . | nindent 4 }}
+spec:
+  rules:
+  - host: acend-website.k8s.puzzle.ch
+    http:
+      paths:
+      - backend:
+          serviceName: acend-website
+          servicePort: 8080
+  tls:
+  - hosts:
+    - acend-website.k8s.puzzle.ch
+{{ else }}
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{ $fullName }}
+  labels:
+    {{- include "acend-website-chart.labels" . | nindent 4 }}
+  {{- with .Values.ingress.annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+    nginx.ingress.kubernetes.io/auth-type: basic
+    nginx.ingress.kubernetes.io/auth-secret: staging-basic-auth
+  {{- end }}
+spec:
+  rules:
+  - host: website-{{ .Release.Name }}.test.acend.ch
+    http:
+      paths:
+      - backend:
+          serviceName: {{ $fullName }}
+          servicePort: {{ $svcPort }}
+  tls:
+  - hosts:
+    - website-{{ .Release.Name }}.test.acend.ch
+    secretName: acend-test-wildcard
+{{- end }}

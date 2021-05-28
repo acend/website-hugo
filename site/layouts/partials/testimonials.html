@@ -10,6 +10,12 @@
                     <div class="d-flex flex-column flex-md-row">
                         <svg class="icon icon-white  img-fluid flex-shrink-0 mr-3" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Sprechblase" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Sprechblase" transform="translate(6 12)" fill="#ffffff" fill-rule="nonzero"><path id="Path" d="M0 0v41l12.52-7H40v-4H11.48L4 34.18V4h44v26h-4v4h8V0z"/><path id="Rectangle" d="M12 10h28v4H12zm0 10h24v4H12z"/></g></g></svg>
                         <p>{{.title  | safeHTML }}</p>
+
+                        {{ if .logo }}
+                            <div class="ml-auto">
+                                {{ partial "img-srcset.html" (dict "img" .logo "size" 100) }}
+                            </div>
+                        {{ end }}
                     </div>
                     <p class="quote">«{{.text  | markdownify }}»</p>
              </div>

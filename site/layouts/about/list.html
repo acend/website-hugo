@@ -1,0 +1,193 @@
+{{ define "main" }}
+
+{{ with .Params.lead }}
+  {{ partial "lead.html" . }}
+{{ end }}
+
+{{ with .Params.introtext }}
+  <div class="container">
+      <div class="row my-5">
+        <div class="col-lg-9 offset-lg-1">
+          <p>{{ . | markdownify }}</p>
+        </div>
+      </div>
+  </div>
+{{ end }}
+
+
+{{ with .Params.main_image }}
+{{- $image := resources.Get . -}}
+<div  data-scroll class="wide-banner bg-cover d-flex justify-content-center align-items-center" data-background="{{  ($image.Resize "3000x").RelPermalink }}">
+     <svg class="img-fluid p-3" width="106px" height="360px" viewBox="0 0 106 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g id="x" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="AC---Ansatz" transform="translate(-668.000000, -905.000000)" fill="#FFFFFF">
+              <g id="logo/AC-kurzlogo-cmyk-black" transform="translate(668.000000, 905.000000)">
+                  <g id="AC-kurzlogo-cmyk-black" fill="none">
+                      <polygon id="Fill-1" fill="#ffffff" points="106 0 0 0 0 360 106 360 106 306.518963 52.9974 306.518963 52.9974 53.486284 106 53.486284"></polygon>
+                  </g>
+              </g>
+          </g>
+      </g>
+  </svg> 
+</div>
+
+{{ end }}
+
+
+
+
+<!-- about -->
+<section class="section my-6">
+  <div class="container">
+
+      {{ with .Params.subtopic_0 }}
+      <div class="row my-6">
+          <div  data-scroll class="col-11 col-lg-5 offset-1 offset-lg-6">
+            
+              <h3>{{ .title | markdownify }}</h3>
+              <p>{{ .text | markdownify }}</p>
+             </div>
+        </div>
+        {{ end }}
+
+
+    {{ with .Params.subtopic_1 }}
+    <div class="row">
+      <div  data-scroll class="col-11 col-lg-5 offset-1">
+        <h3>{{ .title | markdownify }}</h3>
+        <p>{{ .text | markdownify }}</p>
+      </div>
+    </div>
+    {{ end }}
+
+    <div class="row images my-6">
+        <div class="col-lg-10 offset-lg-2 d-flex align-items-start">
+            <div data-scroll class="img-1">
+            {{ partial "img-srcset.html" (dict "img" "/images/ueberuns/ACEND_Workshop_Tablet@4x.jpg" "size" 360) }}
+          </div>
+          <div data-scroll class="img-2">
+            {{ partial "img-srcset.html" (dict "img" "/images/ueberuns/ACEND_Workshop_Frontal@4x.jpg" "size" 560) }}                           
+          </div>
+        </div>      
+    </div>
+
+    {{ with .Params.subtopic_2 }}
+    <div class="row my-6">
+        <div  data-scroll class="col-11 col-lg-5 offset-1 offset-lg-6">
+            <h3>{{ .title | markdownify }}</h3>
+            <p>{{ .text | markdownify }}</p>
+           </div>
+      </div>
+      {{ end }}
+
+      <div class="row images my-6">
+          <div class="col-lg-10   d-flex align-items-start">
+              <div data-scroll  class="img-1 mt-5">
+                 {{ partial "img-srcset.html" (dict "img" "/images/ueberuns/ACEND_Workshop_Brainstorming@4x.jpg" "size" 560) }}
+              </div>
+              <div data-scroll class="img-2">
+                  {{ partial "img-srcset.html" (dict "img" "/images/ueberuns/ACEND_Students_Discussion@4x.jpg" "size" 360) }}                           
+              </div>
+          </div>      
+      </div>
+
+    {{ with .Params.subtopic_3 }}
+
+      <div class="row my-6">
+          <div  data-scroll class="col-11 col-lg-5 offset-1">
+              <h3>{{ .title | markdownify }}</h3>
+              <p>{{ .text | markdownify }}</p>
+            </div>
+        </div>
+        {{ end }}
+    
+     {{ with .Params.subtopic_4 }}
+       <div class="row my-6">
+        <div  data-scroll class="col-11 col-lg-5 offset-1 offset-lg-6">
+          
+            <h3>{{ .title | markdownify }}</h3>
+            <p>{{ .text | markdownify }}</p>
+           </div>
+      </div>
+      {{ end }}
+        
+        {{ with .Params.quote }}
+        <div class="row my-6">
+          <div  data-scroll class="col-9 offset-1 bg-primary text-white p-4 pb-5 p-md-5 mb-minus">
+            <p class="quote">«{{ .text }}»</p>
+            <p><strong>{{ .name }}</strong>, {{ .title }}</p>
+          </div>
+          <div  data-scroll class="col-md-5 offset-5 offset-md-6 img ">
+              {{ partial "img-srcset.html" (dict "img" .img "size" 445) }}
+          </div>
+        </div>
+        {{ end }}
+    
+    
+  </div>
+</section>
+<!-- /about -->
+
+
+<!-- team -->
+{{ if .Params.team.enable }}
+{{ with .Params.team }}
+<section class="section mb-5">
+  <div class="container">
+    <h2 data-scroll class="mb-5">{{ .title | markdownify }}</h2>
+    
+    <div class="row">
+      <div class="col-lg-11 offset-lg-1">
+        <div class="row">
+          {{ range .team_member }}
+              {{ partial "team-member.html" . }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /team -->
+
+  <!-- memberships -->
+  {{ if .Params.memberships.enable }}
+  {{ with .Params.memberships }}
+  <section class="section my-5">
+    <div class="container">
+        <h2  data-scroll class="mb-5">{{  .title | markdownify }}</h2>
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1 mb-3">
+              <div class="row">
+ 
+              {{ range .member }}
+                  <div data-scroll class="col-sm-6 col-md-4 mb-4">
+                      <a tabindex="0" class="d-block"  data-container="body" data-toggle="popover" data-placement="right" data-trigger="hover" title="{{  .title | markdownify }}" data-html="true" data-content='
+                      <p class="small">{{.abstract }}</p>
+                      {{ if .link}} <a href="{{ .link | absURL }}" class="link-border"  target="_blank" rel="noopener">{{.link_label}}</a> {{ end }} 
+                      '>
+                      
+                      <div class="mb-2 bg-primary p-4 text-center">
+                          {{ partial "img-srcset.html" (dict "img" .logo "size" 230) }}
+                        </div>
+                      </a>
+                      <h5>{{  .title | markdownify }}</h5>
+
+                  </div>
+                  {{ end }}
+              </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- /partner -->
+  
+{{ end }}
+{{ end }}
+
+
+{{ partial "banner-anmelden.html" . }}
+
+{{ end }}

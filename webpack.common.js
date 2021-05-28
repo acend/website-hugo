@@ -17,7 +17,8 @@ module.exports = {
     rules: [
       {
         test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "file-loader?name=/[hash].[ext]"
+        loader: "file-loader",
+        options: {name: "/[hash].[ext]"}
       },
 
       {test: /\.json$/, loader: "json-loader"},
@@ -26,13 +27,13 @@ module.exports = {
         loader: "babel-loader",
         test: /\.js?$/,
         exclude: /node_modules/,
-        query: {cacheDirectory: true}
+        options: {cacheDirectory: true}
       },
 
       {
         test: /\.(sa|sc|c)ss$/,
         exclude: /node_modules/,
-        use: ["style-loader", MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", "sass-loader"]
+        use: ["style-loader", {loader: MiniCssExtractPlugin.loader, options: { esModule: false, }}, "css-loader", "postcss-loader", "sass-loader"],
       }
     ]
   },
@@ -48,12 +49,12 @@ module.exports = {
       prettyPrint: true
     }),
 
-    new CopyWebpackPlugin([
+    new CopyWebpackPlugin(
       {
-        from: "./src/fonts/",
-        to: "fonts/",
-        flatten: true
+        patterns: [
+          { from: "./src/fonts/", to: "fonts/" },
+        ],
       }
-    ])
+    )
   ]
 };

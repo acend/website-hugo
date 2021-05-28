@@ -145,6 +145,7 @@
   padding-left: 0 !important;
   padding-bottom: 0 !important;
   position: relative;
+  white-space: nowrap;
 
   &::after {
     content: "";

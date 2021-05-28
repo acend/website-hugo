@@ -1,7 +1,7 @@
 <header class="header navigation fixed-top">
      <div class="container">
     <nav class="navbar navbar-expand-md px-0">
-      <a class="navbar-brand" href="{{ site.BaseURL }}">
+      <a class="navbar-brand" href="/{{ strings.TrimPrefix "/" .Site.LanguagePrefix }}">
           <svg id="logo" class="img-fluid mt-3" width="301px" height="84px" viewBox="0 0 301 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <title>acend gmbh</title>
             <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -75,6 +75,16 @@
             <a class="nav-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
           </li>
           {{ end }}
+          {{ end }}
+    
+          {{ if .IsTranslated }}
+          
+              {{ range .Translations }}
+              <li class="nav-item">
+                  <a  class="nav-link" href="{{ .Permalink }}">{{ .Lang | humanize }}</a>
+              </li>
+              {{ end}}
+      
           {{ end }}
         </ul>
 

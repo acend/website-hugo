@@ -1,0 +1,92 @@
+[anmelden]
+other = "Anmelden"
+
+[readMore]
+other = "Mehr erfahren"
+
+[trainingsangebot]
+other = "Trainingsangebot"
+
+[personen]
+other = "Personen"
+
+[textTeams]
+other = "Individuelle Firmen-Trainings möglich. Preis und Termine nach Absprache."
+
+[backToTrainings]
+other = "zur Trainingsübersicht"
+
+[trainingsLink]
+other = "/trainings/"
+
+#––––––––––––––––
+# Footer
+
+[followUs]
+other = "Folge uns"
+
+[newsletter]
+other = "Newsletter abonnieren"
+
+[trainingsberatung]
+other = "Trainingsberatung unter"
+
+[trainingsberatungTime]
+other = "Mo – Fr von 8.30 – 17.00h"
+
+[impressum]
+other = "Impressum"
+
+[impressumLink]
+other = "/impressum/"
+
+[privacy]
+other = "Datenschutz"
+
+[privacyLink]
+other = "/datenschutz/"
+
+#––––––––––––––––
+# Anmeldeformular
+
+[selectTraining]
+other = "Select a training..."
+
+[einzelperson]
+other = "Einzelperson"
+
+[team]
+other = "Team"
+
+[frau]
+other = "Frau"
+
+[herr]
+other = "Herr"
+
+[name]
+other = "Name"
+
+[vorname]
+other = "Vorname"
+
+[firma]
+other = "Firma"
+
+[anzahl_personen]
+other = "Anzahl Personen"
+
+[email]
+other = "E-Mail"
+
+[telefon]
+other = "Telefon"
+
+[nachricht]
+other = "Nachricht"
+
+[agb_check]
+other= "Ich habe die <a href=\"/datenschutz\" target=\"_blank\" rel=\"noopener\">Nutzungsbedingungen</a> der Website gelesen und bin damit einverstanden."
+
+[send]
+other = "Senden"

@@ -1,33 +1,72 @@
 baseurl = "/"
-languageCode = "de-ch"
-title = "acend gmbh – experience knowledge"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
+defaultContentLanguage = "de"
 
-# menu
-[[menu.main]]
-URL = "trainings"
-name = "Trainings"
-weight = 1
+[languages]
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 1
+    languageCode = "de-ch"
+    contentDir = "content/de"
+    title = "acend gmbh – experience knowledge"
+    # meta description
+    author = "acend gmbh"
+    description = "Wir eröffnen neue Zugänge zu Cloud Native und Open Source"
 
-[[menu.main]]
-URL = "ueber-uns"
-name = "Über uns"
-weight = 2
+    # menu
+    [[languages.de.menu.main]]
+    URL = "/trainings/"
+    name = "Trainings"
+    weight = 1
+
+    [[languages.de.menu.main]]
+    URL = "/ueber-uns/"
+    name = "Über uns"
+    weight = 2
+    
+    [[languages.de.menu.main]]
+    URL = "/kontakt/"
+    name = "Kontakt"
+    weight = 3
  
-[[menu.main]]
-URL = "kontakt"
-name = "Kontakt"
-weight = 3
+  [languages.en]
+    languageCode = "en-en"
+    contentDir = "content/en"
+    title = "acend gmbh – experience knowledge"
+    languageName = "English"
+    weight = 2
+    description = "We are opening up new approaches to cloud native and open source"
+
+    # menu
+    [[languages.en.menu.main]]
+    URL = "/en/trainings/"
+    name = "Trainings"
+    weight = 1
+
+    [[languages.en.menu.main]]
+    URL = "/en/about/"
+    name = "About"
+    weight = 2
+    
+    [[languages.en.menu.main]]
+    URL = "/en/contact/"
+    name = "Contact"
+    weight = 3
 
 
 # default parameters
 [params]
 home = "Home"
+
+# open graph info
+twitterAccount = "@acendch"
+domain = "https://acend.ch"
+twitterimage = "images/acend-og.jpg"
 
 # contact info
 phone = "+41 31 370 22 20"
@@ -35,13 +74,9 @@ name = "**acend gmbh**"
 address = "Belpstrasse 37, 3007 Bern"
 email = "hello@acend.ch"
 
-# meta description
-author = "acend gmbh"
-description = "Wir eröffnen neue Zugänge zu Cloud Native und Open Source"
-# google analytics
-google_analytics_id = "" # Your ID
+
 # copyright
-copyright = "&copy; 2020 acend gmbh"
+copyright = "&copy; __YEAR__ acend gmbh"
 
 
 # preloader
@@ -63,3 +98,7 @@ form_action = "/backend/form"
 [params.social]
 linkedin = "https://www.linkedin.com/company/acend-ch/"
 twitter = "https://www.twitter.com/acendch"
+
+[imaging]
+quality = 50
+hint = "photo"

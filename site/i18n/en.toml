@@ -1,0 +1,92 @@
+[anmelden]
+other = "Register"
+
+[readMore]
+other = "Discover"
+
+[trainingsangebot]
+other = "Training Offer"
+
+[personen]
+other = "Individuals"
+
+[textTeams]
+other = "Individual company trainings are possible. Contact us for costs and dates."
+
+[backToTrainings]
+other = "Back to Trainings"
+
+[trainingsLink]
+other = "/en/trainings/"
+
+#––––––––––––––––
+# Footer
+
+[followUs]
+other = "Follow us"
+
+[newsletter]
+other = "Subscribe to our newsletter"
+
+[trainingsberatung]
+other = "Training Consultations"
+
+[trainingsberatungTime]
+other = "Mo – Fr, 8:30 am – 5:00 pm"
+
+[impressum]
+other = "Impressum"
+
+[impressumLink]
+other = "/en/impressum/"
+
+[privacy]
+other = "Privacy Policy"
+
+[privacyLink]
+other = "/en/privacy/"
+
+#––––––––––––––––
+# Anmeldeformular
+
+[selectTraining]
+other = "Select a training..."
+
+[einzelperson]
+other = "Individual"
+
+[team]
+other = "Team"
+
+[frau]
+other = "Ms."
+
+[herr]
+other = "Mr."
+
+[name]
+other = "Last Name"
+
+[vorname]
+other = "First Name"
+
+[firma]
+other = "Company"
+
+[anzahl_personen]
+other = "Participants"
+
+[email]
+other = "E-Mail"
+
+[telefon]
+other = "Phone"
+
+[nachricht]
+other = "Message"
+
+[agb_check]
+other= "I have read and accept the <a href=\"/en/privacy\" target=\"_blank\" rel=\"noopener\">Privacy Policy</a>."
+
+[send]
+other = "Send"

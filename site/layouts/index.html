@@ -1,14 +1,21 @@
 {{ define "main" }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
 
-{{ if site.Data.homepage.slideshow.enable }}
-{{ with site.Data.homepage.slideshow }}
+{{ if  $data.homepage.slideshow.enable }}
+{{ with  $data.homepage.slideshow }}
 <div class="main-carousel mb-6">
     {{ range .item }}
     <div  class="carousel-cell container p-0 py-md-5">
         <div class="d-flex images">
-          <div class="img-container mt-5" id="l1"><img  src="{{ .img1 | relURL}}" alt="" class="img-fluid"></div>
-          <div class="img-container" id="l2"><img  src="{{ .img2 | relURL}}" alt="" class="img-fluid"></div>
-          <div class="img-container align-self-end mb-5" id="l3"><img  src="{{ .img3 | relURL}}" alt="" class="img-fluid"></div>
+          <div class="img-container mt-5" id="l1">
+              {{ partial "img-srcset.html" (dict "img" .img1 "size" 200) }}
+          </div>
+          <div class="img-container" id="l2">
+              {{ partial "img-srcset.html" (dict "img" .img2 "size" 600) }}
+          </div>
+          <div class="img-container align-self-end mb-5" id="l3">
+              {{ partial "img-srcset.html" (dict "img" .img3 "size" 300) }}
+          </div>
         </div>
 
       <div class="row w-100">
@@ -32,7 +39,7 @@
     <div class="container">
       <div class="row">
         <div class="col-11 col-lg-10 mx-md-auto">
-          {{ with site.Data.homepage.about }}
+          {{ with $data.homepage.about }}
           <div class="h4">{{.title}}</div>
           <p class="lead-big">{{.content | markdownify}}</p>
           {{ if .button.enable }}
@@ -49,10 +56,11 @@
       <div class="row">
         <div class="col-lg-10 offset-lg-2 d-flex align-items-start ">
             <div data-scroll  class="img-1">
-            <img src="{{ `/images/home/ACEND_Workshop_Laptop@4x.jpg` | relURL}}" alt="" class="img-fluid">
+            {{ partial "img-srcset.html" (dict "img" "images/home/ACEND_Workshop_Laptop@4x.jpg" "size" 330) }}
           </div>
           <div data-scroll class="img-2">
-            <img src="{{ `/images/home/ACEND_Workshop_Teacher_Supports@4x.jpg` | relURL}}" alt="" class="img-fluid"></div>
+            {{ partial "img-srcset.html" (dict "img" "images/home/ACEND_Workshop_Teacher_Supports@4x.jpg" "size" 600) }}
+          </div>
         </div>      
         
       </div>
@@ -64,7 +72,7 @@
   <!-- trainings -->
   <section class="section section mt-5 mb-6">
     <div class="container">
-        {{ with site.Data.homepage.trainings }}
+        {{ with  $data.homepage.trainings }}
       <h2  data-scroll  class="mb-3">{{ .title }}</h2>
       <div class="row">
         <div  data-scroll  class="col-10 col-lg-9 offset-1 mb-5">
@@ -85,8 +93,8 @@
   <!-- /trainings -->
   
   <!-- testimonials -->
-{{ if site.Data.homepage.testimonials.enable }}
-{{ with site.Data.homepage.testimonials }}
+{{ if  $data.homepage.testimonials.enable }}
+{{ with  $data.homepage.testimonials }}
 
   {{ partial "testimonials.html" . }}
 
@@ -95,8 +103,8 @@
 <!-- /testimonials -->
   
   <!-- partner -->
-  {{ if site.Data.homepage.partner.enable }}
-  {{ with site.Data.homepage.partner }}
+  {{ if  $data.homepage.partner.enable }}
+  {{ with  $data.homepage.partner }}
   <section class="section my-5">
     <div class="container">
         <h2  data-scroll class="mb-3">{{  .title | markdownify }}</h2>
@@ -107,7 +115,10 @@
               {{ range .item }}
                   <div data-scroll class="col-md-6 mb-4">
                       <div class="mb-3 bg-primary p-4 text-center">
-                          <img src="{{ .logo | absURL}}" alt="" class="img-fluid">
+                          {{- $image := .logo  -}}
+                          {{ partial "img-srcset.html" (dict "img" $image "size" 400) }}
+
+                          
                         </div>
                       <p>
                           {{  .text | markdownify }}

@@ -1,3 +1,5 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
 <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
         <div class="modal-dialog container" role="document">
           <div class="modal-content">
@@ -17,18 +19,18 @@
               </button>
             </div>
             <div class="modal-body">
-                {{ with site.Data.anmeldung }}
+                {{ with $data.anmeldung }}
                     <div class="row mb-5">
                       <div class="col-lg-8 offset-lg-1">
                       <h4 class="modal-title" id="signupModalLabel">{{  .title }}</h4>
                       <div class="lead-big">
                           {{  .text }}
-                      </div>  
+                      </div>
                     </div>
                     </div>
-                    
+
                     {{ end }}
-                    
+
                     <div class="row">
                       <div class="col-lg-9 offset-lg-2">
 
@@ -39,14 +41,14 @@
                     <div class="mb-4  form-row">
                     <div class="col-lg-6">
                         <select class="custom-select" name="kurs" required>
-                        <option value="" selected>Training auswählen...</option>
+                        <option value="" selected>{{ i18n "selectTraining" }}</option>
                         {{ $t := where .Site.RegularPages "Section" "trainings"}}
                         {{ range $t }}
                         <option value="{{ .Title }}">{{ .Title }}</option>
                         {{ end }}
 
-                        
-                        
+
+
                       </select>
                       </div>
                       </div>
@@ -54,67 +56,66 @@
 
                     <div class="mb-4">
                       <div class="custom-control custom-radio custom-control-inline">
-                          <input type="radio" id="select_einzelperson" name="person_team" value="Einzelperson"  class="custom-control-input" required>
-                          <label class="custom-control-label" for="select_einzelperson">Einzelperson</label>
+                          <input type="radio" id="select_einzelperson" name="person_team" value="{{ i18n "einzelperson" }}"  class="custom-control-input" required>
+                          <label class="custom-control-label" for="select_einzelperson">{{ i18n "einzelperson" }}</label>
                         </div>
                         <div class="custom-control custom-radio custom-control-inline">
                           <input type="radio" id="select_team" name="person_team" value="Team"  class="custom-control-input">
-                          <label class="custom-control-label" for="select_team">Team</label>
+                          <label class="custom-control-label" for="select_team">{{ i18n "team" }}</label>
                         </div>
                       </div>
-                  
-                  
+
+
                       <div class="mb-4">
                       <div class="custom-control custom-radio custom-control-inline">
                           <input type="radio" id="anrede_frau" name="anrede" value="Frau" class="custom-control-input" required>
-                          <label class="custom-control-label" for="anrede_frau">Frau</label>
+                          <label class="custom-control-label" for="anrede_frau">{{ i18n "frau" }}</label>
                         </div>
                         <div class="custom-control custom-radio custom-control-inline">
                           <input type="radio" id="anrede_herr" name="anrede" value="Herr" class="custom-control-input">
-                          <label class="custom-control-label" for="anrede_herr">Herr</label>
+                          <label class="custom-control-label" for="anrede_herr">{{ i18n "herr" }}</label>
                         </div>
                       </div>
-      
-      
-                    <input type="text" id="name" name="name" placeholder="Name *" class="form-control form-control-lg  mb-4" required>
-                    
-                    <input type="text" id="vorname" name="vorname" placeholder="Vorname *" class="form-control form-control-lg  mb-4" required>
-                    
+
+
+                    <input type="text" id="name" name="name" placeholder="{{ i18n "name" }} *" class="form-control form-control-lg  mb-4" required>
+
+                    <input type="text" id="vorname" name="vorname" placeholder="{{ i18n "vorname" }} *" class="form-control form-control-lg  mb-4" required>
+
                     <div class="form-row">
                       <div class="col-lg-9">
-                        <input type="text" id="firma" name="firma" placeholder="Firma" class="form-control form-control-lg  mb-4">
+                        <input type="text" id="firma" name="firma" placeholder="{{ i18n "firma" }}" class="form-control form-control-lg  mb-4">
                         </div>
                       <div class="col-lg-3">
-                        <input type="number" id="personen" name="anzahl_personen" placeholder="Anzahl Personen" class="form-control form-control-lg  mb-4">
+                        <input type="number" id="personen" name="anzahl_personen" placeholder="{{ i18n "anzahl_personen" }}" class="form-control form-control-lg  mb-4">
                         </div>
 
                       </div>
-                   
-                    <input type="email" id="email" name="email" placeholder="E-Mail *" class="form-control form-control-lg mb-4" required>
-                    
-                    <input type="text" id="telefon" name="telefon" placeholder="Telefon" class="form-control form-control-lg mb-4">
-                  
-                    <input type="text" name="fortytwo" style="display:none">
+
+                    <input type="email" id="email" name="email" placeholder="{{ i18n "email" }} *" class="form-control form-control-lg mb-4" required>
+
+                    <input type="text" id="telefon" name="telefon" placeholder="{{ i18n "telefon" }}" class="form-control form-control-lg mb-4">
+
+                    <input type="text" name="fortytwo">
 
                     <textarea name="nachricht" id="nachricht" class="form-control form-control-lg mb-4"
-                      placeholder="Nachricht"></textarea>
-                  
+                      placeholder="{{ i18n "nachricht" }}"></textarea>
+
                       <div class="custom-control custom-checkbox mb-4">
                           <input type="checkbox" class="custom-control-input" id="agb_check" required>
-                          <label class="custom-control-label small" for="agb_check"> Ich habe die <a href="/datenschutz" target="_blank" rel="noopener">Nutzungsbedingungen</a> der Website gelesen und bin damit einverstanden.
-                            </label>
+                          <label class="custom-control-label small" for="agb_check"> {{ i18n "agb_check"  | safeHTML }}</label>
                         </div>
-      
-                    <button class="btn btn-outline-primary  py-3 px-5 ">Senden</button>
-                  
+
+                    <button class="btn btn-outline-primary  py-3 px-5 ">{{ i18n "send" }}</button>
+
                 </form>
-              </div>  
+              </div>
             </div>
             </div>
-       
+
 
             </div>
-            
+
           </div>
         </div>
       </div>

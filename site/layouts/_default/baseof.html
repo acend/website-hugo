@@ -3,18 +3,18 @@
 
 <head>
   <meta charset="utf-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
   <title>{{ with .Title }}{{ . }}{{ end }}{{ if not .IsHome }} – {{ $.Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-
- 
+  {{ partial "opengraph.html" . }}
   {{ $stylesheet := .Site.Data.webpack.main }}
   {{ with $stylesheet.css }}
     <link href="{{ relURL . }}" rel="stylesheet">
   {{ end }}
-  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
-  <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
 
   {{ with site.Params.google_analytics_id }}
 	{{ "<!-- Global Site Tag (gtag.js) - Google Analytics -->" | safeHTML }}
@@ -27,7 +27,7 @@
 	  gtag('config', '{{ . }}');
 	</script>
   {{ end }}
-  
+
   <script async defer data-domain="acend.ch" src="https://plausible.acend.ch/js/plausible.js"></script>
 
 </head>
@@ -36,15 +36,18 @@
 
   {{ block "header" . }}{{ partial "header" . }}{{end}}
 
+
+
  <main> {{ block "main" . }}{{end}}</main>
 
   {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
- 
+
 {{ $script := .Site.Data.webpack.main }}
   {{ with $script.js }}
     <script src="{{ relURL . }}"></script>
   {{ end }}
+
 </body>
 
 </html>

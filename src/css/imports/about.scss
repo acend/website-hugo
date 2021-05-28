@@ -1,4 +1,5 @@
-.ueber-uns{
+.ueber-uns,
+.about {
   .wide-banner {
     margin-bottom: 9rem;
     height: 40vw;
@@ -28,4 +29,65 @@
   }
 }
 
+.popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: block;
+    max-width: 276px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    line-break: auto;
+    font-size: inherit;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+    box-shadow: 2px 0 20px rgba(0,0,0,0.3);
+    color: inherit;
+}
 
+.popover-header {
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  background-color: transparent;
+  border-bottom: none;
+  border-radius: 0;
+}
+
+.popover-body {
+    padding: 0.5rem 0.75rem;
+    color: inherit;
+}
+
+:focus:not(:focus-visible) { 
+  outline: none; 
+}
+
+.bs-popover-right > .arrow::after, .bs-popover-auto[x-placement^="right"] > .arrow::after {
+    left: -15px;
+    border-width: 1.5rem 1.5rem 1.5rem 0;
+    border-right-color: #fff;
+    top: 50%;
+    margin-top: -1.5rem;
+}
+
+.bs-popover-left > .arrow::after, .bs-popover-auto[x-placement^="left"] > .arrow::after {
+    right: -15px;
+    border-width: 1.5rem 0 1.5rem 1.5rem;
+    border-left-color: #fff;
+    top: 50%;
+    margin-top: -1.5rem;
+}
+
+[data-toggle="popover"]:hover {
+  cursor: pointer;
+}

@@ -1,3 +1,4 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
 <section  class="section footer-banner">
         <div  data-scroll class="container bg-primary pattern pattern-2 px-5 py-5">
           <div class="row  d-flex align-items-center">
@@ -12,10 +13,11 @@
                                 </g>
                             </g>
                         </g>
-                    </svg>  <h5 class="h2 text-white mb-0">Leg gleich los: Melde dich jetzt für ein Training an.</h1>
+                    </svg>  
+                    <h5 class="h2 text-white mb-0">{{ $data.anmeldung.footer_banner.text }}</h1>
              </div>
              <div class="col-lg-4 ml-auto">
-                 <button  type="button" data-toggle="modal" data-target="#signupModal" class="btn btn-outline-light  py-3 px-5 ">Anmelden</button>  
+                 <button  type="button" data-toggle="modal" data-target="#signupModal" class="btn btn-outline-light  py-3 px-5 ">{{  $data.anmeldung.footer_banner.button }}</button>  
              </div>
         </div>
     </div>
