@@ -10,7 +10,7 @@ abstract: "Prometheus – Introduction to the modern monitoring platform."
 main_title: "Prometheus – Introduction to the modern monitoring platform."
 
 personen: 
-  daten : "20.05.21, 21.05.21"
+  daten : "20.09.21, 21.09.21"
   preis : "CHF 2200"
 
 headerimages:
