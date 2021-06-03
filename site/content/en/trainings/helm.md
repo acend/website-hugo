@@ -5,6 +5,7 @@ date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 2
 slug: 
+thumbnail: "images/trainings/ACEND_Adyna@2x.jpg"
 categories: ["Basics"]
 duration: "0.5 Day"
 abstract : "A practical introduction to the best-known Package Manager for applications on Kubernetes."

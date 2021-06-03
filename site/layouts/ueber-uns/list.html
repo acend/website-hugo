@@ -16,18 +16,19 @@
 
 
 {{ with .Params.main_image }}
-<div  data-scroll class="wide-banner bg-cover d-flex justify-content-center align-items-center" data-background="{{ . | relURL}}">
-     <svg class="img-fluid p-3" width="106px" height="360px" viewBox="0 0 106 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <g id="x" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-          <g id="AC---Ansatz" transform="translate(-668.000000, -905.000000)" fill="#FFFFFF">
-              <g id="logo/AC-kurzlogo-cmyk-black" transform="translate(668.000000, 905.000000)">
-                  <g id="AC-kurzlogo-cmyk-black" fill="none">
-                      <polygon id="Fill-1" fill="#ffffff" points="106 0 0 0 0 360 106 360 106 306.518963 52.9974 306.518963 52.9974 53.486284 106 53.486284"></polygon>
-                  </g>
-              </g>
-          </g>
-      </g>
-  </svg> 
+{{- $image := resources.Get . -}}
+<div  data-scroll class="wide-banner bg-cover d-flex justify-content-center align-items-center" data-background="{{  ($image.Resize "3000x").RelPermalink }}">
+    <svg class="img-fluid p-3" width="106px" height="360px" viewBox="0 0 106 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+     <g id="x" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+         <g id="AC---Ansatz" transform="translate(-668.000000, -905.000000)" fill="#FFFFFF">
+             <g id="logo/AC-kurzlogo-cmyk-black" transform="translate(668.000000, 905.000000)">
+                 <g id="AC-kurzlogo-cmyk-black" fill="none">
+                     <polygon id="Fill-1" fill="#ffffff" points="106 0 0 0 0 360 106 360 106 306.518963 52.9974 306.518963 52.9974 53.486284 106 53.486284"></polygon>
+                 </g>
+             </g>
+         </g>
+     </g>
+ </svg> 
 </div>
 
 {{ end }}
@@ -60,15 +61,15 @@
     {{ end }}
 
     <div class="row images my-6">
-        <div class="col-lg-10 offset-lg-2 d-flex align-items-start">
-            <div data-scroll  class="img-1">
-            <img src="{{ `/images/ueberuns/ACEND_Workshop_Tablet@4x.jpg` | relURL}}" alt="" class="img-fluid">
-          </div>
-          <div data-scroll class="img-2">
-            <img src="{{ `/images/ueberuns/ACEND_Workshop_Frontal@4x.jpg` | relURL}}" alt="" class="img-fluid"></div>
-
-        </div>      
-    </div>
+      <div class="col-lg-10 offset-lg-2 d-flex align-items-start">
+          <div data-scroll class="img-1">
+          {{ partial "img-srcset.html" (dict "img" "/images/ueberuns/ACEND_Workshop_Tablet@4x.jpg" "size" 360) }}
+        </div>
+        <div data-scroll class="img-2">
+          {{ partial "img-srcset.html" (dict "img" "/images/ueberuns/ACEND_Workshop_Frontal@4x.jpg" "size" 560) }}                           
+        </div>
+      </div>      
+  </div>
 
     {{ with .Params.subtopic_2 }}
     <div class="row my-6">
@@ -81,15 +82,16 @@
       {{ end }}
 
       <div class="row images my-6">
-          <div class="col-lg-10   d-flex align-items-start">
-              <div data-scroll  class="img-1 mt-5">
-                <img src="{{ `/images/ueberuns/ACEND_Workshop_Brainstorming@4x.jpg` | relURL}}" alt="" class="img-fluid">
-              </div>
-              <div data-scroll class="img-2">
-                <img src="{{ `/images/ueberuns/ACEND_Students_Discussion@4x.jpg` | relURL}}" alt="" class="img-fluid">
-              </div>
-          </div>      
-      </div>
+        <div class="col-lg-10   d-flex align-items-start">
+            <div data-scroll  class="img-1 mt-5">
+               {{ partial "img-srcset.html" (dict "img" "/images/ueberuns/ACEND_Workshop_Brainstorming@4x.jpg" "size" 560) }}
+            </div>
+            <div data-scroll class="img-2">
+                {{ partial "img-srcset.html" (dict "img" "/images/ueberuns/ACEND_Students_Discussion@4x.jpg" "size" 360) }}                           
+            </div>
+        </div>      
+    </div>
+
     {{ with .Params.subtopic_3 }}
 
       <div class="row my-6">
@@ -117,7 +119,7 @@
             <p><strong>{{ .name }}</strong>, {{ .title }}</p>
           </div>
           <div  data-scroll class="col-md-5 offset-5 offset-md-6 img ">
-            <img class="img-fluid" src="{{ .img }}">
+            {{ partial "img-srcset.html" (dict "img" .img "size" 445) }}
           </div>
         </div>
         {{ end }}
@@ -168,7 +170,7 @@
                       '>
                       
                       <div class="mb-2 bg-primary p-4 text-center">
-                          <img src="{{ .logo | absURL}}" alt="" class="img-fluid">
+                          {{ partial "img-srcset.html" (dict "img" .logo "size" 230) }}
                         </div>
                       </a>
                       <h5>{{  .title | markdownify }}</h5>

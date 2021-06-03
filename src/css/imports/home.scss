@@ -118,10 +118,11 @@
   .main-carousel & {
     @include media-breakpoint-down(xs) {
       bottom: 7em;
-      transform: rotate(90deg);
-      right: -25px;
+      right: 0;
+      transform: rotate(90deg) translateY(-200%);
       width: auto;
       z-index: 10;
+      transform-origin: center bottom;
     }
   }
 

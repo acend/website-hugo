@@ -10,7 +10,7 @@ abstract: "Container and OpenShift – from theory to practice in no time."
 main_title: "Container and OpenShift – from theory to practice in no time."
 
 personen: 
-  daten : "12.10.21, 13.10.21"
+  daten : "19.10.21, 20.10.21"
   preis : "CHF 1900"
 
 headerimages:
