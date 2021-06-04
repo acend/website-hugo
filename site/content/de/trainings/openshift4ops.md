@@ -3,7 +3,7 @@ title: "OpenShift 4 Operations"
 description: "OpenShift 4 - Operations Mastery für System Engineers."
 date: 2019-05-12T12:14:34+06:00
 draft: false
-weight: 5
+weight: 4
 categories: ["Advanced"]
 duration: "2 Tage"
 abstract: "OpenShift 4 - Operations Mastery für System Engineers."
