@@ -3,7 +3,7 @@ title: "Container & Kubernetes"
 description: "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
 date: 2019-05-12T12:14:34+06:00
 draft: false
-weight: 3
+weight: 1
 slug: 
 categories: ["Basics"]
 duration: "2 Days"
