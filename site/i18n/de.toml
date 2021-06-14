@@ -82,6 +82,9 @@ other = "E-Mail"
 [telefon]
 other = "Telefon"
 
+[human]
+other = "Bist du ein Mensch? Was gibt 5 + 3?"
+
 [nachricht]
 other = "Nachricht"
 
