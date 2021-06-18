@@ -108,11 +108,9 @@ trainers:
       twitter : "https://twitter.com/tphilipona"
       
 # testimonials
-testimonials:
-  enable: true
-  testimonial:
-    - title : "Here’s what our clients say about our trainings:<br/>Curdin Salis Gross, Bern"
-      image : "images/team/Coach@4x.jpg"
-      text : "The trainings are fantastic and practice-oriented. The teachers take time to patiently address individual questions. All in all, only to be recommended!" 
+    - title : "Das sagt unser Trainingsteilnehmer<br/>Michael Rudiger, Solothurn"
+      image : "images/trainings/ACEND_Jeremy@4x.jpg"
+      logo : "images/testimonials/10centris.png"
+      text : "The training was very helpful and gave me a great insight into the world of Prometheus. Thanks to the hands-on labs, I was able to apply my knowledge right away. The trainers were very competent and helpful, the workshops were technically great."
       
 ---
