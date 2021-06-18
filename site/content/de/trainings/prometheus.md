@@ -115,8 +115,9 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unser Trainingsteilnehmer<br/>Curdin Salis Gross, Bern"
-      image : "images/team/Coach@4x.jpg"
-      text : "Die Trainings sind ausgezeichnet und praxisorientiert. Die Trainer nehmen sich die Zeit um geduldig auf individuelle Anliegen einzugehen. Alles in allem absolut empfehlenswert!"
+    - title : "Das sagt unser Trainingsteilnehmer<br/>Michael Rudiger, Centris AG"
+      image : "images/trainings/ACEND_Jeremy@4x.jpg"
+      logo : "images/testimonials/10centris.png"
+      text : "Das Training war sehr hilfreich und gab mir einen super Einblick in die Welt von Prometheus. Dank den hands-on Labs konnte ich mein Wissen gleich anwenden. Die Trainer waren sehr kompetent und hilfsbereit, die Workshops technisch toll umgesetzt."
       
 ---
