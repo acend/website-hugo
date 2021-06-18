@@ -74,10 +74,11 @@ testimonials:
        image : "images/trainings/ACEND_Jeremy@4x.jpg"
        text : "Very well-organized workshop with competent trainers in a relaxed atmosphere. I particularly liked the mixture of theory and labs (practice)."
     
-     - title : "Here’s what our clients say about our trainings:<br/>Curdin Salis Gross, Bern"
+     - title : "Here’s what our clients say about our trainings:<br/>Michael Rudiger, Solothurn
        image : "images/trainings/ACEND_Jeremy@4x.jpg"
-       text : "The trainings are fantastic and practice-oriented. The teachers take time to patiently address individual questions. All in all, only to be recommended!" 
-    
+       logo : "images/testimonials/10centris.png"
+       text : "The training was very helpful and gave me a great insight into the world of Prometheus. Thanks to the hands-on labs, I was able to apply my knowledge right away. The trainers were very competent and helpful, the workshops were technically great." 
+       
      - title : "Here’s what our clients say about our trainings:<br/>Luana  Cusseddu, Bern"
        image : "images/trainings/ACEND_Jeremy@4x.jpg"
        text : "A completely new learning experience with great labs and enthusiastic teachers. Already the day after, I could implement what I had learned at my job. It’s five out of five stars from me."
