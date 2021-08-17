@@ -112,9 +112,9 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Here’s what our clients say about our trainings:<br/>Nicolas Bonfils, Bern"
-      image : "images/team/Coach@4x.jpg"
-      text : "Very well-organized workshop with competent trainers in a relaxed atmosphere. I particularly liked the mixture of theory and labs (practice)."
+    - title : "Here’s what our clients say about our trainings:<br/>Thomas Abbrederis, Vaduz"
+      logo : "images/testimonials/lgt_logo.png"
+      text : "Through the training, we were able to deepen the know-how in the area of modern container technology in a practical way with the Openshift platform provided. The very competent trainers were able to reduce the respect for the new container technologies and thus provide the training participants with a very good baseline for the future."
       
 ---
 
