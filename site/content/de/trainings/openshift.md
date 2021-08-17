@@ -118,9 +118,9 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unser Trainingsteilnehmer<br/>Nicolas Bonfils, Bern"
-      image : "images/team/Coach@4x.jpg"
-      text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
+    - title : "Das sagt unser Trainingsteilnehmer<br/>Thomas Abbrederis, Vaduz"
+      logo : "images/testimonials/lgt_logo.png"
+      text : "Durch die Schulung konnten wir das Know-how im Bereich moderner Container Technologie praxisnah mit der zur Verfügung gestellten Openshift Plattform vertiefen. Durch die sehr kompetenten Trainer konnte der Respekt vor den neuen Container Technologien reduziert werden und damit den Schulungsteilnehmern für die Zukunft eine sehr gute Basis gelegt werden."
       
 ---
 
