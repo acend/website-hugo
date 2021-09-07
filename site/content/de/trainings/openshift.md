@@ -3,7 +3,7 @@ title: "Container & OpenShift"
 description: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
 date: 2019-05-12T12:14:34+06:00
 draft: false
-weight: 3
+weight: 2
 categories: ["Basics"]
 duration: "2 Tage"
 abstract: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."

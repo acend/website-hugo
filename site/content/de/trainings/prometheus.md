@@ -3,7 +3,7 @@ title: "Prometheus"
 description: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 date: 2019-05-12T12:14:34+06:00
 draft: false
-weight: 2
+weight: 1
 categories: ["Basics"]
 duration: "2 Tage"
 abstract: "Prometheus – Einstieg in die moderne Monitoring Plattform."
