@@ -3,7 +3,7 @@ title: "Container & Kubernetes"
 description: "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
 date: 2019-05-12T12:14:34+06:00
 draft: false
-weight: 1
+weight: 4
 slug: 
 categories: ["Basics"]
 duration: "2 Days"
@@ -11,7 +11,7 @@ abstract : "From the basics to self-deployed, Container-based applications on Ku
 main_title : "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
 
 personen: 
-  daten : "24.08.21, 25.08.21"
+  daten : "09.11.21, 10.11.21"
   preis : "CHF 1900"
 
 headerimages:
