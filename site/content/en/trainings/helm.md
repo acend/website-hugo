@@ -7,13 +7,13 @@ weight: 5
 slug: 
 thumbnail: "images/trainings/ACEND_Adyna@2x.jpg"
 categories: ["Basics"]
-duration: "0.5 Day"
+duration: "1 Day"
 abstract : "A practical introduction to the best-known Package Manager for applications on Kubernetes."
 main_title : "A practical introduction to the best-known Package Manager for applications on Kubernetes."
 
 personen: 
   daten : "07.12.21 afternoon"
-  preis : "CHF 600"
+  preis : "CHF 1000"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lava@2x.jpg"
@@ -51,7 +51,7 @@ accordion:
         - title : "Conditions"
           icon : "4"
           content : "
-¬ CHF 600 / participant for 0.5 days<br/>
+¬ CHF 1000 / participant for one day<br/>
 ¬ Group sessions consisting of 8 to 24 participants<br/>
 ¬ Includes catering, documentation and a Kubernetes cluster in the cloud<br/>
 ¬ Discounts available for groups of 12 participants or more

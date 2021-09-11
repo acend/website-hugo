@@ -6,13 +6,13 @@ draft: false
 weight: 5
 slug: 
 categories: ["Basics"]
-duration: "0.5 Tag"
+duration: "1 Tag"
 abstract : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
 main_title : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
 
 personen: 
   daten : "07.12.21 nachmittags"
-  preis : "CHF 600"
+  preis : "CHF 1000"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lava@2x.jpg"
@@ -56,7 +56,7 @@ accordion:
         - title : "Konditionen"
           icon : "4"
           content : "
-¬ CHF 600 / Person für 1/2 Tag<br/>
+¬ CHF 1000 / Person für einen Tag<br/>
 ¬ Gruppen von 8-24 Personen<br/>
 ¬ Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud<br/>
 ¬ Rabatt ab 12 Personen
