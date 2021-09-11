@@ -12,7 +12,7 @@ abstract : "A practical introduction to the best-known Package Manager for appli
 main_title : "A practical introduction to the best-known Package Manager for applications on Kubernetes."
 
 personen: 
-  daten : "07.12.21 afternoon"
+  daten : "07.12.21"
   preis : "CHF 1000"
 
 headerimages:
