@@ -7,6 +7,8 @@ lead:
   title: "Trainings"
   content: "Wir eröffnen neue Zugänge zu Cloud Native und Open Source."
 
+filtertitle: "Das passende Training für Sie"
+categories: ["Kubernetes", "Delivery CI/CD", "Weitere Trainings"]
 ---
 
 acend steht für eine abenteuerlustige und aussergewöhnliche Lehr- und Lernerfahrung. Als Plattform vermitteln wir Wissen hands-on und stellen dafür hervorragende Rahmenbedingungen sicher.

@@ -9,6 +9,7 @@ import ScrollOut from "scroll-out";
 import Sticky from "sticky-js";
 
 import home from "./js/home";
+import trainings from "./js/trainings";
 
 import { map, lerp, getMousePos, calcWinsize, getRandomNumber } from './js/utils';
 
@@ -19,6 +20,7 @@ import { map, lerp, getMousePos, calcWinsize, getRandomNumber } from './js/utils
 
 ScrollOut({
     /* options */
+    once: true,
   });
 
 
@@ -61,6 +63,7 @@ $(window).on('load', function () {
 
   
   home();
+  trainings();
  
 
 	// Background-images

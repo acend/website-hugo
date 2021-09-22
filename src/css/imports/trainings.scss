@@ -1,3 +1,37 @@
+// Filter
+
+.btn-filter {
+  position: relative;
+  padding-left: 1.5rem;
+  background: none;
+  color: var(--primary);
+  
+  &:hover {
+    color: var(--primary);
+  }
+
+  &:not(.btn-reset)::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid;
+    position: absolute;
+    left: 0;
+    top: 9px;
+    
+    @include media-breakpoint-up(lg) {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &.active::before {
+    background-color: var(--primary);
+  }
+}
+
+
 @include media-breakpoint-up(lg) {
   .box-training {
     .box {
