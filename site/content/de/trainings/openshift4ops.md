@@ -4,6 +4,7 @@ description: "OpenShift 4 - Operations Mastery für System Engineers."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 3
+subtitle: "Advanced"
 categories: ["Advanced"]
 duration: "2 Tage"
 abstract: "OpenShift 4 - Operations Mastery für System Engineers."
@@ -128,4 +129,3 @@ testimonials:
       text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
       
 ---
-

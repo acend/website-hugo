@@ -31,6 +31,14 @@
   }
 }
 
+.box-link {
+  transition:  background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  
+  &:hover {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+}
 
 @include media-breakpoint-up(lg) {
   .box-training {
