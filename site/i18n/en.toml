@@ -10,11 +10,20 @@ other = "Training Offer"
 [personen]
 other = "Individuals"
 
+[firmen]
+other = "Companies"
+
+[textTeamsShort]
+other = "Individual company trainings on request."
+
 [textTeams]
 other = "Individual company trainings are possible. Contact us for costs and dates."
 
 [backToTrainings]
-other = "Back to Trainings"
+other = "Back to trainings"
+
+[showAllTrainings]
+other = "Discover all trainings"
 
 [trainingsLink]
 other = "/en/trainings/"

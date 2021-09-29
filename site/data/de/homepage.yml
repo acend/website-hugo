@@ -52,6 +52,44 @@ slideshow:
 trainings:
   title: "Unsere Trainings"
   text: "Unsere Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs. Lass dich von neuen Technologien begeistern – mit Herzblut vermittelt von unseren Trainern."
+  categories:
+    - title: "Kubernetes"
+      text: "Orchestration und Management"
+      trainings:
+        - title: "Container & Kubernetes"
+          slug: "container-kubernetes-basic"
+        - title: "Container & OpenShift"
+          slug: "openshift"
+        - title: "OpenShift 4 Operations"
+          slug: "openshift4ops"
+
+    - title: "Delivery CI/CD"
+      text: "Lorem ipsum dolor sit amet"
+      trainings:
+        - title: "Argo CD"
+          slug: "argo-cd"
+        - title: "Helm"
+          slug: "helm"
+        - title: "Terraform"
+          slug: "terraform"
+        - title: "Argo CD"
+          slug: "argo-cd"
+        - title: "Helm über zwei Zeilen"
+          slug: "helm"
+        - title: "Terraform"
+          slug: "terraform"
+        - title: "Argo CD"
+          slug: "argo-cd"
+        - title: "Helm"
+          slug: "helm"
+
+    - title: "Weitere Trainings"
+      text: ""
+      trainings:
+        - title: "Prometheus"
+          slug: "prometheus"
+        - title: "Cilium"
+          slug: "cilium"
 
 # testimonial
 testimonials:

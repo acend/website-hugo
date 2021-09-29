@@ -55,7 +55,7 @@
 }
 
 .popover-header {
-  padding: 0.5rem 0.75rem;
+  padding: 1rem 1rem 0.5rem;
   margin-bottom: 0;
   font-size: 1rem;
   background-color: transparent;
@@ -64,7 +64,7 @@
 }
 
 .popover-body {
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 1rem;
     color: inherit;
 }
 
@@ -72,21 +72,56 @@
   outline: none; 
 }
 
-.bs-popover-right > .arrow::after, .bs-popover-auto[x-placement^="right"] > .arrow::after {
-    left: -15px;
-    border-width: 1.5rem 1.5rem 1.5rem 0;
+
+
+
+
+.bs-popover-right > .arrow::before, .bs-popover-auto[x-placement^="right"] > .arrow::after {
+    //left: -15px;
+    //border-width: 1.5rem 1.5rem 1.5rem 0;
     border-right-color: #fff;
-    top: 50%;
-    margin-top: -1.5rem;
+    //top: 50%;
+    //margin-top: -1.5rem;
 }
 
-.bs-popover-left > .arrow::after, .bs-popover-auto[x-placement^="left"] > .arrow::after {
-    right: -15px;
-    border-width: 1.5rem 0 1.5rem 1.5rem;
+.bs-popover-left > .arrow::before, .bs-popover-auto[x-placement^="left"] > .arrow::after {
+    //right: -15px;
+    //border-width: 1.5rem 0 1.5rem 1.5rem;
     border-left-color: #fff;
-    top: 50%;
-    margin-top: -1.5rem;
+    //top: 50%;
+    //margin-top: -1.5rem;
 }
+
+.bs-popover-top > .arrow::before, .bs-popover-auto[x-placement^="top"] > .arrow::after {
+    //right: -15px;
+    //border-width: 1.5rem 0 1.5rem 1.5rem;
+    border-top-color: #fff;
+    //top: 50%;
+    //margin-top: -1.5rem;
+}
+
+.memberships {
+  .bs-popover-right > .arrow::after, .bs-popover-auto[x-placement^="right"] > .arrow::after {
+      left: -15px;
+      border-width: 1.5rem 1.5rem 1.5rem 0;
+      top: 50%;
+      margin-top: -1.5rem;
+  }
+
+  .bs-popover-left > .arrow::after, .bs-popover-auto[x-placement^="left"] > .arrow::after {
+      right: -15px;
+      border-width: 1.5rem 0 1.5rem 1.5rem;
+      top: 50%;
+      margin-top: -1.5rem;
+  }
+}
+
+.trainings {
+  .bs-popover-left {
+    margin-right: 1.5rem;
+  }
+}
+
 
 [data-toggle="popover"]:hover {
   cursor: pointer;

@@ -8,13 +8,23 @@ other = "Mehr erfahren"
 other = "Trainingsangebot"
 
 [personen]
-other = "Personen"
+other = "Individuell"
+
+[firmen]
+other = "Firmen"
+
+
+[textTeamsShort]
+other = "Firmen-Trainings auf Anfrage."
 
 [textTeams]
 other = "Individuelle Firmen-Trainings möglich. Preis und Termine nach Absprache."
 
 [backToTrainings]
 other = "zur Trainingsübersicht"
+
+[showAllTrainings]
+other = "Alle Kurse anzeigen"
 
 [trainingsLink]
 other = "/trainings/"

@@ -26,6 +26,12 @@ export default function() {
             //trigger lazy load
           window.dispatchEvent(new Event('resize'));
           $(window).trigger('resize');
+      
+        } else {
+           $('.box-training').addClass('d-block').removeClass('d-none');
+    $('.btn-filter.active').removeClass('active');
+    var noHashURL = window.location.href.replace(/#.*$/, '');
+    window.history.replaceState('', document.title, noHashURL);
       }
    });
    
@@ -42,4 +48,8 @@ export default function() {
   });
 
   }
+
+  //enable SVGs in popuver
+  $('.person-info').popover({sanitize:false});
+  //$('.firmen-info').popover({fallbackPlacements:'top'});
 }

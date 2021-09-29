@@ -31,10 +31,11 @@
     border-color:  var(--primary);
     border-width: 2px;
 
-   &:hover {
+   &:hover,
+   &:active {
     color: #fff   !important;
     background-color: var(--primary)  !important;
-    border-color:  var(--primary);
+    border-color:  var(--primary)   !important;
   }
 }
 
@@ -81,4 +82,25 @@
   .box-training  [aria-expanded="true"] & {
       display: none;
     }
+}
+
+.close {
+  opacity: 1;
+}
+
+.icon-info {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 42px;
+  height: 42px;
+  background: #fff;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid #fff;
+  transform: translate(-50%, -50%);
+
+  @include media-breakpoint-up(lg) {
+    width: 48px;
+    height: 48px;
+  }
 }
