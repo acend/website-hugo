@@ -123,9 +123,9 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unser Trainingsteilnehmer<br/>Nicolas Bonfils, Bern"
-      image : "images/team/Coach@4x.jpg"
-      text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
+     - title : "Das sagt unsere Trainingsteilnehmerin<br/>Roland Egli, Solothurn"
+       logo : "images/testimonials/kt-solothurn.png"
+       text : "Herzlichen Dank für das wunderbare Zertifikat. Das Training war sehr lernreich und der Austausch mit den anderen Trainees empfand ich als sehr wertvoll. Toll organisiert."
       
 ---
 
