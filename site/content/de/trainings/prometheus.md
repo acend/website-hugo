@@ -3,7 +3,7 @@ title: "Prometheus"
 description: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 date: 2019-05-12T12:14:34+06:00
 draft: false
-weight: 1
+weight: 6
 subtitle: "Basics"
 categories: ["Basics", "Delivery CI/CD"]
 duration: "2 Tage"
@@ -11,7 +11,7 @@ abstract: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 main_title: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 
 personen: 
-  daten : "20.09.21, 21.09.21"
+  daten : "19.05.22, 20.05.22"
   preis : "CHF 2200"
 
 headerimages:
