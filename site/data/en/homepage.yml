@@ -80,10 +80,10 @@ testimonials:
        logo : "images/testimonials/10centris.png"
        text : "The training was very helpful and gave me a great insight into the world of Prometheus. Thanks to the hands-on labs, I was able to apply my knowledge right away. The trainers were very competent and helpful, the workshops were technically great." 
        
-     - title : "Here’s what our clients say about our trainings:<br/>Luana  Cusseddu, Bern"
-       image : "images/trainings/ACEND_Jeremy@4x.jpg"
-       text : "A completely new learning experience with great labs and enthusiastic teachers. Already the day after, I could implement what I had learned at my job. It’s five out of five stars from me."
-    
+     - title : "Here’s what our clients say about our trainings:<br/>Roland Egli, Solothurn"
+       logo : "images/testimonials/kt-solothurn.png"
+       text : "Thank you very much for the wonderful certificate. The training was very learning and the exchange with the other trainees I found very valuable. Great organization."
+
 # partner
 partner:
   enable : true
