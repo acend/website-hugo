@@ -117,9 +117,9 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Here’s what our clients say about our trainings:<br/>Curdin Salis Gross, Bern"
-      image : "images/team/Coach@4x.jpg"
-      text : "The trainings are fantastic and practice-oriented. The teachers take time to patiently address individual questions. All in all, only to be recommended!" 
+     - title : "Here’s what our clients say about our trainings:<br/>Roland Egli, Solothurn"
+       logo : "images/testimonials/kt-solothurn.png"
+       text : "Thank you very much for the wonderful certificate. The training was very learning and the exchange with the other trainees I found very valuable. Great organization."
       
 ---
 
