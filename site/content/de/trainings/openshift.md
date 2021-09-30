@@ -29,34 +29,34 @@ accordion:
     item:
         - title : "Trainingsziele"
           icon : "1"
-          content : "
-¬ Den Einstieg in eine moderne Technologie finden<br/>
-¬ Konzepte von Containern und OpenShift verstehen<br/>
-¬ Applikationen auf OpenShift deployen
-"
+          content : "<ul>
+<li>Den Einstieg in eine moderne Technologie finden</li>
+<li>Konzepte von Containern und OpenShift verstehen</li>
+<li>Applikationen auf OpenShift deployen</li>
+</ul>"
  
         - title : "Voraussetzungen"
           icon : "2"
-          content : "
-¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet<br/>
-¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig
-"
+          content : "<ul>
+<li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
+<li>Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig</li>
+</ul>"
 
         - title : "Zielpublikum"
           icon : "3"
-          content : "
-¬ Unser Training richtet sich an Personen aus dem Software und System Engineering<br/>
-¬ Es sind keine Vorkenntnisse mit Container-Technologien oder OpenShift notwendig
-"
+          content : "<ul>
+<li>Unser Training richtet sich an Personen aus dem Software und System Engineering</li>
+<li>Es sind keine Vorkenntnisse mit Container-Technologien oder OpenShift notwendig</li>
+</ul>"
 
         - title : "Konditionen"
           icon : "4"
-          content : "
-¬ CHF 1900 / Person für 2 Tage<br/>
-¬ Gruppen von 8–24 Personen<br/>
-¬ Inklusive Verpflegung, Unterlagen und OpenShift Cluster in der Cloud<br/>
-¬ Rabatt ab 12 Personen
-"
+          content : "<ul>
+<li>CHF 1900 / Person für 2 Tage</li>
+<li>Gruppen von 8–24 Personen</li>
+<li>Inklusive Verpflegung, Unterlagen und OpenShift Cluster in der Cloud</li>
+<li>Rabatt ab 12 Personen</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 

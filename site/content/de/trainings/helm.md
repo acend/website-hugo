@@ -34,34 +34,34 @@ accordion:
     item:
         - title : "Trainingsziele"
           icon : "1"
-          content : "
-¬ Den Einstieg in eine moderne Technologie finden<br/>
-¬ Grundkonzepte von Helm verstehen<br/> 
-¬ Applikationen mittels Helm installieren
-"
+          content : "<ul>
+<li>Den Einstieg in eine moderne Technologie finden</li>
+<li>Grundkonzepte von Helm verstehen</li>
+<li>Applikationen mittels Helm installieren</li>
+</ul>"
  
         - title : "Voraussetzungen"
           icon : "2"
-          content : "
-¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet<br/>
-¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig
-"
+          content : "<ul>
+<li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
+<li>Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig</li>
+</ul>"
 
         - title : "Zielpublikum"
           icon : "3"
-          content : "
-¬ Unser Training richtet sich an Personen, welche bereits Vorkenntnisse im Bereich von Container-Technologien besitzen<br/>
-¬ Ein vorgängiger Besuch des Trainings Container & Kubernetes Basics oder Container & OpenShift Basics wird empfohlen
-"
+          content : "<ul>
+<li>Unser Training richtet sich an Personen, welche bereits Vorkenntnisse im Bereich von Container-Technologien besitzen</li>
+<li>Ein vorgängiger Besuch des Trainings Container & Kubernetes Basics oder Container & OpenShift Basics wird empfohlen</li>
+</ul>"
 
         - title : "Konditionen"
           icon : "4"
-          content : "
-¬ CHF 1000 / Person für einen Tag<br/>
-¬ Gruppen von 8-24 Personen<br/>
-¬ Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud<br/>
-¬ Rabatt ab 12 Personen
-"
+          content : "<ul>
+<li>CHF 1000 / Person für einen Tag</li>
+<li>Gruppen von 8-24 Personen</li>
+<li>Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud</li>
+<li>Rabatt ab 12 Personen</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 

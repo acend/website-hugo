@@ -51,6 +51,7 @@
     border: none;
     border-radius: 0;
     box-shadow: 2px 0 20px rgba(0,0,0,0.3);
+    box-shadow: 2px 0 20px var(--shadowColor);
     color: inherit;
 }
 
@@ -61,11 +62,13 @@
   background-color: transparent;
   border-bottom: none;
   border-radius: 0;
+  min-height: 4px;
 }
 
 .popover-body {
     padding: 0.5rem 1rem;
     color: inherit;
+    min-height: 57px;
 }
 
 :focus:not(:focus-visible) { 
@@ -100,7 +103,8 @@
     //margin-top: -1.5rem;
 }
 
-.memberships {
+.ueber-uns,
+.about {
   .bs-popover-right > .arrow::after, .bs-popover-auto[x-placement^="right"] > .arrow::after {
       left: -15px;
       border-width: 1.5rem 1.5rem 1.5rem 0;

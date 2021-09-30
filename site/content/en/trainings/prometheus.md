@@ -27,33 +27,33 @@ accordion:
     item:
         - title : "Outcomes"
           icon : "1"
-          content : "
-¬ Get started with the modern monitoring platform Prometheus<br/>
-¬ Understand Prometheus concepts<br/>
-¬ Learn more about PromQL and its application scope
-"
+          content : "<ul>
+<li>Get started with the modern monitoring platform Prometheus</li>
+<li>Understand Prometheus concepts</li>
+<li>Learn more about PromQL and its application scope</li>
+</ul>"
  
         - title : "Prerequisites"
           icon : "2"
-          content : "
-¬ Participants will need a laptop with direct access to the Internet<br/>
-¬ Participants should have basic Linux and Kubernetes knowledge
-"
+          content : "<ul>
+<li>Participants will need a laptop with direct access to the Internet</li>
+<li>Participants should have basic Linux and Kubernetes knowledge</li>
+</ul>"
 
         - title : "Target Audience"
           icon : "3"
-          content : "
-¬ Our training is aimed at Software Developers, System Engineers, Architects and anyone who wants to understand and use Prometheus for monitoring
-"
+          content : "<ul>
+<li>Our training is aimed at Software Developers, System Engineers, Architects and anyone who wants to understand and use Prometheus for monitoring</li>
+</ul>"
 
         - title : "Conditions"
           icon : "4"
-          content : "
-¬ CHF 2200 / participant for 2 days<br/>
-¬ Group classes consisting of 8 to 24 participants<br/>
-¬ Includes catering, documentation and a cloud-based lab environment<br/>
-¬ Discounts available for groups of 12 participants or more
-"
+          content : "<ul>
+<li>CHF 2200 / participant for 2 days</li>
+<li>Group classes consisting of 8 to 24 participants</li>
+<li>Includes catering, documentation and a cloud-based lab environment</li>
+<li>Discounts available for groups of 12 participants or more</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 

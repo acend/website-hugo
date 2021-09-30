@@ -37,6 +37,8 @@
   &:hover {
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px var(--shadowColor);
+    
   }
 }
 
@@ -70,6 +72,7 @@
 
    &.is-sticky {
     box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    box-shadow: 0 0 30px var(--shadowColor);
     //z-index: 2;
   }
   @include media-breakpoint-down(sm) {
@@ -80,6 +83,7 @@
         right: 15px;
         z-index: 5;
         box-shadow: 0 0 30px rgba(0,0,0,0.2);
+        box-shadow: 0 0 30px var(--shadowColor);
   // }
   }
 }
@@ -95,4 +99,5 @@
     border-radius: 0;
     outline: none !important;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 30px var(--shadowColor);
 }

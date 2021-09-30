@@ -26,33 +26,36 @@ accordion:
     item:
         - title : "Outcomes"
           icon : "1"
-          content : "
-¬ Get to know OpenShift 4 architecture and components<br/>
-¬ Install your own OpenShift 4 cluster<br/>
-¬ Mastering Day 2 operations tasks without interruption<br/>
-¬ Deepen monitoring and troubleshooting know-how
-"
+          content : "<ul>
+<li>Get to know OpenShift 4 architecture and components</li>
+<li>Install your own OpenShift 4 cluster</li>
+<li>Mastering Day 2 operations tasks without interruption</li>
+<li>Deepen monitoring and troubleshooting know-how</li>
+</ul>"
+
         - title : "Prerequisites"
           icon : "2"
-          content : "
-¬ Participants will need a laptop with direct access to the Internet<br/>
-¬ Additionally, local admin rights or access to a terminal (in the browser) are required<br/>
-¬ Participants should have basic Linux and Kubernetes knowledge
-"
+          content : "<ul>
+<li>Participants will need a laptop with direct access to the Internet</li>
+<li>Additionally, local admin rights or access to a terminal (in the browser) are required</li>
+<li>Participants should have basic Linux and Kubernetes knowledge</li>
+</ul>"
+
         - title : "Target Audience"
           icon : "3"
-          content : "
-¬ Our training is aimed at System Engineers, OpenShift Engineers and others who want to learn about the operational aspects of OpenShift 4<br/>
-¬ Basic knowledge of container technologies as well as OpenShift or Kubernetes is a prerequisite
-"
+          content : "<ul>
+<li>Our training is aimed at System Engineers, OpenShift Engineers and others who want to learn about the operational aspects of OpenShift 4</li>
+<li>Basic knowledge of container technologies as well as OpenShift or Kubernetes is a prerequisite</li>
+</ul>"
+
         - title : "Conditions"
           icon : "4"
-          content : "
-¬ CHF 2200 / participant for 2 days<br/>
-¬ Group classes consisting of 8 to 24 participants<br/>
-¬ Includes catering, documentation and an OpenShift cluster in the cloud<br/>
-¬ Discounts available for groups of 12 participants or more
-"
+          content : "<ul>
+<li>CHF 2200 / participant for 2 days</li>
+<li>Group classes consisting of 8 to 24 participants</li>
+<li>Includes catering, documentation and an OpenShift cluster in the cloud</li>
+<li>Discounts available for groups of 12 participants or more</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 
@@ -122,4 +125,3 @@ testimonials:
       text : "The trainings are fantastic and practice-oriented. The teachers take time to patiently address individual questions. All in all, only to be recommended!" 
       
 ---
-

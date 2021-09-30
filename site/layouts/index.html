@@ -85,19 +85,19 @@
           {{ range .categories }}
           
           <div data-scroll class="row mb-4">
-            <div class="col-lg-2 text-white bg-primary px-3 pt-4 pb-2">
+            <div class="col-lg-3 text-white bg-primary px-4 pt-4 pb-2">
               <h5>{{ .title }}</h5>
               <p class="small">{{ .text }}</p>
             </div>
-            <div class="col-lg-10 bg-primarylight px-4 pt-4 pb-2">
+            <div class="col-lg-9 bg-primarylight px-4 pt-4 pb-2">
               <div class="row">
                 
                 {{ range .trainings }}
                 <div class="col-sm-6 col-lg-4">
-                  <a href="{{ i18n "trainingsLink" }}{{ .slug }}" class="box-link border-top d-flex px-3 py-2 mb-3">
-                    <div class="d-flex">
-                      <svg class="icon img-fluid mr-2" width="64" height="64" version="1.1" viewBox="0 0 32 36" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g transform="translate(-19 -18)" fill="#07475B" fill-rule="nonzero"><g transform="translate(15 16)"><g transform="translate(4.4949 2.5)"><path d="m26.161 15h2.5v15.425h-16.906v-7.3375c0.96135-0.82479 1.6861-1.8904 2.1-3.0875h12.275v-2.5h-11.875c-0.023132-0.85752-0.19879-1.7041-0.51875-2.5h9.8938v-2.5h-11.619c-0.94103-0.89575-2.1111-1.5143-3.3813-1.7875v-8.2125h11.875v5h-8.75v2.5h19.538l-8.2875-10h-16.875v10.625c-2.775 0.38711-5.0642 2.3674-5.8468 5.0578-0.78256 2.6904 0.087329 5.5896 2.2218 7.4047v11.681l4.625-2.8938 4.625 2.8938v-1.875h19.338l0.0375-20.394h-5l0.03125 2.5zm-3.1938-11.119 3 3.6188h-3v-3.6188zm-15.838 9.1688c2.5543 0 4.625 2.0707 4.625 4.625s-2.0707 4.625-4.625 4.625c-2.5543 0-4.625-2.0707-4.625-4.625 0.0034429-2.5529 2.0721-4.6216 4.625-4.625zm-2.125 17.181v-5.7562c1.3836 0.43315 2.8664 0.43315 4.25 0v5.7562l-2.125-1.3438-2.125 1.3438z"/><rect x="20.505" y="22.5" width="5.625" height="2.5"/></g></g></g></g></svg>
-                      <h6>{{ .title }}</h6>
+                  <a href="{{ i18n "trainingsLink" }}{{ .slug }}" class="box-link border-top d-flex pr-3 py-3 mb-3">
+                    <div class="d-flex  align-items-center">
+                      <svg class="icon img-fluid mr-2 ml-1 my-1 flex-shrink-0 icon-diplom" width="40" height="40" version="1.1" viewBox="0 0 32 36" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g transform="translate(-19 -18)" fill="#07475B" fill-rule="nonzero"><g transform="translate(15 16)"><g transform="translate(4.4949 2.5)"><path d="m26.161 15h2.5v15.425h-16.906v-7.3375c0.96135-0.82479 1.6861-1.8904 2.1-3.0875h12.275v-2.5h-11.875c-0.023132-0.85752-0.19879-1.7041-0.51875-2.5h9.8938v-2.5h-11.619c-0.94103-0.89575-2.1111-1.5143-3.3813-1.7875v-8.2125h11.875v5h-8.75v2.5h19.538l-8.2875-10h-16.875v10.625c-2.775 0.38711-5.0642 2.3674-5.8468 5.0578-0.78256 2.6904 0.087329 5.5896 2.2218 7.4047v11.681l4.625-2.8938 4.625 2.8938v-1.875h19.338l0.0375-20.394h-5l0.03125 2.5zm-3.1938-11.119 3 3.6188h-3v-3.6188zm-15.838 9.1688c2.5543 0 4.625 2.0707 4.625 4.625s-2.0707 4.625-4.625 4.625c-2.5543 0-4.625-2.0707-4.625-4.625 0.0034429-2.5529 2.0721-4.6216 4.625-4.625zm-2.125 17.181v-5.7562c1.3836 0.43315 2.8664 0.43315 4.25 0v5.7562l-2.125-1.3438-2.125 1.3438z"/><rect x="20.505" y="22.5" width="5.625" height="2.5"/></g></g></g></g></svg>
+                      <h6 class="mb-0">{{ .title }}</h6>
                   </div>
                   </a>
                 </div>

@@ -26,32 +26,34 @@ accordion:
     item:
         - title : "Outcomes"
           icon : "1"
-          content : "
-¬ Become acquainted with a modern technology<br/>
-¬ Understand the concepts of Containers and OpenShift<br/>
-¬ Deploy applications on OpenShift
-"
+          content : "<ul>
+<li>Become acquainted with a modern technology</li>
+<li>Understand the concepts of Containers and OpenShift</li>
+<li>Deploy applications on OpenShift</li>
+</ul>"
  
         - title : "Prerequisites"
           icon : "2"
-          content : "
-¬ Participants will need a laptop with direct access to the Internet<br/>
-¬ Additionally, local admin rights or access to a terminal (in the browser) are required"
+          content : "<ul>
+<li>Participants will need a laptop with direct access to the Internet</li>
+<li>Additionally, local admin rights or access to a terminal (in the browser) are required</li>
+</ul>"
 
         - title : "Target Audience"
           icon : "3"
-          content : "
-¬ Our training is designed for software and system engineers<br/>
-¬ No prior knowledge of Container technologies or OpenShift is required
-"
+          content : "<ul>
+<li>Our training is designed for software and system engineers</li>
+<li>No prior knowledge of Container technologies or OpenShift is required</li>
+</ul>"
 
         - title : "Conditions"
           icon : "4"
-          content : "
-¬ CHF 1900 / participant for 2 days<br/>
-¬ Group classes consisting of 8 to 24 participants<br/>
-¬ Includes catering, documentation and an OpenShift cluster in the cloud<br/>
-¬ Discounts available for groups of 12 participants or more"
+          content : "<ul>
+<li>CHF 1900 / participant for 2 days</li>
+<li>Group classes consisting of 8 to 24 participants</li>
+<li>Includes catering, documentation and an OpenShift cluster in the cloud</li>
+<li>Discounts available for groups of 12 participants or more</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 
@@ -117,4 +119,3 @@ testimonials:
       text : "Through the training, we were able to deepen the know-how in the area of modern container technology in a practical way with the Openshift platform provided. The very competent trainers were able to reduce the respect for the new container technologies and thus provide the training participants with a very good baseline for the future."
       
 ---
-

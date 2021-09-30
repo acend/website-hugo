@@ -30,33 +30,33 @@ accordion:
     item:
         - title : "Trainingsziele"
           icon : "1"
-          content : "
-¬ Den Einstieg in die moderne Monitoring Plattform Prometheus finden<br/>
-¬ Konzepte von Prometheus verstehen<br/>
-¬ Mehr über PromQL und deren Anwendungsbereiche erfahren
-"
+          content : "<ul>
+<li>Den Einstieg in die moderne Monitoring Plattform Prometheus finden</li>
+<li>Konzepte von Prometheus verstehen</li>
+<li>Mehr über PromQL und deren Anwendungsbereiche erfahren</li>
+</ul>"
  
         - title : "Voraussetzungen"
           icon : "2"
-          content : "
-¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet<br/>
-¬ Die Teilnehmenden sollten über grundlegende Linux und Kubernetes Kenntnisse verfügen
-"
+          content : "<ul>
+<li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
+<li>Die Teilnehmenden sollten über grundlegende Linux und Kubernetes Kenntnisse verfügen</li>
+</ul>"
 
         - title : "Zielpublikum"
           icon : "3"
-          content : "
-¬ Unser Training richtet sich an Software Developers, System Engineers, Architects und alle, die Prometheus verstehen und für das Monitoring einsetzen möchten
-"
+          content : "<ul>
+<li>Unser Training richtet sich an Software Developers, System Engineers, Architects und alle, die Prometheus verstehen und für das Monitoring einsetzen möchten</li>
+</ul>"
 
         - title : "Konditionen"
           icon : "4"
-          content : "
-¬ CHF 2200 / Person für 2 Tage<br/>
-¬ Gruppen von 8–24 Personen<br/>
-¬ Inklusive Verpflegung, Unterlagen und cloud-basierter Lab-Umgebung<br/>
-¬ Rabatt ab 12 Personen
-"
+          content : "<ul>
+<li>CHF 2200 / Person für 2 Tage</li>
+<li>Gruppen von 8–24 Personen</li>
+<li>Inklusive Verpflegung, Unterlagen und cloud-basierter Lab-Umgebung</li>
+<li>Rabatt ab 12 Personen</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 

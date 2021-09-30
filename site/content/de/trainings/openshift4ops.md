@@ -30,36 +30,36 @@ accordion:
     item:
         - title : "Trainingsziele"
           icon : "1"
-          content : "
-¬ OpenShift 4 Architektur und Komponenten kennenlernen<br/>
-¬ Den eigenen OpenShift 4 Cluster installieren<br/>
-¬ Unterbruchsfreie Day 2-Operations Tasks meistern<br/>
-¬ Monitoring und Troubleshooting Know-how vertiefen
-"
+          content : "<ul>
+<li>OpenShift 4 Architektur und Komponenten kennenlernen</li>
+<li>Den eigenen OpenShift 4 Cluster installieren</li>
+<li>Unterbruchsfreie Day 2-Operations Tasks meistern</li>
+<li>Monitoring und Troubleshooting Know-how vertiefen</li>
+</ul>"
  
         - title : "Voraussetzungen"
           icon : "2"
-          content : "
-¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet<br/>
-¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig<br/>
-¬ Die Teilnehmenden sollten über grundlegende Linux und Kubernetes Kenntnisse verfügen
-"
+          content : "<ul>
+<li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
+<li>Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig</li>
+<li>Die Teilnehmenden sollten über grundlegende Linux und Kubernetes Kenntnisse verfügen</li>
+</ul>"
 
         - title : "Zielpublikum"
           icon : "3"
-          content : "
-¬ Unser Training richtet sich an System Engineers, OpenShift Engineers und weitere, die die Betriebsaspekte von OpenShift 4 kennenlernen wollen<br/>
-¬ Grundkenntnisse mit Container-Technologien sowie OpenShift oder Kubernetes werden vorausgesetzt
-"
+          content : "<ul>
+<li>Unser Training richtet sich an System Engineers, OpenShift Engineers und weitere, die die Betriebsaspekte von OpenShift 4 kennenlernen wollen</li>
+<li>Grundkenntnisse mit Container-Technologien sowie OpenShift oder Kubernetes werden vorausgesetzt</li>
+</ul>"
 
         - title : "Konditionen"
           icon : "4"
-          content : "
-¬ CHF 2200 / Person für 2 Tage<br/>
-¬ Gruppen von 8–24 Personen<br/>
-¬ Inklusive Verpflegung, Unterlagen und einem cloud-basierten OpenShift Cluster pro Teilnehmer<br/>
-¬ Rabatt ab 12 Personen
-"
+          content : "<ul>
+<li>CHF 2200 / Person für 2 Tage</li>
+<li>Gruppen von 8–24 Personen</li>
+<li>Inklusive Verpflegung, Unterlagen und einem cloud-basierten OpenShift Cluster pro Teilnehmer</li>
+<li>Rabatt ab 12 Personen</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 

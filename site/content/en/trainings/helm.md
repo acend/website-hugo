@@ -28,34 +28,34 @@ accordion:
     item:
         - title : "Outcomes"
           icon : "1"
-          content : "
-¬ Become acquainted with a modern technology<br/>
-¬ Understand the basic concepts of Helm<br/> 
-¬ Install applications with Helm
-"
+          content : "<ul>
+<li>Become acquainted with a modern technology</li>
+<li>Understand the basic concepts of Helm<br/> </li>
+<li>Install applications with Helm</li>
+</ul>"
  
         - title : "Prerequisites"
           icon : "2"
-          content : "
-¬ Participants will need a laptop with direct access to the Internet<br/>
-¬ Additionally, local admin rights or access to a terminal (in the browser) are required
-"
+          content : "<ul>
+<li>Participants will need a laptop with direct access to the Internet</li>
+<li>Additionally, local admin rights or access to a terminal (in the browser) are required</li>
+</ul>"
 
         - title : "Target Audience"
           icon : "3"
-          content : "
-¬ Our training is designed for people who already have prior knowledge of container technologies<br/>
-¬ We recommend attending the Container & Kubernetes Basics or Container & OpenShift Basics training before registering for this course
-"
+          content : "<ul>
+<li>Our training is designed for people who already have prior knowledge of container technologies</li>
+<li>We recommend attending the Container & Kubernetes Basics or Container & OpenShift Basics training before registering for this course</li>
+</ul>"
 
         - title : "Conditions"
           icon : "4"
-          content : "
-¬ CHF 1000 / participant for one day<br/>
-¬ Group sessions consisting of 8 to 24 participants<br/>
-¬ Includes catering, documentation and a Kubernetes cluster in the cloud<br/>
-¬ Discounts available for groups of 12 participants or more
-"
+          content : "<ul>
+<li>CHF 1000 / participant for one day</li>
+<li>Group sessions consisting of 8 to 24 participants</li>
+<li>Includes catering, documentation and a Kubernetes cluster in the cloud</li>
+<li>Discounts available for groups of 12 participants or more</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 

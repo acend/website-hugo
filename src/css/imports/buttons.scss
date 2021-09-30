@@ -45,8 +45,8 @@
   height: 24px;
   
   .box-anmelden & {
-      width: 20px;
-      height: 20px;
+      width: 22px;
+      height: 22px;
   }
 
   position: relative;
@@ -59,6 +59,7 @@
     top: 0;
     left: 50%;
     position: absolute;
+    transform: translateX(-50%);
 
     [aria-expanded="true"] & {
       height: 0;
@@ -73,6 +74,7 @@
     top: 50%;
     left: 0;
     position: absolute;
+    transform: translateY(-50%);
   }
 
   .box-anmelden  [aria-expanded="true"] & {
