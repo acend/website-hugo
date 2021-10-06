@@ -26,7 +26,7 @@
 
             <div class="h4">{{ i18n "trainingsangebot" }}</div>
             <h3 class="lead-big mb-0">{{.Params.title }}</h3>
-            {{ if .Params.categories}} <div class="category mb-3 mb-lg-4">{{ delimit .Params.categories ", " | humanize }}</div> {{ end }}
+            {{ if .Params.subtitle}} <div class="category mb-3 mb-lg-4">{{  .Params.subtitle  | humanize }}</div> {{ end }}
         </div>
       </div>
     </div>
