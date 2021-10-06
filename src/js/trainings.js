@@ -8,7 +8,7 @@ export default function() {
       if(!$(this).hasClass('active')){
            $(this).toggleClass('active').siblings().removeClass('active');
             var selected = $('.btn-filter.active').attr('data-filter');
-          console.log(selected)
+            //console.log(selected);
             $('.box-training:not(.'+selected+')').removeClass('d-block').addClass('d-none');
             
             $('.box-training.'+selected+'').addClass('d-block').removeClass('d-none'); //.stop().fadeIn();
@@ -29,9 +29,9 @@ export default function() {
       
         } else {
            $('.box-training').addClass('d-block').removeClass('d-none');
-    $('.btn-filter.active').removeClass('active');
-    var noHashURL = window.location.href.replace(/#.*$/, '');
-    window.history.replaceState('', document.title, noHashURL);
+            $('.btn-filter.active').removeClass('active');
+            var noHashURL = window.location.href.replace(/#.*$/, '');
+            window.history.replaceState('', document.title, noHashURL);
       }
    });
    
@@ -39,14 +39,14 @@ export default function() {
    if(location.hash) {
     $('.btn-filter[data-filter="'+location.hash.split('#')[1]+'"]').trigger('click');
    }
-
+/*
    $('.btn-reset').click(function() {
     $('.box-training').addClass('d-block').removeClass('d-none');
     $('.btn-filter.active').removeClass('active');
     var noHashURL = window.location.href.replace(/#.*$/, '');
     window.history.replaceState('', document.title, noHashURL);
   });
-
+*/
   }
 
   //enable SVGs in popuver

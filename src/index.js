@@ -166,7 +166,7 @@ els.forEach(item => move(item));
 
 $( 'form' ).submit(function ( e ) {
 
-  const $form = $(this)
+  const $form = $(this);
   const formdata = $form.serializeArray();
 
   $.ajax({

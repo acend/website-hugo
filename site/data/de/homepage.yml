@@ -120,6 +120,10 @@ testimonials:
       image: "images/trainings/ACEND_Jeremy@4x.jpg"
       text: "Eine total neue Lernerfahrung mit tollen Labs und begeisterten Trainern. Das erworbene Wissen konnte ich schon am nächsten Tag in meinem Unternehmen einsetzen. Von mir gibt's 5 von 5 Sternen."
 
+    - title: "Das sagt unsere Trainingsteilnehmer<br/>Roland Egli, Solothurn"
+      logo: "images/testimonials/kt-solothurn.png"
+      text: "Herzlichen Dank für das wunderbare Zertifikat. Das Training war sehr lernreich und der Austausch mit den anderen Trainees empfand ich als sehr wertvoll. Toll organisiert."
+
 # partner
 partner:
   enable: true
