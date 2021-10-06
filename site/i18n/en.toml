@@ -99,3 +99,13 @@ other= "I have read and accept the <a href=\"/en/privacy\" target=\"_blank\" rel
 
 [send]
 other = "Send"
+
+
+#––––––––––––––––
+# Page 404
+
+[title404]
+other = "This page does not exist."
+
+[text404]
+other = "Continue to home page"

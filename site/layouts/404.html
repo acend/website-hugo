@@ -1,6 +1,10 @@
 {{ define "main" }}
-
-<h1>Not found</h1>
-<h3><a href="{{ "/" | relURL }}">Go Home</a></h3>
-
+<div class="container">
+  <div class="row my-5">
+    <div class="col-lg-9 offset-lg-1">
+      <h1>{{ i18n "title404" }}</h1>
+      <p><a class="link-border" href="{{ "/" | relURL }}">{{ i18n "text404" }}</a></p>
+    </div>
+  </div>
+</div>
 {{ end }}

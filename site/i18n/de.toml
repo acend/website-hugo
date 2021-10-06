@@ -100,3 +100,13 @@ other= "Ich habe die <a href=\"/datenschutz\" target=\"_blank\" rel=\"noopener\"
 
 [send]
 other = "Senden"
+
+
+#––––––––––––––––
+# Page 404
+
+[title404]
+other = "Diese Seite haben wir leider nicht gefunden."
+
+[text404]
+other = "Weiter zur Startseite"
