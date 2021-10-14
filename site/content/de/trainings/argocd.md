@@ -14,7 +14,7 @@ personen:
   preis : "CHF 1100"
 
 headerimages:
-  img1 : "images/trainings/ACEND_Adventure_TopofHill@2x.jpg"
+  img1 : "images/trainings/ACEND_Adventure_TopHill@2x.jpg"
   img2 : "images/trainings/ACEND_Poi@2x.jpg"
   img3 : "images/trainings/ACEND_CodeP@2x.jpg"
   
@@ -62,18 +62,8 @@ trainingsinhalt:
     text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln. 
 
 Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
-    liste1:
-      title: "Container Basics"
-      liste:
-        - el: "Grundkonzepte"
-        - el: "Installation von Docker"
-        - el: "Images und Bauen von Images"
-        - el: "Image Registries"
-        - el: "Konfiguration von Containern"
-        - el: "Troubleshooting"
-        - el: "Best Practices"
 
-    liste2:
+    liste1:
       title: "Argo CD"
       liste:
         - el: "Grundkonzepte"
