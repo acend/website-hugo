@@ -1,11 +1,11 @@
 ---
 title: "Serverless"
 description: "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS."
-date: 2019-05-12T12:14:34+06:00
+date: 2021-11-12T12:14:34+06:00
 draft: false
-weight: 5
+weight: 1
 slug: 
-categories: ["Beyond"]
+categories: ["Basics"]
 duration: "1 Tag"
 abstract : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS."
 main_title : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS."
@@ -15,9 +15,9 @@ personen:
   preis : "CHF 1100"
 
 headerimages:
-  img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
-  img2 : "images/trainings/ACEND_Aschi@2x.jpg"
-  img3 : "images/trainings/ACEND_CodeR@2x.jpg"
+  img1 : "images/trainings/ACEND_Adventure_Dunes@2x.jpg"
+  img2 : "images/trainings/ACEND_Aschii@2x.jpg"
+  img3 : "images/trainings/ACEND_CodeE@2x.jpg"
       
 
 main_text: "
@@ -46,7 +46,7 @@ accordion:
           icon : "3"
           content : "
 ¬ Unser Training richtet sich sich vor allem an Entwickler:innen, welche diese neue Welt und ihre Vor- und Nachteile kennenlernen möchten<br/>
-¬ Die Teilnehmenden sollten Erfahrung mit einer gängigen Programmiersprache haben (ist jedoch keine strikte Voraussetzung)
+¬ Die Teilnehmenden sollten Erfahrung mit einer gängigen Programmiersprache haben, ist jedoch keine strikte Voraussetzung
 "
 
         - title : "Konditionen"

@@ -1,6 +1,6 @@
 ---
 title: "Helm"
-description: "Ein praktischer Einstieg in den bekanntesten Paketmanager HELM für Applikationen auf Kubernetes."
+description: "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 5
