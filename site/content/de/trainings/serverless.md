@@ -15,9 +15,9 @@ personen:
   preis : "CHF 1100"
 
 headerimages:
-  img1 : "images/trainings/ACEND_Adventure_Dunes@2x.jpg"
-  img2 : "images/trainings/ACEND_Aschii@2x.jpg"
-  img3 : "images/trainings/ACEND_CodeE@2x.jpg"
+  img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
+  img2 : "images/trainings/ACEND_Aschi@2x.jpg"
+  img3 : "images/trainings/ACEND_CodeDe@2x.jpg"
       
 
 main_text: "
@@ -84,16 +84,14 @@ trainers:
   title : "Lerne zwei deiner Trainer:innen kennen"
   trainer:
     - title : "Gabriel Koch"
-      image : "images/team/AC_Benji@2x.jpg"
-      designation : "Trainer"
+      designation : "Trainer, bespinian"
       abstract : "Obwohl er Vegetarier ist, haben seine Erklärungen zu Cloud Technologien viel Fleisch am Knochen."
       linkedin : "https://www.linkedin.com/in/gabriel-koch-ch"
       twitter : "https://twitter.com/elessar_ch"
     
     
     - title : "Lena Fuhrimann"
-      image : "images/team/AC_Daenu@2x.jpg"
-      designation : "Trainerin"
+      designation : "Trainerin, bespinian"
       abstract : "Den Kopf immer in den Wolken, man beachte nur ihre Haare. Lena liebt es, Software zu modernisieren und mit neuen Technologien zu arbeiten. Sie benutzt übrigens Arch."
       linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
       twitter : "https://twitter.com/mastertinner"
