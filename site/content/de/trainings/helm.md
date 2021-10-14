@@ -76,17 +76,15 @@ trainingsinhalt:
       liste:
         - el: "Grundkonzepte"
         - el: "Basisbefehle"
-        - el: "Tiller"
-        - el: "Helm 3"
-        - el: "Helm Alternativen"
         - el: "Installation"
         - el: "Charts"
         - el: "Repositories"
-        - el: "Variablen und Secrets"
+        - el: "Lifecycle"
+        - el: "Variablen"
+        - el: "Helm Hooks"
+        - el: "Charttests"
         - el: "Debugging"
         - el: "Go Templating"
-
-
 
 # trainer
 trainers:
