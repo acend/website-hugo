@@ -6,7 +6,7 @@ draft: false
 weight: 5
 slug: 
 subtitle: "Basics"
-categories: ["Basics"]
+categories: ["Basics", "Delivery CI/CD"]
 duration: "1 Tag"
 abstract : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
 main_title : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
