@@ -64,7 +64,7 @@ trainings:
           slug: "openshift4ops"
 
     - title: "Delivery CI/CD"
-      text: "Lorem ipsum dolor sit amet"
+      text: "App Definition and Development"
       trainings:
         - title: "Argo CD"
           slug: "argo-cd"
@@ -72,24 +72,13 @@ trainings:
           slug: "helm"
         - title: "Terraform"
           slug: "terraform"
-        - title: "Argo CD"
-          slug: "argo-cd"
-        - title: "Helm über zwei Zeilen"
-          slug: "helm"
-        - title: "Terraform"
-          slug: "terraform"
-        - title: "Argo CD"
-          slug: "argo-cd"
-        - title: "Helm"
-          slug: "helm"
 
-    - title: "Weitere Trainings"
-      text: ""
+    - title: "Spezialisierte Trainings"
+      text: "Spannende Technologien aus der CNCF Landscape"
       trainings:
         - title: "Prometheus"
           slug: "prometheus"
-        - title: "Cilium"
-          slug: "cilium"
+
 
 # testimonial
 testimonials:
@@ -139,7 +128,7 @@ partner:
       URL: "https://www.appuio.ch"
       label: "appuio.ch"
 
-    - logo: "images/partner/puzzle_logo@2x.png"
-      text: "Puzzle ITC deckt als innovativer IT-Dienstleister den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei wird konsequent auf Open Source Technologien sowie modernste Methoden gesetzt. Verschiedene interdisziplinäre Teams arbeitet an Projekten in den Bereichen Beratung, Applikationen, Delivery, Infrastruktur und eigenen Open Source Lösungen."
-      URL: "https://puzzle.ch"
-      label: "puzzle.ch"
+    - logo: "images/partner/kubernetes_logo@2x.png"
+      text: "KCSP ist eine Initiative von der "Cloud Native Computing Foundation". Wir sind Teil davon weil wir an die Foundation glauben und diese in jeder Form unterstützen. Sie fördert die OpenSource und Cloud Native Welt und fördert die Community Rund um diese Technologien."
+      URL: "https://www.cncf.io"
+      label: "cncf.io"
