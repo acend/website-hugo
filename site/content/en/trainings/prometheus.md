@@ -10,7 +10,7 @@ abstract: "Prometheus – Introduction to the modern monitoring platform."
 main_title: "Prometheus – Introduction to the modern monitoring platform."
 
 personen: 
-  daten : "19.05.22, 20.05.22"
+  daten : ""
   preis : "CHF 2200"
 
 headerimages:
