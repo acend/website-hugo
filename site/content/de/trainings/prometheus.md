@@ -11,7 +11,7 @@ abstract: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 main_title: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 
 personen: 
-  daten : "19.05.22, 20.05.22"
+  daten : ""
   preis : "CHF 2200"
 
 headerimages:
