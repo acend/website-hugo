@@ -6,7 +6,7 @@ draft: false
 weight: 5
 slug: 
 thumbnail: "images/trainings/ACEND_Adyna@2x.jpg"
-categories: ["Basics"]
+categories: ["Basics", "Delivery CI/CD"]
 duration: "1 Day"
 abstract : "A practical introduction to the best-known Package Manager for applications on Kubernetes."
 main_title : "A practical introduction to the best-known Package Manager for applications on Kubernetes."
