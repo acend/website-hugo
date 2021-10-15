@@ -5,7 +5,7 @@ date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 6
 subtitle: "Basics"
-categories: ["Basics", "Delivery CI/CD"]
+categories: ["Basics", "Spezialisierte Trainings"]
 duration: "2 Tage"
 abstract: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 main_title: "Prometheus – Einstieg in die moderne Monitoring Plattform."
