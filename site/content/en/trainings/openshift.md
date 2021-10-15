@@ -4,7 +4,7 @@ description: "Container and OpenShift – from theory to practice in no time."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 2
-categories: ["Basics"]
+categories: ["Basics", "Kubernetes"]
 duration: "2 Days"
 abstract: "Container and OpenShift – from theory to practice in no time."
 main_title: "Container and OpenShift – from theory to practice in no time."
