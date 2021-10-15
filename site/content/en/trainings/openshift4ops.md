@@ -4,7 +4,7 @@ description: "OpenShift 4 - Operations Mastery for System Engineers."
 date: 2019-06-12T12:14:34+06:00
 draft: false
 weight: 3
-categories: ["Advanced"]
+categories: ["Advanced", "Kubernetes"]
 duration: "2 Days"
 abstract: "OpenShift 4 - Operations Mastery for System Engineers."
 main_title: "OpenShift 4 - Operations Mastery for System Engineers."
