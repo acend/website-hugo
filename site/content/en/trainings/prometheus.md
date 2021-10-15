@@ -4,7 +4,7 @@ description: "Prometheus – Introduction to the modern monitoring platform."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 6
-categories: ["Basics"]
+categories: ["Basics", "Specialized trainings"]
 duration: "2 Days"
 abstract: "Prometheus – Introduction to the modern monitoring platform."
 main_title: "Prometheus – Introduction to the modern monitoring platform."
