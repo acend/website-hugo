@@ -129,6 +129,6 @@ partner:
       label: "appuio.ch"
 
     - logo: "images/partner/kubernetes_logo@2x.png"
-      text: "KCSP ist eine Initiative von der "Cloud Native Computing Foundation". Wir sind Teil davon weil wir an die Foundation glauben und diese in jeder Form unterstützen. Sie fördert die OpenSource und Cloud Native Welt und fördert die Community Rund um diese Technologien."
+      text: "KCSP ist eine Initiative von der "Cloud Native Computing Foundation". Die CNCF dient als herstellerneutrale Heimat für viele der am schnellsten wachsenden Open-Source-Projekte, darunter Kubernetes, Prometheus und Envoy. Sie fördert die OpenSource und Cloud Native Welt und unterstützt die Community Rund um diese Technologien."
       URL: "https://www.cncf.io"
       label: "cncf.io"
