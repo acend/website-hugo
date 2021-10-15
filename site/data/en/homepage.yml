@@ -64,7 +64,7 @@ trainings:
           slug: "openshift4ops"
 
     - title: "Delivery CI/CD"
-      text: "Lorem ipsum dolor sit amet"
+      text: "App Definition and Development"
       trainings:
         - title: "Argo CD"
           slug: "argo-cd"
@@ -72,24 +72,12 @@ trainings:
           slug: "helm"
         - title: "Terraform"
           slug: "terraform"
-        - title: "Argo CD"
-          slug: "argo-cd"
-        - title: "Helm über zwei Zeilen"
-          slug: "helm"
-        - title: "Terraform"
-          slug: "terraform"
-        - title: "Argo CD"
-          slug: "argo-cd"
-        - title: "Helm"
-          slug: "helm"
 
     - title: "Weitere Trainings"
-      text: ""
+      text: "Exciting technologies from the CNCF Landscape"
       trainings:
         - title: "Prometheus"
           slug: "prometheus"
-        - title: "Cilium"
-          slug: "cilium"
 
 # testimonial
 testimonials:
@@ -134,3 +122,8 @@ partner:
       text: "APPUiO is the leading Kubernetes-based Container Platform for the design, development and operation of applications. Based on reliable Open Source concepts, such as Docker and Kubernetes, APPUiO supports the DevOps approach. Development, deployment and operation processes are accelerated through automation and self-service. The cooperation between software developers and business organization is also improved."
       URL: "https://www.appuio.ch"
       label: "appuio.ch"
+
+    - logo: "images/partner/kubernetes_logo@2x.png"
+      text: "KCSP is an initiative from the Cloud Native Computing Foundation. The CNCF serves as a vendor-neutral home for many of the fastest growing open source projects, including Kubernetes, Prometheus, and Envoy. It promotes the open source and cloud native world and supports the community around these technologies."
+      URL: "https://www.cncf.io"
+      label: "cncf.io"
