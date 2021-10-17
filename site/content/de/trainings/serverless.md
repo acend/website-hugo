@@ -5,7 +5,11 @@ date: 2021-11-12T12:14:34+06:00
 draft: false
 weight: 1
 slug: 
+<<<<<<< HEAD
 
+=======
+subtitle: "Basics & Advanced"
+>>>>>>> neue trainings argocd + serverless UND bilder
 categories: ["Basics", "Spezialisierte Trainings"]
 
 duration: "1 Tag"
@@ -104,7 +108,6 @@ testimonials:
   enable: true
   testimonial:
     - title : "Das sagt unser Trainingsteilnehmer<br/>Matthias Summer, Österreich"
-      image : "images/trainings/ACEND_Jeremy@4x.jpg"
       logo : "images/testimonials/adcubum_logo.png"
       text : "Das Training hat mir sehr gut gefallen und ich konnte einige Dinge mitnehmen, die mir bei der täglichen Arbeit helfen. Die Praxis-Erfahrung und die Leidenschaft für die Technologie war bei den Trainern spürbar. Sie haben uns auch sehr gut unterstützt und uns nützliche Tipps gegeben."     
       
