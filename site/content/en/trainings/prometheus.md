@@ -108,6 +108,9 @@ trainers:
       twitter : "https://twitter.com/tphilipona"
       
 # testimonials
+testimonials:
+  enable: true
+  testimonial:
     - title : "Das sagt unser Trainingsteilnehmer<br/>Michael Rudiger, Solothurn"
       image : "images/trainings/ACEND_Jeremy@4x.jpg"
       logo : "images/testimonials/10centris.png"

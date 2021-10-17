@@ -5,7 +5,9 @@ date: 2021-11-12T12:14:34+06:00
 draft: false
 weight: 1
 slug: 
+
 categories: ["Basics", "Spezialisierte Trainings"]
+
 duration: "1 Tag"
 abstract : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS."
 main_title : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS."
