@@ -67,7 +67,7 @@ trainings:
       text: "App Definition and Development"
       trainings:
         - title: "Argo CD"
-          slug: "argo-cd"
+          slug: "argocd"
         - title: "Helm"
           slug: "helm"
         - title: "Terraform"
