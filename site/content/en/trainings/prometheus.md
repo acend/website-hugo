@@ -19,7 +19,8 @@ headerimages:
   img3 : "images/trainings/ACEND_Code@2x.jpg"
   
 
-main_text: "Prometheus is a modern and widely used metrics-based monitoring system. Prometheus is often used in the context of dynamic platforms in the container environment, such as Kubernetes and OpenShift, but is also suitable for monitoring classic environments. This two-day training in German or English offers a practical and clearly understandable introduction to Prometheus technology. The training is offered by acend in cooperation with Puzzle ITC. It can be conducted online or on-site."
+main_text: "Prometheus is a modern and widely used metrics-based monitoring system. Prometheus is often used in the context of dynamic platforms in the container environment, such as Kubernetes and OpenShift, but is also suitable for monitoring classic environments.\n\n 
+This two-day training in German or English offers a practical and clearly understandable introduction to Prometheus technology. The training is offered by acend in cooperation with Puzzle ITC. It can be conducted online or on-site."
 
 
 accordion:
@@ -83,7 +84,7 @@ trainers:
     - title : "Christoph Aymon"
       designation : "Trainer"
       abstract : "When he’s not concentrated on a computer screen, you’re most likely to find him in a fast car – he only does extra laps on the Nürburgring."
-      linkedin : "https://www.linkedin.com/in/christoph-aymon-b5948a122/"
+      linkedin : "https://www.linkedin.com/in/christoph-aymon"
 
     - title : "Julius Volz"
       designation : "Trainer, PromLabs"
@@ -100,12 +101,7 @@ trainers:
       designation : "Trainer, Puzzle ITC"
       abstract : "True to the motto, what doesn't fit is made to fit, as an engineer he solves all challenges in no time at all."
       twitter : "https://twitter.com/reti_k"
-      
-    - title : "Thomas Philipona"
-      designation : "Trainer"
-      abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
-      twitter : "https://twitter.com/tphilipona"
+
       
 # testimonials
 testimonials:

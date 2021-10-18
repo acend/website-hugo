@@ -5,7 +5,7 @@ date: 2021-10-12T12:14:34+06:00
 draft: false
 weight: 1
 slug: 
-subtitle: "Basics"
+#subtitle: "Basics"
 categories: ["Basics", "Specialized trainings"]
 
 duration: "1 Day"

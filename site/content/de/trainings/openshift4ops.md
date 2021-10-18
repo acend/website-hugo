@@ -4,7 +4,7 @@ description: "OpenShift 4 - Operations Mastery für System Engineers."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 3
-subtitle: "Advanced"
+#subtitle: "Advanced"
 categories: ["Advanced", "Kubernetes"]
 duration: "2 Tage"
 abstract: "OpenShift 4 - Operations Mastery für System Engineers."
@@ -21,9 +21,9 @@ headerimages:
   
 
 main_text: "
-Mit OpenShift 4 verspricht Red Hat eine Kubernetes-Lösung, die mit «automated operations» und weiteren Vorzügen für Betrieb und Entwicklung auftrumpft. Dieses zweitägige Training auf Deutsch oder Englisch bietet eine praktische und klar verständliche Übersicht über die Herausforderungen im Day 2 Betrieb. Unsere Trainer kommen aus der Praxis und sind erfahrene OpenShift Engineers.
-<br/>
-Die Durchführung findet online oder vor Ort statt."
+Mit OpenShift 4 verspricht Red Hat eine Kubernetes-Lösung, die mit «automated operations» und weiteren Vorzügen für Betrieb und Entwicklung auftrumpft.\n\n 
+Dieses zweitägige Training auf Deutsch oder Englisch bietet eine praktische und klar verständliche Übersicht über die Herausforderungen im Day 2 Betrieb. Unsere Trainer kommen aus der Praxis und sind erfahrene OpenShift Engineers.
+"
 
 accordion:
     enable : true

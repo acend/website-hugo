@@ -5,7 +5,7 @@ date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 5
 slug: 
-subtitle: "Basics"
+#subtitle: "Basics"
 categories: ["Basics", "Delivery CI/CD"]
 duration: "1 Tag"
 abstract : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
@@ -23,11 +23,9 @@ headerimages:
 
 main_text: "Dieses halbtägige Training auf Deutsch oder Englisch bietet einen praktischen und klar 
 verständlichen Einstieg zu Helm, dem bekanntesten Paketmanager für Applikationen auf 
-Kubernetes. 
-
-Mittels Helm können auch komplexe Applikationen auf Container Plattformen definiert, 
-installiert, verwaltet und betrieben werden. Unsere Trainer kommen aus der Praxis und 
-sind zertifizierte Kubernetes Administratoren."
+Kubernetes. Mittels Helm können auch komplexe Applikationen auf Container Plattformen definiert, 
+installiert, verwaltet und betrieben werden.\n\n 
+Unsere Trainer kommen aus der Praxis und sind zertifizierte Kubernetes Administratoren."
 
 accordion:
     enable : true

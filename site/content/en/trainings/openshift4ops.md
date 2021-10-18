@@ -19,7 +19,8 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeD@2x.jpg"
 
 main_text: "
-With OpenShift 4, Red Hat promises a Kubernetes solution that boasts «automated operations» and other benefits for operations and development. This two-day training in German or English provides a practical and clearly understandable overview of the challenges in Day 2 operations. Our trainers come from the field and are experienced OpenShift Engineers. Delivery takes place online or on-site."
+With OpenShift 4, Red Hat promises a Kubernetes solution that boasts «automated operations» and other benefits for operations and development.\n\n 
+This two-day training in German or English provides a practical and clearly understandable overview of the challenges in Day 2 operations. Our trainers come from the field and are experienced OpenShift Engineers. Delivery takes place online or on-site."
 
 accordion:
     enable : true

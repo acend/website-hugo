@@ -15,7 +15,7 @@ slideshow:
     - ubertitle: "Training Offer"
       title: "Container & Kubernetes"
       subtitle: "Basics"
-      URL: "/en/trainings/container-kubernetes-basic/"
+      URL: "/en/trainings/kubernetes/"
       label: "Discover"
       img1: "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
       img2: "images/trainings/ACEND_Jeremy@2x.jpg"
@@ -54,17 +54,17 @@ trainings:
   text: "Our trainings combine theory with practice-oriented hands-on labs. Get inspired by new technologies – taught by our dedicated trainers."
   categories:
     - title: "Kubernetes"
-      text: "Orchestration und Management"
+      text: "Orchestration and management"
       trainings:
         - title: "Container & Kubernetes"
-          slug: "container-kubernetes-basic"
+          slug: "kubernetes"
         - title: "Container & OpenShift"
           slug: "openshift"
         - title: "OpenShift 4 Operations"
           slug: "openshift4ops"
 
     - title: "Delivery CI/CD"
-      text: "App Definition and Development"
+      text: "App definition and development"
       trainings:
         - title: "Argo CD"
           slug: "argocd"
@@ -73,11 +73,13 @@ trainings:
         - title: "Terraform"
           slug: "terraform"
 
-    - title: "Weitere Trainings"
+    - title: "Specialized trainings"
       text: "Exciting technologies from the CNCF Landscape"
       trainings:
         - title: "Prometheus"
           slug: "prometheus"
+        - title: "Serverless"
+          slug: "serverless"          
 
 # testimonial
 testimonials:
@@ -85,27 +87,22 @@ testimonials:
   title: "Testimonials"
   testimonial:
     - title: "Here’s what our clients say about our trainings:<br/>Matthias Summer, Austria"
-      image: "images/trainings/ACEND_Jeremy@4x.jpg"
       logo: "images/testimonials/adcubum_logo.png"
       text: "I really enjoyed the training, and I learned several things that helped me with my daily tasks. You could tell that the trainers had a lot of practical experience with and passion for the technology. They also supported us well and gave us useful advice."
 
     - title: "Here’s what our clients say about our trainings:<br/>Corsin Decurtins, Zurich"
-      image: "images/trainings/ACEND_Jeremy@4x.jpg"
       logo: "images/testimonials/netceterea_logo.png"
       text: "Over the course of a number of sessions, our developers all over Europe were able to build up their know-how in Kubernetes. This also helps us to deliver innovative software solutions to our clients in the future. Simply great trainings and fantastic trainers."
 
     - title: "Here’s what our clients say about our trainings:<br/>Thomas Abbrederis, Vaduz"
-      image: "images/trainings/ACEND_Jeremy@4x.jpg"
       logo: "images/testimonials/lgt_logo.png"
       text: "Through the training, we were able to deepen the know-how in the area of modern container technology in a practical way with the Openshift platform provided. The very competent trainers were able to reduce the respect for the new container technologies and thus provide the training participants with a very good baseline for the future."
 
     - title: "Here’s what our clients say about our trainings:<br/>Michael Rudiger, Solothurn"
-      image: "images/trainings/ACEND_Jeremy@4x.jpg"
       logo: "images/testimonials/10centris.png"
       text: "The training was very helpful and gave me a great insight into the world of Prometheus. Thanks to the hands-on labs, I was able to apply my knowledge right away. The trainers were very competent and helpful, the workshops were technically great."
 
     - title: "Here’s what our clients say about our trainings:<br/>Luana  Cusseddu, Bern"
-      image: "images/trainings/ACEND_Jeremy@4x.jpg"
       text: "A completely new learning experience with great labs and enthusiastic teachers. Already the day after, I could implement what I had learned at my job. It’s five out of five stars from me."
 
 # partner

@@ -5,7 +5,7 @@ date: 2019-03-12T12:14:34+06:00
 draft: false
 weight: 4
 slug: 
-subtitle: "Basics"
+#subtitle: "Basics"
 categories: ["Basics", "Kubernetes"]
 duration: "2 Tage"
 abstract : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
@@ -21,8 +21,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeA@2x.jpg"
 
 
-main_text: "Container-Technologien und insbesondere Kubernetes haben in den letzten Jahren enorm an Bedeutung gewonnen und wurden zu einem wichtigen Treiber der Digitalisierung. 
-
+main_text: "Container-Technologien und insbesondere Kubernetes haben in den letzten Jahren enorm an Bedeutung gewonnen und wurden zu einem wichtigen Treiber der Digitalisierung.\n\n 
 Dieses zweitägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in diese Open Source-Technologien. Unsere Trainer kommen aus der Praxis und sind zertifizierte Kubernetes Administratoren."
 
 accordion:

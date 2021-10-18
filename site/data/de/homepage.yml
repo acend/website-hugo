@@ -15,7 +15,7 @@ slideshow:
     - ubertitle: "Trainingsangebot"
       title: "Container & Kubernetes"
       subtitle: "Basics"
-      URL: "/trainings/container-kubernetes-basic/"
+      URL: "/trainings/kubernetes/"
       label: "Mehr erfahren"
       img1: "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
       img2: "images/trainings/ACEND_Jeremy@2x.jpg"
@@ -57,14 +57,14 @@ trainings:
       text: "Orchestration und Management"
       trainings:
         - title: "Container & Kubernetes"
-          slug: "container-kubernetes-basic"
+          slug: "kubernetes"
         - title: "Container & OpenShift"
           slug: "openshift"
         - title: "OpenShift 4 Operations"
           slug: "openshift4ops"
 
     - title: "Delivery CI/CD"
-      text: "App Definition and Development"
+      text: "Definition und Entwicklung von Apps"
       trainings:
         - title: "Argo CD"
           slug: "argocd"
@@ -78,6 +78,8 @@ trainings:
       trainings:
         - title: "Prometheus"
           slug: "prometheus"
+        - title: "Serverless"
+          slug: "serverless"          
 
 
 # testimonial
@@ -86,27 +88,22 @@ testimonials:
   title: "Testimonials"
   testimonial:
     - title: "Das sagt unser Trainingsteilnehmer<br/>Matthias Summer, Österreich"
-      image: "images/trainings/ACEND_Jeremy@4x.jpg"
       logo: "images/testimonials/adcubum_logo.png"
       text: "Das Training hat mir sehr gut gefallen und ich konnte einige Dinge mitnehmen, die mir bei der täglichen Arbeit helfen. Die Praxis-Erfahrung und die Leidenschaft für die Technologie war bei den Trainern spürbar. Sie haben uns auch sehr gut unterstützt und uns nützliche Tipps gegeben."
 
     - title: "Das sagt unser Trainingsteilnehmer<br/>Corsin Decurtins, Zürich"
-      image: "images/trainings/ACEND_Jeremy@4x.jpg"
       logo: "images/testimonials/netceterea_logo.png"
       text: "Wir konnten in mehreren Schulungen das Know-How, unserer Entwickler in ganz Europa, im Bereich Kubernetes aufbauen. Dies hilft uns auch in Zukunft, unsere Kunden mit innovativen Softwarelösungen zu  beliefern. Einfach tolle Trainings und super Trainer."
 
     - title: "Das sagt unser Trainingsteilnehmer<br/>Thomas Abbrederis, Vaduz"
-      image: "images/trainings/ACEND_Jeremy@4x.jpg"
       logo: "images/testimonials/lgt_logo.png"
       text: "Durch die Schulung konnten wir das Know-how im Bereich moderner Container Technologie praxisnah mit der zur Verfügung gestellten Openshift Plattform vertiefen. Durch die sehr kompetenten Trainer konnte der Respekt vor den neuen Container Technologien reduziert werden und damit den Schulungsteilnehmern für die Zukunft eine sehr gute Basis gelegt werden."
 
     - title: "Das sagt unser Trainingsteilnehmer<br/>Michael Rudiger, Solothurn"
-      image: "images/trainings/ACEND_Jeremy@4x.jpg"
       logo: "images/testimonials/10centris.png"
       text: "Das Training war sehr hilfreich und gab mir einen super Einblick in die Welt von Prometheus. Dank den hands-on Labs konnte ich mein Wissen gleich anwenden. Die Trainer waren sehr kompetent und hilfsbereit, die Workshops technisch toll umgesetzt."
 
     - title: "Das sagt unsere Trainingsteilnehmerin<br/>Luana  Cusseddu, Bern"
-      image: "images/trainings/ACEND_Jeremy@4x.jpg"
       text: "Eine total neue Lernerfahrung mit tollen Labs und begeisterten Trainern. Das erworbene Wissen konnte ich schon am nächsten Tag in meinem Unternehmen einsetzen. Von mir gibt's 5 von 5 Sternen."
 
     - title: "Das sagt unsere Trainingsteilnehmer<br/>Roland Egli, Solothurn"
@@ -129,6 +126,6 @@ partner:
       label: "appuio.ch"
 
     - logo: "images/partner/kubernetes_logo@2x.png"
-      text: "KCSP ist eine Initiative von der Cloud Native Computing Foundation. Die CNCF dient als herstellerneutrale Heimat für viele der am schnellsten wachsenden Open-Source-Projekte, darunter Kubernetes, Prometheus und Envoy. Sie fördert die OpenSource und Cloud Native Welt und unterstützt die Community Rund um diese Technologien."
+      text: "KCSP ist eine Initiative der Cloud Native Computing Foundation. Die CNCF dient als herstellerneutrale Heimat für viele der am schnellsten wachsenden Open-Source-Projekte, darunter Kubernetes, Prometheus und Envoy. Sie fördert die OpenSource und Cloud Native Welt und unterstützt die Community Rund um diese Technologien."
       URL: "https://www.cncf.io"
       label: "cncf.io"

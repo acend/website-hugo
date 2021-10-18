@@ -20,7 +20,8 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeA@2x.jpg"
 
 
-main_text: "Container technologies, Kubernetes above all, have become more important in recent years and now are a significant driver of digitalization. This two-day training in German or English provides a practical and easy-to-understand introduction to these Open Source technologies. Our trainers draw on considerable practical experience and are certified Kubernetes Administrators."
+main_text: "Container technologies, Kubernetes above all, have become more important in recent years and now are a significant driver of digitalization.\n\n 
+This two-day training in German or English provides a practical and easy-to-understand introduction to these Open Source technologies. Our trainers draw on considerable practical experience and are certified Kubernetes Administrators."
 
 accordion:
     enable : true

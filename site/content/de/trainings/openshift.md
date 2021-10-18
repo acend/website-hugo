@@ -4,7 +4,7 @@ description: "Container und OpenShift – in kurzer Zeit von der Theorie zur Pra
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 2
-subtitle: "Basics"
+#subtitle: "Basics"
 categories: ["Basics", "Kubernetes"]
 duration: "2 Tage"
 abstract: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
@@ -20,8 +20,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeD@2x.jpg"
   
 
-main_text: "Container-Technologien haben in den letzten Jahren enorm an Bedeutung gewonnen. Open­Shift bietet basierend auf diesen Technologien – unter anderem Kubernetes – eine umfassende und komfortable Container Plattform-Lösung.
-
+main_text: "Container-Technologien haben in den letzten Jahren enorm an Bedeutung gewonnen. Open­Shift bietet basierend auf diesen Technologien – unter anderem Kubernetes – eine umfassende und komfortable Container Plattform-Lösung.\n\n
 Dieses zweitägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in diese Open Source-Technologien. Unsere Trainer kommen aus der Praxis und sind erfahrene OpenShift Administratoren."
 
 accordion:

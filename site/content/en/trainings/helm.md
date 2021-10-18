@@ -21,7 +21,8 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeB@2x.jpg"
       
 
-main_text: "This half-day training in German or English provides a practical and easy-to-understand introduction to Helm, the best-known Package Manager for applications on Kubernetes. With Helm, even complex applications can be defined, installed, managed and run on Container Platforms. Our teachers draw on considerable practical experience and are certified Kubernetes Administrators."
+main_text: "This half-day training in German or English provides a practical and easy-to-understand introduction to Helm, the best-known Package Manager for applications on Kubernetes. With Helm, even complex applications can be defined, installed, managed and run on Container Platforms.\n\n
+Our teachers draw on considerable practical experience and are certified Kubernetes Administrators."
 
 accordion:
     enable : true
