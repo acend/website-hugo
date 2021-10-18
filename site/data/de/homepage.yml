@@ -14,7 +14,7 @@ slideshow:
   item:
     - ubertitle: "Trainingsangebot"
       title: "Container & Kubernetes"
-      subtitle: "Basics"
+      #subtitle: "Basics"
       URL: "/trainings/kubernetes/"
       label: "Mehr erfahren"
       img1: "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
@@ -23,7 +23,7 @@ slideshow:
 
     - ubertitle: "Trainingsangebot"
       title: "Helm"
-      subtitle: "Basics"
+      #subtitle: "Basics"
       URL: "/trainings/helm/"
       label: "Mehr erfahren"
       img1: "images/trainings/ACEND_Adventure_Lava@2x.jpg"
@@ -32,7 +32,7 @@ slideshow:
 
     - ubertitle: "Trainingsangebot"
       title: "Container & OpenShift"
-      subtitle: "Basics"
+      #subtitle: "Basics"
       URL: "/trainings/openshift/"
       label: "Mehr erfahren"
       img1: "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
@@ -41,7 +41,7 @@ slideshow:
 
     - ubertitle: "Trainingsangebot"
       title: "Prometheus"
-      subtitle: "Basics"
+      #subtitle: "Basics"
       URL: "/trainings/prometheus/"
       label: "Mehr erfahren"
       img1: "images/trainings/ACEND_Adventure_Surf@2x.jpg"

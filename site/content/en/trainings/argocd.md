@@ -5,8 +5,7 @@ date: 2021-05-12T12:14:34+06:00
 draft: false
 weight: 7
 slug: 
-subtitle: "Advanced"
-categories: ["Advanced", "Delivery CI/CD"]
+categories: ["Delivery CI/CD", "Advanced" ]
 duration: "1 Day"
 abstract: "Next generation application delivery and operation."
 main_title: "Next generation application delivery and operation."
