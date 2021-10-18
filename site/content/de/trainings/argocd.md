@@ -30,33 +30,33 @@ accordion:
         - title : "Trainingsziele"
           icon : "1"
           content : "
-¬ Argo DC kennenlernen<br/>
-¬ Mittels Argo CD komplexe Applikationen deployen<br/>
-¬ GitOps-Prinzipien kennen und anwenden können
-"
+<li>Argo DC kennenlernen</li>
+<li>Mittels Argo CD komplexe Applikationen deployen</li>
+<li>GitOps-Prinzipien kennen und anwenden können</li>
+</ul>"
  
         - title : "Voraussetzungen"
           icon : "2"
           content : "
-¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet<br/>
-¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig
-"
+<li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
+<li>Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig</li>
+</ul>"
 
         - title : "Zielpublikum"
           icon : "3"
           content : "
-¬ Unser Training richtet sich an Personen, welche bereits Vorkenntnisse im Bereich von Container-Technologien, Git und Kubernetes besitzen<br/>
-¬ Ein vorgängiger Besuch des Trainings Container & Kubernetes Basics wird empfohlen
-"
+<li>Unser Training richtet sich an Personen, welche bereits Vorkenntnisse im Bereich von Container-Technologien, Git und Kubernetes besitzen</li>
+<li>Ein vorgängiger Besuch des Trainings Container & Kubernetes Basics wird empfohlen</li>
+</ul>"
 
         - title : "Konditionen"
           icon : "4"
           content : "
-¬ CHF 1100 / Person für 1 Tag<br/>
-¬ Gruppen von 8–24 Personen<br/>
-¬ Inklusive Verpflegung, Unterlagen und Cluster in der Cloud<br/>
-¬ Rabatt ab 12 Personen
-"
+<li>CHF 1100 / Person für 1 Tag</li>
+<li>Gruppen von 8–24 Personen</li>
+<li>Inklusive Verpflegung, Unterlagen und Cluster in der Cloud</li>
+<li>Rabatt ab 12 Personen</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 
