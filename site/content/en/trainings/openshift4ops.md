@@ -101,7 +101,7 @@ trainers:
     - title : "Benjamin Affolter"
       designation : "Trainer"
       abstract : "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
+      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
       twitter : "https://twitter.com/bliemli"
 
     - title : "Christian Haller"
@@ -112,7 +112,7 @@ trainers:
     - title : "Thomas Philipona"
       designation : "Trainer"
       abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
+      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
       twitter : "https://twitter.com/tphilipona"
       
       

@@ -77,17 +77,15 @@ trainingsinhalt:
       liste:
         - el: "Grundkonzepte"
         - el: "Basisbefehle"
-        - el: "Tiller"
-        - el: "Helm 3"
-        - el: "Helm Alternativen"
         - el: "Installation"
         - el: "Charts"
         - el: "Repositories"
-        - el: "Variablen und Secrets"
+        - el: "Lifecycle"
+        - el: "Variablen"
+        - el: "Helm Hooks"
+        - el: "Charttests"                
         - el: "Debugging"
         - el: "Go Templating"
-
-
 
 # trainer
 trainers:
@@ -98,7 +96,7 @@ trainers:
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
+      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
       twitter : "https://twitter.com/bliemli"
     
     
@@ -115,7 +113,6 @@ testimonials:
   enable: true
   testimonial:
     - title : "Das sagt unser Trainingsteilnehmer<br/>Matthias Summer, Österreich"
-      image : "images/trainings/ACEND_Jeremy@4x.jpg"
       logo : "images/testimonials/adcubum_logo.png"
       text : "Das Training hat mir sehr gut gefallen und ich konnte einige Dinge mitnehmen, die mir bei der täglichen Arbeit helfen. Die Praxis-Erfahrung und die Leidenschaft für die Technologie war bei den Trainern spürbar. Sie haben uns auch sehr gut unterstützt und uns nützliche Tipps gegeben."     
       

@@ -88,7 +88,7 @@ trainers:
     - title : "Christoph Aymon"
       designation : "Trainer"
       abstract : "Sitzt er nicht konzentriert vor dem Computer, dann am ehesten in einem schnellen Auto – er dreht nur auf dem Nürburgring Extrarunden."
-      linkedin : "https://www.linkedin.com/in/christoph-aymon-b5948a122/"
+      linkedin : "https://www.linkedin.com/in/christoph-aymon"
 
     - title : "Julius Volz"
       designation : "Trainer, PromLabs"
@@ -106,18 +106,12 @@ trainers:
       abstract : "Ganz nach dem Motto, was nicht passt wird passend gemacht, löst er als Engineer alle Herausforderungen im Handumdrehen."
       twitter : "https://twitter.com/reti_k"
       
-    - title : "Thomas Philipona"
-      designation : "Trainer"
-      abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
-      twitter : "https://twitter.com/tphilipona"
       
 # testimonials
 testimonials:
   enable: true
   testimonial:
     - title : "Das sagt unser Trainingsteilnehmer<br/>Michael Rudiger, Solothurn"
-      image : "images/trainings/ACEND_Jeremy@4x.jpg"
       logo : "images/testimonials/10centris.png"
       text : "Das Training war sehr hilfreich und gab mir einen super Einblick in die Welt von Prometheus. Dank den hands-on Labs konnte ich mein Wissen gleich anwenden. Die Trainer waren sehr kompetent und hilfsbereit, die Workshops technisch toll umgesetzt."
       

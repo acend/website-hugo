@@ -95,18 +95,18 @@ trainers:
   enable: true
   title : "Meet two of Your Trainers"
   trainer:
-    - title : "Benjamin"
+    - title : "Benjamin Affolter"
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
+      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
       twitter : "https://twitter.com/bliemli"
 
-    - title : "Thomas"
+    - title : "Thomas Philipona"
       image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Co-Founder & Trainer"
-      abstract : "He’s been in the IT world for years – and he discovers everything else on this bicycle."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
+      abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
+      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
       twitter : "https://twitter.com/tphilipona"
       
       

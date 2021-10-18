@@ -105,7 +105,7 @@ trainers:
     - title : "Benjamin Affolter"
       designation : "Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
+      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
       twitter : "https://twitter.com/bliemli"
 
     - title : "Christian Haller"
@@ -116,7 +116,7 @@ trainers:
     - title : "Thomas Philipona"
       designation : "Trainer"
       abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
+      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
       twitter : "https://twitter.com/tphilipona"
       
       
