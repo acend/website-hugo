@@ -43,7 +43,7 @@ export default function() {
             wrapAround: true,
             //fade: true,
             //adaptiveHeight: false,
-            autoPlay: 5500,
+            autoPlay: 2500,
             //pauseAutoPlayOnHover: false,
             prevNextButtons: false,
             cellAlign: 'left',
