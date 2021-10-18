@@ -7,7 +7,7 @@ lead:
   title: "Trainings"
   content: "We provide new approaches to Cloud Native and Open Source."
 
-filtertitle: "Das passende Training für Sie"
+filtertitle: "The right training for you"
 categories:
   ["Kubernetes", "Delivery CI/CD", "Specialized trainings", "Basics", "Advanced"]
 ---
