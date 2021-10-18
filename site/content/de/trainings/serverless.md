@@ -5,11 +5,7 @@ date: 2021-11-12T12:14:34+06:00
 draft: false
 weight: 1
 slug: 
-<<<<<<< HEAD
-
-=======
 subtitle: "Basics & Advanced"
->>>>>>> neue trainings argocd + serverless UND bilder
 categories: ["Basics", "Spezialisierte Trainings"]
 
 duration: "1 Tag"
