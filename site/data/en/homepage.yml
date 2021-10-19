@@ -12,7 +12,7 @@ about:
 slideshow:
   enable: true
   item:
-- ubertitle: "Training Offer"
+    - ubertitle: "Training Offer"
       title: "ArgoCD"
       subtitle: "Advanced"
       URL: "/en/trainings/argocd/"
