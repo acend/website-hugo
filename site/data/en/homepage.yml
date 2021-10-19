@@ -13,7 +13,7 @@ slideshow:
   enable: true
   item:
     - ubertitle: "Training Offer"
-      title: "ArgoCD"
+      title: "Argo CD"
       subtitle: "Advanced"
       URL: "/en/trainings/argocd/"
       label: "Discover"
