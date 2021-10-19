@@ -120,16 +120,16 @@ partner:
   title: "Our Partners"
   item:
     - logo: "images/partner/puzzle_logo@2x.png"
-      text: "As an innovative IT-service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on Open Source technologies as well as the most modern methods. Different interdisciplinary teams work on projects regarding consulting, applications, delivery, infrastructure and Open Source solutions."
+      text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on Open Source technologies as well as the most modern methods. Different interdisciplinary teams work on projects regarding consulting, applications, delivery, infrastructure and Open Source solutions."
       URL: "https://puzzle.ch"
       label: "puzzle.ch"
 
     - logo: "images/partner/appuio_logo@2x.png"
-      text: "APPUiO is the leading Kubernetes-based Container Platform for the design, development and operation of applications. Based on reliable Open Source concepts, such as Docker and Kubernetes, APPUiO supports the DevOps approach. Development, deployment and operation processes are accelerated through automation and self-service. The cooperation between software developers and business organization is also improved."
+      text: "APPUiO is the leading Kubernetes based Container Platform for the design, development and operation of applications. Based on reliable open source concepts, such as Docker and Kubernetes, APPUiO supports the DevOps approach. Development, deployment and operation processes are accelerated through automation and self service. The cooperation between software developers and business organization is also improved."
       URL: "https://www.appuio.ch"
       label: "appuio.ch"
 
     - logo: "images/partner/kubernetes_logo@2x.png"
-      text: "KCSP is an initiative from the Cloud Native Computing Foundation. The CNCF serves as a vendor-neutral home for many of the fastest growing open source projects, including Kubernetes, Prometheus, and Envoy. It promotes the open source and cloud native world and supports the community around these technologies."
+      text: "KCSP is an initiative from the Cloud Native Computing Foundation. The CNCF serves as a vendor neutral home for many of the fastest growing open source projects, including Kubernetes, Prometheus, and Envoy. It promotes the open source and cloud native world and supports the community around these technologies."
       URL: "https://www.cncf.io"
       label: "cncf.io"
