@@ -109,7 +109,7 @@ trainers:
 
     - title : "Christian Haller"
       image : "images/team/AC_Christian_Haller@2x.jpg"
-      designation : "Trainer"
+      designation : "Trainer, Puzzle ITC"
       abstract : "I would rather have questions that can't be answered than answers that can't be questioned. Richard Feynman"
       linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
       
