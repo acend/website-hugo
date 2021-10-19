@@ -5,6 +5,7 @@ date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 4
 slug: 
+subtitle: "Basics"
 categories: ["Basics", "Kubernetes"]
 duration: "2 Days"
 abstract : "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
