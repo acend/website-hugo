@@ -2,7 +2,7 @@
 title: "Serverless"
 description: "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS."
 date: 2021-10-12T12:14:34+06:00
-draft: false
+draft: true
 weight: 1
 slug: 
 subtitle: "Basics"
