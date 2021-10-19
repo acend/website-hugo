@@ -87,19 +87,18 @@ trainers:
   enable: true
   title : "Lerne zwei deiner Trainer kennen"
   trainer:
-    - title : "Benjamin Affolter"
-      image : "images/team/AC_Benji@2x.jpg"
+    - title : "Christian Schlatter"
+      image : "images/team/AC_Christian_Schlatter@2x.jpg"
       designation : "Trainer"
-      abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
-      twitter : "https://twitter.com/bliemli"
+      abstract : "It's nice to be important, but it's more important to be nice. - John Templeton "
+      linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
 
-    - title : "Thomas Philipona"
-      image : "images/team/AC_Thoemu@2x.jpg"
+    - title : "Raffael Hertle"
+      image : "images/team/AC_Raffael_Hertle@2x.jpg"
       designation : "Trainer"
-      abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
-      twitter : "https://twitter.com/tphilipona"
+      abstract : "In den Wolken der Cloud Native Welt fühlt er sich Zuhause."
+      linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
+      twitter : "https://twitter.com/g1raffi"
       
       
 # testimonials
