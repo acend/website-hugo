@@ -4,7 +4,8 @@ description: "Next generation application delivery and operation."
 date: 2021-05-12T12:14:34+06:00
 draft: false
 weight: 7
-slug: 
+slug:
+subtitle: "Advanced"
 categories: ["Delivery CI/CD", "Advanced" ]
 duration: "1 Day"
 abstract: "Next generation application delivery and operation."
@@ -84,20 +85,18 @@ trainers:
   enable: true
   title : "Meet two of Your Trainers"
   trainer:
-    - title : "Benjamin Affolter"
-      image : "images/team/AC_Benji@2x.jpg"
-      designation : "Co-Founder & Trainer"
-      abstract : "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
-      twitter : "https://twitter.com/bliemli"
+    - title : "Christian Schlatter"
+      image : "images/team/AC_Christian_Schlatter@2x.jpg"
+      designation : "Trainer"
+      abstract : "It's nice to be important, but it's more important to be nice. - John Templeton "
+      linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
 
-    - title : "Thomas Philipona"
-      image : "images/team/AC_Thoemu@2x.jpg"
-      designation : "Co-Founder & Trainer"
-      abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
-      twitter : "https://twitter.com/tphilipona"
-      
+    - title : "Raffael Hertle"
+      image : "images/team/AC_Raffael_Hertle@2x.jpg"
+      designation : "Trainer"
+      abstract : "He feels at home in the clouds of the Cloud Native world."
+      linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
+      twitter : "https://twitter.com/g1raffi"
       
 # testimonials
 testimonials:
