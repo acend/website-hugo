@@ -83,7 +83,7 @@ trainings:
         #  slug: "terraform"
 
     - title: "Specialized trainings"
-      text: "Exciting technologies from the CNCF Landscape"
+      text: "Exciting technologies from the CNCF landscape"
       trainings:
         - title: "Prometheus"
           slug: "prometheus"
