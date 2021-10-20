@@ -78,7 +78,7 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
         - el: "Resource Hooks"
         - el: "Sync Phases und Waves"
         - el: "Backup und Restore"
-        - el: "Verschiedene Manifest Formate"
+        - el: "Verschiedene Manifest-Formate"
         - el: "Berechtigungsstrukturen"
 
 
