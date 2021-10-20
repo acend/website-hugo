@@ -46,7 +46,7 @@ accordion:
           icon : "3"
           content : "<ul>
 <li>Our training is aimed at people who already have prior knowledge of container technologies, Git and Kubernetes</li>
-<li>A prior attendance of the Container & Kubernetes Basics training is recommended</li>
+<li>A prior attendance of the Container & Kubernetes Basics or the Container & OpenShift Basics training is recommended</li>
 </ul>"
 
         - title : "Conditions"
