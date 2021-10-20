@@ -74,11 +74,11 @@ trainingsinhalt:
         - el: "Comparing application state (Git vs. Kubernetes Cluster)"
         - el: "Self-healing"
         - el: "Pruning of resources"
-        - el: "Resource Hooks"
-        - el: "Sync Phases and Waves"
-        - el: "Backup and Restore"
-        - el: "Various Manifest Formats"
-        - el: "Permission Structures"
+        - el: "Resource hooks"
+        - el: "Sync phases and waves"
+        - el: "Backup and restore"
+        - el: "Various manifest formats"
+        - el: "Permission structures"
 
 # trainer
 trainers:
