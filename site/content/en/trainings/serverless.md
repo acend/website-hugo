@@ -72,10 +72,10 @@ trainingsinhalt:
       liste:
         - el: "What is serverless?"
         - el: "What is FaaS and when should I use it?"
-        - el: "Writing a First Function"
-        - el: "Serverless Architecture Patterns"
+        - el: "Writing a first function"
+        - el: "Serverless architecture patterns"
         - el: "Step by step application of best practices"
-        - el: "Connecting to a Serverless Database"
+        - el: "Connecting to a serverless database"
         - el: "Discussing the most common pitfalls and possible solutions"
         - el: "Applying these techniques"
         - el: "Advanced concepts and learnings from the field"
