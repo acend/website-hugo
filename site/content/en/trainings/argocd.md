@@ -30,7 +30,7 @@ accordion:
         - title : "Outcomes"
           icon : "1"
           content : "
-¬ Get to know Argo DC<br/>
+¬ Get to know Argo CD<br/>
 ¬ Deploy complex applications using Argo CD<br/>
 ¬ Know and be able to apply GitOps principles
 "
