@@ -47,7 +47,7 @@ accordion:
           icon : "3"
           content : "<ul>
 <li>Our training is designed for people who already have prior knowledge of container technologies</li>
-<li>We recommend attending the Container & Kubernetes Basics or Container & OpenShift Basics training before registering for this course</li>
+<li>We recommend attending the Container & Kubernetes Basics or the Container & OpenShift Basics training before registering for this course</li>
 </ul>"
 
         - title : "Conditions"
