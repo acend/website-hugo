@@ -30,7 +30,7 @@ accordion:
         - title : "Trainingsziele"
           icon : "1"
           content : "
-<li>Argo DC kennenlernen</li>
+<li>Argo CD kennenlernen</li>
 <li>Mittels Argo CD komplexe Applikationen deployen</li>
 <li>GitOps-Prinzipien kennen und anwenden können</li>
 </ul>"
