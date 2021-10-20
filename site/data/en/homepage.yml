@@ -30,7 +30,7 @@ slideshow:
       img2: "images/trainings/ACEND_Jeremy@2x.jpg"
       img3: "images/trainings/ACEND_CodeA@2x.jpg"
 
-    - ubertitle: "Training Offer"
+    - ubertitle: "Training offer"
       title: "Container & OpenShift"
       subtitle: "Basics"
       URL: "/en/trainings/openshift/"
