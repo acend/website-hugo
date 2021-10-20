@@ -50,6 +50,7 @@ accordion:
           content : "<ul>
 <li>Unser Training richtet sich an System Engineers, OpenShift Engineers und alle, die die Betriebsaspekte von OpenShift 4 kennenlernen wollen</li>
 <li>Grundkenntnisse mit Container-Technologien sowie OpenShift oder Kubernetes werden vorausgesetzt</li>
+<li>Ein vorgängiger Besuch des Trainings Container & OpenShift Basics wird empfohlen</li>
 </ul>"
 
         - title : "Konditionen"
