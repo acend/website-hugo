@@ -61,7 +61,7 @@ accordion:
 # Trainingsinhalt
 trainingsinhalt: 
     title : "Trainingsinhalt"
-    text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln. 
+    text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu vermitteln. 
 
 Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
 
