@@ -83,7 +83,7 @@ trainingsinhalt:
 # trainer
 trainers:
   enable: true
-  title : "Meet two of Your Trainers"
+  title : "Meet two of your trainers"
   trainer:
     - title : "Christian Schlatter"
       image : "images/team/AC_Christian_Schlatter@2x.jpg"
