@@ -1,6 +1,6 @@
 ---
 title: "Argo CD"
-description: "Next generation application delivery and operation."
+description: "Next generation application delivery and operations."
 date: 2021-05-12T12:14:34+06:00
 draft: false
 weight: 7
