@@ -21,7 +21,7 @@ slideshow:
       img2: "images/trainings/ACEND_Poi@2x.jpg"
       img3: "images/trainings/ACEND_CodeP@2x.jpg"
     
-    - ubertitle: "Training Offer"
+    - ubertitle: "Training offer"
       title: "Container & Kubernetes"
       subtitle: "Basics"
       URL: "/en/trainings/kubernetes/"
