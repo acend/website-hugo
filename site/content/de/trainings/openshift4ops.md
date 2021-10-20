@@ -58,7 +58,7 @@ accordion:
           content : "<ul>
 <li>CHF 2200 / Person für 2 Tage</li>
 <li>Gruppen von 8–24 Personen</li>
-<li>Inklusive Verpflegung, Unterlagen und einem cloud-basierten OpenShift Cluster pro Teilnehmer</li>
+<li>Inklusive Verpflegung, Unterlagen und einem cloud-basierten OpenShift Cluster pro Teilnehmendem</li>
 <li>Rabatt ab 12 Personen</li>
 </ul>"
 
