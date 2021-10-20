@@ -59,7 +59,7 @@ slideshow:
 
 # trainings
 trainings:
-  title: "Our Trainings"
+  title: "Our trainings"
   text: "Our trainings combine theory with practice-oriented hands-on labs. Get inspired by new technologies – taught by our dedicated trainers."
   categories:
     - title: "Kubernetes"
