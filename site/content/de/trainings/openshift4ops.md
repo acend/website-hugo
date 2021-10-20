@@ -48,7 +48,7 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "<ul>
-<li>Unser Training richtet sich an System Engineers, OpenShift Engineers und weitere, die die Betriebsaspekte von OpenShift 4 kennenlernen wollen</li>
+<li>Unser Training richtet sich an System Engineers, OpenShift Engineers und alle, die die Betriebsaspekte von OpenShift 4 kennenlernen wollen</li>
 <li>Grundkenntnisse mit Container-Technologien sowie OpenShift oder Kubernetes werden vorausgesetzt</li>
 </ul>"
 
