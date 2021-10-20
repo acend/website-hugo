@@ -48,7 +48,7 @@ slideshow:
       img2: "images/trainings/ACEND_Gabriel@2x.jpg"
       img3: "images/trainings/ACEND_CodeD@2x.jpg"
 
-    - ubertitle: "Training Offer"
+    - ubertitle: "Training offer"
       title: "Prometheus"
       subtitle: "Basics"
       URL: "/en/trainings/prometheus/"
