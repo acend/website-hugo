@@ -39,7 +39,7 @@ accordion:
           icon : "2"
           content : "<ul>
 <li>Participants will need a laptop with direct access to the Internet</li>
-<li>Additionally, local admin rights or access to a terminal (in the browser) are required</li>
+<li>Additionally, local admin rights or a terminal with the possibility of outgoing SSH connections are required</li>
 <li>Participants should have basic Linux and Kubernetes knowledge</li>
 </ul>"
 
