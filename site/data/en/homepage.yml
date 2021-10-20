@@ -1,100 +1,135 @@
-
 # about
 about:
-  enable : true
-  title : "Experience Knowledge"
-  content : "The joy of discovering new things is the main driver of development and growth. Let’s experience this moment together."
+  enable: true
+  title: "Experience knowledge"
+  content: "The joy of discovering new things is the main driver of development and growth. Let’s experience this moment together."
   button:
-    enable : false
-    label : "Discover"
-    URL : "ueber-uns"
+    enable: false
+    label: "Discover"
+    URL: "ueber-uns"
 
 # slideshow trainigs
 slideshow:
-  enable : true
-  item: 
-    - ubertitle : "Training Offer"
-      title : "Container & Kubernetes"
-      subtitle : "Basics"
-      URL : "/en/trainings/container-kubernetes-basic/"
-      label : "Discover"
-      img1 : "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
-      img2 : "images/trainings/ACEND_Jeremy@2x.jpg"
-      img3 : "images/trainings/ACEND_CodeA@2x.jpg"
-      
-    - ubertitle : "Training Offer"
-      title : "Helm"
-      subtitle : "Basics"
-      URL : "/en/trainings/helm/"
-      label : "Discover"
-      img1 : "images/trainings/ACEND_Adventure_Lava@2x.jpg"
-      img2 : "images/trainings/ACEND_Adyna@2x.jpg"
-      img3 : "images/trainings/ACEND_CodeB@2x.jpg"
-      
-    - ubertitle : "Training Offer"
-      title : "Container & OpenShift"
-      subtitle : "Basics"
-      URL : "/en/trainings/openshift/"
-      label : "Discover"
-      img1 : "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
-      img2 : "images/trainings/ACEND_Philip@2x.jpg"
-      img3 : "images/trainings/ACEND_CodeD@2x.jpg"
-      
-    - ubertitle : "Training Offer"
-      title : "Prometheus"
-      subtitle : "Basics"
-      URL : "/en/trainings/prometheus/"
-      label : "Discover"
-      img1 : "images/trainings/ACEND_Adventure_Surf@2x.jpg"
-      img2 : "images/trainings/ACEND_Vali@2x.jpg"
-      img3 : "images/trainings/ACEND_Code@2x.jpg"      
-  
+  enable: true
+  item:
+    - ubertitle: "Training offer"
+      title: "Argo CD"
+      subtitle: "Advanced"
+      URL: "/en/trainings/argocd/"
+      label: "Discover"
+      img1: "images/trainings/ACEND_Adventure_TopHill@2x.jpg"
+      img2: "images/trainings/ACEND_Poi@2x.jpg"
+      img3: "images/trainings/ACEND_CodeP@2x.jpg"
+    
+    - ubertitle: "Training offer"
+      title: "Container & Kubernetes"
+      subtitle: "Basics"
+      URL: "/en/trainings/kubernetes/"
+      label: "Discover"
+      img1: "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
+      img2: "images/trainings/ACEND_Jeremy@2x.jpg"
+      img3: "images/trainings/ACEND_CodeA@2x.jpg"
+
+    - ubertitle: "Training offer"
+      title: "Container & OpenShift"
+      subtitle: "Basics"
+      URL: "/en/trainings/openshift/"
+      label: "Discover"
+      img1: "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
+      img2: "images/trainings/ACEND_Philip@2x.jpg"
+      img3: "images/trainings/ACEND_CodeD@2x.jpg"
+    
+    - ubertitle: "Training offer"
+      title: "OpenShift 4 Operations"
+      subtitle: "Advanced"
+      URL: "/en/trainings/openshift4ops/"
+      label: "Discover"
+      img1: "images/trainings/ACEND_Adventure_Fels@2x.jpg"
+      img2: "images/trainings/ACEND_Gabriel@2x.jpg"
+      img3: "images/trainings/ACEND_CodeD@2x.jpg"
+
+    - ubertitle: "Training offer"
+      title: "Prometheus"
+      subtitle: "Basics"
+      URL: "/en/trainings/prometheus/"
+      label: "Discover"
+      img1: "images/trainings/ACEND_Adventure_Surf@2x.jpg"
+      img2: "images/trainings/ACEND_Vali@2x.jpg"
+      img3: "images/trainings/ACEND_Code@2x.jpg"
+
 # trainings
 trainings:
-  title: "Our Trainings" 
+  title: "Our trainings"
   text: "Our trainings combine theory with practice-oriented hands-on labs. Get inspired by new technologies – taught by our dedicated trainers."
+  categories:
+    - title: "Kubernetes"
+      text: "Orchestration and management"
+      trainings:
+        - title: "Container & Kubernetes"
+          slug: "kubernetes"
+        - title: "Container & OpenShift"
+          slug: "openshift"
+        - title: "OpenShift 4 Operations"
+          slug: "openshift4ops"
 
-      
+    - title: "Delivery CI/CD"
+      text: "App definition and development"
+      trainings:
+        - title: "Argo CD"
+          slug: "argocd"
+        - title: "Helm"
+          slug: "helm"
+        #- title: "Terraform"
+        #  slug: "terraform"
+
+    - title: "Specialized trainings"
+      text: "Exciting technologies from the CNCF landscape"
+      trainings:
+        - title: "Prometheus"
+          slug: "prometheus"
+        #- title: "Serverless"
+        #  slug: "serverless"          
+
 # testimonial
 testimonials:
-  enable : true
-  title : "Testimonials"
+  enable: true
+  title: "Testimonials"
   testimonial:
-     - title : "Here’s what our clients say about our trainings<br/>Matthias Summer, Austria"
-       image : "images/trainings/ACEND_Jeremy@4x.jpg"
-       logo : "images/testimonials/adcubum_logo.png"
-       text : "I really enjoyed the training, and I learned several things that helped me with my daily tasks. You could tell that the trainers had a lot of practical experience with and passion for the technology. They also supported us well and gave us useful advice."
-       
-     - title : "Here’s what our clients say about our trainings<br/>Corsin Decurtins, Zurich"
-       image : "images/trainings/ACEND_Jeremy@4x.jpg"
-       logo : "images/testimonials/netceterea_logo.png"
-       text : "Over the course of a number of sessions, our developers all over Europe were able to build up their know-how in Kubernetes. This also helps us to deliver innovative software solutions to our clients in the future. Simply great trainings and fantastic trainers."
-       
-     - title : "Here’s what our clients say about our trainings<br/>Thomas Abbrederis, Vaduz"
-       image : "images/trainings/ACEND_Jeremy@4x.jpg"
-       logo : "images/testimonials/lgt_logo.png"
-       text : "Through the training, we were able to deepen the know-how in the area of modern container technology in a practical way with the Openshift platform provided. The very competent trainers were able to reduce the respect for the new container technologies and thus provide the training participants with a very good baseline for the future."
-    
-     - title : "Here’s what our clients say about our trainings<br/>Michael Rudiger, Solothurn"
-       image : "images/trainings/ACEND_Jeremy@4x.jpg"
-       logo : "images/testimonials/10centris.png"
-       text : "The training was very helpful and gave me a great insight into the world of Prometheus. Thanks to the hands-on labs, I was able to apply my knowledge right away. The trainers were very competent and helpful, the workshops were technically great." 
-       
-     - title : "Here’s what our clients say about our trainings<br/>Roland Egli, Solothurn"
-       logo : "images/testimonials/kt-solothurn.png"
-       text : "Thank you very much for the wonderful certificate. The training was very educational and the exchange with the other trainees I found very valuable. Great organization."
+    - title: "Here’s what our clients say about our trainings:<br/>Matthias Summer, Austria"
+      logo: "images/testimonials/adcubum_logo.png"
+      text: "I really enjoyed the training, and I learned several things that helped me with my daily tasks. You could tell that the trainers had a lot of practical experience with and passion for the technology. They also supported us well and gave us useful advice."
+
+    - title: "Here’s what our clients say about our trainings:<br/>Corsin Decurtins, Zurich"
+      logo: "images/testimonials/netceterea_logo.png"
+      text: "Over the course of a number of sessions, our developers all over Europe were able to build up their know-how in Kubernetes. This also helps us to deliver innovative software solutions to our clients in the future. Simply great trainings and fantastic trainers."
+
+    - title: "Here’s what our clients say about our trainings:<br/>Thomas Abbrederis, Vaduz"
+      logo: "images/testimonials/lgt_logo.png"
+      text: "Through the training, we were able to deepen the know-how in the area of modern container technology in a practical way with the Openshift platform provided. The very competent trainers were able to reduce the respect for the new container technologies and thus provide the training participants with a very good baseline for the future."
+
+    - title: "Here’s what our clients say about our trainings:<br/>Michael Rudiger, Solothurn"
+      logo: "images/testimonials/10centris.png"
+      text: "The training was very helpful and gave me a great insight into the world of Prometheus. Thanks to the hands-on labs, I was able to apply my knowledge right away. The trainers were very competent and helpful, the workshops were technically great."
+
+    - title: "Here’s what our clients say about our trainings:<br/>Luana  Cusseddu, Bern"
+      text: "A completely new learning experience with great labs and enthusiastic teachers. Already the day after, I could implement what I had learned at my job. It’s five out of five stars from me."
 
 # partner
 partner:
-  enable : true
-  title : "Our Partners"
+  enable: true
+  title: "Our Partners"
   item:
-    - logo : "images/partner/puzzle_logo@2x.png"
-      text : "As an innovative IT-service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on Open Source technologies as well as the most modern methods. Different interdisciplinary teams work on projects regarding consulting, applications, delivery, infrastructure and Open Source solutions."
-      URL : "https://puzzle.ch"
-      label : "puzzle.ch"
+    - logo: "images/partner/puzzle_logo@2x.png"
+      text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on open source technologies as well as the most modern methods. Different interdisciplinary teams work on projects regarding consulting, applications, delivery, infrastructure and open source solutions."
+      URL: "https://puzzle.ch"
+      label: "puzzle.ch"
 
-    - logo : "images/partner/appuio_logo@2x.png"
-      text : "APPUiO is the leading Kubernetes-based Container Platform for the design, development and operation of applications. Based on reliable Open Source concepts, such as Docker and Kubernetes, APPUiO supports the DevOps approach. Development, deployment and operation processes are accelerated through automation and self-service. The cooperation between software developers and business organization is also improved."
-      URL : "https://www.appuio.ch"
-      label : "appuio.ch"
+    - logo: "images/partner/appuio_logo@2x.png"
+      text: "APPUiO is the leading Kubernetes based container platform for the design, development and operations of applications. Based on reliable open source concepts, such as CRI-O and Kubernetes, APPUiO supports the DevOps approach. Development, deployment and operation processes are accelerated through automation and self-service. The cooperation between software developers and business organization is also improved."
+      URL: "https://www.appuio.ch"
+      label: "appuio.ch"
+
+    - logo: "images/partner/kubernetes_logo@2x.png"
+      text: "KCSP is an initiative from the Cloud Native Computing Foundation. The CNCF serves as a vendor neutral home for many of the fastest growing open source projects, including Kubernetes, Prometheus, and Envoy. It promotes the open source and cloud native world and supports the community around these technologies."
+      URL: "https://www.cncf.io"
+      label: "cncf.io"

@@ -10,11 +10,20 @@ other = "Training Offer"
 [personen]
 other = "Individuals"
 
+[firmen]
+other = "Companies"
+
+[textTeamsShort]
+other = "Individual company trainings on request."
+
 [textTeams]
 other = "Individual company trainings are possible. Contact us for costs and dates."
 
 [backToTrainings]
-other = "Back to Trainings"
+other = "Back to trainings"
+
+[showAllTrainings]
+other = "Discover all trainings"
 
 [trainingsLink]
 other = "/en/trainings/"
@@ -90,3 +99,13 @@ other= "I have read and accept the <a href=\"/en/privacy\" target=\"_blank\" rel
 
 [send]
 other = "Send"
+
+
+#––––––––––––––––
+# Page 404
+
+[title404]
+other = "This page does not exist."
+
+[text404]
+other = "Continue to home page"

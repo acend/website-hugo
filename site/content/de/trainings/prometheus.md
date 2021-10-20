@@ -4,13 +4,14 @@ description: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 6
-categories: ["Basics"]
+subtitle: "Basics"
+categories: ["Basics", "Spezialisierte Trainings"]
 duration: "2 Tage"
 abstract: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 main_title: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 
 personen: 
-  daten : "19.05.22, 20.05.22"
+  daten : ""
   preis : "CHF 2200"
 
 headerimages:
@@ -29,33 +30,33 @@ accordion:
     item:
         - title : "Trainingsziele"
           icon : "1"
-          content : "
-¬ Den Einstieg in die moderne Monitoring Plattform Prometheus finden<br/>
-¬ Konzepte von Prometheus verstehen<br/>
-¬ Mehr über PromQL und deren Anwendungsbereiche erfahren
-"
+          content : "<ul>
+<li>Den Einstieg in die moderne Monitoring Plattform Prometheus finden</li>
+<li>Konzepte von Prometheus verstehen</li>
+<li>Mehr über PromQL und deren Anwendungsbereiche erfahren</li>
+</ul>"
  
         - title : "Voraussetzungen"
           icon : "2"
-          content : "
-¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet<br/>
-¬ Die Teilnehmenden sollten über grundlegende Linux und Kubernetes Kenntnisse verfügen
-"
+          content : "<ul>
+<li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
+<li>Die Teilnehmenden sollten über grundlegende Linux- und Kubernetes-Kenntnisse verfügen</li>
+</ul>"
 
         - title : "Zielpublikum"
           icon : "3"
-          content : "
-¬ Unser Training richtet sich an Software Developers, System Engineers, Architects und alle, die Prometheus verstehen und für das Monitoring einsetzen möchten
-"
+          content : "<ul>
+<li>Unser Training richtet sich an Software Developers, System Engineers, Architects und alle, die Prometheus verstehen und für das Monitoring einsetzen möchten</li>
+</ul>"
 
         - title : "Konditionen"
           icon : "4"
-          content : "
-¬ CHF 2200 / Person für 2 Tage<br/>
-¬ Gruppen von 8–24 Personen<br/>
-¬ Inklusive Verpflegung, Unterlagen und cloud-basierter Lab-Umgebung<br/>
-¬ Rabatt ab 12 Personen
-"
+          content : "<ul>
+<li>CHF 2200 / Person für 2 Tage</li>
+<li>Gruppen von 8–24 Personen</li>
+<li>Inklusive Verpflegung, Unterlagen und cloud-basierter Lab-Umgebung</li>
+<li>Rabatt ab 12 Personen</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 
@@ -87,7 +88,7 @@ trainers:
     - title : "Christoph Aymon"
       designation : "Trainer"
       abstract : "Sitzt er nicht konzentriert vor dem Computer, dann am ehesten in einem schnellen Auto – er dreht nur auf dem Nürburgring Extrarunden."
-      linkedin : "https://www.linkedin.com/in/christoph-aymon-b5948a122/"
+      linkedin : "https://www.linkedin.com/in/christoph-aymon"
 
     - title : "Julius Volz"
       designation : "Trainer, PromLabs"
@@ -105,18 +106,12 @@ trainers:
       abstract : "Ganz nach dem Motto, was nicht passt wird passend gemacht, löst er als Engineer alle Herausforderungen im Handumdrehen."
       twitter : "https://twitter.com/reti_k"
       
-    - title : "Thomas Philipona"
-      designation : "Trainer"
-      abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
-      twitter : "https://twitter.com/tphilipona"
       
 # testimonials
 testimonials:
   enable: true
   testimonial:
     - title : "Das sagt unser Trainingsteilnehmer<br/>Michael Rudiger, Solothurn"
-      image : "images/trainings/ACEND_Jeremy@4x.jpg"
       logo : "images/testimonials/10centris.png"
       text : "Das Training war sehr hilfreich und gab mir einen super Einblick in die Welt von Prometheus. Dank den hands-on Labs konnte ich mein Wissen gleich anwenden. Die Trainer waren sehr kompetent und hilfsbereit, die Workshops technisch toll umgesetzt."
       

@@ -4,7 +4,8 @@ description: "Container und OpenShift – in kurzer Zeit von der Theorie zur Pra
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 2
-categories: ["Basics"]
+subtitle: "Basics"
+categories: ["Basics", "Kubernetes"]
 duration: "2 Tage"
 abstract: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
 main_title: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
@@ -19,8 +20,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeD@2x.jpg"
   
 
-main_text: "Container-Technologien haben in den letzten Jahren enorm an Bedeutung gewonnen. Open­Shift bietet basierend auf diesen Technologien – unter anderem Kubernetes – eine umfassende und komfortable Container Plattform-Lösung.
-
+main_text: "Container-Technologien haben in den letzten Jahren enorm an Bedeutung gewonnen. Open­Shift bietet basierend auf diesen Technologien – unter anderem Kubernetes – eine umfassende und komfortable Container Plattform-Lösung.\n\n
 Dieses zweitägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in diese Open Source-Technologien. Unsere Trainer kommen aus der Praxis und sind erfahrene OpenShift Administratoren."
 
 accordion:
@@ -28,34 +28,34 @@ accordion:
     item:
         - title : "Trainingsziele"
           icon : "1"
-          content : "
-¬ Den Einstieg in eine moderne Technologie finden<br/>
-¬ Konzepte von Containern und OpenShift verstehen<br/>
-¬ Applikationen auf OpenShift deployen
-"
+          content : "<ul>
+<li>Den Einstieg in eine moderne Technologie finden</li>
+<li>Konzepte von Containern und OpenShift verstehen</li>
+<li>Applikationen auf OpenShift deployen</li>
+</ul>"
  
         - title : "Voraussetzungen"
           icon : "2"
-          content : "
-¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet<br/>
-¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig
-"
+          content : "<ul>
+<li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
+<li>Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig</li>
+</ul>"
 
         - title : "Zielpublikum"
           icon : "3"
-          content : "
-¬ Unser Training richtet sich an Personen aus dem Software und System Engineering<br/>
-¬ Es sind keine Vorkenntnisse mit Container-Technologien oder OpenShift notwendig
-"
+          content : "<ul>
+<li>Unser Training richtet sich an Personen aus dem Software und System Engineering</li>
+<li>Es sind keine Vorkenntnisse mit Container-Technologien oder OpenShift notwendig</li>
+</ul>"
 
         - title : "Konditionen"
           icon : "4"
-          content : "
-¬ CHF 1900 / Person für 2 Tage<br/>
-¬ Gruppen von 8–24 Personen<br/>
-¬ Inklusive Verpflegung, Unterlagen und OpenShift Cluster in der Cloud<br/>
-¬ Rabatt ab 12 Personen
-"
+          content : "<ul>
+<li>CHF 1900 / Person für 2 Tage</li>
+<li>Gruppen von 8–24 Personen</li>
+<li>Inklusive Verpflegung, Unterlagen und OpenShift Cluster in der Cloud</li>
+<li>Rabatt ab 12 Personen</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 
@@ -103,14 +103,14 @@ trainers:
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
+      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
       twitter : "https://twitter.com/bliemli"
 
     - title : "Thomas Philipona"
       image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Trainer"
       abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
+      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
       twitter : "https://twitter.com/tphilipona"
       
       
@@ -123,4 +123,3 @@ testimonials:
       text : "Durch die Schulung konnten wir das Know-how im Bereich moderner Container Technologie praxisnah mit der zur Verfügung gestellten Openshift Plattform vertiefen. Durch die sehr kompetenten Trainer konnte der Respekt vor den neuen Container Technologien reduziert werden und damit den Schulungsteilnehmern für die Zukunft eine sehr gute Basis gelegt werden."
       
 ---
-

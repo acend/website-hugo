@@ -1,18 +1,19 @@
- <meta property="og:title" content="{{ .Title }}{{ if not .IsHome }} – {{ $.Site.Title }}{{ end }}">
- <meta property="twitter:title" content="{{ .Title }}{{ if not .IsHome }} – {{ $.Site.Title }}{{ end }}">
+ <meta property="og:title" content="{{ .Title }}{{ if not .IsHome }} – {{ $.Site.Title }}{{ end }}" />
+ <meta property="twitter:title" content="{{ .Title }}{{ if not .IsHome }} – {{ $.Site.Title }}{{ end }}" />
  {{ if $.IsPage }}
- <meta property="og:type" content="article">
- <meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}">
+ <meta property="og:type" content="article" />
+ <meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}" />
  {{ else }}
- <meta property="og:type" content="website">
+ <meta property="og:type" content="website" />
  {{ end }}
- <meta property="og:url" content="{{ $.Site.Params.domain }}{{ .Permalink }}">
- <meta property="og:site_name" content="{{ $.Site.Title }}">
- <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
- <meta property="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+ <meta property="og:url" content="{{ $.Site.Params.domain }}{{ .Permalink }}" />
+ <meta name="author" content="acend GmbH, hello@acend.ch" />
+ <meta property="og:site_name" content="{{ $.Site.Title }}" />
+ <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}" />
+ <meta property="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}" />
 {{ $image := resources.Get site.Params.twitterimage }}
- <meta property="og:image" content="{{ $.Site.Params.domain }}{{ ($image.Resize "1200x").RelPermalink }}">
- <meta property="twitter:image" content="{{ $.Site.Params.domain }}{{ ($image.Resize "1200x").RelPermalink }}">
+ <meta property="og:image" content="{{ $.Site.Params.domain }}{{ ($image.Resize "1200x").RelPermalink }}" />
+ <meta property="twitter:image" content="{{ $.Site.Params.domain }}{{ ($image.Resize "1200x").RelPermalink }}" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="{{ $.Site.Params.twitterAccount }}" />
 <meta name="twitter:creator" content="{{ $.Site.Params.twitterAccount }}" />

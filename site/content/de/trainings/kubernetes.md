@@ -5,7 +5,8 @@ date: 2019-03-12T12:14:34+06:00
 draft: false
 weight: 4
 slug: 
-categories: ["Basics"]
+subtitle: "Basics"
+categories: ["Basics", "Kubernetes"]
 duration: "2 Tage"
 abstract : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
 main_title : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
@@ -20,8 +21,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeA@2x.jpg"
 
 
-main_text: "Container-Technologien und insbesondere Kubernetes haben in den letzten Jahren enorm an Bedeutung gewonnen und wurden zu einem wichtigen Treiber der Digitalisierung. 
-
+main_text: "Container-Technologien und insbesondere Kubernetes haben in den letzten Jahren enorm an Bedeutung gewonnen und wurden zu einem wichtigen Treiber der Digitalisierung.\n\n 
 Dieses zweitägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in diese Open Source-Technologien. Unsere Trainer kommen aus der Praxis und sind zertifizierte Kubernetes Administratoren."
 
 accordion:
@@ -29,34 +29,34 @@ accordion:
     item:
         - title : "Trainingsziele"
           icon : "1"
-          content : "
-¬ Den Einstieg in eine moderne Technologie finden<br/>
-¬ Konzepte von Containern und Kubernetes verstehen<br/>
-¬ Applikationen auf Kubernetes deployen
-"
+          content : "<ul>
+<li>Den Einstieg in eine moderne Technologie finden</li>
+<li>Konzepte von Containern und Kubernetes verstehen</li>
+<li>Applikationen auf Kubernetes deployen</li>
+</ul>"
   
         - title : "Voraussetzungen"
           icon : "2"
-          content : "
-¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet<br/>
-¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig
-"
+          content : "<ul>
+<li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
+<li>Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig</li>
+</ul>"
 
         - title : "Zielpublikum"
           icon : "3"
-          content : "
-¬ Unser Training richtet sich an Personen aus dem Software und System Engineering<br/>
-¬ Es sind keine Vorkenntnisse mit Container-Technologien oder Kubernetes notwendig
-"
+          content : "<ul>
+<li>Unser Training richtet sich an Personen aus dem Software und System Engineering</li>
+<li>Es sind keine Vorkenntnisse mit Container-Technologien oder Kubernetes notwendig</li>
+</ul>"
 
         - title : "Konditionen"
           icon : "4"
-          content : "
-¬ CHF 1900 / Person für 2 Tage<br/>
-¬ Gruppen von 8-24 Personen<br/>
-¬ Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud<br/>
-¬ Rabatt ab 12 Personen
-"
+          content : "<ul>
+<li>CHF 1900 / Person für 2 Tage</li>
+<li>Gruppen von 8-24 Personen</li>
+<li>Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud</li>
+<li>Rabatt ab 12 Personen</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 
@@ -123,8 +123,18 @@ testimonials:
   enable: true
   testimonial:
     - title : "Das sagt unser Trainingsteilnehmer<br/>Corsin Decurtins, Zürich"
-      image : "images/trainings/ACEND_Jeremy@4x.jpg"
       logo : "images/testimonials/netceterea_logo.png"
       text : "Wir konnten in mehreren Schulungen das Know-How, unserer Entwickler in ganz Europa, im Bereich Kubernetes aufbauen. Dies hilft uns auch in Zukunft, unsere Kunden mit innovativen Softwarelösungen zu  beliefern. Einfach tolle Trainings und super Trainer."       
-      
+
+    - title: "Das sagt unser Trainingsteilnehmer<br/>Thomas Abbrederis, Vaduz"
+      logo: "images/testimonials/lgt_logo.png"
+      text: "Durch die Schulung konnten wir das Know-how im Bereich moderner Container Technologie praxisnah mit der zur Verfügung gestellten Openshift Plattform vertiefen. Durch die sehr kompetenten Trainer konnte der Respekt vor den neuen Container Technologien reduziert werden und damit den Schulungsteilnehmern für die Zukunft eine sehr gute Basis gelegt werden."
+
+    - title: "Das sagt unser Trainingsteilnehmer<br/>Michael Rudiger, Solothurn"
+      logo: "images/testimonials/10centris.png"
+      text: "Das Training war sehr hilfreich und gab mir einen super Einblick in die Welt von Prometheus. Dank den hands-on Labs konnte ich mein Wissen gleich anwenden. Die Trainer waren sehr kompetent und hilfsbereit, die Workshops technisch toll umgesetzt."
+
+    - title: "Das sagt unsere Trainingsteilnehmerin<br/>Luana  Cusseddu, Bern"
+      text: "Eine total neue Lernerfahrung mit tollen Labs und begeisterten Trainern. Das erworbene Wissen konnte ich schon am nächsten Tag in meinem Unternehmen einsetzen. Von mir gibt's 5 von 5 Sternen."
+        
 ---

@@ -9,6 +9,7 @@ import ScrollOut from "scroll-out";
 import Sticky from "sticky-js";
 
 import home from "./js/home";
+import trainings from "./js/trainings";
 
 import { map, lerp, getMousePos, calcWinsize, getRandomNumber } from './js/utils';
 
@@ -19,6 +20,7 @@ import { map, lerp, getMousePos, calcWinsize, getRandomNumber } from './js/utils
 
 ScrollOut({
     /* options */
+    once: true,
   });
 
 
@@ -32,17 +34,24 @@ ScrollOut({
 
 
   let root = document.documentElement;
-  const colors = ["#074761","#7d0f4b",  "#36735c", "#d08f4c"];
+  const colors = [
+    "7 71 97", //#E6ECEE", //AC-Blue
+    "125 15 75", //#E8D4DF", //AC-Red
+    "54 115 92", //#36735c //AC-Green
+    "208 143 76", //#F6E8DB", //AC-Yellow
+  ];
   const colors_light = [
-              "#E6ECEE", //AC-Blue
-              "#E8D4DF", //AC-Red
-              "#E6EDEA", //AC-Green
-              "#F6E8DB", //AC-Yellow
+      "230 236 238",        //"#E6ECEE", //AC-Blue
+      "232 212 223",        //"#E8D4DF", //AC-Red
+      "230 237 234",        //"#E6EDEA", //AC-Green
+      "246 232 219",        //"#F6E8DB", //AC-Yellow
           ];
   let randomColor =  Math.floor(Math.random() * colors.length);       
 
-  root.style.setProperty('--primary', colors[randomColor]);
-  root.style.setProperty('--primary-light', colors_light[randomColor]);
+  root.style.setProperty('--primary', 'rgb('+colors[randomColor]+')');
+  root.style.setProperty('--primary-light', 'rgb('+colors_light[randomColor]+')');
+  //root.style.setProperty('--color', colors[randomColor]);
+  root.style.setProperty('--shadowColor', 'rgba('+colors[randomColor].split(' ').join(',')+', 0.3)');
 
 
   $('.navbar-collapse').on('show.bs.collapse', function(){
@@ -61,6 +70,7 @@ $(window).on('load', function () {
 
   
   home();
+  trainings();
  
 
 	// Background-images
@@ -156,7 +166,7 @@ els.forEach(item => move(item));
 
 $( 'form' ).submit(function ( e ) {
 
-  const $form = $(this)
+  const $form = $(this);
   const formdata = $form.serializeArray();
 
   $.ajax({

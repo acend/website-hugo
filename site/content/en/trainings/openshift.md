@@ -4,7 +4,8 @@ description: "Container and OpenShift – from theory to practice in no time."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 2
-categories: ["Basics"]
+subtitle: "Basics"
+categories: ["Basics", "Kubernetes"]
 duration: "2 Days"
 abstract: "Container and OpenShift – from theory to practice in no time."
 main_title: "Container and OpenShift – from theory to practice in no time."
@@ -19,39 +20,42 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeD@2x.jpg"
   
 
-main_text: "The importance of Container technologies has significantly increased in recent years. Based on such technologies – Kubernetes among others – OpenShift offers a comprehensive and comfortable Container Platform solution. This two-day training in German or English provides a practical and easy-to-understand introduction to these Open Source technologies. Our teachers draw on considerable practical experience and are experienced OpenShift Administrators."
+main_text: "The importance of container technologies has significantly increased in recent years. Based on such technologies – Kubernetes among others – OpenShift offers a comprehensive and comfortable container platform solution.\n\n
+This two-day training in German or English provides a practical and easy-to-understand introduction to these open source technologies. Our teachers draw on considerable practical experience and are experienced OpenShift administrators."
 
 accordion:
     enable : true
     item:
         - title : "Outcomes"
           icon : "1"
-          content : "
-¬ Become acquainted with a modern technology<br/>
-¬ Understand the concepts of Containers and OpenShift<br/>
-¬ Deploy applications on OpenShift
-"
+          content : "<ul>
+<li>Become acquainted with a modern technology</li>
+<li>Understand the concepts of containers and OpenShift</li>
+<li>Deploy applications on OpenShift</li>
+</ul>"
  
         - title : "Prerequisites"
           icon : "2"
-          content : "
-¬ Participants will need a laptop with direct access to the Internet<br/>
-¬ Additionally, local admin rights or access to a terminal (in the browser) are required"
+          content : "<ul>
+<li>Participants will need a laptop with direct access to the Internet</li>
+<li>Additionally, local admin rights or access to a terminal (in the browser) are required</li>
+</ul>"
 
-        - title : "Target Audience"
+        - title : "Target audience"
           icon : "3"
-          content : "
-¬ Our training is designed for software and system engineers<br/>
-¬ No prior knowledge of Container technologies or OpenShift is required
-"
+          content : "<ul>
+<li>Our training is designed for software and system engineers</li>
+<li>No prior knowledge of container technologies or OpenShift is required</li>
+</ul>"
 
         - title : "Conditions"
           icon : "4"
-          content : "
-¬ CHF 1900 / participant for 2 days<br/>
-¬ Group classes consisting of 8 to 24 participants<br/>
-¬ Includes catering, documentation and an OpenShift cluster in the cloud<br/>
-¬ Discounts available for groups of 12 participants or more"
+          content : "<ul>
+<li>CHF 1900 / participant for 2 days</li>
+<li>Group classes consisting of 8 to 24 participants</li>
+<li>Includes catering, documentation and an OpenShift cluster in the cloud</li>
+<li>Discounts available for groups of 12 participants or more</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 
@@ -93,18 +97,18 @@ trainers:
   enable: true
   title : "Meet two of Your Trainers"
   trainer:
-    - title : "Benjamin"
+    - title : "Benjamin Affolter"
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
+      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
       twitter : "https://twitter.com/bliemli"
 
-    - title : "Thomas"
+    - title : "Thomas Philipona"
       image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Co-Founder & Trainer"
-      abstract : "He’s been in the IT world for years – and he discovers everything else on this bicycle."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
+      abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
+      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
       twitter : "https://twitter.com/tphilipona"
       
       
@@ -117,4 +121,3 @@ testimonials:
       text : "Through the training, we were able to deepen the know-how in the area of modern container technology in a practical way with the Openshift platform provided. The very competent trainers were able to reduce the respect for the new container technologies and thus provide the training participants with a very good baseline for the future."
       
 ---
-

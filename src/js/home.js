@@ -36,4 +36,23 @@ export default function() {
             prevNextButtons: false,
         });
     }
+
+    if($('.partner-carousel .carousel-cell').length > 1) {
+     
+        var flkty_partner = new Flickity( '.partner-carousel', {
+            wrapAround: true,
+            //fade: true,
+            //adaptiveHeight: false,
+            autoPlay: 2500,
+            //pauseAutoPlayOnHover: false,
+            prevNextButtons: false,
+            cellAlign: 'left',
+            on: {
+                ready: function() {
+                    console.log('Flickity ready');
+                    window.dispatchEvent(new Event('resize'));
+                },
+            }, 
+        });
+    }
 }

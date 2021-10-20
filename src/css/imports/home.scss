@@ -139,9 +139,21 @@
       //width: 100%;
       margin-top: 30%;
 
-      @include media-breakpoint-up(md) {
-        //width: 40%;
-      }
     }
+  }
+}
+
+.partner-carousel { 
+  .carousel-cell {
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      width: 40%;
+    }
+  }
+
+  .flickity-page-dots {
+    position: relative;
+    bottom: 0;
   }
 }

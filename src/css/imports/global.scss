@@ -84,6 +84,11 @@ body {
     @include media-breakpoint-up(lg) {
       width: 40px;
       height: 40px;
+
+      &.icon-diplom {
+        width: 32px;
+        height: 36px;
+      }
     }
 }
 .icon-sm {
@@ -151,6 +156,10 @@ h4,
   @include media-breakpoint-up(md) {
       font-size:  1.222222222222222rem
     }
+}
+
+.bold {
+  font-family: "TTFirsNeue-Medium", sans-serif;
 }
 
 .small-bold {
@@ -311,4 +320,12 @@ a {
   .mb-lg-6, .my-lg-6 {
       margin-bottom: 5rem !important;
   }
+ }
+
+ .bg-primarylight {
+   background: var(--primary-light);
+ }
+ 
+ .pos-relative {
+   position: relative;
  }

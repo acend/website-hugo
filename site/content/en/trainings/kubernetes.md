@@ -5,7 +5,8 @@ date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 4
 slug: 
-categories: ["Basics"]
+subtitle: "Basics"
+categories: ["Basics", "Kubernetes"]
 duration: "2 Days"
 abstract : "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
 main_title : "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
@@ -20,41 +21,42 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeA@2x.jpg"
 
 
-main_text: "Container technologies, Kubernetes above all, have become more important in recent years and now are a significant driver of digitalization. This two-day training in German or English provides a practical and easy-to-understand introduction to these Open Source technologies. Our trainers draw on considerable practical experience and are certified Kubernetes Administrators."
+main_text: "Container technologies, Kubernetes above all, have become more important in recent years and now are a significant driver of digitalization.\n\n 
+This two-day training in German or English provides a practical and easy-to-understand introduction to these open source technologies. Our trainers draw on considerable practical experience and are certified Kubernetes administrators."
 
 accordion:
     enable : true
     item:
         - title : "Outcomes"
           icon : "1"
-          content : "
-¬ Become acquainted with a modern technology<br/>
-¬ Understand the concepts of Containers and Kubernetes<br/>
-¬ Deploy applications on Kubernetes
-"
+          content : "<ul>
+<li>Become acquainted with a modern technology</li>
+<li>Understand the concepts of containers and Kubernetes</li>
+<li>Deploy applications on Kubernetes</li>
+</ul>"
   
         - title : "Prerequisites"
           icon : "2"
-          content : "
-¬ Participants will need a laptop with direct access to the Internet<br/>
-¬ Additionally, local admin rights or access to a terminal (in the browser) are required
-"
+          content : "<ul>
+<li>Participants will need a laptop with direct access to the Internet</li>
+<li>Additionally, local admin rights or access to a terminal (in the browser) are required</li>
+</ul>"
 
         - title : "Target Audience"
           icon : "3"
-          content : "
-¬ Our training is designed for software and system engineers<br/>
-¬ No prior knowledge of Container technologies or Kubernetes is required
-"
+          content : "<ul>
+<li>Our training is designed for software and system engineers</li>
+<li>No prior knowledge of container technologies or Kubernetes is required</li>
+</ul>"
 
         - title : "Conditions"
           icon : "4"
-          content : "
-¬ CHF 1900 / participant for 2 days<br/>
-¬ Group classes consisting of 8 to 24 participants<br/>
-¬ Includes catering, documentation and a Kubernetes cluster in the cloud<br/>
-¬ Discounts available for groups of 12 participants or more
-"
+          content : "<ul>
+<li>CHF 1900 / participant for 2 days</li>
+<li>Group classes consisting of 8 to 24 participants</li>
+<li>Includes catering, documentation and a Kubernetes cluster in the cloud</li>
+<li>Discounts available for groups of 12 participants or more</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 

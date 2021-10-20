@@ -4,8 +4,9 @@ description: "Ein praktischer Einstieg in den bekanntesten Paketmanager für App
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 5
-slug: 
-categories: ["Basics"]
+slug:
+subtitle: "Basics"
+categories: ["Basics", "Delivery CI/CD"]
 duration: "1 Tag"
 abstract : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
 main_title : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
@@ -22,45 +23,43 @@ headerimages:
 
 main_text: "Dieses halbtägige Training auf Deutsch oder Englisch bietet einen praktischen und klar 
 verständlichen Einstieg zu Helm, dem bekanntesten Paketmanager für Applikationen auf 
-Kubernetes. 
-
-Mittels Helm können auch komplexe Applikationen auf Container Plattformen definiert, 
-installiert, verwaltet und betrieben werden. Unsere Trainer kommen aus der Praxis und 
-sind zertifizierte Kubernetes Administratoren."
+Kubernetes. Mittels Helm können auch komplexe Applikationen auf Container Plattformen definiert, 
+installiert, verwaltet und betrieben werden.\n\n 
+Unsere Trainer kommen aus der Praxis und sind zertifizierte Kubernetes Administratoren."
 
 accordion:
     enable : true
     item:
         - title : "Trainingsziele"
           icon : "1"
-          content : "
-¬ Den Einstieg in eine moderne Technologie finden<br/>
-¬ Grundkonzepte von Helm verstehen<br/> 
-¬ Applikationen mittels Helm installieren
-"
+          content : "<ul>
+<li>Den Einstieg in eine moderne Technologie finden</li>
+<li>Grundkonzepte von Helm verstehen</li>
+<li>Applikationen mittels Helm installieren</li>
+</ul>"
  
         - title : "Voraussetzungen"
           icon : "2"
-          content : "
-¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet<br/>
-¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig
-"
+          content : "<ul>
+<li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
+<li>Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig</li>
+</ul>"
 
         - title : "Zielpublikum"
           icon : "3"
-          content : "
-¬ Unser Training richtet sich an Personen, welche bereits Vorkenntnisse im Bereich von Container-Technologien besitzen<br/>
-¬ Ein vorgängiger Besuch des Trainings Container & Kubernetes Basics oder Container & OpenShift Basics wird empfohlen
-"
+          content : "<ul>
+<li>Unser Training richtet sich an Personen, welche bereits Vorkenntnisse im Bereich von Container-Technologien besitzen</li>
+<li>Ein vorgängiger Besuch des Trainings Container & Kubernetes Basics oder Container & OpenShift Basics wird empfohlen</li>
+</ul>"
 
         - title : "Konditionen"
           icon : "4"
-          content : "
-¬ CHF 1000 / Person für einen Tag<br/>
-¬ Gruppen von 8-24 Personen<br/>
-¬ Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud<br/>
-¬ Rabatt ab 12 Personen
-"
+          content : "<ul>
+<li>CHF 1000 / Person für einen Tag</li>
+<li>Gruppen von 8-24 Personen</li>
+<li>Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud</li>
+<li>Rabatt ab 12 Personen</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 
@@ -76,17 +75,15 @@ trainingsinhalt:
       liste:
         - el: "Grundkonzepte"
         - el: "Basisbefehle"
-        - el: "Tiller"
-        - el: "Helm 3"
-        - el: "Helm Alternativen"
         - el: "Installation"
         - el: "Charts"
         - el: "Repositories"
-        - el: "Variablen und Secrets"
+        - el: "Lifecycle"
+        - el: "Variablen"
+        - el: "Helm Hooks"
+        - el: "Charttests"                
         - el: "Debugging"
         - el: "Go Templating"
-
-
 
 # trainer
 trainers:
@@ -97,7 +94,7 @@ trainers:
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
+      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
       twitter : "https://twitter.com/bliemli"
     
     
@@ -114,7 +111,6 @@ testimonials:
   enable: true
   testimonial:
     - title : "Das sagt unser Trainingsteilnehmer<br/>Matthias Summer, Österreich"
-      image : "images/trainings/ACEND_Jeremy@4x.jpg"
       logo : "images/testimonials/adcubum_logo.png"
       text : "Das Training hat mir sehr gut gefallen und ich konnte einige Dinge mitnehmen, die mir bei der täglichen Arbeit helfen. Die Praxis-Erfahrung und die Leidenschaft für die Technologie war bei den Trainern spürbar. Sie haben uns auch sehr gut unterstützt und uns nützliche Tipps gegeben."     
       

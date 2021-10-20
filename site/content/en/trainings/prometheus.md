@@ -4,13 +4,14 @@ description: "Prometheus – Introduction to the modern monitoring platform."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 6
-categories: ["Basics"]
+subtitle: "Basics"
+categories: ["Basics", "Specialized trainings"]
 duration: "2 Days"
 abstract: "Prometheus – Introduction to the modern monitoring platform."
 main_title: "Prometheus – Introduction to the modern monitoring platform."
 
 personen: 
-  daten : "19.05.22, 20.05.22"
+  daten : ""
   preis : "CHF 2200"
 
 headerimages:
@@ -19,7 +20,8 @@ headerimages:
   img3 : "images/trainings/ACEND_Code@2x.jpg"
   
 
-main_text: "Prometheus is a modern and widely used metrics-based monitoring system. Prometheus is often used in the context of dynamic platforms in the container environment, such as Kubernetes and OpenShift, but is also suitable for monitoring classic environments. This two-day training in German or English offers a practical and clearly understandable introduction to Prometheus technology. The training is offered by acend in cooperation with Puzzle ITC. It can be conducted online or on-site."
+main_text: "Prometheus is a modern and widely used metrics-based monitoring system. Prometheus is often used in the context of dynamic platforms in the container environment, such as Kubernetes and OpenShift, but is also suitable for monitoring classic environments.\n\n 
+This two-day training in German or English offers a practical and clearly understandable introduction to Prometheus technology. The training is offered by acend in cooperation with Puzzle ITC. It can be conducted online or on-site."
 
 
 accordion:
@@ -27,33 +29,33 @@ accordion:
     item:
         - title : "Outcomes"
           icon : "1"
-          content : "
-¬ Get started with the modern monitoring platform Prometheus<br/>
-¬ Understand Prometheus concepts<br/>
-¬ Learn more about PromQL and its application scope
-"
+          content : "<ul>
+<li>Get started with the modern monitoring platform Prometheus</li>
+<li>Understand Prometheus concepts</li>
+<li>Learn more about PromQL and its application scope</li>
+</ul>"
  
         - title : "Prerequisites"
           icon : "2"
-          content : "
-¬ Participants will need a laptop with direct access to the Internet<br/>
-¬ Participants should have basic Linux and Kubernetes knowledge
-"
+          content : "<ul>
+<li>Participants will need a laptop with direct access to the Internet</li>
+<li>Participants should have basic Linux and Kubernetes knowledge</li>
+</ul>"
 
         - title : "Target Audience"
           icon : "3"
-          content : "
-¬ Our training is aimed at Software Developers, System Engineers, Architects and anyone who wants to understand and use Prometheus for monitoring
-"
+          content : "<ul>
+<li>Our training is aimed at software developers, system engineers, architects and anyone who wants to understand and use Prometheus for monitoring</li>
+</ul>"
 
         - title : "Conditions"
           icon : "4"
-          content : "
-¬ CHF 2200 / participant for 2 days<br/>
-¬ Group classes consisting of 8 to 24 participants<br/>
-¬ Includes catering, documentation and a cloud-based lab environment<br/>
-¬ Discounts available for groups of 12 participants or more
-"
+          content : "<ul>
+<li>CHF 2200 / participant for 2 days</li>
+<li>Group classes consisting of 8 to 24 participants</li>
+<li>Includes catering, documentation and a cloud-based lab environment</li>
+<li>Discounts available for groups of 12 participants or more</li>
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 
@@ -83,7 +85,7 @@ trainers:
     - title : "Christoph Aymon"
       designation : "Trainer"
       abstract : "When he’s not concentrated on a computer screen, you’re most likely to find him in a fast car – he only does extra laps on the Nürburgring."
-      linkedin : "https://www.linkedin.com/in/christoph-aymon-b5948a122/"
+      linkedin : "https://www.linkedin.com/in/christoph-aymon"
 
     - title : "Julius Volz"
       designation : "Trainer, PromLabs"
@@ -100,12 +102,7 @@ trainers:
       designation : "Trainer, Puzzle ITC"
       abstract : "True to the motto, what doesn't fit is made to fit, as an engineer he solves all challenges in no time at all."
       twitter : "https://twitter.com/reti_k"
-      
-    - title : "Thomas Philipona"
-      designation : "Trainer"
-      abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
-      twitter : "https://twitter.com/tphilipona"
+
       
 # testimonials
 testimonials:
