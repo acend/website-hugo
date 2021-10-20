@@ -120,7 +120,7 @@ partner:
   title: "Our Partners"
   item:
     - logo: "images/partner/puzzle_logo@2x.png"
-      text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on Open Source technologies as well as the most modern methods. Different interdisciplinary teams work on projects regarding consulting, applications, delivery, infrastructure and Open Source solutions."
+      text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on open source technologies as well as the most modern methods. Different interdisciplinary teams work on projects regarding consulting, applications, delivery, infrastructure and open source solutions."
       URL: "https://puzzle.ch"
       label: "puzzle.ch"
 
