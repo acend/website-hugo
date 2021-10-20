@@ -39,7 +39,7 @@ slideshow:
       img2: "images/trainings/ACEND_Philip@2x.jpg"
       img3: "images/trainings/ACEND_CodeD@2x.jpg"
     
-    - ubertitle: "Training Offer"
+    - ubertitle: "Training offer"
       title: "OpenShift 4 Operations"
       subtitle: "Advanced"
       URL: "/en/trainings/openshift4ops/"
