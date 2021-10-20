@@ -42,7 +42,7 @@ accordion:
           content : "<ul>
 <li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
 <li>Lokale Admin-Rechte oder ein Terminal mit Verbindungsmöglichkeit via SSH sind zusätzlich nötig</li>
-<li>Die Teilnehmenden sollten über grundlegende Linux und Kubernetes Kenntnisse verfügen</li>
+<li>Die Teilnehmenden sollten über grundlegende Linux- und Kubernetes-Kenntnisse verfügen</li>
 </ul>"
 
         - title : "Zielpublikum"
