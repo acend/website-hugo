@@ -71,7 +71,7 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
         - el: "Grundkonzepte"
         - el: "Architektur"
         - el: "Verwalten von Argo CD Applikationen in Git"
-        - el: "Sync-policies"
+        - el: "Sync Policies"
         - el: "Diffen von Applikationsstate (Git vs. Kubernetes Cluster)"
         - el: "Self-healing"
         - el: "Pruning von Ressourcen"
