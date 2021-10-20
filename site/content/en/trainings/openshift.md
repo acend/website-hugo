@@ -20,7 +20,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeD@2x.jpg"
   
 
-main_text: "The importance of Container technologies has significantly increased in recent years. Based on such technologies – Kubernetes among others – OpenShift offers a comprehensive and comfortable Container Platform solution.\n\n
+main_text: "The importance of container technologies has significantly increased in recent years. Based on such technologies – Kubernetes among others – OpenShift offers a comprehensive and comfortable container platform solution.\n\n
 This two-day training in German or English provides a practical and easy-to-understand introduction to these Open Source technologies. Our teachers draw on considerable practical experience and are experienced OpenShift Administrators."
 
 accordion:
