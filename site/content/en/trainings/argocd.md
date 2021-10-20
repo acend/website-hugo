@@ -94,7 +94,7 @@ trainers:
     - title : "Raffael Hertle"
       image : "images/team/AC_Raffael_Hertle@2x.jpg"
       designation : "Trainer, Puzzle ITC"
-      abstract : "He feels at home in the clouds of the Cloud Native world."
+      abstract : "He feels at home in the clouds of the cloud native world."
       linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
       twitter : "https://twitter.com/g1raffi"
       
