@@ -80,7 +80,7 @@ trainingsinhalt:
         - el: "Helm hooks"
         - el: "Chart tests"                
         - el: "Debugging"
-        - el: "Go Templating"
+        - el: "Go templating"
         
 
 
