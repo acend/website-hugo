@@ -22,7 +22,7 @@ headerimages:
   
 
 main_text: "GitOps is a natural extension of Infrastructure-as-Code and Continuous Delivery with a focus on using Git as the single source of truth for your system. Changes to infrastructure and applications are made declaratively via a Git repository, with an automated process ensuring that the current state of your system reflects the state of the repository.\n\n
-This one-day training in German or English offers a practical and clearly understandable introduction to GitOps using Argo CD, the de facto standard on Kubernetes."
+This one-day training in German or English offers a practical and clearly understandable introduction to GitOps using Argo CD on Kubernetes."
 
 accordion:
     enable : true
