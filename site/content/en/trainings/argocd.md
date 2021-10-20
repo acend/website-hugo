@@ -9,7 +9,7 @@ subtitle: "Advanced"
 categories: ["Delivery CI/CD", "Advanced" ]
 duration: "1 Day"
 abstract: "Next generation application delivery and operations."
-main_title: "Next generation application delivery and operation."
+main_title: "Next generation application delivery and operations."
 
 personen: 
   daten : "26.01.22"
