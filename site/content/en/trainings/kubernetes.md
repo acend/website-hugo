@@ -46,7 +46,7 @@ accordion:
           icon : "3"
           content : "<ul>
 <li>Our training is designed for software and system engineers</li>
-<li>No prior knowledge of Container technologies or Kubernetes is required</li>
+<li>No prior knowledge of container technologies or Kubernetes is required</li>
 </ul>"
 
         - title : "Conditions"
