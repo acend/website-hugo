@@ -1,7 +1,7 @@
 # about
 about:
   enable: true
-  title: "Experience Knowledge"
+  title: "Experience knowledge"
   content: "The joy of discovering new things is the main driver of development and growth. Let’s experience this moment together."
   button:
     enable: false
