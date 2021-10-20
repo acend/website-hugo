@@ -31,7 +31,7 @@ accordion:
           icon : "1"
           content : "<ul>
 <li>Become acquainted with a modern technology</li>
-<li>Understand the concepts of Containers and Kubernetes</li>
+<li>Understand the concepts of containers and Kubernetes</li>
 <li>Deploy applications on Kubernetes</li>
 </ul>"
   
