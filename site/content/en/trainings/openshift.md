@@ -30,7 +30,7 @@ accordion:
           icon : "1"
           content : "<ul>
 <li>Become acquainted with a modern technology</li>
-<li>Understand the concepts of Containers and OpenShift</li>
+<li>Understand the concepts of containers and OpenShift</li>
 <li>Deploy applications on OpenShift</li>
 </ul>"
  
