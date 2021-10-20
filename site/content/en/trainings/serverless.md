@@ -9,7 +9,7 @@ subtitle: "Basics"
 categories: ["Basics", "Specialized trainings"]
 
 duration: "1 Day"
-abstract : "Level up your Serverless Game - Hands-on Best Practices for Serverless and FaaS."
+abstract : "Level up your serverless game - Hands-on best practices for serverless and FaaS."
 main_title : "Level up your Serverless Game - Hands-on Best Practices for Serverless and FaaS."
 
 personen: 
