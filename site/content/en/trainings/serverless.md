@@ -70,7 +70,7 @@ trainingsinhalt:
     liste1:
       title: "Serverless"
       liste:
-        - el: "What is Serverless?"
+        - el: "What is serverless?"
         - el: "What is FaaS and when should I use it?"
         - el: "Writing a First Function"
         - el: "Serverless Architecture Patterns"
