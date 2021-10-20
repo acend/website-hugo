@@ -107,7 +107,7 @@ testimonials:
   testimonial:
     - title : "Das sagt unser Trainingsteilnehmer<br/>Thomas Abbrederis, Vaduz"
       logo : "images/testimonials/lgt_logo.png"
-      text : "Durch die Schulung konnten wir das Know-how im Bereich moderner Container Technologie praxisnah mit der zur Verfügung gestellten Openshift Plattform vertiefen. Durch die sehr kompetenten Trainer konnte der Respekt vor den neuen Container Technologien reduziert werden und damit den Schulungsteilnehmern für die Zukunft eine sehr gute Basis gelegt werden."
+      text : "Durch die Schulung konnten wir das Know-how im Bereich moderner Container Technologie praxisnah mit der zur Verfügung gestellten OpenShift Plattform vertiefen. Durch die sehr kompetenten Trainer konnte der Respekt vor den neuen Container Technologien reduziert werden und damit den Schulungsteilnehmern für die Zukunft eine sehr gute Basis gelegt werden."
       
 ---
 
