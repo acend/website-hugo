@@ -45,7 +45,7 @@ accordion:
           icon : "3"
           content : "<ul>
 <li>Our training is designed for software and system engineers</li>
-<li>No prior knowledge of Container technologies or OpenShift is required</li>
+<li>No prior knowledge of container technologies or OpenShift is required</li>
 </ul>"
 
         - title : "Conditions"
