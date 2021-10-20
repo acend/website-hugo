@@ -42,7 +42,7 @@ accordion:
 <li>Additionally, local admin rights or access to a terminal (in the browser) are required</li>
 </ul>"
 
-        - title : "Target Audience"
+        - title : "Target audience"
           icon : "3"
           content : "<ul>
 <li>Our training is aimed at people who already have prior knowledge of container technologies, Git and Kubernetes</li>
