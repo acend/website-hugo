@@ -31,7 +31,7 @@ accordion:
           content : "<ul>
 <li>Get to know OpenShift 4 architecture and components</li>
 <li>Install your own OpenShift 4 cluster</li>
-<li>Mastering Day 2 operations tasks without interruption</li>
+<li>Mastering day 2-operations tasks without interruption</li>
 <li>Deepen monitoring and troubleshooting know-how</li>
 </ul>"
 
