@@ -1,6 +1,6 @@
 ---
 title: "Serverless"
-description: "Level up your Serverless Game - Hands-on Best Practices for Serverless and FaaS."
+description: "Level up your serverless game - Hands-on best practices for serverless and FaaS."
 date: 2021-10-12T12:14:34+06:00
 draft: true
 weight: 1
