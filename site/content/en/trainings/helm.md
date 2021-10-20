@@ -77,8 +77,8 @@ trainingsinhalt:
         - el: "Repositories"
         - el: "Lifecycle"
         - el: "Variables"
-        - el: "Helm Hooks"
-        - el: "Charttests"                
+        - el: "Helm hooks"
+        - el: "Chart tests"                
         - el: "Debugging"
         - el: "Go Templating"
         
