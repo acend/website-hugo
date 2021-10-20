@@ -23,7 +23,7 @@ headerimages:
       
 
 main_text: "
-Serverless technologies are currently experiencing quite a boom. They range from Function as a Service (FaaS) to complete database and queuing systems to authentication and monitoring solutions. In this training, we will mainly look at FaaS and create corresponding functions that follow common best practices and run in AWS Lambda. In doing so, we will learn about certain stumbling blocks and peculiarities of these platforms and how to deal with them."
+Serverless technologies are currently experiencing quite a boom. They range from Function-as-a-Service (FaaS) to complete database and queuing systems to authentication and monitoring solutions. In this training, we will mainly look at FaaS and create corresponding functions that follow common best practices and run in AWS Lambda. In doing so, we will learn about certain stumbling blocks and peculiarities of these platforms and how to deal with them."
 
 accordion:
     enable : true
