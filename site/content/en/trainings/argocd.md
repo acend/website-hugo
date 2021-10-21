@@ -88,7 +88,7 @@ trainers:
     - title : "Christian Schlatter"
       image : "images/team/AC_Christian_Schlatter@2x.jpg"
       designation : "Trainer, Puzzle ITC"
-      abstract : "It's nice to be important, but it's more important to be nice. - John Templeton "
+      abstract : "Not only does he enjoy traveling through the real world, but he also discovers new places in the Cloud Native Landscape"
       linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
 
     - title : "Raffael Hertle"
