@@ -2,7 +2,7 @@
 title: "Serverless"
 description: "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS."
 date: 2021-10-12T12:14:34+06:00
-draft: true
+draft: false
 weight: 1
 slug: 
 subtitle: "Basics"
@@ -83,11 +83,12 @@ trainingsinhalt:
 # trainer
 trainers:
   enable: true
-  title : "Lerne zwei deiner Trainer:innen kennen"
+  title : "Lerne deine Trainer:innen kennen"
   trainer:
     - title : "Gabriel Koch"
       designation : "Trainer, bespinian"
       abstract : "Obwohl er Vegetarier ist, haben seine Erklärungen zu Cloud Technologien viel Fleisch am Knochen."
+      image : "images/team/AC-Gabriel@2x.jpg"
       linkedin : "https://www.linkedin.com/in/gabriel-koch-ch"
       twitter : "https://twitter.com/elessar_ch"
     
@@ -95,8 +96,16 @@ trainers:
     - title : "Lena Fuhrimann"
       designation : "Trainerin, bespinian"
       abstract : "Den Kopf immer in den Wolken, man beachte nur ihre Haare. Lena liebt es, Software zu modernisieren und mit neuen Technologien zu arbeiten. Sie benutzt übrigens Arch."
+      image : "images/team/AC_Lena_Fuhrimann@2x.jpg"
       linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
       twitter : "https://twitter.com/mastertinner"
+    
+    - title : "Mathis Kretz "
+      designation : "Trainer, bespinian"
+      abstract : "Wenn er nicht gerade Microservices deployt oder anderen zeigt wie man das macht, kocht er, am liebsten mit Feuer"
+      image : "images/team/AC-Mathis-Kretz@2x.jpg"
+      linkedin : "https://www.linkedin.com/in/mathiskretz/"
+      twitter : "https://twitter.com/mathis_kretz"
 
 
 # testimonials
