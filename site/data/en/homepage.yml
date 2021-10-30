@@ -22,6 +22,15 @@ slideshow:
       img3: "images/trainings/ACEND_CodeP@2x.jpg"
     
     - ubertitle: "Training offer"
+      title: "Serverless"
+      subtitle: "Basics"
+      URL: "/en/trainings/serverless/"
+      label: "Discover"
+      img1: "images/trainings/ACEND_Adventure_Desert@2x.jpg"
+      img2: "images/trainings/ACEND_Aschi@2x.jpg"
+      img3: "images/trainings/ACEND_CodeDe@2x.jpg"
+    
+    - ubertitle: "Training offer"
       title: "Container & Kubernetes"
       subtitle: "Basics"
       URL: "/en/trainings/kubernetes/"
@@ -87,8 +96,8 @@ trainings:
       trainings:
         - title: "Prometheus"
           slug: "prometheus"
-        #- title: "Serverless"
-        #  slug: "serverless"          
+        - title: "Serverless"
+          slug: "serverless"          
 
 # testimonial
 testimonials:
