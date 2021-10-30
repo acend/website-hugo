@@ -92,7 +92,6 @@ trainers:
       linkedin : "https://www.linkedin.com/in/gabriel-koch-ch"
       twitter : "https://twitter.com/elessar_ch"
     
-    
     - title : "Lena Fuhrimann"
       designation : "Trainer, bespinian"
       abstract : "Head always in the clouds, just look at her hair. Lena loves modernizing software and working with new technologies. She uses Arch btw."
@@ -104,7 +103,7 @@ trainers:
       designation : "Trainer, bespinian"
       abstract : "When he is not deploying microservices or showing others how to do it, he is cooking, preferably with fire"
       image : "images/team/AC-Mathis-Kretz@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/mathiskretz/
+      linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz"
 
 
