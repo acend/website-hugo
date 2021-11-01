@@ -9,8 +9,8 @@ subtitle: "Basics"
 categories: ["Basics", "Spezialisierte Trainings"]
 
 duration: "1 Tag"
-abstract : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS."
-main_title : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS."
+abstract : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS"
+main_title : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS"
 
 personen: 
   daten : "09.12.21"
@@ -31,40 +31,40 @@ accordion:
         - title : "Trainingsziele"
           icon : "1"
           content : "
-¬ Grundkonzepte von Serverless und FaaS verstehen<br/> 
-¬ Anwenden der Konzepte und Best Practices<br/>
-¬ Erweiterte Prinzipien und Learnings aus der Praxis
+<li>Grundkonzepte von Serverless und FaaS verstehen</li>
+<li>Anwenden der Konzepte und Best Practices</li>
+<li>Erweiterte Prinzipien und Learnings aus der Praxis</li>
 "
  
         - title : "Voraussetzungen"
           icon : "2"
           content : "
-¬ Die Teilnehmenden benötigen für das Training einen Laptop mit direktem Zugang zum Internet<br/>
-¬ Lokale Admin-Rechte sind zusätzlich nötig <br/>
-¬ Ein AWS-Account wird zur Verfügung gestellt
+<li>Die Teilnehmenden benötigen für das Training einen Laptop mit direktem Zugang zum Internet</li>
+<li>Lokale Admin-Rechte sind zusätzlich nötig </li>
+<li>Ein AWS-Account wird zur Verfügung gestellt</li>
 "
 
         - title : "Zielpublikum"
           icon : "3"
           content : "
-¬ Unser Training richtet sich sich vor allem an Entwickler:innen, welche diese neue Welt und ihre Vor- und Nachteile kennenlernen möchten<br/>
-¬ Die Teilnehmenden sollten Erfahrung mit einer gängigen Programmiersprache haben, ist jedoch keine strikte Voraussetzung
+<li>Unser Training richtet sich vor allem an Entwickler:innen, welche diese neue Welt und ihre Vor- und Nachteile kennenlernen möchten</li>
+<li>Die Teilnehmenden sollten Erfahrung mit einer gängigen Programmiersprache haben, ist jedoch keine strikte Voraussetzung</li>
 "
 
         - title : "Konditionen"
           icon : "4"
           content : "
-¬ CHF 1100 / Person für einen Tag<br/>
-¬ Gruppen von 8-24 Personen<br/>
-¬ Inklusive Verpflegung, Unterlagen und AWS-Account<br/>
-¬ Rabatt ab 12 Personen
+<li>CHF 1100 / Person für einen Tag</li>
+<li>Gruppen von 8 bis 24 Personen</li>
+<li>Inklusive Verpflegung, Unterlagen und AWS-Account</li>
+<li>Rabatt ab 12 Personen</li>
 "
 
 # Trainingsinhalt
 trainingsinhalt: 
     title : "Trainingsinhalt"
     text : "
-    Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln.
+    Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu vermitteln.
     Auf individuelle Fragestellungen gehen wir gerne während des Trainings tiefer ein."
 
     liste1:
@@ -102,7 +102,7 @@ trainers:
     
     - title : "Mathis Kretz "
       designation : "Trainer, bespinian"
-      abstract : "Wenn er nicht gerade Microservices deployt oder anderen zeigt wie man das macht, kocht er, am liebsten mit Feuer"
+      abstract : "Wenn er nicht gerade Microservices deployt oder anderen zeigt, wie man das macht, kocht er, am liebsten mit Feuer."
       image : "images/team/AC-Mathis-Kretz@2x.jpg"
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz"
