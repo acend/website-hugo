@@ -95,14 +95,14 @@ trainers:
   trainer:
     - title : "Andreas Gehrig"
       designation : "Trainer, arch.cloud"
-      abstract : "hier kommt noch ein text hin."
+      abstract : "Er ist immer mit seinem Notebook unterwegs, schreibt Software und entwirft Cloud-Architekturen."
       image : "images/team/AC-Andreas@2x.jpg"
       linkedin : "https://www.linkedin.com/in/andreasgehrig/"
       twitter : "https://twitter.com/"
     
     - title : "Nemanja Kostic"
       designation : "Trainer, arch.cloud"
-      abstract : "hier kommt noch ein text hin."
+      abstract : "Er hat die letzten 20 Jahre in der IT-Branche Kaffee getrunken und so getan, als wüsste er, was er tut."
       image : "images/team/AC-Nemanja@2x.jpg"
       linkedin : "https://www.linkedin.com/in/nemanjakostic/"
       twitter : "https://twitter.com/"    
