@@ -124,17 +124,6 @@ testimonials:
   testimonial:
     - title : "Das sagt unser Trainingsteilnehmer<br/>Corsin Decurtins, Zürich"
       logo : "images/testimonials/netceterea_logo.png"
-      text : "Wir konnten in mehreren Schulungen das Know-How, unserer Entwickler in ganz Europa, im Bereich Kubernetes aufbauen. Dies hilft uns auch in Zukunft, unsere Kunden mit innovativen Softwarelösungen zu  beliefern. Einfach tolle Trainings und super Trainer."       
-
-    - title: "Das sagt unser Trainingsteilnehmer<br/>Thomas Abbrederis, Vaduz"
-      logo: "images/testimonials/lgt_logo.png"
-      text: "Durch die Schulung konnten wir das Know-how im Bereich moderner Container Technologie praxisnah mit der zur Verfügung gestellten Openshift Plattform vertiefen. Durch die sehr kompetenten Trainer konnte der Respekt vor den neuen Container Technologien reduziert werden und damit den Schulungsteilnehmern für die Zukunft eine sehr gute Basis gelegt werden."
-
-    - title: "Das sagt unser Trainingsteilnehmer<br/>Michael Rudiger, Solothurn"
-      logo: "images/testimonials/10centris.png"
-      text: "Das Training war sehr hilfreich und gab mir einen super Einblick in die Welt von Prometheus. Dank den hands-on Labs konnte ich mein Wissen gleich anwenden. Die Trainer waren sehr kompetent und hilfsbereit, die Workshops technisch toll umgesetzt."
-
-    - title: "Das sagt unsere Trainingsteilnehmerin<br/>Luana  Cusseddu, Bern"
-      text: "Eine total neue Lernerfahrung mit tollen Labs und begeisterten Trainern. Das erworbene Wissen konnte ich schon am nächsten Tag in meinem Unternehmen einsetzen. Von mir gibt's 5 von 5 Sternen."
+      text : "Wir konnten in mehreren Schulungen das Know-How, unserer Entwickler in ganz Europa, im Bereich Kubernetes aufbauen. Dies hilft uns auch in Zukunft, unsere Kunden mit innovativen Softwarelösungen zu  beliefern. Einfach tolle Trainings und super Trainer."
         
 ---
