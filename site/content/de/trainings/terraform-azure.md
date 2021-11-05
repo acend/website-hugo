@@ -22,7 +22,7 @@ headerimages:
   img3 : "images/trainings/ACEND_Code_Yup@2x.jpg"
       
 main_text: "
-Um seine Infrastruktur deklarativ als Code zu verwalten, bietet Terraform einen breiten Funktionsumfang an. Die Konfigurationsdateien, welche typischerweise in einem Git Repository gespeichert sind, werden von Terraform als Single Source of Truth verwendet. Anhand dieser Dateien wird beispielsweie Infrastruktur aufgebaut oder ganze Applikationen konfiguriert.\n\n
+Um seine Infrastruktur deklarativ als Code zu verwalten, bietet Terraform einen breiten Funktionsumfang an. Die Konfigurationsdateien, welche typischerweise in einem Git Repository gespeichert sind, werden von Terraform als Single Source of Truth verwendet. Anhand dieser Dateien wird beispielsweie Infrastruktur aufgebaut oder es werden ganze Applikationen konfiguriert.\n\n
 Dieses eintägige Training auf Deutsch oder Englisch bietet einen klar verständlichen Einstieg in Terraform und einen praktischen Umsetzungsteil auf Azure."
 
 accordion:
@@ -39,14 +39,14 @@ accordion:
         - title : "Voraussetzungen"
           icon : "2"
           content : "
-<li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
-<li>Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig</li>
+<li>Die Teilnehmenden benötigen für das Training einen Laptop mit direktem Zugang zum Internet</li>
+<li>Ein Azure-Account wird zur Verfügung gestellt</li>
 "
 
         - title : "Zielpublikum"
           icon : "3"
           content : "
-<li>Unser Training richtet sich an Personen, welche bereits leichte Vorkenntnisse im Bereich von Kubernetes und Azure besitzen (Kennen und anwenden von Ressourcentypen).
+<li>Unser Training richtet sich an Personen, welche bereits leichte Vorkenntnisse im Bereich von Kubernetes und Azure besitzen (Kennen und anwenden von Ressourcentypen)
 </li>
 "
 
@@ -97,22 +97,13 @@ trainers:
       designation : "Trainer, arch.cloud"
       abstract : "Er ist immer mit seinem Notebook unterwegs, schreibt Software und entwirft Cloud-Architekturen."
       image : "images/team/AC-Andreas@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/andreasgehrig/"
-      twitter : "https://twitter.com/"
-    
-    - title : "Daniel Strohecker"
-      image : "images/team/AC_Daenu@2x.jpg"
-      designation : "Trainer"
-      abstract : "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
-      linkedin : "https://www.linkedin.com/in/dstrohecker/"
-      twitter : "https://twitter.com/sybnex"
+      linkedin : "https://www.linkedin.com/in/andreasgehrig/"    
     
     - title : "Nemanja Kostic"
       designation : "Trainer, arch.cloud"
       abstract : "Er hat die letzten 20 Jahre in der IT-Branche Kaffee getrunken und so getan, als wüsste er, was er tut."
       image : "images/team/AC-Nemanja@2x.jpg"
       linkedin : "https://www.linkedin.com/in/nemanjakostic/"
-      twitter : "https://twitter.com/"    
 
 
 # testimonials
