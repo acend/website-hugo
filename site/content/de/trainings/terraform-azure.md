@@ -110,8 +110,8 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unser Trainingsteilnehmer<br/>Matthias Summer, Österreich"
-      logo : "images/testimonials/adcubum_logo.png"
-      text : "Das Training hat mir sehr gut gefallen und ich konnte einige Dinge mitnehmen, die mir bei der täglichen Arbeit helfen. Die Praxis-Erfahrung und die Leidenschaft für die Technologie war bei den Trainern spürbar. Sie haben uns auch sehr gut unterstützt und uns nützliche Tipps gegeben."     
-      
+    - title: "Das sagt unsere Trainingsteilnehmer<br/>Nathanael Weber, Bern"
+      logo: "images/testimonials/mtrail.png"
+      text: "Die Ausbildung war ausserordentlich gut auf unsere Bedürfnisse zugeschnitten. Die praktischen Übungen waren gerade genug schwierig, dass sich noch weitere Fragen zu Helm ergeben haben und vom Referent kompetent beantwortet wurden. Herzlichen Dank acend für diese Erfahrung!"
+
 ---

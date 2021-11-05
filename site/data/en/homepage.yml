@@ -88,8 +88,8 @@ trainings:
           slug: "argocd"
         - title: "Helm"
           slug: "helm"
-        #- title: "Terraform"
-        #  slug: "terraform"
+        - title: "Terraform on Azure"
+          slug: "terraform-azure"
 
     - title: "Specialized trainings"
       text: "Exciting technologies from the CNCF landscape"
