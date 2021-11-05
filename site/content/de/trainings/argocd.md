@@ -4,9 +4,9 @@ description: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 date: 2021-05-12T12:14:34+06:00
 draft: false
 weight: 7
-slug: argocd
-subtitle: "Advanced"
-categories: ["Advanced", "Delivery CI/CD"]
+slug: 
+subtitle: "Basics"
+categories: ["Basics", "Delivery CI/CD"]
 duration: "1 Tag"
 abstract: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 main_title: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
