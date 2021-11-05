@@ -37,7 +37,7 @@ accordion:
 <li>Understand Terraform when dealing with the cloud</li>
 "
  
-        - title : "Prereguisites"
+        - title : "Prerequisites"
           icon : "2"
           content : "
 <li>Participants need a laptop with direct access to the internet for the training</li>
