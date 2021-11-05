@@ -122,6 +122,15 @@ testimonials:
 
     - title: "Here’s what our clients say about our trainings:<br/>Luana  Cusseddu, Bern"
       text: "A completely new learning experience with great labs and enthusiastic teachers. Already the day after, I could implement what I had learned at my job. It’s five out of five stars from me."
+    
+    - title: "Here’s what our clients say about our trainings: <br/>Roland Egli, Solothurn"
+      logo: "images/testimonials/kt-solothurn.png"
+      text: "Thank you very much for the wonderful certificate. The training was very educational and the exchange with the other trainees I found very valuable. Great organization."
+    
+    - title: "Here’s what our clients say about our trainings:<br/>Nathanael Weber, Bern"
+      logo: "images/testimonials/mtrail.png"
+      text: "The training was exceptionally well tailored to our needs. The practical exercises were just difficult enough that more questions about Helm arose and were answered competently by the instructor. Many thanks acend for this experience!"
+
 
 # partner
 partner:

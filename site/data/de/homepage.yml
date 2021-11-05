@@ -121,12 +121,13 @@ testimonials:
       logo: "images/testimonials/10centris.png"
       text: "Das Training war sehr hilfreich und gab mir einen super Einblick in die Welt von Prometheus. Dank den hands-on Labs konnte ich mein Wissen gleich anwenden. Die Trainer waren sehr kompetent und hilfsbereit, die Workshops technisch toll umgesetzt."
 
-    - title: "Das sagt unsere Trainingsteilnehmerin<br/>Luana  Cusseddu, Bern"
-      text: "Eine total neue Lernerfahrung mit tollen Labs und begeisterten Trainern. Das erworbene Wissen konnte ich schon am nächsten Tag in meinem Unternehmen einsetzen. Von mir gibt's 5 von 5 Sternen."
-
     - title: "Das sagt unsere Trainingsteilnehmer<br/>Roland Egli, Solothurn"
       logo: "images/testimonials/kt-solothurn.png"
       text: "Herzlichen Dank für das wunderbare Zertifikat. Das Training war sehr lernreich und der Austausch mit den anderen Trainees empfand ich als sehr wertvoll. Toll organisiert."
+
+    - title: "Das sagt unsere Trainingsteilnehmer<br/>Nathanael Weber, Bern"
+      logo: "images/testimonials/mtrail.png"
+      text: "Die Ausbildung war ausserordentlich gut auf unsere Bedürfnisse zugeschnitten. Die praktischen Übungen waren gerade genug schwierig, dass sich noch weitere Fragen zu Helm ergeben haben und vom Referent kompetent beantwortet wurden. Herzlichen Dank acend für diese Erfahrung!"
 
 # partner
 partner:
