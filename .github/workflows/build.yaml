@@ -55,6 +55,17 @@ jobs:
           KUBE_CONFIG: ${{ secrets.KUBECONFIG_TEST_BASE64 }}
         with:
           args: rollout restart deployment/pr-${{ github.event.pull_request.number }}-acend-website --namespace acend-website-test
+      - name: Run Lighthouse test
+        uses: treosh/lighthouse-ci-action@v8
+        with:
+          urls: |
+            https://$BASICAUTH_USER:$BASICAUTH_PW@website-pr-$PR_NUMBER.test.acend.ch
+          uploadArtifacts: true
+          temporaryPublicStorage: false
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          BASICAUTH_USER: ${{ secrets.WEBSITE_TEST_BASICAUTH_USER }}
+          BASICAUTH_PW: ${{ secrets.WEBSITE_TEST_BASICAUTH_PW }}
       - 
         name: Comment PR Environments in PR
         uses: marocchino/sticky-pull-request-comment@v2
