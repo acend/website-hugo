@@ -33,7 +33,7 @@ slideshow:
     - ubertitle: "Training offer"
       title: "Terraform on Azure"
       subtitle: "Basics"
-      URL: "/trainings/terraform-azure/"
+      URL: "/en/trainings/terraform-azure/"
       label: "Discover"
       img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
       img2 : "images/trainings/ACEND_Yup@2x.jpg"
