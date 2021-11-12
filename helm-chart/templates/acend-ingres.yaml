@@ -2,7 +2,7 @@
 {{- $svcPort := .Values.service.port -}}
 {{- if eq .Release.Name "latest" -}}
 ---
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: {{ $fullName }}
@@ -19,15 +19,19 @@ spec:
   - host: acend.ch
     http:
       paths:
-      - backend:
-          serviceName: {{ $fullName }}
-          servicePort: {{ $svcPort }}
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: {{ $fullName }}
+            port:
+              number: {{ $svcPort }}
   tls:
   - hosts:
     - acend.ch
     secretName: acend-ch
 ---
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: {{ $fullName }}-www
@@ -44,15 +48,19 @@ spec:
   - host: www.acend.ch
     http:
       paths:
-      - backend:
-          serviceName: {{ $fullName }}
-          servicePort: {{ $svcPort }}
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: {{ $fullName }}
+            port:
+              number: {{ $svcPort }}
   tls:
   - hosts:
     - www.acend.ch
     secretName: www-acend-ch
 ---
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   {{- with .Values.ingress.annotations }}
@@ -67,15 +75,19 @@ spec:
   - host: acend-website.k8s.puzzle.ch
     http:
       paths:
-      - backend:
-          serviceName: acend-website
-          servicePort: 8080
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: {{ $fullName }}
+            port:
+              number: {{ $svcPort }}
   tls:
   - hosts:
     - acend-website.k8s.puzzle.ch
 {{ else }}
 ---
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: {{ $fullName }}
@@ -92,9 +104,13 @@ spec:
   - host: website-{{ .Release.Name }}.test.acend.ch
     http:
       paths:
-      - backend:
-          serviceName: {{ $fullName }}
-          servicePort: {{ $svcPort }}
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: {{ $fullName }}
+            port:
+              number: {{ $svcPort }}
   tls:
   - hosts:
     - website-{{ .Release.Name }}.test.acend.ch
