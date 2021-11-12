@@ -35,26 +35,38 @@ jobs:
           tags: |
             quay.io/acend/website-hugo:staging
             quay.io/acend/website-hugo:pr-${{ github.event.pull_request.number }}
-      - 
-        name: 'Deploy Helm Release'
-        uses: 'deliverybot/helm@v1'
+      -
+        name: 'Install Helm'
+        uses: azure/setup-helm@v1
         with:
-          release: 'pr-${{ github.event.pull_request.number }}'
-          namespace: 'acend-website-test'
-          version: '${{ github.sha }}'
-          chart: 'helm-chart'
-          token: '${{ github.token }}'
-          helm: 'helm3'
-
-        env:
-          KUBECONFIG_FILE: '${{ secrets.KUBECONFIG_TEST }}'
-      - 
-        name: Redeploy Latest Deployment
-        uses: actions-hub/kubectl@master
-        env:
-          KUBE_CONFIG: ${{ secrets.KUBECONFIG_TEST_BASE64 }}
+          version: v3.6.2
+      -
+        name: Install Kubectl
+        uses: azure/setup-kubectl@v1
         with:
-          args: rollout restart deployment/pr-${{ github.event.pull_request.number }}-acend-website --namespace acend-website-test
+          version: v1.21.2
+      -
+        name: Create KUBECONFIG
+        env:
+          KUBE_CONFIG: '${{ secrets.KUBECONFIG_TEST }}'
+        run: |
+          mkdir -p $HOME/.kube
+          echo "$KUBE_CONFIG" > $HOME/.kube/config
+      -
+        name: Deploy Helm Release
+        env:
+          WEBSITE_HELM_RELEASE: 'pr-${{ github.event.pull_request.number }}'
+          WEBSITE_NAMESPACE: 'acend-website-test'
+          WEBSITE_VERSION: '${{ github.sha }}'
+        run: |
+          helm upgrade --install --wait --kubeconfig $HOME/.kube/config  --namespace=$WEBSITE_NAMESPACE --set=app.name=$WEBSITE_HELM_RELEASE --set=app.version=$WEBSITE_VERSION  --values=helm-chart/values.yaml --atomic $WEBSITE_HELM_RELEASE ./helm-chart
+      -
+        name: Redeploy Deployments
+        env:
+          WEBSITE_HELM_RELEASE: 'pr-${{ github.event.pull_request.number }}'
+          WEBSITE_NAMESPACE: 'acend-website-test'
+        run: |
+          kubectl rollout restart deployment/${TRAINING_HELM_RELEASE}-acend-website --kubeconfig $HOME/.kube/config --namespace $WEBSITE_NAMESPACE
       - 
         name: Comment PR Environments in PR
         uses: marocchino/sticky-pull-request-comment@v2

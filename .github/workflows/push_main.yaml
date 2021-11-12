@@ -36,27 +36,38 @@ jobs:
           push: true
           tags: |
             quay.io/acend/website-hugo:latest
-      - 
-        name: 'Deploy Helm Release'
-        uses: 'deliverybot/helm@v1'
+      -
+        name: 'Install Helm'
+        uses: azure/setup-helm@v1
         with:
-          release: 'latest'
-          namespace: 'acend-website'
-          version: '${{ github.sha }}'
-          repository: 'https://acend.github.io/helm-charts/'
-          chart: 'helm-chart'
-          token: '${{ github.token }}'
-          helm: 'helm3'
-
-        env:
-          KUBECONFIG_FILE: '${{ secrets.KUBECONFIG }}'
-      - 
-        name: Redeploy Prod Deployment
-        uses: actions-hub/kubectl@master
-        env:
-          KUBE_CONFIG: ${{ secrets.KUBECONFIG_BASE64 }}
+          version: v3.6.2
+      -
+        name: Install Kubectl
+        uses: azure/setup-kubectl@v1
         with:
-          args: rollout restart deployment/latest-acend-website --namespace acend-website
+          version: v1.21.2
+      -
+        name: Create KUBECONFIG
+        env:
+          KUBE_CONFIG: '${{ secrets.KUBECONFIG }}'
+        run: |
+          mkdir -p $HOME/.kube
+          echo "$KUBE_CONFIG" > $HOME/.kube/config
+      -
+        name: Deploy Helm Release
+        env:
+          WEBSITE_HELM_RELEASE: 'latest'
+          WEBSITE_NAMESPACE: 'acend-website'
+          WEBSITE_VERSION: '${{ github.sha }}'
+        run: |
+          helm upgrade --install --wait --kubeconfig $HOME/.kube/config  --namespace=$WEBSITE_NAMESPACE --set=app.name=$WEBSITE_HELM_RELEASE --set=app.version=$WEBSITE_VERSION  --values=helm-chart/values.yaml --atomic $WEBSITE_HELM_RELEASE ./helm-chart
+      -
+        name: Redeploy Deployments
+        env:
+          WEBSITE_HELM_RELEASE: 'latest'
+          WEBSITE_NAMESPACE: 'acend-website'
+        run: |
+          kubectl rollout restart deployment/${TRAINING_HELM_RELEASE}-acend-website --kubeconfig $HOME/.kube/config --namespace $WEBSITE_NAMESPACE
       - name: Run Lighthouse test
         uses: treosh/lighthouse-ci-action@v8
         with:
