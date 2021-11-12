@@ -67,7 +67,7 @@ jobs:
           WEBSITE_HELM_RELEASE: 'latest'
           WEBSITE_NAMESPACE: 'acend-website'
         run: |
-          kubectl rollout restart deployment/${TRAINING_HELM_RELEASE}-acend-website --kubeconfig $HOME/.kube/config --namespace $WEBSITE_NAMESPACE
+          kubectl rollout restart deployment/${WEBSITE_HELM_RELEASE}-acend-website --kubeconfig $HOME/.kube/config --namespace $WEBSITE_NAMESPACE
       - name: Run Lighthouse test
         uses: treosh/lighthouse-ci-action@v8
         with:
