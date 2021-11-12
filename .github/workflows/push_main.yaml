@@ -57,3 +57,20 @@ jobs:
           KUBE_CONFIG: ${{ secrets.KUBECONFIG_BASE64 }}
         with:
           args: rollout restart deployment/latest-acend-website --namespace acend-website
+      - name: Run Lighthouse test
+        uses: treosh/lighthouse-ci-action@v8
+        with:
+          urls: |
+            https://acend.ch
+            https://acend.ch/trainings/
+            https://acend.ch/ueber-uns/
+            https://acend.ch/kontakt/
+            https://acend.ch/trainings/kubernetes/
+            https://acend.ch/en/
+            https://acend.ch/en/trainings/
+            https://acend.ch/en/about/
+            https://acend.ch/en/contact/
+            https://acend.ch/en/trainings/helm/
+          uploadArtifacts: true
+          temporaryPublicStorage: false
+          runs: 5
