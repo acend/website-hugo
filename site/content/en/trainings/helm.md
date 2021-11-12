@@ -112,6 +112,10 @@ testimonials:
   testimonial:
     - title : "Here’s what our clients say about our trainings:<br/>Matthias Summer, Austria"
       logo : "images/testimonials/adcubum_logo.png"
-      text : "I really enjoyed the training, and I learned several things that helped me with my daily tasks. You could tell that the trainers had a lot of practical experience with and passion for the technology. They also supported us well and gave us useful advice."     
-      
+      text : "I really enjoyed the training, and I learned several things that helped me with my daily tasks. You could tell that the trainers had a lot of practical experience with and passion for the technology. They also supported us well and gave us useful advice."
+    
+    - title: "Here’s what our clients say about our trainings:<br/>Nathanael Weber, Bern"
+      logo: "images/testimonials/mtrail.png"
+      text: "The training was exceptionally well tailored to our needs. The practical exercises were just difficult enough that more questions about Helm arose and were answered competently by the instructor. Many thanks acend for this experience!"
+ 
 ---

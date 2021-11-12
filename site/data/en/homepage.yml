@@ -14,12 +14,30 @@ slideshow:
   item:
     - ubertitle: "Training offer"
       title: "Argo CD"
-      subtitle: "Advanced"
+      subtitle: "Basics"
       URL: "/en/trainings/argocd/"
       label: "Discover"
       img1: "images/trainings/ACEND_Adventure_TopHill@2x.jpg"
       img2: "images/trainings/ACEND_Poi@2x.jpg"
       img3: "images/trainings/ACEND_CodeP@2x.jpg"
+    
+    - ubertitle: "Training offer"
+      title: "Serverless"
+      subtitle: "Basics"
+      URL: "/en/trainings/serverless/"
+      label: "Discover"
+      img1: "images/trainings/ACEND_Adventure_Dream@2x.jpg"
+      img2: "images/trainings/ACEND_Aschi@2x.jpg"
+      img3: "images/trainings/ACEND_CodeT@2x.jpg"
+
+    - ubertitle: "Training offer"
+      title: "Terraform on Azure"
+      subtitle: "Basics"
+      URL: "/en/trainings/terraform-azure/"
+      label: "Discover"
+      img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
+      img2 : "images/trainings/ACEND_Yup@2x.jpg"
+      img3 : "images/trainings/ACEND_Code_Yup@2x.jpg"
     
     - ubertitle: "Training offer"
       title: "Container & Kubernetes"
@@ -79,16 +97,16 @@ trainings:
           slug: "argocd"
         - title: "Helm"
           slug: "helm"
-        #- title: "Terraform"
-        #  slug: "terraform"
+        - title: "Terraform on Azure"
+          slug: "terraform-azure"
 
     - title: "Specialized trainings"
       text: "Exciting technologies from the CNCF landscape"
       trainings:
         - title: "Prometheus"
           slug: "prometheus"
-        #- title: "Serverless"
-        #  slug: "serverless"          
+        - title: "Serverless"
+          slug: "serverless"          
 
 # testimonial
 testimonials:
@@ -113,6 +131,15 @@ testimonials:
 
     - title: "Here’s what our clients say about our trainings:<br/>Luana  Cusseddu, Bern"
       text: "A completely new learning experience with great labs and enthusiastic teachers. Already the day after, I could implement what I had learned at my job. It’s five out of five stars from me."
+    
+    - title: "Here’s what our clients say about our trainings: <br/>Roland Egli, Solothurn"
+      logo: "images/testimonials/kt-solothurn.png"
+      text: "Thank you very much for the wonderful certificate. The training was very educational and the exchange with the other trainees I found very valuable. Great organization."
+    
+    - title: "Here’s what our clients say about our trainings:<br/>Nathanael Weber, Bern"
+      logo: "images/testimonials/mtrail.png"
+      text: "The training was exceptionally well tailored to our needs. The practical exercises were just difficult enough that more questions about Helm arose and were answered competently by the instructor. Many thanks acend for this experience!"
+
 
 # partner
 partner:

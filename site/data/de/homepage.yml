@@ -14,12 +14,30 @@ slideshow:
   item: 
     - ubertitle: "Trainingsangebot"
       title: "Argo CD"
-      subtitle: "Advanced"
+      subtitle: "Basics"
       URL: "/trainings/argocd/"
       label: "Mehr erfahren"
       img1: "images/trainings/ACEND_Adventure_TopHill@2x.jpg"
       img2: "images/trainings/ACEND_Poi@2x.jpg"
       img3: "images/trainings/ACEND_CodeP@2x.jpg"
+    
+    - ubertitle: "Trainingsangebot"
+      title: "Serverless"
+      subtitle: "Basics"
+      URL: "/trainings/serverless/"
+      label: "Mehr erfahren"
+      img1: "images/trainings/ACEND_Adventure_Dream@2x.jpg"
+      img2: "images/trainings/ACEND_Aschi@2x.jpg"
+      img3: "images/trainings/ACEND_CodeT@2x.jpg"
+
+    - ubertitle: "Trainingsangebot"
+      title: "Terraform on Azure"
+      subtitle: "Basics"
+      URL: "/trainings/terraform-azure/"
+      label: "Mehr erfahren"
+      img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
+      img2 : "images/trainings/ACEND_Yup@2x.jpg"
+      img3 : "images/trainings/ACEND_Code_Yup@2x.jpg"
     
     - ubertitle: "Trainingsangebot"
       title: "Container & Kubernetes"
@@ -79,16 +97,16 @@ trainings:
           slug: "argocd"
         - title: "Helm"
           slug: "helm"
-        #- title: "Terraform"
-        #  slug: "terraform"
+        - title: "Terraform on Azure"
+          slug: "terraform-azure"
 
     - title: "Spezialisierte Trainings"
       text: "Spannende Technologien aus der CNCF Landscape"
       trainings:
         - title: "Prometheus"
           slug: "prometheus"
-        #- title: "Serverless"
-        #  slug: "serverless"          
+        - title: "Serverless"
+          slug: "serverless"          
 
 
 # testimonial
@@ -112,12 +130,13 @@ testimonials:
       logo: "images/testimonials/10centris.png"
       text: "Das Training war sehr hilfreich und gab mir einen super Einblick in die Welt von Prometheus. Dank den hands-on Labs konnte ich mein Wissen gleich anwenden. Die Trainer waren sehr kompetent und hilfsbereit, die Workshops technisch toll umgesetzt."
 
-    - title: "Das sagt unsere Trainingsteilnehmerin<br/>Luana  Cusseddu, Bern"
-      text: "Eine total neue Lernerfahrung mit tollen Labs und begeisterten Trainern. Das erworbene Wissen konnte ich schon am nächsten Tag in meinem Unternehmen einsetzen. Von mir gibt's 5 von 5 Sternen."
-
     - title: "Das sagt unsere Trainingsteilnehmer<br/>Roland Egli, Solothurn"
       logo: "images/testimonials/kt-solothurn.png"
       text: "Herzlichen Dank für das wunderbare Zertifikat. Das Training war sehr lernreich und der Austausch mit den anderen Trainees empfand ich als sehr wertvoll. Toll organisiert."
+
+    - title: "Das sagt unsere Trainingsteilnehmer<br/>Nathanael Weber, Bern"
+      logo: "images/testimonials/mtrail.png"
+      text: "Die Ausbildung war ausserordentlich gut auf unsere Bedürfnisse zugeschnitten. Die praktischen Übungen waren gerade genug schwierig, dass sich noch weitere Fragen zu Helm ergeben haben und vom Referent kompetent beantwortet wurden. Herzlichen Dank acend für diese Erfahrung!"
 
 # partner
 partner:

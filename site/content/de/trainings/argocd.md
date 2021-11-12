@@ -4,9 +4,9 @@ description: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 date: 2021-05-12T12:14:34+06:00
 draft: false
 weight: 7
-slug: argocd
-subtitle: "Advanced"
-categories: ["Advanced", "Delivery CI/CD"]
+slug: 
+subtitle: "Basics"
+categories: ["Basics", "Delivery CI/CD"]
 duration: "1 Tag"
 abstract: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 main_title: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
@@ -90,7 +90,7 @@ trainers:
     - title : "Christian Schlatter"
       image : "images/team/AC_Christian_Schlatter@2x.jpg"
       designation : "Trainer, Puzzle ITC"
-      abstract : "It's nice to be important, but it's more important to be nice. - John Templeton "
+      abstract : "Er reist nicht nur gerne durch die reale Welt, sondern entdeckt auch in der Cloud Native Landscape neue Orte"
       linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
 
     - title : "Raffael Hertle"

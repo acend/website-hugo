@@ -2,7 +2,7 @@
 title: "Serverless"
 description: "Level up your serverless game - Hands-on best practices for serverless and FaaS."
 date: 2021-10-12T12:14:34+06:00
-draft: true
+draft: false
 weight: 1
 slug: 
 subtitle: "Basics"
@@ -10,10 +10,10 @@ categories: ["Basics", "Specialized trainings"]
 
 duration: "1 Day"
 abstract : "Level up your serverless game - Hands-on best practices for serverless and FaaS."
-abstract : "Level up your serverless game - Hands-on best practices for serverless and FaaS."
+main_title : "Level up your serverless game - Hands-on best practices für serverless und FaaS"
 
 personen: 
-  daten : "09.12.21"
+  daten : "21.01.22"
   preis : "CHF 1100"
 
 headerimages:
@@ -31,33 +31,33 @@ accordion:
         - title : "Outcomes"
           icon : "1"
           content : "
-¬ Understand basic concepts of serverless and FaaS<br/> 
-¬ Apply the concepts and best practices<br/>
-¬ Advanced principles and real-world learnings.
+<li>Understand basic concepts of serverless and FaaS</li>
+<li>Apply the concepts and best practices</li>
+<li>Advanced principles and real-world learnings</li>
 "
  
         - title : "Prerequisites"
           icon : "2"
           content : "
-¬ Participants need a laptop with direct access to the Internet<br/> for the training.
-¬ Local admin rights are additionally required<br/>.
-¬ An AWS account will be provided.
+<li>Participants need a laptop with direct access to the Internet for the training</li>
+<li>Local admin rights are additionally required</li>
+<li>An AWS account will be provided</li>
 "
 
         - title : "Target audience"
           icon : "3"
           content : "
-¬ Our training is primarily aimed at developers who want to learn about this new world and its advantages and disadvantages<br/>.
-¬ Participants should have experience with a common programming language, but this is not a strict requirement.
+<li>Our training is primarily aimed at developers who want to learn about this new world and its advantages and disadvantages</li>
+<li>Participants should have experience with a common programming language, but this is not a strict requirement</li>
 "
 
         - title : "Conditions"
           icon : "4"
           content : "
-¬ CHF 1100 / participant for one day<br/>
-¬ Group sessions consisting of 8 to 24 participants<br/>
-¬ Includes catering, documentation and a cluster in the cloud<br/>
-¬ Discounts available for groups of 12 participants or more
+<li>CHF 1100 / participant for one day</li>
+<li>Group sessions consisting of 8 to 24 participants</li>
+<li>Includes catering, documentation and a cluster in the cloud</li>
+<li>Discounts available for groups of 12 participants or more</li>
 "
 
 # Trainingsinhalt
@@ -83,20 +83,28 @@ trainingsinhalt:
 # trainer
 trainers:
   enable: true
-  title : "Meet two of your trainers"
+  title : "Meet your trainers"
   trainer:
     - title : "Gabriel Koch"
       designation : "Trainer, bespinian"
-      abstract : "Although he's a vegetarian, his explanations of cloud technologies have a lot of meat on the bone"
+      abstract : "Although he's a vegetarian, his explanations of cloud technologies have a lot of meat on the bone."
+      image : "images/team/AC-Gabriel@2x.jpg"
       linkedin : "https://www.linkedin.com/in/gabriel-koch-ch"
       twitter : "https://twitter.com/elessar_ch"
-    
     
     - title : "Lena Fuhrimann"
       designation : "Trainer, bespinian"
       abstract : "Head always in the clouds, just look at her hair. Lena loves modernizing software and working with new technologies. She uses Arch btw."
+      image : "images/team/AC_Lena_Fuhrimann@2x.jpg"
       linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
       twitter : "https://twitter.com/mastertinner"
+      
+    - title : "Mathis Kretz"
+      designation : "Trainer, bespinian"
+      abstract : "When he is not deploying microservices or showing others how to do it, he is cooking, preferably with fire."
+      image : "images/team/AC-Mathis-Kretz@2x.jpg"
+      linkedin : "https://www.linkedin.com/in/mathiskretz/"
+      twitter : "https://twitter.com/mathis_kretz"
 
 
 # testimonials
