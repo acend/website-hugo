@@ -17,9 +17,10 @@ personen:
   preis : "CHF 1100"
 
 headerimages:
-  img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
+  img1 : "images/trainings/ACEND_Adventure_Dream@2x.jpg"
   img2 : "images/trainings/ACEND_Aschi@2x.jpg"
-  img3 : "images/trainings/ACEND_CodeDe@2x.jpg"
+  img3 : "images/trainings/ACEND_CodeT@2x.jpg"
+
       
 
 main_text: "
