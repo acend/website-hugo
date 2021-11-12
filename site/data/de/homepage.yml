@@ -14,7 +14,7 @@ slideshow:
   item: 
     - ubertitle: "Trainingsangebot"
       title: "Argo CD"
-      subtitle: "Advanced"
+      subtitle: "Basics"
       URL: "/trainings/argocd/"
       label: "Mehr erfahren"
       img1: "images/trainings/ACEND_Adventure_TopHill@2x.jpg"
