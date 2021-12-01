@@ -17,10 +17,14 @@ module.exports = merge(common, {
   devServer: {
     host: '0.0.0.0',
     port: process.env.PORT || 8080,
-    contentBase: path.join(process.cwd(), "./dist"),
-    watchContentBase: true,
-    quiet: false,
+    static: {
+      directory: path.join(process.cwd(), "./dist"),//path.join(__dirname, 'public'),
+    },
+    //contentBase: path.join(process.cwd(), "./dist"),
+    //watchContentBase: true,
+    //quiet: false,
     open: true,
+    compress: true,
     historyApiFallback: {
       rewrites: [{from: /./, to: "404.html"}]
     }
