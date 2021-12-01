@@ -130,3 +130,18 @@
 [data-toggle="popover"]:hover {
   cursor: pointer;
 }
+
+.team-info-link {
+  position: relative;
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  svg {
+    position: absolute;
+    right: 0.6rem;
+    bottom: 0.6rem;
+  }
+}

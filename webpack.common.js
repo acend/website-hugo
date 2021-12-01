@@ -17,8 +17,10 @@ module.exports = {
     rules: [
       {
         test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "file-loader",
-        options: {name: "/[hash].[ext]"}
+        type: 'asset/resource',
+          generator: {
+              filename: '[name]-[contenthash:8].[ext]'
+          }
       },
 
       {test: /\.json$/, loader: "json-loader"},

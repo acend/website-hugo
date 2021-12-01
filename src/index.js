@@ -10,6 +10,7 @@ import Sticky from "sticky-js";
 
 import home from "./js/home";
 import trainings from "./js/trainings";
+import about from "./js/about";
 
 import { map, lerp, getMousePos, calcWinsize, getRandomNumber } from './js/utils';
 
@@ -71,6 +72,7 @@ $(window).on('load', function () {
   
   home();
   trainings();
+  about();
  
 
 	// Background-images
@@ -88,12 +90,16 @@ $(window).on('load', function () {
 
 
   $('#signupModal').on('show.bs.modal', function (e) {
+
+    $('body').addClass('signup-modal');
+
     const selectedTraining = e.relatedTarget.dataset.kurs;
     if(selectedTraining){
       $(this).find('.custom-select option[value="'+selectedTraining+'"]').prop('selected', true);
-
     }
-
+    
+  }).on('hidden.bs.modal', function (e) {
+    $('body').removeClass('signup-modal');
   });
 
 
