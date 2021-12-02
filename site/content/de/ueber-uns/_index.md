@@ -44,8 +44,10 @@ team:
       image: "images/team/AC_Benji@2x.jpg"
       designation: "Trainer"
       abstract: "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
+      experience: "Philipp arbeitet neben seiner Tätigkeit als Trainer seit über 5 Jahre bei Puzzle und ist dort als Consultant für verschiedenste Firmen im Bereich Container unterwegs. Zu dem ist er im Besitz der RHCA und CKA Zertifizierung."
       linkedin: "https://www.linkedin.com/in/benjamin-affolter/"
       twitter: "https://twitter.com/bliemli"
+      email: "mail@acend.ch"
 
     - title: "Christoph Aymon"
       image: "images/team/AC_Chrigu@2x.jpg"

@@ -96,6 +96,15 @@ trainingsinhalt:
         - el: "CNCF Landscape"
         - el: "Cloud PaaS Überblick"
 
+# Kooperation
+kooperation:
+  enable: true
+  title: "Kooperation Veranstaltung"
+  subtitle: "Training in Kooperation mit <strong>serverless</strong>"
+  logo : "images/koorperation/cncf.png"
+  text : "serverless development lorem ipsum erstklassiger IT-Dienstleister dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor erat. Ederasr sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor erat, sed diam voluptua."
+  link: "https://link.ch"
+  linktext: "link.ch"
 
 
 # trainer

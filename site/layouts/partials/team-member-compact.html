@@ -16,40 +16,67 @@
          <p class="title mb-0">{{.designation }}</p>
         </div>
          
-          <div id="{{ .title | urlize}}" class="modal team-info-box">
+          <div id="{{ .title | urlize}}" class="modal fade team-info-box">
             <div class="modal-dialog modal-dialog-centered">
             <div class="container modal-content">
 
-              <div class="modal-header border-0">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">
-                    <svg class="icon" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <g id="icon/Close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="AC_Icon_Burger_RGB_Schwarz" transform="translate(15.000000, 14.000000)" fill="#000000" fill-rule="nonzero">
-                            <rect id="Rectangle" transform="translate(17.950000, 17.860000) rotate(-45.000000) translate(-17.950000, -17.860000) " x="-4.05" y="15.86" width="44" height="4"></rect>
-                        </g>
-                        <g id="AC_Icon_Burger_RGB_Schwarz" transform="translate(32.500000, 32.500000) rotate(-90.000000) translate(-32.500000, -32.500000) translate(15.000000, 15.000000)" fill="#000000" fill-rule="nonzero">
-                            <rect id="Rectangle" transform="translate(17.950000, 17.860000) rotate(-45.000000) translate(-17.950000, -17.860000) " x="-4.05" y="15.86" width="44" height="4"></rect>
-                        </g>
-                    </g>
-                </svg></span>
-                </button>
-              </div>
+           
 
 
               <div class="row">
-                <div class="col-md-10 offset-md-1">
+                <div class="col-md-10 offset-md-1 px-0">
              
 
-                      <div class="row  bg-primary text-white py-4">
-                        <div class="col-1 my-3">
-                          icon
+                  <div class="bg-primary text-white py-4 px-4">
+
+
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                      <svg class="icon icon-white" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g id="icon/Close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g id="AC_Icon_Burger_RGB_Schwarz" transform="translate(15.000000, 14.000000)" fill="#fff" fill-rule="nonzero">
+                              <rect id="Rectangle" transform="translate(17.950000, 17.860000) rotate(-45.000000) translate(-17.950000, -17.860000) " x="-4.05" y="15.86" width="44" height="4"></rect>
+                          </g>
+                          <g id="AC_Icon_Burger_RGB_Schwarz" transform="translate(32.500000, 32.500000) rotate(-90.000000) translate(-32.500000, -32.500000) translate(15.000000, 15.000000)" fill="#fff" fill-rule="nonzero">
+                              <rect id="Rectangle" transform="translate(17.950000, 17.860000) rotate(-45.000000) translate(-17.950000, -17.860000) " x="-4.05" y="15.86" width="44" height="4"></rect>
+                          </g>
+                      </g>
+                  </svg></span>
+                  </button>
+
+
+                      <div class="row  bg-primary_ text-white_ py-4">
+
+
+
+                        <div class="col-auto my-3 pl-md-4">
+                          
+                              <svg class="icon icon-white" width="40px" height="40px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="icon/Rucksack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="AC_Icon_Master_Pfade_AC_Icon_Rucksack" transform="translate(9.000000, 4.000000)" fill="#fff" fill-rule="nonzero">
+                                        <path d="M42,18.05 L42,0 L30,0 L30,9.09 C27.7364453,8.36952589 25.3754493,8.00188508 23,8 C20.6236379,8.00011896 18.2618637,8.3712549 16,9.1 L16,0 L4,0 L4,18 L4,18 C1.37507942,21.825441 -0.020362077,26.3606259 -0.00021970477,31 L-0.00021970477,57 L46.0000111,57 L46.0000111,31 C46.0045415,26.3785125 44.6100628,21.8638877 42,18.05 Z M34,4 L38,4 L38,13.58 C36.7683537,12.5178386 35.42752,11.5893112 34,10.81 L34,4 Z M41.74,28 L4.26,28 C5.79071431,18.8425173 13.7154658,12.1324751 23,12.1324751 C32.2845342,12.1324751 40.2092857,18.8425173 41.74,28 L41.74,28 Z M12,4 L12,10.8 C10.5719307,11.5901026 9.23118053,12.5286277 8,13.6 L8,4 L12,4 Z M4,53 L4,32 L42,32 L42,53 L4,53 Z" id="Shape"></path>
+                                        <polygon id="Path" points="8 44.95 34 44.95 34 49 38 49 38 40.95 8 40.95"></polygon>
+                                        <rect id="Rectangle" x="18" y="18" width="10" height="4"></rect>
+                                    </g>
+                                </g>
+                              </svg>
                         </div>
                         <div class="col-md-6 my-3">
-                          <h6 class="mb-0">{{.title }}</h6>
+                          <h6 class="h5 mb-0">{{.title }}</h6>
                           <p class="title">{{.designation }}</p>
-                          <p>{{.abstract }}</p>
+                          <p class="mb-4">{{.abstract }}</p>
                           
+                          {{ with .email }}
+                          <a class="d-inline-block mr-2 email" href="{{ (print "mailto:" . )   | base64Encode }}"  target="_blank" rel="noopener">
+                              <svg class="icon icon-white icon-sm"  width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="icon/Mail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="AC_Icon_Mail_RGB_Schwarz" transform="translate(6.000000, 6.000000)" fill="#fff" fill-rule="nonzero">
+                                        <path d="M44,17 L44,8 L36,8 L36,12 L40,12 L40,26.22 L34.3,31.92 L25.55,23.16 L17.3,31.42 L12,26.16 L12,21 L12,21 L12,17 L12,17 L12,4 L44,4 L44,0 L8,0 L8,17 L0,17 L0,51.8 L52,51.8 L52,17 L44,17 Z M44,21 L45.19,21 L44,22.21 L44,21 Z M48,23.84 L48,45.66 L37.06,34.75 L48,23.84 Z M44.49,47.84 L6.49,47.84 L25.49,28.84 L44.49,47.84 Z M4,44.67 L4,23.82 L14.4,34.25 L4,44.67 Z M8,22.16 L6.83,21 L8,21 L8,22.16 Z" id="Shape"></path>
+                                    </g>
+                                </g>
+                            </svg></a> 
+                          {{ end }}
+
                           {{ with .linkedin }}
                           <a class="d-inline-block mr-2" href="{{. }}"  target="_blank" rel="noopener">
                             <svg class="icon icon-white icon-sm" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -73,12 +100,15 @@
                           {{ end }}
 
                         </div>
-                        <div class="col-md-4 my-3">
-                          <p>Praxiserfahrung</p> 
+                        <div class="col-md-4 my-3 pt-md-4">
+                          {{ with .experience }}
+                          <p><strong>{{ i18n "praxiserfahrung"}}</strong></p> 
 
-                          <p class="small">Philipp arbeitet neben seiner Tätigkeit als Trainer seit über 5 Jahre bei Puzzle und ist dort als Consultant für verschiedenste Firmen im Bereich Container unterwegs. Zu dem ist er im Besitz der RHCA und CKA Zertifizierung.</p>
+                          <p class="small">{{ . }}</p>
+                          {{ end }}
                         </div>
 
+                      </div>
                       </div>
                     </div>
                   </div>

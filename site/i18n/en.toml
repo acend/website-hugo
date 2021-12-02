@@ -28,6 +28,9 @@ other = "Discover all trainings"
 [trainingsLink]
 other = "/en/trainings/"
 
+[praxiserfahrung]
+other = "Experience"
+
 #––––––––––––––––
 # Footer
 
