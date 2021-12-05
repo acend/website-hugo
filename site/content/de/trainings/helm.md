@@ -12,7 +12,7 @@ abstract : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Appli
 main_title : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
 
 personen: 
-  daten : "07.12.21"
+  daten : ""
   preis : "CHF 1000"
 
 headerimages:
