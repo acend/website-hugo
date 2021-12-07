@@ -13,6 +13,9 @@
   }
 }
 
+.modal {
+  overscroll-behavior: contain;
+}
  
 
 .modal-content {
@@ -53,4 +56,8 @@
 
 .modal-content .row.bg-primary {
   box-shadow: 0 0 30px var(--shadowColor);
+}
+
+.bg-primary-opaque {
+  background-color: var(--primary-opaque) !important;
 }

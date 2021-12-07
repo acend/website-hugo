@@ -211,11 +211,11 @@
       <div class="row">
   
         <div class="col-lg-8 offset-lg-1">
-          <h3 class="mb-5 pb-2 border-bottom">{{ .title  | markdownify }}</h3>
+          <h3 class="mb-4-5 mb-md-5 pb-2 border-bottom">{{ .title  | markdownify }}</h3>
           <div class="row">
             {{ if .logo }}
-            <div class="col-md-5 col-lg-4   mb-5 pt-2">
-              <div class="mb-2 bg-primary p-4 text-center">
+            <div class="col-md-5 col-lg-4   mb-4 pt-2">
+              <div class="bg-primary p-4 text-center">
                 {{ partial "img-srcset.html" (dict "img" .logo "size" 220) }}
               </div>
             </div>
@@ -248,7 +248,7 @@
     <div class="row">
 
       <div class="col-lg-10 offset-lg-1">
-        <h3 class="mb-5">{{ .title  | markdownify }}</h3>
+        <h3 class="mb-4-5 mb-md-5">{{ .title  | markdownify }}</h3>
         <div class="row">
         {{ range .trainer }}
 

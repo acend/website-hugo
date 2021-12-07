@@ -1,21 +1,23 @@
-<div data-scroll class="col-6 col-md-4 col-lg-3 mb-5">
+<div data-scroll class="col-6 col-md-4 col-lg-3 mb-5 person-box">
          
          {{ if .image }}
-         <a class="d-block team-info-link mb-3  " data-toggle="modal" href="#{{ .title | urlize}}">
+         <!-- <a class="d-block team-info-link mb-3  " data-toggle="modal" href="#{{ .title | urlize}}"> }} -->
+         <a class="d-block team-info-link mb-3  " data-toggle="modal" href="#modalTeam">
             {{ partial "img-srcset.html" (dict "img" .image "size" 230) }}
-            <svg width="22px" height="22px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <title>Info</title>
-              <g id="icon/Info" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <path d="M14,0 C6.2680135,0 0,6.2680135 0,14 C0,21.7319865 6.2680135,28 14,28 C21.7319865,28 28,21.7319865 28,14 C28,6.2680135 21.7319865,0 14,0 Z M14,2 C20.627417,2 26,7.372583 26,14 C26,20.627417 20.627417,26 14,26 C7.372583,26 2,20.627417 2,14 C2,7.372583 7.372583,2 14,2 Z" id="Oval" fill="#fff" fill-rule="nonzero"></path>
-                  <path d="M13.868,10.75 C14.1106667,10.75 14.3183333,10.666 14.491,10.498 C14.6636667,10.33 14.75,10.1246667 14.75,9.882 C14.75,9.63933333 14.6636667,9.43166667 14.491,9.259 C14.3183333,9.08633333 14.1106667,9 13.868,9 C13.6253333,9 13.42,9.08633333 13.252,9.259 C13.084,9.43166667 13,9.63933333 13,9.882 C13,10.1246667 13.084,10.33 13.252,10.498 C13.42,10.666 13.6253333,10.75 13.868,10.75 Z M14.61,18.94 L14.61,11.8 L13.14,11.8 L13.14,18.94 L14.61,18.94 Z" id="i" fill="#fff" fill-rule="nonzero"></path>
-              </g>
-          </svg>
+          <svg  width="22px" height="22px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>icon more info</title>
+            <g id="icon-spez./MoreInfo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <path d="M14,0 C6.2680135,0 0,6.2680135 0,14 C0,21.7319865 6.2680135,28 14,28 C21.7319865,28 28,21.7319865 28,14 C28,6.2680135 21.7319865,0 14,0 Z M14,2 C20.627417,2 26,7.372583 26,14 C26,20.627417 20.627417,26 14,26 C7.372583,26 2,20.627417 2,14 C2,7.372583 7.372583,2 14,2 Z" id="Oval" fill="#ffffff" fill-rule="nonzero"></path>
+                <path d="M15,9.36363636 L14.9996364,12.9996364 L18.6363636,13 L18.6363636,15 L14.9996364,14.9996364 L15,18.6363636 L13,18.6363636 L12.9996364,14.9996364 L9.36363636,15 L9.36363636,13 L12.9996364,12.9996364 L13,9.36363636 L15,9.36363636 Z" id="Combined-Shape" fill="#ffffff" fill-rule="nonzero"></path>
+            </g>
+        </svg>
          </a>
          {{ end }}
          <h6 class="mb-0">{{.title }}</h6>
          <p class="title mb-0">{{.designation }}</p>
         </div>
          
+        <!--
           <div id="{{ .title | urlize}}" class="modal fade team-info-box">
             <div class="modal-dialog modal-dialog-centered">
             <div class="container modal-content">
@@ -27,7 +29,7 @@
                 <div class="col-md-10 offset-md-1 px-0">
              
 
-                  <div class="bg-primary text-white py-4 px-4">
+                  <div class="bg-primary-opaque text-white py-4 px-4">
 
 
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -45,21 +47,17 @@
                   </button>
 
 
-                      <div class="row  bg-primary_ text-white_ py-4">
+                      <div class="row inner-content py-4">
 
 
 
                         <div class="col-auto my-3 pl-md-4">
-                          
-                              <svg class="icon icon-white" width="40px" height="40px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g id="icon/Rucksack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g id="AC_Icon_Master_Pfade_AC_Icon_Rucksack" transform="translate(9.000000, 4.000000)" fill="#fff" fill-rule="nonzero">
-                                        <path d="M42,18.05 L42,0 L30,0 L30,9.09 C27.7364453,8.36952589 25.3754493,8.00188508 23,8 C20.6236379,8.00011896 18.2618637,8.3712549 16,9.1 L16,0 L4,0 L4,18 L4,18 C1.37507942,21.825441 -0.020362077,26.3606259 -0.00021970477,31 L-0.00021970477,57 L46.0000111,57 L46.0000111,31 C46.0045415,26.3785125 44.6100628,21.8638877 42,18.05 Z M34,4 L38,4 L38,13.58 C36.7683537,12.5178386 35.42752,11.5893112 34,10.81 L34,4 Z M41.74,28 L4.26,28 C5.79071431,18.8425173 13.7154658,12.1324751 23,12.1324751 C32.2845342,12.1324751 40.2092857,18.8425173 41.74,28 L41.74,28 Z M12,4 L12,10.8 C10.5719307,11.5901026 9.23118053,12.5286277 8,13.6 L8,4 L12,4 Z M4,53 L4,32 L42,32 L42,53 L4,53 Z" id="Shape"></path>
-                                        <polygon id="Path" points="8 44.95 34 44.95 34 49 38 49 38 40.95 8 40.95"></polygon>
-                                        <rect id="Rectangle" x="18" y="18" width="10" height="4"></rect>
-                                    </g>
+                              <svg class="icon icon-lg icon-white" width="40px" height="40px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>icon/CV</title>
+                                <g id="icon/CV" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <path d="M33.8284271,57 L25.8284271,57 L25.8284271,53 L29.8284271,53 L29.828,28 L14,28 L8,22 L14,16 L29.828,16 L29.8284271,7 L49.6568542,7 L55.6568542,13 L49.6568542,19 L33.828,19 L33.828,23 L49.6568542,23 L55.6568542,29 L49.6568542,35 L37.8284271,35 L37.8284271,31 L47.9984271,31 L49.9994271,29 L47.9994271,27 L33.8284271,27 L33.8284271,57 Z M29.8284271,20 L15.6564271,20 L13.6574271,22 L15.6574271,24 L29.8284271,24 L29.8284271,20 Z M47.9994271,11 L33.8284271,11 L33.8284271,15 L47.9984271,15 L49.9994271,13 L47.9994271,11 Z" id="Combined-Shape" fill="#ffffff" fill-rule="nonzero"></path>
                                 </g>
-                              </svg>
+                            </svg>
                         </div>
                         <div class="col-md-6 my-3">
                           <h6 class="h5 mb-0">{{.title }}</h6>
@@ -109,6 +107,31 @@
                         </div>
 
                       </div>
+
+                      <div class="navbar">
+
+                        <button class="btn bg-transparent prev-team-member ml-auto" >
+                          <svg class="icon icon-white icon-sm" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>icon/Pfeil Links</title>
+                            <g id="icon/Pfeil-Links" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="AC_Icon_Pfeil_Rechts_RGB_Schwarz-Copy" transform="translate(32.500000, 32.000000) rotate(180.000000) translate(-32.500000, -32.000000) translate(11.000000, 18.000000)" fill="#ffffff" fill-rule="nonzero">
+                                    <polygon id="Path" points="28.97 0.17 26.15 3 35.15 12 4.97 12 4.97 8 0.97 8 0.97 16 35.14 16 26.15 25 28.97 27.83 42.8 13.99"></polygon>
+                                </g>
+                            </g>
+                        </svg>
+                        </button>
+                        <button class="btn bg-transparent next-team-member" >
+                          <svg class="icon icon-white icon-sm" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>icon/Pfeil Rechts</title>
+                            <g id="icon/Pfeil-Rechts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="AC_Icon_Pfeil_Rechts_RGB_Schwarz" transform="translate(11.000000, 18.000000)" fill="#ffffff" fill-rule="nonzero">
+                                    <polygon id="Path" points="28.97 0.17 26.15 3 35.15 12 4.97 12 4.97 8 0.97 8 0.97 16 35.14 16 26.15 25 28.97 27.83 42.8 13.99"></polygon>
+                                </g>
+                            </g>
+                        </svg>
+                        </button>
+                      </div>
+
                       </div>
                     </div>
                   </div>
@@ -119,3 +142,4 @@
           </div>
     
 
+        -->
