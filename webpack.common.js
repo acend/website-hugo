@@ -18,9 +18,9 @@ module.exports = {
       {
         test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
         type: 'asset/resource',
-          generator: {
-              filename: '[name]-[contenthash:8].[ext]'
-          }
+        generator: {
+            filename: '[name]-[contenthash:8].[ext]'
+        }
       },
 
       {test: /\.json$/, loader: "json-loader"},
