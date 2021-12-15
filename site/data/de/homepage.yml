@@ -157,3 +157,13 @@ partner:
       text: "KCSP ist eine Initiative der Cloud Native Computing Foundation. Die CNCF dient als herstellerneutrale Heimat für viele der am schnellsten wachsenden Open Source Projekte, darunter Kubernetes, Prometheus und Envoy. Sie fördert die Open Source und Cloud Native Welt und unterstützt die Community Rund um diese Technologien."
       URL: "https://www.cncf.io"
       label: "cncf.io"
+
+    - logo: "images/partner/arch-cloud.png"
+      text: "Engineering von Cloud Native Lösungen ist ihre Passion. Sie unterstützen Kunden in der Cloud Transformation. Nicht nur bei Architektur, Infrastruktur und Software Entwicklung, sondern auch bei der passenden Strategie und Organisation."
+      URL: "https://arch.cloud"
+      label: "arch.cloud"
+
+    - logo: "images/partner/bespinian.png"
+      text: "bespinian ist ein Start-up aus Bern, das Software und Cloud Computing liebt. Als \"Cloud Native Citizens\" sind sie auf verschiedenen Cloud Plattformen zu Hause und helfen ihren Kunden in enger Zusammenarbeit, neue Software in der Cloud zu bauen oder bestehende in die Cloud zu bringen."
+      URL: "https://bespinian.io"
+      label: "bespinian.io"
