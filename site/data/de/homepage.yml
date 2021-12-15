@@ -164,6 +164,6 @@ partner:
       label: "arch.cloud"
 
     - logo: "images/partner/bespinian.png"
-      text: "bespinian ist ein Start-up aus Bern, das Software und Cloud Computing liebt. Als "Cloud Native Citizens" sind sie auf verschiedenen Cloud Plattformen zu Hause und helfen ihren Kunden in enger Zusammenarbeit, neue Software in der Cloud zu bauen oder bestehende in die Cloud zu bringen."
+      text: "bespinian ist ein Start-up aus Bern, das Software und Cloud Computing liebt. Als \"Cloud Native Citizens\" sind sie auf verschiedenen Cloud Plattformen zu Hause und helfen ihren Kunden in enger Zusammenarbeit, neue Software in der Cloud zu bauen oder bestehende in die Cloud zu bringen."
       URL: "https://bespinian.io"
       label: "bespinian.io"
