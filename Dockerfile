@@ -1,4 +1,4 @@
-FROM klakegg/hugo:0.89.4-ext-ubuntu AS builder
+FROM klakegg/hugo:0.91.0-ext-ubuntu AS builder
 
 # Add package.json before rest of repo for caching
 COPY package.json package-lock.json /src/
