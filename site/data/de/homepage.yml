@@ -158,12 +158,12 @@ partner:
       URL: "https://www.cncf.io"
       label: "cncf.io"
 
-    - logo: "images/partner/arch-cloud.png"
+    - logo: "images/partner/arch-cloud.svg"
       text: "Engineering von Cloud Native Lösungen ist ihre Passion. Sie unterstützen Kunden in der Cloud Transformation. Nicht nur bei Architektur, Infrastruktur und Software Entwicklung, sondern auch bei der passenden Strategie und Organisation."
       URL: "https://arch.cloud"
       label: "arch.cloud"
 
-    - logo: "images/partner/bespinian.png"
+    - logo: "images/partner/bespinian.svg"
       text: "bespinian ist ein Start-up aus Bern, das Software und Cloud Computing liebt. Als \"Cloud Native Citizens\" sind sie auf verschiedenen Cloud Plattformen zu Hause und helfen ihren Kunden in enger Zusammenarbeit, neue Software in der Cloud zu bauen oder bestehende in die Cloud zu bringen."
       URL: "https://bespinian.io"
       label: "bespinian.io"
