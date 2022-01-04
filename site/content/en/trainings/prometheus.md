@@ -104,7 +104,7 @@ trainers:
     - title : "Reto Kupferschmid"
       designation : "Trainer, Puzzle ITC"
       abstract : "True to the motto, what doesn't fit is made to fit, as an engineer he solves all challenges in no time at all."
-      image : "images/team/AC-Platzhalter.jpg"
+      image : "images/team/AC_Reto_Kupferschmid@2x.jpg"
       twitter : "https://twitter.com/reti_k"
 
       
