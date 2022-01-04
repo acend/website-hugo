@@ -91,7 +91,7 @@ trainers:
     - title : "Julius Volz"
       designation : "Trainer, PromLabs"
       abstract : "In the Prometheus universe, he's sort of Zeus, and in ours, he does some of the training as a special guest."
-      image : "images/team/AC-Platzhalter.jpg"
+      image : "images/team/AC_Platzhalter@2x.jpg"
       linkedin : "https://www.linkedin.com/in/julius-volz/"
       twitter: "https://twitter.com/juliusvolz"
 
