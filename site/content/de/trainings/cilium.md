@@ -4,8 +4,8 @@ description: "eBPF-basiertes Networking"
 date: 2020-04-12T12:16:39+06:00
 draft: false
 weight: 3
-subtitle: "Advanced"
-categories: ["Advanced", "Kubernetes"]
+subtitle: "Basics"
+categories: ["Basics", "Kubernetes"]
 duration: "2 Tage"
 abstract: "eBPF-basiertes Networking"
 main_title: "eBPF-basiertes Networking"
