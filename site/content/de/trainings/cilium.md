@@ -31,8 +31,9 @@ accordion:
         - title : "Trainingsziele"
           icon : "1"
           content : "<ul>
-<li>Grundkonzepte von Cilium verstehen</li>
-<li>Cilium Operations</li>
+<li>Grundlagen des Kubernetes Networkings verstehen</li>
+<li>Verständnis der Grundkonzpte von Cilium</li>
+<li>Anwenden der Konzepte und Arbeiten mit Network Policies</li>
 </ul>"
  
         - title : "Voraussetzungen"
@@ -45,6 +46,7 @@ accordion:
           icon : "3"
           content : "<ul>
 <li>Unser Training richtet sich an Personen, welche bereits Kenntnisse und Erfahrung im Betrieb einer Kubernetes Plattform haben</li>
+<li>Die Teilnehmenden sollten Erfahrung im Umgang mit der Kommandozeile haben, ist jedoch keine strikte Voraussetzung</li>
 </ul>"
 
         - title : "Konditionen"
@@ -65,17 +67,17 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
     liste1:
       title: "Cilium Basics"
       liste:
-        - el: "Einführung Linux Networking"
-        - el: "eBPF"
+        - el: "Einführung Linux & Kubernetes Networking"
+        - el: "Grundlagen eBPF"
         - el: "Container Network Interface"
         - el: "Cilium Systems Architektur"
-        - el: "Cilium Datapath"
-        - el: "BPF in depth"
-        - el: "Cilium Policy"
-        - el: "Hubble"
+        - el: "Kubernetes & Cilium Network Policy"
+        - el: "Hubble & Hubble UI"
         - el: "Cilium Clustermesh"
         - el: "Cilium Deployment"
         - el: "Cilium Troubleshooting"
+        - el: "Cilium ServiceMesh"
+
 
 # trainer
 trainers:
