@@ -63,7 +63,7 @@ trainingsinhalt:
 Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
 
     liste1:
-      title: "Cilium Advanced"
+      title: "Cilium Basics"
       liste:
         - el: "Einführung Linux Networking"
         - el: "eBPF"
