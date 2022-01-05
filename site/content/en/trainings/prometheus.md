@@ -91,7 +91,7 @@ trainers:
     - title : "Julius Volz"
       designation : "Trainer, PromLabs"
       abstract : "In the Prometheus universe, he's sort of Zeus, and in ours, he does some of the training as a special guest."
-      image : "images/team/AC-Platzhalter.jpg"
+      image : "images/team/AC_Platzhalter@2x.jpg"
       linkedin : "https://www.linkedin.com/in/julius-volz/"
       twitter: "https://twitter.com/juliusvolz"
 
@@ -104,7 +104,7 @@ trainers:
     - title : "Reto Kupferschmid"
       designation : "Trainer, Puzzle ITC"
       abstract : "True to the motto, what doesn't fit is made to fit, as an engineer he solves all challenges in no time at all."
-      image : "images/team/AC-Reto@2x.jpg"
+      image : "images/team/AC_Reto_Kupferschmid@2x.jpg"
       twitter : "https://twitter.com/reti_k"
 
       
