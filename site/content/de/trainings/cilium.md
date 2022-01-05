@@ -46,7 +46,7 @@ accordion:
           icon : "3"
           content : "<ul>
 <li>Unser Training richtet sich an Personen, welche bereits Kenntnisse und Erfahrung im Betrieb einer Kubernetes Plattform haben</li>
-<li>Die Teilnehmenden sollten Erfahrung im Umgang mit der Kommandozeile haben, ist jedoch keine strikte Voraussetzung</li>
+<li>Die Teilnehmenden sollten Erfahrung im Umgang mit der Kommandozeile haben</li>
 </ul>"
 
         - title : "Konditionen"
