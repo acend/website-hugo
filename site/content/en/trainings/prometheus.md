@@ -97,7 +97,7 @@ trainers:
 
     - title : "Martin Abegglen"
       designation : "Trainer, Puzzle ITC"
-      abstract : "When he's not busy drinking tea and watching the clouds, he loves to ensure observability with cloud native technologies."
+      abstract : "When he's not busy drinking tea and gazing at the sky, he loves watching the clouds with cloud native technologies and providing observability."
       image : "images/team/AC_Martin_Abegglen@2x.jpg"
       linkedin : "https://www.linkedin.com/in/martin-abegglen-%E5%AE%89%E9%A9%AC%E4%B8%81-171941150/"
       
