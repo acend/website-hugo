@@ -45,6 +45,7 @@ team:
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Trainer"
       abstract : "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
+      experience: "In addition to developing new trainings and conducting existing ones, Benj has been working at Puzzle ITC for over 5 years, where he is a consultant and architect for various companies in the field of containers and cloud native. He has a bachelor's degree in IT (2015) and various certifications, such as the RHCA and the CKA, which equip him perfectly as a trainer."
       linkedin : "https://www.linkedin.com/in/benjamin-affolter/"
       twitter : "https://twitter.com/bliemli"
 
@@ -52,12 +53,14 @@ team:
       image : "images/team/AC_Chrigu@2x.jpg"
       designation : "Trainer"
       abstract : "When he’s not concentrated on a computer screen, you’re most likely to find him in a fast car – he only does extra laps on the Nürburgring."
+      experience: "Already in 1996 Christoph started in the IT department of the Mobiliar, where he gained experience in many areas. At the same time, he completed his studies at the University of Bern with a Master's degree in IT. Since 2021 he is an architect and responsible for topics like observability, containers, messaging and other technologies."
       linkedin : "https://www.linkedin.com/in/christoph-aymon/"
           
     - title : "Daniel Strohecker"
       image : "images/team/AC_Daenu@2x.jpg"
       designation : "Trainer"
       abstract : "He’s been picking up speed on his bike as of late. He can slow down, though, and make sure our clients proceed through our trainings on sure feet."
+      experience: "After his electrical engineering HF studies, he is based in computer science and has been working in different operation teams for more than 15 years. He relies on Python and brings experience from large production environments in Linux, Kubernetes, databases and monitoring. He also shares his great expertise on cloud native tools as a speaker at various conferences. He joined the Mobiliar in 2013 and currently works as a Cloud Engineer."
       linkedin : "https://www.linkedin.com/in/dstrohecker/"
       twitter : "https://twitter.com/sybnex"
 
@@ -67,11 +70,13 @@ team:
       abstract : "He is the dream of all mothers-in-law and also us and especially our customers he always brings a smile to the face."
       linkedin : "https://www.linkedin.com/in/david-kilchenmann/"
       twitter : "https://twitter.com/DKilchenmann"
+      email: "dave@acend.ch"
       
     - title : "Johann Gyger"
       image : "images/team/AC_Johann@2x.jpg"
       designation : "Trainer"
       abstract : "Still waters run deep, and he’s one to deep dive into Cloud Native technologies. As a supporter of sustainability and a climate-friendly world, he prefers Lake Thun to the ocean."
+      experience: "Johann studied Computer Science at the ETH and already has over 20 years of experience in the IT industry. He has worked for numerous well-known customers and employers as an IT architect, coach, consultant and software engineer and is a Cloud Native Ambassador."
       linkedin : "https://www.linkedin.com/in/johanngyger/"
       twitter : "https://twitter.com/johanngyger"
     
@@ -93,6 +98,7 @@ team:
       image : "images/team/AC_Seba@2x.jpg"
       designation : "Trainer"
       abstract : "He always has his fingers on the pulse of technological developments and stays one step ahead – the more complex the problem, the bigger his motivation. And because nothing explains itself, he’ll also take care of that."
+      experience: "As a consultant and expert for cloud native technologies, he designs and builds Kubernetes platforms for various Puzzle ITC customers. After graduating with a BsC in Computer Science (2017) and a major in Security, Sebastian led a team in Cybersecurity at RUAG Schweiz AG. Various certifications in the Cloud Native environment underline his expertise in containers and Kubernetes. CKA, CKAD, CKS"
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
       
@@ -100,6 +106,7 @@ team:
       image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Trainer"
       abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
+      experience: "Thomas has played a formative role at Puzzle since 2011: After his bachelor's degree in Computer Science, first as a Software Engineer and PL, later as Head of Middleware he was able to establish the topic of Kubernetes at Puzzle, among other things. Since 2015, he has been part of the management team in the role of CTO."
       linkedin : "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter : "https://twitter.com/tphilipona"
 
@@ -109,6 +116,7 @@ team:
       abstract : "Colorful socks and wild ideas: he’s just the man to design our visual presence whenever he’s not riding a wave."
       linkedin : "https://www.linkedin.com/in/tobias-troehler/"
       twitter : "https://twitter.com/Tobee_Tr"
+      email: "tobi@acend.ch"
 
 memberships:
   enable: true
