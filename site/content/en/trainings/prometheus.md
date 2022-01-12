@@ -76,6 +76,17 @@ trainingsinhalt:
         - el: "Deep Dive PromQL with Prometheus Co-Founder Julius Volz"
         - el: "Hands-on labs with lots of real-world examples"
 
+# Kooperation
+kooperation:
+  enable: true
+  title: "Developed together with <strong>Puzzle</strong>"
+  subtitle: "In collaboration with <strong>Puzzle</strong>"
+  logo : "images/partner/puzzle_logo@2x.png"
+  text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on open source technologies as well as the most modern methods. Different interdisciplinary teams work on projects regarding consulting, applications, delivery, infrastructure and open source solutions."
+  link: "https://puzzle.ch"
+  linktext: "puzzle.ch"
+
+
 # trainer
 trainers:
   enable: true
