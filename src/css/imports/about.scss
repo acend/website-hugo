@@ -159,6 +159,9 @@
 }
 
 .team-carousel {
+  .flickity-viewport {
+    width:100%;
+  }
   .flickity-viewport,
    .carousel-cell {
     min-height: 325px;
