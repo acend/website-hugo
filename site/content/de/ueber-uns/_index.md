@@ -97,7 +97,7 @@ team:
       image: "images/team/AC_Seba@2x.jpg"
       designation: "Trainer"
       abstract: "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
-      experience: "Als Consultant und Experte für Cloud Native Technologien konzipiert und baut er Kubernetes Plattformen für verschiedene Kunden von Puzzle ITC. Nach seinem Abschluss in BsC in Informatik mit der vertiefung Security leitete Sebastian ein Team im Bereich Cybersecurity bei der RUAG Schweiz AG. Verschiedene Zertifikate im Cloud Native Umfeld unterstreichen sein Fachwissen in den Bereichen Container und Kubernetes. CKA, CKAD, CKS"
+      experience: "Als Consultant und Experte für Cloud Native Technologien konzipiert und baut er Kubernetes Plattformen für verschiedene Kunden von Puzzle ITC. Nach seinem Abschluss in BsC in Informatik (2017) mit der vertiefung Security leitete Sebastian ein Team im Bereich Cybersecurity bei der RUAG Schweiz AG. Verschiedene Zertifikate im Cloud Native Umfeld unterstreichen sein Fachwissen in den Bereichen Container und Kubernetes. CKA, CKAD, CKS"
       linkedin: "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter: "https://twitter.com/SebaPlattner"
 
