@@ -10,6 +10,7 @@ lead:
 
 introtext: "Was bisher geschah: Die Idee zu acend entstand 2019 an einem Samy Deluxe Konzert. Hier fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren. Gesagt, getan. Heute können wir dir lehrreiche, unterhaltsame und bereichernde Trainings anbieten, die dir als unvergessliches Erlebnis in Erinnerung bleiben!"
 
+# main image
 main_image: "images/ueberuns/lava_neu.jpg"
 
 subtopic_1:
@@ -117,6 +118,7 @@ team:
       twitter: "https://twitter.com/Tobee_Tr"
       email: "tobi@acend.ch"
 
+# Memberships
 memberships:
   enable: true
   title: "Mitgliedschaften"
