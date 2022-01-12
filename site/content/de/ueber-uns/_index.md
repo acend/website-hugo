@@ -44,21 +44,22 @@ team:
       image: "images/team/AC_Benji@2x.jpg"
       designation: "Trainer"
       abstract: "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      experience: "Philipp arbeitet neben seiner Tätigkeit als Trainer seit über 5 Jahre bei Puzzle und ist dort als Consultant für verschiedenste Firmen im Bereich Container unterwegs. Zu dem ist er im Besitz der RHCA und CKA Zertifizierung."
+      experience: "Nebst der Erarbeitung von neuen und der Durchführung von bestehenden Trainings, arbeitet Benj seit über 5 Jahren bei Puzzle ITC und ist dort als Consultant und Architekt für verschiedenste Firmen im Bereich Container und Cloud Native unterwegs. Er hat nebst einem Bachelor in IT (2015) verschiedene Zertifizierungen, wie den RHCA und den CKA gemacht, die ihn perfekt als Trainer ausrüsten."
       linkedin: "https://www.linkedin.com/in/benjamin-affolter/"
       twitter: "https://twitter.com/bliemli"
-      email: "mail@acend.ch"
 
     - title: "Christoph Aymon"
       image: "images/team/AC_Chrigu@2x.jpg"
       designation: "Trainer"
       abstract: "Sitzt er nicht konzentriert vor dem Computer, dann am ehesten in einem schnellen Auto – er dreht nur auf dem Nürburgring Extrarunden."
+      experience: "Bereits 1996 startete Christoph in der IT der Mobiliar, wo er in vielen Bereichen Erfahrung sammelte. Zeitgleich absolvierte er sein Studium an der Universität Bern mit dem Abschluss als Master in IT. Seit 2021 ist er Architekt und für Themen wie Observability, Container, Messaging und weitere Technologien zuständig."
       linkedin: "https://www.linkedin.com/in/christoph-aymon/"
 
     - title: "Daniel Strohecker"
       image: "images/team/AC_Daenu@2x.jpg"
       designation: "Trainer"
       abstract: "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
+      experience: "Nach seinem Elektrotechnik HF Studium ist er in der Informatik beheimatet und arbeitet seit mehr als 15 Jahren in verschiedenen Operation Teams. Er setzt auf Python und bringt Erfahrung aus grossen produktiven Umgebungen in Linux, Kubernetes, Datenbanken und Monitoring mit. Sein grosses Fachwissen zu Cloud Native Tools teilt er auch an verschiedenen Konferenzen als Speaker. Seit 2013 ist er bei Mobiliar und aktuell als Cloud Engineer tätig."
       linkedin: "https://www.linkedin.com/in/dstrohecker/"
       twitter: "https://twitter.com/sybnex"
 
@@ -68,11 +69,13 @@ team:
       abstract: "Der Mann ist der Traum aller Schwiegermütter und auch uns und unseren Kunden zaubert er immer wieder ein Lächeln ins Gesicht."
       linkedin: "https://www.linkedin.com/in/david-kilchenmann/"
       twitter: "https://twitter.com/DKilchenmann"
+      email: "dave@acend.ch"
 
     - title: "Johann Gyger"
       image: "images/team/AC_Johann@2x.jpg"
       designation: "Trainer"
       abstract: "Stille Wasser sind tief und tief taucht er auch in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund ist er aber lieber im Thunersee als im Meer."
+      experience: "Johann hat an der ETH Computer Science studiert und bereits über 20 Jahre Erfahrung in der IT-Branche. Bei zahlreichen namhaften Kunden und Arbeitgebern hat er unter anderem als als IT Architekt, Coach, Consultant und Software Engineer gearbeitet und ist Cloud Native Ambassador."
       linkedin: "https://www.linkedin.com/in/johanngyger/"
       twitter: "https://twitter.com/johanngyger"
 
@@ -94,6 +97,7 @@ team:
       image: "images/team/AC_Seba@2x.jpg"
       designation: "Trainer"
       abstract: "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
+      experience: "Als Consultant und Experte für Cloud Native Technologien konzipiert und baut er Kubernetes Plattformen für verschiedene Kunden von Puzzle ITC. Nach seinem Abschluss in BsC in Informatik mit der vertiefung Security leitete Sebastian ein Team im Bereich Cybersecurity bei der RUAG Schweiz AG. Verschiedene Zertifikate im Cloud Native Umfeld unterstreichen sein Fachwissen in den Bereichen Container und Kubernetes. CKA, CKAD, CKS"
       linkedin: "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter: "https://twitter.com/SebaPlattner"
 
@@ -101,6 +105,7 @@ team:
       image: "images/team/AC_Thoemu@2x.jpg"
       designation: "Trainer"
       abstract: "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
+      experience: "Thömu spielt bei Puzzle seit 2011 eine prägende Rolle: Nach seinem Bachelorstudium in Computer Science zuerst als Software Engineer und PL, später konnte er als Head of Middleware u.a. das Thema Kubernetes bei Puzzle etablieren. Seit 2015 ist er in der Rolle des CTO in der Geschäftsleitung."
       linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter: "https://twitter.com/tphilipona"
 
@@ -110,6 +115,7 @@ team:
       abstract: "Farbige Socken, wilde Ideen: Der richtige Mann, um unseren Auftritt zu gestalten, wenn er nicht gerade Wellen reitet."
       linkedin: "https://www.linkedin.com/in/tobias-troehler/"
       twitter: "https://twitter.com/Tobee_Tr"
+      email: "tobi@acend.ch"
 
 memberships:
   enable: true
