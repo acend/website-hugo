@@ -40,8 +40,7 @@ accordion:
           icon : "2"
           content : "<ul>
 <li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
-<li>Eine aktuelle lokale [Minikube installation] (https://minikube.sigs.k8s.io/docs/start/) auf dem entsprechenden Arbeitsgerät</li>
-<li>Eine aktuelle <a href=\"https://www.example.com/\">Minikube</a> </li>
+<li>Eine aktuelle lokale Minikube installation (<a href=\"https://minikube.sigs.k8s.io/docs/start/\ target=\"_blank\"></a>) auf dem entsprechenden Arbeitsgerät</li>
 </ul>"
 
         - title : "Zielpublikum"
