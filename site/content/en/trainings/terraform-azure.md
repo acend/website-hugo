@@ -88,6 +88,16 @@ trainingsinhalt:
           - el: "AKS / LoadBalancer"
           - el: "MariaDB and Demo Application"
 
+# Kooperation
+kooperation:
+  enable: true
+  title: "Developed together with <strong>arch.cloud</strong>"
+  subtitle: "In collaboration with<strong>arch.cloud</strong>"
+  logo: "images/partner/arch-cloud.png"
+  text: "Engineering cloud native solutions is their passion. They support customers in the cloud transformation. Not only in architecture, infrastructure and software development, but also in the appropriate strategy and organization."
+  link: "https://arch.cloud"
+  linktext: "arch.cloud"
+
 # trainer
 trainers:
   enable: true
