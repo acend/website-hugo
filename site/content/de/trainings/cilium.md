@@ -6,13 +6,13 @@ draft: false
 weight: 3
 subtitle: "Basics"
 categories: ["Basics", "Kubernetes"]
-duration: "2 Tage"
+duration: "1 Tag"
 abstract: "eBPF-basiertes Networking"
 main_title: "eBPF-basiertes Networking"
 
 personen: 
   daten : ""
-  preis : "CHF 2200"
+  preis : "CHF 1200"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"
@@ -22,7 +22,7 @@ headerimages:
 
 main_text: "
 Cilium ist ein Open-Source eBPF-basiertes Networking, Security und Observability Plugin für Kubernetes und weitere Container-Orchestrierungs-Tools.\n\n 
-Dieses zweitägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in Cilium, einem eBFP basierten Network, Observability und Security Stack für die Cloud und auf on-premise Infrastruktur.
+Dieses eintägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in Cilium, einem eBFP basierten Network, Observability und Security Stack für die Cloud und auf on-premise Infrastruktur.
 "
 
 accordion:
@@ -40,6 +40,7 @@ accordion:
           icon : "2"
           content : "<ul>
 <li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
+<li>Eine aktuelle lokale Minikube installation (https://minikube.sigs.k8s.io/docs/start/) auf deinem Arbeitsgerät</li>
 </ul>"
 
         - title : "Zielpublikum"
@@ -52,7 +53,7 @@ accordion:
         - title : "Konditionen"
           icon : "4"
           content : "<ul>
-<li>CHF 2200 / Person für 2 Tage</li>
+<li>CHF 1200 / Person für 1 Tag</li>
 <li>Gruppen von 8–24 Personen</li>
 <li>Inklusive Verpflegung, Unterlagen und Infrastruktur in der Cloud</li>
 <li>Rabatt ab 12 Personen</li>
