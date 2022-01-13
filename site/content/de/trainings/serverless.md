@@ -101,7 +101,7 @@ trainers:
     - title : "Gabriel Koch"
       designation : "Trainer, bespinian"
       abstract : "Obwohl er Vegetarier ist, haben seine Erklärungen zu Cloud Technologien viel Fleisch am Knochen."
-      image : "images/team/AC-Gabriel@2x.jpg"
+      image : "images/team/AC_Gabriel_Koch@2x.jpg"
       linkedin : "https://www.linkedin.com/in/gabriel-koch-ch"
       twitter : "https://twitter.com/elessar_ch"
     
@@ -116,7 +116,7 @@ trainers:
     - title : "Mathis Kretz "
       designation : "Trainer, bespinian"
       abstract : "Wenn er nicht gerade Microservices deployt oder anderen zeigt, wie man das macht, kocht er, am liebsten mit Feuer."
-      image : "images/team/AC-Mathis-Kretz@2x.jpg"
+      image : "images/team/AC_Mathis_Kretz@2x.jpg"
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz"
 

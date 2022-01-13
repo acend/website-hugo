@@ -104,20 +104,20 @@ trainers:
     - title : "Julius Volz"
       designation : "Trainer, PromLabs"
       abstract : "Im Prometheus-Universum ist er quasi der Zeus und bei uns übernimmt er als Special Guest einen Teil des Trainings."
-      image : "images/team/AC-Platzhalter.jpg"
+      image : "images/team/AC_Platzhalter@2x.jpg"
       linkedin : "https://www.linkedin.com/in/julius-volz/"
       twitter: "https://twitter.com/juliusvolz"
 
     - title : "Martin Abegglen"
       designation : "Trainer, Puzzle ITC"
-      abstract : "Wenn er nicht damit beschäftigt ist, Tee zu trinken und die Wolken zu beobachten, liebt er es, mit Cloud Native Technologien für Observability zu sorgen."
+      abstract : "Wenn er nicht damit beschäftigt ist, Tee zu trinken und die Wolken zu bestaunen, liebt er es, die Clouds mit Cloud Native Technologien zu beobachten und für Observability zu sorgen."
       image : "images/team/AC_Martin_Abegglen@2x.jpg"
       linkedin : "https://www.linkedin.com/in/martin-abegglen-%E5%AE%89%E9%A9%AC%E4%B8%81-171941150/"
       
     - title : "Reto Kupferschmid"
       designation : "Trainer, Puzzle ITC"
       abstract : "Ganz nach dem Motto, was nicht passt wird passend gemacht, löst er als Engineer alle Herausforderungen im Handumdrehen."
-      image : "images/team/AC-Platzhalter.jpg"
+      image : "images/team/AC_Reto_Kupferschmid@2x.jpg"
       twitter : "https://twitter.com/reti_k"
       
       
