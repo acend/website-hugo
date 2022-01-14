@@ -32,15 +32,15 @@ accordion:
           icon : "1"
           content : "<ul>
 <li>Grundlagen des Kubernetes Networkings verstehen</li>
-<li>Verständnis der Grundkonzpte von Cilium</li>
-<li>Anwenden der Konzepte und Arbeiten mit Network Policies</li>
+<li>Verständnis und Anwendung der Grundkonzepte von Cilium und Hubble</li>
+<li>Praktische Anwendung der wichtigsten Cillium Features</li>
 </ul>"
  
         - title : "Voraussetzungen"
           icon : "2"
           content : "<ul>
 <li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
-<li>Eine aktuelle lokale Minikube installation (<a href=\"https://minikube.sigs.k8s.io/docs/start/\">https://minikube.sigs.k8s.io/docs/start/</a>) auf dem entsprechenden Arbeitsgerät</li>
+<li>Eine aktuelle, lokale Minikube installation (<a href=\"https://minikube.sigs.k8s.io/docs/start/\">minikube.sigs.k8s.io</a>) auf dem entsprechenden Arbeitsgerät</li>
 </ul>"
 
         - title : "Zielpublikum"
@@ -55,7 +55,7 @@ accordion:
           content : "<ul>
 <li>CHF 1200 / Person für 1 Tag</li>
 <li>Gruppen von 8–24 Personen</li>
-<li>Inklusive Verpflegung, Unterlagen und Infrastruktur in der Cloud</li>
+<li>Inklusive Verpflegung und Unterlagen</li>
 <li>Rabatt ab 12 Personen</li>
 </ul>"
 
