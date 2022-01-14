@@ -96,8 +96,6 @@ trainingsinhalt:
         - el: "CNCF Landscape"
         - el: "Cloud PaaS Überblick"
 
-
-
 # trainer
 trainers:
   enable: true

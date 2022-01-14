@@ -79,6 +79,16 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
         - el: "Hands-on Labs mit vielen Beispielen aus der Praxis" 
 
 
+# Kooperation
+kooperation:
+  enable: true
+  title: "Gemeinsam mit <strong>Puzzle</strong> erarbeitet"
+  subtitle: "In Zusammenarbeit mit <strong>Puzzle</strong>"
+  logo : "images/partner/puzzle_logo@2x.png"
+  text: "Puzzle ITC deckt als innovativer IT-Dienstleister den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei wird konsequent auf Open Source Technologien sowie modernste Methoden gesetzt. Verschiedene interdisziplinäre Teams arbeitet an Projekten in den Bereichen Beratung, Applikationen, Delivery, Infrastruktur und eigenen Open Source Lösungen."
+  link: "https://puzzle.ch"
+  linktext: "puzzle.ch"
+
 # trainer
 trainers:
   enable: true

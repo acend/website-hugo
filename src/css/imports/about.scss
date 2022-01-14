@@ -130,3 +130,46 @@
 [data-toggle="popover"]:hover {
   cursor: pointer;
 }
+
+.team-info-link {
+  position: relative;
+  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1), box-shadow 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  svg {
+    position: absolute;
+    right: 0.6rem;
+    bottom: 0.6rem;
+    transition: opacity 0.3s ease;
+
+     @include media-breakpoint-up(md) {
+       opacity: 0;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 30px var(--shadowColor);
+
+    svg {
+      opacity: 1;
+    }
+  }
+
+}
+
+.team-carousel {
+  .flickity-viewport {
+    width:100%;
+  }
+  .flickity-viewport,
+   .carousel-cell {
+    min-height: 325px;
+  }
+  .carousel-cell {
+    opacity: 0;
+    &.is-selected {
+      opacity: 1;
+    }
+  }
+  }

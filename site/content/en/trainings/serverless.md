@@ -13,7 +13,7 @@ abstract : "Level up your serverless game - Hands-on best practices for serverle
 main_title : "Level up your serverless game - Hands-on best practices für serverless und FaaS"
 
 personen: 
-  daten : "21.01.22"
+  daten : "01.04.22"
   preis : "CHF 1100"
 
 headerimages:
@@ -79,6 +79,16 @@ trainingsinhalt:
         - el: "Discussing the most common pitfalls and possible solutions"
         - el: "Applying these techniques"
         - el: "Advanced concepts and learnings from the field"
+
+# Kooperation
+kooperation:
+  enable: true
+  title: "Developed from <strong>bespinian</strong>"
+  subtitle: "In collaboration with <strong>bespinian</strong>"
+  logo: "images/partner/bespinian.png"
+  text: "bespinian is a start-up from Bern that loves software and cloud computing. As \"Cloud Native Citizens\" they are at home on different cloud platforms and help their customers in close collaboration to build new software in the cloud or to bring existing ones to the cloud."
+  link: "https://bespinian.io"
+  linktext: "bespinian.io"
 
 # trainer
 trainers:

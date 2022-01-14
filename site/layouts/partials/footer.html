@@ -16,9 +16,8 @@
                                      class="email form-control form-control-lg " id="mce-EMAIL"
                                      placeholder="E-Mail">
                               <input type="text" id="url" name="url" value="">
-                                  <button type="submit" name="subscribe" id="mc-embedded-subscribe"
-                                          class="button  px-1 py-0 btn btn-primary">
-                                      <svg class="icon icon-white mr-1" width="64" height="64" viewBox="0 0 64 64"
+                                  <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary" aria-label="Senden">
+                                      <svg class="icon icon-white mr-1 mr-lg-0" width="64" height="64" viewBox="0 0 64 64"
                                            version="1.1" xmlns="http://www.w3.org/2000/svg">
                                           <g id="icon/Pfeil-Rechts" stroke="none" stroke-width="1" fill="none"
                                              fill-rule="evenodd">
@@ -40,7 +39,7 @@
 
           <h5 class="d-inline-block mr-3 mb-0">{{ i18n "followUs" }}</h5>
             {{ with site.Params.social }}
-            <a class="d-inline-block mr-3" href="{{.twitter }}"  target="_blank" rel="noopener">
+            <a class="d-inline-block mr-2" href="{{.twitter }}"  target="_blank" rel="noopener">
               <svg  class="icon" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>icon/Twitter</title>
                 <g id="icon/Twitter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -49,14 +48,13 @@
                 </g>
             </svg></a>
             <a class="d-inline-block mr-3" href="{{.linkedin }}"  target="_blank" rel="noopener">
-              <svg class="icon" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <svg class="icon"  width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>icon/Linkedin</title>
                 <g id="icon/Linkedin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                    <g id="linkedin-[#161]" transform="translate(8.000000, 8.000000)" fill="#000000" fill-rule="nonzero">
-                        <path d="M48,48 L38.4,48 L38.4,31.2024 C38.4,26.5944 36.3672,24.024 32.7216,24.024 C28.7544,24.024 26.4,26.7024 26.4,31.2024 L26.4,48 L16.8,48 L16.8,16.8 L26.4,16.8 L26.4,20.3088 C26.4,20.3088 29.412,15.024 36.1992,15.024 C42.9888,15.024 48,19.1664 48,27.7392 L48,48 Z M5.8608,11.8104 C4.30026981,11.8046828 2.80596305,11.1791113 1.70677856,10.0713746 C0.607594061,8.96363784 -0.00637742789,7.46452763 -4.91901957e-05,5.904 C-0.00573920581,4.34388733 0.608514427,2.84539407 1.70762991,1.738177 C2.80674538,0.630959937 4.30068726,0.00571817023 5.8608,0 C9.10863026,0.0132291562 11.731153,2.6561648 11.7192595,5.904 C11.726216,7.464306 11.1127797,8.96342285 10.0139762,10.0712292 C8.91517273,11.1790356 7.4211113,11.804684 5.8608,11.8104 L5.8608,11.8104 Z M1.61648472e-13,48 L12,48 L12,16.8 L1.61648472e-13,16.8 L1.61648472e-13,48 Z"></path>
-                    </g>
-                 </g>
-            </svg></a>
+                    <path d="M10.7231169,54 L19.8427302,54 L19.8427302,24.6093118 L10.7231169,24.6093118 L10.7231169,54 Z M15.2876684,20.5919418 C12.367684,20.5928919 10.0009498,18.2210651 10.0000003,15.2969212 C9.99905188,12.3718267 12.3657861,10.0009506 15.2857705,10 C18.2057549,10 20.5724891,12.3699255 20.5734381,15.29502 C20.5734381,18.2201145 18.2067039,20.5909906 15.2876684,20.5919418 L15.2876684,20.5919418 Z M53.9962041,54 L44.8851315,54 L44.8851315,39.7081992 C44.8851315,36.3001837 44.8253463,31.9130171 40.1478673,31.9130171 C35.4030112,31.9130171 34.6770483,35.6261856 34.6770483,39.4600843 L34.6770483,53.9990494 L25.5669246,53.9990494 L25.5669246,24.6093118 L34.3126433,24.6093118 L34.3126433,28.6257318 L34.4350605,28.6257318 C36.2181775,25.5713514 39.5348318,23.7470887 43.0631068,23.8782759 C52.2975457,23.8782759 54,29.9623204 54,37.8772821 L53.9962041,54 Z" id="Fill-1" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </svg>
+         </a>
             {{ end }}
 
         </div>

@@ -1,150 +1,24 @@
-{{ define "main" }}
-
-{{ with .Params.lead }}
-  {{ partial "lead.html" . }}
-{{ end }}
-
-{{ with .Params.introtext }}
-  <div class="container">
-      <div class="row my-5">
-        <div class="col-lg-9 offset-lg-1">
-          <p>{{ . | markdownify }}</p>
+<div data-scroll class="col-6 col-md-4 col-lg-3 mb-5 person-box">
+         
+         {{ if .image }}
+         <!-- <a class="d-block team-info-link mb-3  " data-toggle="modal" href="#{{ .title | urlize}}"> }} -->
+         <a class="d-block team-info-link mb-3  " data-toggle="modal" href="#modalTeam">
+            {{ partial "img-srcset.html" (dict "img" .image "size" 230) }}
+          <svg  width="22px" height="22px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>icon more info</title>
+            <g id="icon-spez./MoreInfo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <path d="M14,0 C6.2680135,0 0,6.2680135 0,14 C0,21.7319865 6.2680135,28 14,28 C21.7319865,28 28,21.7319865 28,14 C28,6.2680135 21.7319865,0 14,0 Z M14,2 C20.627417,2 26,7.372583 26,14 C26,20.627417 20.627417,26 14,26 C7.372583,26 2,20.627417 2,14 C2,7.372583 7.372583,2 14,2 Z" id="Oval" fill="#ffffff" fill-rule="nonzero"></path>
+                <path d="M15,9.36363636 L14.9996364,12.9996364 L18.6363636,13 L18.6363636,15 L14.9996364,14.9996364 L15,18.6363636 L13,18.6363636 L12.9996364,14.9996364 L9.36363636,15 L9.36363636,13 L12.9996364,12.9996364 L13,9.36363636 L15,9.36363636 Z" id="Combined-Shape" fill="#ffffff" fill-rule="nonzero"></path>
+            </g>
+        </svg>
+         </a>
+         {{ end }}
+         <h6 class="mb-0">{{.title }}</h6>
+         <p class="title mb-0">{{.designation }}</p>
         </div>
-      </div>
-  </div>
-{{ end }}
-
-
-{{ with .Params.main_image }}
-{{- $image := resources.Get . -}}
-<div  data-scroll class="wide-banner bg-cover d-flex justify-content-center align-items-center" data-background="{{  ($image.Resize "3000x").RelPermalink }}">
-    <svg class="img-fluid p-3" width="106px" height="360px" viewBox="0 0 106 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-     <g id="x" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-         <g id="AC---Ansatz" transform="translate(-668.000000, -905.000000)" fill="#FFFFFF">
-             <g id="logo/AC-kurzlogo-cmyk-black" transform="translate(668.000000, 905.000000)">
-                 <g id="AC-kurzlogo-cmyk-black" fill="none">
-                     <polygon id="Fill-1" fill="#ffffff" points="106 0 0 0 0 360 106 360 106 306.518963 52.9974 306.518963 52.9974 53.486284 106 53.486284"></polygon>
-                 </g>
-             </g>
-         </g>
-     </g>
- </svg> 
-</div>
-
-{{ end }}
-
-
-
-
-<!-- about -->
-<section class="section my-6">
-  <div class="container">
-
-      {{ with .Params.subtopic_0 }}
-      <div class="row my-6">
-          <div  data-scroll class="col-11 col-lg-5 offset-1 offset-lg-6">
-            
-              <h3>{{ .title | markdownify }} sd</h3>
-              <p>{{ .text | markdownify }}</p>
-             </div>
-        </div>
-        {{ end }}
-
- 
-    {{ with .Params.subtopic_1 }}
-    <div class="row">
-      <div  data-scroll class="col-11 col-lg-8 col-lg-5_ offset-1">
-        <h3>{{ .title | markdownify }}</h3>
-        <p>{{ .text | markdownify }}</p>
-      </div>
-    </div>
-    {{ end }}
-
-    <div class="row images my-6">
-      <div class="col-lg-10 offset-lg-2 d-flex align-items-start">
-          <div data-scroll class="img-1">
-          {{ partial "img-srcset.html" (dict "img" "/images/ueberuns/ACEND_Workshop_Tablet@4x.jpg" "size" 360) }}
-        </div>
-        <div data-scroll class="img-2">
-          {{ partial "img-srcset.html" (dict "img" "/images/ueberuns/ACEND_Workshop_Frontal@4x.jpg" "size" 560) }}                           
-        </div>
-      </div>      
-  </div>
-
-    {{ with .Params.subtopic_2 }}
-    <div class="row my-6">
-        <div  data-scroll class="col-11 col-lg-5 offset-1 offset-lg-6">
-          
-            <h3>{{ .title | markdownify }}</h3>
-            <p>{{ .text | markdownify }}</p>
-           </div>
-      </div>
-      {{ end }}
-
-      <div class="row images my-6">
-        <div class="col-lg-10   d-flex align-items-start">
-            <div data-scroll  class="img-1 mt-5">
-               {{ partial "img-srcset.html" (dict "img" "/images/ueberuns/ACEND_Workshop_Brainstorming@4x.jpg" "size" 560) }}
-            </div>
-            <div data-scroll class="img-2">
-                {{ partial "img-srcset.html" (dict "img" "/images/ueberuns/ACEND_Students_Discussion@4x.jpg" "size" 360) }}                           
-            </div>
-        </div>      
-    </div>
-
-    {{ with .Params.subtopic_3 }}
-
-      <div class="row my-6">
-          <div  data-scroll class="col-11 col-lg-5 offset-1">
-              <h3>{{ .title | markdownify }}</h3>
-              <p>{{ .text | markdownify }}</p>
-            </div>
-        </div>
-        {{ end }}
-    
-     {{ with .Params.subtopic_4 }}
-       <div class="row my-6">
-        <div  data-scroll class="col-11 col-lg-5 offset-1 offset-lg-6">
-          
-            <h3>{{ .title | markdownify }}</h3>
-            <p>{{ .text | markdownify }}</p>
-           </div>
-      </div>
-      {{ end }}
-        
-        {{ with .Params.quote }}
-        <div class="row my-6">
-          <div  data-scroll class="col-9 offset-1 bg-primary text-white p-4 pb-5 p-md-5 mb-minus">
-            <p class="quote">«{{ .text }}»</p>
-            <p><strong>{{ .name }}</strong>, {{ .title }}</p>
-          </div>
-          <div  data-scroll class="col-md-5 offset-5 offset-md-6 img ">
-            {{ partial "img-srcset.html" (dict "img" .img "size" 445) }}
-          </div>
-        </div>
-        {{ end }}
-    
-    
-  </div>
-</section>
-<!-- /about -->
-
-
-<!-- team -->
-{{ if .Params.team.enable }}
-{{ with .Params.team }}
-<section class="section mb-5">
-  <div class="container">
-    <h2 data-scroll class="mb-5">{{ .title | markdownify }}</h2>
-    
-    <div class="row">
-      <div class="col-md-10 offset-md-1">
-        <div class="row">
-          {{ range .team_member }}
-              {{ partial "team-member-compact.html" . }}
-          {{ end }}
-
-          <div id="modalTeam" class="modal fade team-info-box">
+         
+        <!--
+          <div id="{{ .title | urlize}}" class="modal fade team-info-box">
             <div class="modal-dialog modal-dialog-centered">
             <div class="container modal-content">
 
@@ -153,7 +27,11 @@
 
               <div class="row">
                 <div class="col-md-10 offset-md-1 px-0">
+             
+
                   <div class="bg-primary-opaque text-white py-4 px-4">
+
+
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">
                       <svg class="icon icon-white" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -168,12 +46,11 @@
                   </svg></span>
                   </button>
 
-                  <div class="carousel team-carousel">
-                  {{ range .team_member }}
 
-                    <div class="carousel-cell w-100">
-                    <div class="container-fluid mr-1 px-0">
-                      <div class="row inner-content py-md-4_">
+                      <div class="row inner-content py-4">
+
+
+
                         <div class="col-auto my-3 pl-md-4">
                               <svg class="icon icon-lg icon-white" width="40px" height="40px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>icon/CV</title>
@@ -228,15 +105,12 @@
                           <p class="small">{{ . }}</p>
                           {{ end }}
                         </div>
-                      </div>
-                      </div>
-                       </div>
-                      {{ end }}
-                    </div>
 
+                      </div>
 
-                      <div class="navbar p-0">
-                        <button class="btn bg-transparent prev-team-member ml-auto pr-0" >
+                      <div class="navbar">
+
+                        <button class="btn bg-transparent prev-team-member ml-auto" >
                           <svg class="icon icon-white icon-sm" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <title>icon/Pfeil Links</title>
                             <g id="icon/Pfeil-Links" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -246,7 +120,7 @@
                             </g>
                         </svg>
                         </button>
-                        <button class="btn bg-transparent next-team-member pr-0" >
+                        <button class="btn bg-transparent next-team-member" >
                           <svg class="icon icon-white icon-sm" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <title>icon/Pfeil Rechts</title>
                             <g id="icon/Pfeil-Rechts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -266,57 +140,6 @@
 
           </div>
           </div>
+    
 
-
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /team -->
-
-  <!-- memberships -->
-  {{ if .Params.memberships.enable }}
-  {{ with .Params.memberships }}
-  <section class="section my-5">
-    <div class="container">
-        <h2  data-scroll class="mb-5">{{  .title | markdownify }}</h2>
-        <div class="row">
-          <div class="col-lg-10 offset-lg-1 mb-3">
-              <div class="row">
- 
-              {{ range .member }}
-                  <div data-scroll class="col-sm-6 col-md-4 mb-4 memberships">
-                      <a tabindex="0" class="d-block"  data-container="body" data-toggle="popover" data-placement="right" data-trigger="hover" title="" data-html="true" data-content='
-                      <div class="py-2 py-md-3 px-1 px-md-1">
-                        <h6>{{  .title | markdownify }}</h6>
-                      <p class="small mb-2">{{.abstract }}</p>
-                      {{ if .link}} <a href="{{ .link | absURL }}" class="link-border mb-2_"  target="_blank" rel="noopener">{{.link_label}}</a> {{ end }} 
-                      </div>'>
-                      
-                      <div class="mb-2 bg-primary p-4 text-center">
-                          {{ partial "img-srcset.html" (dict "img" .logo "size" 230) }}
-                        </div>
-                      </a>
-                      <h5>{{  .title | markdownify }}</h5>
-
-                  </div>
-                  {{ end }}
-              </div>
-        </div>
-      </div>
-      
-    </div>
-  </section>
-  <!-- /partner -->
-  
-{{ end }}
-{{ end }}
-
-
-{{ partial "banner-anmelden.html" . }}
-
-{{ end }}
+        -->

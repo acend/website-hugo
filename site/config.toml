@@ -6,6 +6,7 @@ baseurl = "/"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 defaultContentLanguage = "de"
+removePathAccents = "true"
 
 # secuirty configuration needed since hugo 0.91, since we access the context
 [security]

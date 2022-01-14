@@ -40,6 +40,9 @@
     <div  class="row">
 
       <div data-scroll class="col-md-8 col-xl-9  py-5">
+        {{ if .Params.kooperation.enable }}
+          <div class="mb-3">{{ .Params.kooperation.subtitle | safeHTML }}</div>
+        {{ end }}
         <h2>{{ .Params.main_title | markdownify}}</h2>
 
         <div class="row my-5">
@@ -201,6 +204,41 @@
   </div>
 </section>
 
+{{ if .Params.kooperation.enable }}
+  {{ with .Params.kooperation }}
+  <section data-scroll class="section mb-5  py-md-5">
+    <div class="container">
+      <div class="row">
+  
+        <div class="col-lg-8 offset-lg-1">
+          <h3 class="mb-4-5 mb-md-5 pb-2 border-bottom">{{ .title  | markdownify }}</h3>
+          <div class="row">
+            {{ if .logo }}
+            <div class="col-md-5 col-lg-4   mb-4 pt-2">
+              <div class="bg-primary p-4 text-center">
+                {{ partial "img-srcset.html" (dict "img" .logo "size" 220) }}
+              </div>
+            </div>
+            {{ end }}
+            <div class="col-md-7 col-lg-8 pl-md-4">
+              <p>{{ .text  | markdownify }}</p>
+              {{ if .link }}
+              <a class="link-border" href="{{ .link | safeURL }}">{{ .linktext  | markdownify }}</a>
+             {{ end }}
+
+            </div>
+
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}
+
+
+
+
 
 <!-- trainer -->
 {{ if .Params.trainers.enable }}
@@ -210,7 +248,7 @@
     <div class="row">
 
       <div class="col-lg-10 offset-lg-1">
-        <h3 class="mb-5">{{ .title  | markdownify }}</h3>
+        <h3 class="mb-4-5 mb-md-5">{{ .title  | markdownify }}</h3>
         <div class="row">
         {{ range .trainer }}
 
