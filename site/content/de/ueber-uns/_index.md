@@ -68,6 +68,7 @@ team:
       image: "images/team/AC_Dave@2x.jpg"
       designation: "Sales"
       abstract: "Der Mann ist der Traum aller Schwiegermütter und auch uns und unseren Kunden zaubert er immer wieder ein Lächeln ins Gesicht."
+      experience: "Seine ersten Schritte in der IT hat David nach seinem Bachelor in Business Administration bei der Swisscom gemacht. Dort war er als PM für das Dev Portal verantwortlich und hat den Software Day organisiert. Seit mehr als 3 Jahren ist er nun bei Puzzle als Key Account Manager unterwegs und erläutert den Kunden, wieso sie auf Cloud Native Technologien setzen sollten."
       linkedin: "https://www.linkedin.com/in/david-kilchenmann/"
       twitter: "https://twitter.com/DKilchenmann"
       email: "dave@acend.ch"
@@ -84,6 +85,7 @@ team:
       image: "images/team/AC_Marcel@2x.jpg"
       designation: "Finance & Experience"
       abstract: "Der Zahlenspezialist rechnet in seiner Freizeit oft in Höhenmetern – er ist unser Gipfelstürmer."
+      experience: "Marcel hat 1999 direkt nach seinem IT-Studium zusammen mit Freunden die Firma Puzzle ITC gegründet. Bis heute ist er da auch hauptberuflich als CFO tätig. Neben seiner Tätigkeit als CFO hat er noch ein MAS in Online Marketing Management gemacht."
       linkedin: "https://www.linkedin.com/in/marcelgroner/"
       twitter: "https://twitter.com/mar73cel"
 
@@ -91,6 +93,7 @@ team:
       image: "images/team/AC_Phippu@2x.jpg"
       designation: "Experience"
       abstract: "Er verantwortet unsere Special-Effects. Böse Zungen behaupten es war der Meistertitel seines Lieblingsclubs, der bei ihm die Lust auf das Unerwartete entfacht hat."
+      experience: "Nach seinem Bachelor in Informatik hat Philipp mehrere Jahre Erfahrung in den IT-Abteilungen grosser Versicherungs- und Bankdienstleister gesammelt. Im 2021 hat er ein EMBA in Digital Business abgeschlossen, hauptberuflich arbeitet er als Product Owner bei der Mobiliar."
       linkedin: "https://www.linkedin.com/in/philipp-grossenbacher/"
       twitter: "https://twitter.com/philogros"
 
@@ -114,6 +117,7 @@ team:
       image: "images/team/AC_Tobi@2x.jpg"
       designation: "Sales & Experience"
       abstract: "Farbige Socken, wilde Ideen: Der richtige Mann, um unseren Auftritt zu gestalten, wenn er nicht gerade Wellen reitet."
+      experience: "Nach seiner Lehre als Informatiker hat Tobias während 15 Jahren bei der Swisscom verschiedene Rollen im Bereich Automation innegehabt. Seit über 4 Jahren ist er nun bei Puzzle und hilft dort die Container-Themen vowärts zu treiben. Berufsbegleitend hat er zuerst die HF und anschliessend die FH in Wirtschaftsinformatik erfolgreich absolviert und eine Coaching-Ausbildung gemacht."
       linkedin: "https://www.linkedin.com/in/tobias-troehler/"
       twitter: "https://twitter.com/Tobee_Tr"
       email: "tobi@acend.ch"
