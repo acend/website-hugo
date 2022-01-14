@@ -40,6 +40,7 @@ quote:
 team:
   enable: true
   title: "Die Personen hinter acend"
+  id=„team“
   team_member:
     - title: "Benjamin Affolter"
       image: "images/team/AC_Benji@2x.jpg"
