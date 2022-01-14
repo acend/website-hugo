@@ -13,7 +13,7 @@ abstract : "Level up your serverless game - Hands-on best practices for serverle
 main_title : "Level up your serverless game - Hands-on best practices für serverless und FaaS"
 
 personen: 
-  daten : "21.01.22"
+  daten : "01.04.22"
   preis : "CHF 1100"
 
 headerimages:
