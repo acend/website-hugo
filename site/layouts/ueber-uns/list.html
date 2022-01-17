@@ -171,7 +171,7 @@
                   <div class="carousel team-carousel">
                   {{ range .team_member }}
 
-                    <div class="carousel-cell w-100">
+                    <div class="carousel-cell w-100" data-person="{{ .title | urlize}}">
                     <div class="container-fluid mr-1 px-0">
                       <div class="row inner-content py-md-4_">
                         <div class="col-auto my-3 pl-md-4">
