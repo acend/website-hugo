@@ -1,0 +1,18 @@
+<div data-scroll class="col-6 col-md-4 col-lg-3 mb-5 person-box">
+         
+         {{ if .image }}
+         <!-- <a class="d-block team-info-link mb-3  " data-toggle="modal" href="#{{ .title | urlize}}"> }} -->
+         <a class="d-block team-info-link mb-3" data-name="{{ .title | urlize}}" data-toggle="modal" href="#modalTeam">
+            {{ partial "img-srcset.html" (dict "img" .image "size" 230) }}
+          <svg  width="22px" height="22px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>icon more info</title>
+            <g id="icon-spez./MoreInfo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <path d="M14,0 C6.2680135,0 0,6.2680135 0,14 C0,21.7319865 6.2680135,28 14,28 C21.7319865,28 28,21.7319865 28,14 C28,6.2680135 21.7319865,0 14,0 Z M14,2 C20.627417,2 26,7.372583 26,14 C26,20.627417 20.627417,26 14,26 C7.372583,26 2,20.627417 2,14 C2,7.372583 7.372583,2 14,2 Z" id="Oval" fill="#ffffff" fill-rule="nonzero"></path>
+                <path d="M15,9.36363636 L14.9996364,12.9996364 L18.6363636,13 L18.6363636,15 L14.9996364,14.9996364 L15,18.6363636 L13,18.6363636 L12.9996364,14.9996364 L9.36363636,15 L9.36363636,13 L12.9996364,12.9996364 L13,9.36363636 L15,9.36363636 Z" id="Combined-Shape" fill="#ffffff" fill-rule="nonzero"></path>
+            </g>
+        </svg>
+         </a>
+         {{ end }}
+         <h6 class="mb-0">{{.title }}</h6>
+         <p class="title mb-0">{{.designation }}</p>
+        </div>

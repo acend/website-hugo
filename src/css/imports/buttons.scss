@@ -88,6 +88,8 @@
 
 .close {
   opacity: 1;
+  position: relative;
+  z-index: 10;
 }
 
 .icon-info {

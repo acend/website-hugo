@@ -44,16 +44,16 @@
       <div class="row my-6">
           <div  data-scroll class="col-11 col-lg-5 offset-1 offset-lg-6">
             
-              <h3>{{ .title | markdownify }}</h3>
+              <h3>{{ .title | markdownify }} sd</h3>
               <p>{{ .text | markdownify }}</p>
              </div>
         </div>
         {{ end }}
 
-
+ 
     {{ with .Params.subtopic_1 }}
     <div class="row">
-      <div  data-scroll class="col-11 col-lg-5 offset-1">
+      <div  data-scroll class="col-11 col-lg-8 col-lg-5_ offset-1">
         <h3>{{ .title | markdownify }}</h3>
         <p>{{ .text | markdownify }}</p>
       </div>
@@ -135,14 +135,140 @@
 {{ with .Params.team }}
 <section class="section mb-5">
   <div class="container">
-    <h2 data-scroll class="mb-5">{{ .title | markdownify }}</h2>
+    <h2 id="team" data-scroll class="mb-5">{{ .title | markdownify }}</h2>
     
     <div class="row">
-      <div class="col-lg-11 offset-lg-1">
+      <div class="col-md-10 offset-md-1">
         <div class="row">
           {{ range .team_member }}
-              {{ partial "team-member.html" . }}
+              {{ partial "team-member-compact.html" . }}
           {{ end }}
+
+          <div id="modalTeam" class="modal fade team-info-box">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="container modal-content">
+
+           
+
+
+              <div class="row">
+                <div class="col-md-10 offset-md-1 px-0">
+                  <div class="bg-primary-opaque text-white py-4 px-4">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                      <svg class="icon icon-white" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g id="icon/Close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g id="AC_Icon_Burger_RGB_Schwarz" transform="translate(15.000000, 14.000000)" fill="#fff" fill-rule="nonzero">
+                              <rect id="Rectangle" transform="translate(17.950000, 17.860000) rotate(-45.000000) translate(-17.950000, -17.860000) " x="-4.05" y="15.86" width="44" height="4"></rect>
+                          </g>
+                          <g id="AC_Icon_Burger_RGB_Schwarz" transform="translate(32.500000, 32.500000) rotate(-90.000000) translate(-32.500000, -32.500000) translate(15.000000, 15.000000)" fill="#fff" fill-rule="nonzero">
+                              <rect id="Rectangle" transform="translate(17.950000, 17.860000) rotate(-45.000000) translate(-17.950000, -17.860000) " x="-4.05" y="15.86" width="44" height="4"></rect>
+                          </g>
+                      </g>
+                  </svg></span>
+                  </button>
+
+                  <div class="carousel team-carousel">
+                  {{ range .team_member }}
+
+                    <div class="carousel-cell w-100" data-person="{{ .title | urlize}}">
+                    <div class="container-fluid mr-1 px-0">
+                      <div class="row inner-content py-md-4_">
+                        <div class="col-auto my-3 pl-md-4">
+                              <svg class="icon icon-lg icon-white" width="40px" height="40px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>icon/CV</title>
+                                <g id="icon/CV" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <path d="M33.8284271,57 L25.8284271,57 L25.8284271,53 L29.8284271,53 L29.828,28 L14,28 L8,22 L14,16 L29.828,16 L29.8284271,7 L49.6568542,7 L55.6568542,13 L49.6568542,19 L33.828,19 L33.828,23 L49.6568542,23 L55.6568542,29 L49.6568542,35 L37.8284271,35 L37.8284271,31 L47.9984271,31 L49.9994271,29 L47.9994271,27 L33.8284271,27 L33.8284271,57 Z M29.8284271,20 L15.6564271,20 L13.6574271,22 L15.6574271,24 L29.8284271,24 L29.8284271,20 Z M47.9994271,11 L33.8284271,11 L33.8284271,15 L47.9984271,15 L49.9994271,13 L47.9994271,11 Z" id="Combined-Shape" fill="#ffffff" fill-rule="nonzero"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="col-md-6 my-3">
+                          <h6 class="h5 mb-0">{{.title }}</h6>
+                          <p class="title">{{.designation }}</p>
+                          <p class="mb-4">{{.abstract }}</p>
+                          
+                          {{ with .email }}
+                          <a class="d-inline-block mr-2 email" href="{{ (print "mailto:" . )   | base64Encode }}"  target="_blank" rel="noopener">
+                              <svg class="icon icon-white icon-sm"  width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="icon/Mail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="AC_Icon_Mail_RGB_Schwarz" transform="translate(6.000000, 6.000000)" fill="#fff" fill-rule="nonzero">
+                                        <path d="M44,17 L44,8 L36,8 L36,12 L40,12 L40,26.22 L34.3,31.92 L25.55,23.16 L17.3,31.42 L12,26.16 L12,21 L12,21 L12,17 L12,17 L12,4 L44,4 L44,0 L8,0 L8,17 L0,17 L0,51.8 L52,51.8 L52,17 L44,17 Z M44,21 L45.19,21 L44,22.21 L44,21 Z M48,23.84 L48,45.66 L37.06,34.75 L48,23.84 Z M44.49,47.84 L6.49,47.84 L25.49,28.84 L44.49,47.84 Z M4,44.67 L4,23.82 L14.4,34.25 L4,44.67 Z M8,22.16 L6.83,21 L8,21 L8,22.16 Z" id="Shape"></path>
+                                    </g>
+                                </g>
+                            </svg></a> 
+                          {{ end }}
+
+                          {{ with .linkedin }}
+                          <a class="d-inline-block mr-2" href="{{. }}"  target="_blank" rel="noopener">
+                            <svg class="icon icon-white icon-sm" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <title>icon/Linkedin</title>
+                              <g id="icon/Linkedin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                  <g id="linkedin-[#161]" transform="translate(8.000000, 8.000000)" fill="#ffffff" fill-rule="nonzero">
+                                      <path d="M48,48 L38.4,48 L38.4,31.2024 C38.4,26.5944 36.3672,24.024 32.7216,24.024 C28.7544,24.024 26.4,26.7024 26.4,31.2024 L26.4,48 L16.8,48 L16.8,16.8 L26.4,16.8 L26.4,20.3088 C26.4,20.3088 29.412,15.024 36.1992,15.024 C42.9888,15.024 48,19.1664 48,27.7392 L48,48 Z M5.8608,11.8104 C4.30026981,11.8046828 2.80596305,11.1791113 1.70677856,10.0713746 C0.607594061,8.96363784 -0.00637742789,7.46452763 -4.91901957e-05,5.904 C-0.00573920581,4.34388733 0.608514427,2.84539407 1.70762991,1.738177 C2.80674538,0.630959937 4.30068726,0.00571817023 5.8608,0 C9.10863026,0.0132291562 11.731153,2.6561648 11.7192595,5.904 C11.726216,7.464306 11.1127797,8.96342285 10.0139762,10.0712292 C8.91517273,11.1790356 7.4211113,11.804684 5.8608,11.8104 L5.8608,11.8104 Z M1.61648472e-13,48 L12,48 L12,16.8 L1.61648472e-13,16.8 L1.61648472e-13,48 Z"></path>
+                                  </g>
+                              </g>
+                          </svg></a> 
+                          {{ end }}
+                          {{ with .twitter }}
+                          <a class="d-inline-block" href="{{. }}"  target="_blank" rel="noopener">
+                            <svg  class="icon icon-white icon-sm" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <title>icon/Twitter</title>
+                              <g id="icon/Twitter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                  <g id="logo-twitter" transform="translate(7.000000, 16.000000)"></g>
+                                  <path d="M59,17.8150888 C57.1308411,18.591716 55.2616822,19.2130178 53.0809969,19.3683432 C55.2616822,18.1257396 56.8193146,16.1065089 57.5981308,13.7766272 C55.5732087,15.0192308 53.3925234,15.795858 51.0560748,16.2618343 C49.1869159,14.2426036 46.5389408,13 43.7352025,13 C38.1277259,13 33.4548287,17.5044379 33.4548287,23.2514793 C33.4548287,24.0281065 33.6105919,24.8047337 33.7663551,25.5813609 C25.1993769,25.1153846 17.7227414,21.0769231 12.5825545,14.8639053 C11.6479751,16.4171598 11.1806854,18.1257396 11.1806854,19.989645 C11.1806854,23.5621302 13.0498442,26.6686391 15.6978193,28.5325444 C13.9844237,28.5325444 12.4267913,28.066568 11.0249221,27.2899408 C11.0249221,27.2899408 11.0249221,27.4452663 11.0249221,27.4452663 C11.0249221,32.4156805 14.6074766,36.454142 19.2803738,37.3860947 C18.3457944,37.5414201 17.5669782,37.6967456 16.6323988,37.6967456 C16.0093458,37.6967456 15.3862928,37.6967456 14.7632399,37.5414201 C16.0093458,41.5798817 19.9034268,44.5310651 24.2647975,44.6863905 C20.8380062,47.4822485 16.3208723,49.035503 11.4922118,49.035503 C10.7133956,49.035503 9.7788162,49.035503 9,48.8801775 C13.6728972,51.6760355 19.1246106,53.3846154 24.8878505,53.3846154 C43.7352025,53.3846154 54.0155763,37.852071 54.0155763,24.3387574 C54.0155763,23.8727811 54.0155763,23.4068047 54.0155763,23.0961538 C55.8847352,21.5428994 57.5981308,19.8343195 59,17.8150888 Z" id="Path" fill="#ffffff" fill-rule="nonzero"></path>
+                              </g>
+                          </svg></a> 
+                          {{ end }}
+
+                        </div>
+                        <div class="col-md-4 my-3 pt-md-4">
+                          {{ with .experience }}
+                          <p><strong>{{ i18n "praxiserfahrung"}}</strong></p> 
+
+                          <p class="small">{{ . }}</p>
+                          {{ end }}
+                        </div>
+                      </div>
+                      </div>
+                       </div>
+                      {{ end }}
+                    </div>
+
+
+                      <div class="navbar p-0">
+                        <button class="btn bg-transparent prev-team-member ml-auto pr-0" >
+                          <svg class="icon icon-white icon-sm" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>icon/Pfeil Links</title>
+                            <g id="icon/Pfeil-Links" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="AC_Icon_Pfeil_Rechts_RGB_Schwarz-Copy" transform="translate(32.500000, 32.000000) rotate(180.000000) translate(-32.500000, -32.000000) translate(11.000000, 18.000000)" fill="#ffffff" fill-rule="nonzero">
+                                    <polygon id="Path" points="28.97 0.17 26.15 3 35.15 12 4.97 12 4.97 8 0.97 8 0.97 16 35.14 16 26.15 25 28.97 27.83 42.8 13.99"></polygon>
+                                </g>
+                            </g>
+                        </svg>
+                        </button>
+                        <button class="btn bg-transparent next-team-member pr-0" >
+                          <svg class="icon icon-white icon-sm" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>icon/Pfeil Rechts</title>
+                            <g id="icon/Pfeil-Rechts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="AC_Icon_Pfeil_Rechts_RGB_Schwarz" transform="translate(11.000000, 18.000000)" fill="#ffffff" fill-rule="nonzero">
+                                    <polygon id="Path" points="28.97 0.17 26.15 3 35.15 12 4.97 12 4.97 8 0.97 8 0.97 16 35.14 16 26.15 25 28.97 27.83 42.8 13.99"></polygon>
+                                </g>
+                            </g>
+                        </svg>
+                        </button>
+                      </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+
+          </div>
+          </div>
+
+
+
         </div>
       </div>
     </div>

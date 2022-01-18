@@ -13,6 +13,9 @@
   }
 }
 
+.modal {
+  overscroll-behavior: contain;
+}
  
 
 .modal-content {
@@ -23,19 +26,38 @@
     flex-direction: column;
     width: 100%;
     pointer-events: auto;
-    background-color: #fff;
     background-clip: padding-box;
     border: none;
     border-radius: 0;
     outline: 0;
+    background-color: transparent;
+    
+    .signup-modal & {
+     background-color: #fff;
+    }
 }
 
+
 .modal-backdrop {
+  //background-color: var(--primary);
+  background-color: #fff;
+
+ .signup-modal & {
   background-color: var(--primary);
+
   &.show {
     opacity: 1;
     background-image: url("../images/AC_Muster_1_RGB_Weiss--10-v2.png");
     background-attachment: fixed;
     background-size: 1915px;
   }
+ }
+}
+
+.modal-content .row.bg-primary {
+  box-shadow: 0 0 30px var(--shadowColor);
+}
+
+.bg-primary-opaque {
+  background-color: var(--primary-opaque) !important;
 }

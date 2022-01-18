@@ -8,13 +8,13 @@ slug:
 subtitle: "Basics"
 categories: ["Basics", "Delivery CI/CD"]
 
-duration: "1 Day"
+duration: "2 Days"
 abstract : "Write, Plan and Apply. IaC made easy."
 main_title : "Write, Plan and Apply. IaC made easy."
 
 personen: 
-  daten : "22.03.22"
-  preis : "CHF 1200"
+  daten : "22.03.22, 23.03.22"
+  preis : "CHF 2200"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
@@ -24,7 +24,7 @@ headerimages:
 main_text: "
 To manage its infrastructure declaratively as code, Terraform offers a wide range of functionality. The configuration files, which are typically stored in a Git repository, are used by Terraform as a single source of truth. These files are used, for example, to build infrastructure or to configure entire applications.\n\n
 
-This one-day training in English or German offers a clearly understandable introduction to Terraform and a practical implementation part on Azure."
+This two-days training in English or German offers a clearly understandable introduction to Terraform and a practical implementation part on Azure."
 
 accordion:
     enable : true
@@ -53,7 +53,7 @@ accordion:
         - title : "Conditions"
           icon : "4"
           content : "
-<li>CHF 1200 / participant for one day</li>
+<li>CHF 2200 / participant for 2 days</li>
 <li>Group sessions consisting of 8 to 24 participants</li>
 <li>Includes catering, documentation and training infrastucture in the cloud</li>
 <li>Discounts available for groups of 12 participants or more</li>
@@ -87,6 +87,16 @@ trainingsinhalt:
           liste:
           - el: "AKS / LoadBalancer"
           - el: "MariaDB and Demo Application"
+
+# Kooperation
+kooperation:
+  enable: true
+  title: "Developed together with <strong>arch.cloud</strong>"
+  subtitle: "In collaboration with <strong>arch.cloud</strong>"
+  logo: "images/partner/arch-cloud.png"
+  text: "Engineering cloud native solutions is their passion. They support customers in the cloud transformation. Not only in architecture, infrastructure and software development, but also in the appropriate strategy and organization."
+  link: "https://arch.cloud"
+  linktext: "arch.cloud"
 
 # trainer
 trainers:

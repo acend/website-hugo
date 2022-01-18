@@ -29,6 +29,9 @@ other = "Alle Trainings anzeigen"
 [trainingsLink]
 other = "/trainings/"
 
+[praxiserfahrung]
+other = "Expertise"
+
 #––––––––––––––––
 # Footer
 
