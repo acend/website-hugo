@@ -81,7 +81,7 @@ kooperation:
   enable: true
   title: "Developed together with <strong>Puzzle</strong>"
   subtitle: "In collaboration with <strong>Puzzle</strong>"
-  logo : "images/partner/puzzle_logo@2x.png"
+  logo : "images/partner/puzzle-itc.png"
   text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on open source technologies as well as the most modern methods. Different interdisciplinary teams work on projects regarding consulting, applications, delivery, infrastructure and open source solutions."
   link: "https://puzzle.ch"
   linktext: "puzzle.ch"
@@ -125,7 +125,7 @@ testimonials:
   testimonial:
     - title : "Das sagt unser Trainingsteilnehmer<br/>Michael Rudiger, Solothurn"
       image : "images/trainings/ACEND_Jeremy@4x.jpg"
-      logo : "images/testimonials/10centris.png"
+      logo : "images/testimonials/centris.png"
       text : "The training was very helpful and gave me a great insight into the world of Prometheus. Thanks to the hands-on labs, I was able to apply my knowledge right away. The trainers were very competent and helpful, the workshops were technically great."
       
 ---

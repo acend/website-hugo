@@ -11,7 +11,7 @@ about:
 # slideshow trainigs
 slideshow:
   enable: true
-  item: 
+  item:
     - ubertitle: "Trainingsangebot"
       title: "Argo CD"
       subtitle: "Basics"
@@ -20,7 +20,7 @@ slideshow:
       img1: "images/trainings/ACEND_Adventure_TopHill@2x.jpg"
       img2: "images/trainings/ACEND_Poi@2x.jpg"
       img3: "images/trainings/ACEND_CodeP@2x.jpg"
-    
+
     - ubertitle: "Trainingsangebot"
       title: "Serverless"
       subtitle: "Basics"
@@ -35,10 +35,10 @@ slideshow:
       subtitle: "Basics"
       URL: "/trainings/terraform-azure/"
       label: "Mehr erfahren"
-      img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
-      img2 : "images/trainings/ACEND_Yup@2x.jpg"
-      img3 : "images/trainings/ACEND_Code_Yup@2x.jpg"
-    
+      img1: "images/trainings/ACEND_Adventure_Desert@2x.jpg"
+      img2: "images/trainings/ACEND_Yup@2x.jpg"
+      img3: "images/trainings/ACEND_Code_Yup@2x.jpg"
+
     - ubertitle: "Trainingsangebot"
       title: "Container & Kubernetes"
       subtitle: "Basics"
@@ -56,7 +56,7 @@ slideshow:
     #  img1: "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"
     #  img2: "images/trainings/ACEND_Lena@2x.jpg"
     #  img3: "images/trainings/ACEND_CodeD@2x.jpg"
-      
+
     - ubertitle: "Trainingsangebot"
       title: "Container & OpenShift"
       subtitle: "Basics"
@@ -65,7 +65,7 @@ slideshow:
       img1: "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
       img2: "images/trainings/ACEND_Philip@2x.jpg"
       img3: "images/trainings/ACEND_CodeD@2x.jpg"
-    
+
     - ubertitle: "Trainingsangebot"
       title: "OpenShift 4 Operations"
       subtitle: "Advanced"
@@ -115,8 +115,7 @@ trainings:
         - title: "Prometheus"
           slug: "prometheus"
         - title: "Serverless"
-          slug: "serverless"          
-
+          slug: "serverless"
 
 # testimonial
 testimonials:
@@ -124,19 +123,19 @@ testimonials:
   title: "Testimonials"
   testimonial:
     - title: "Das sagt unser Trainingsteilnehmer<br/>Matthias Summer, Österreich"
-      logo: "images/testimonials/adcubum_logo.png"
+      logo: "images/testimonials/adcubum.png"
       text: "Das Training hat mir sehr gut gefallen und ich konnte einige Dinge mitnehmen, die mir bei der täglichen Arbeit helfen. Die Praxis-Erfahrung und die Leidenschaft für die Technologie war bei den Trainern spürbar. Sie haben uns auch sehr gut unterstützt und uns nützliche Tipps gegeben."
 
     - title: "Das sagt unser Trainingsteilnehmer<br/>Corsin Decurtins, Zürich"
-      logo: "images/testimonials/netceterea_logo.png"
+      logo: "images/testimonials/netceterea.png"
       text: "Wir konnten in mehreren Schulungen das Know-How, unserer Entwickler in ganz Europa, im Bereich Kubernetes aufbauen. Dies hilft uns auch in Zukunft, unsere Kunden mit innovativen Softwarelösungen zu  beliefern. Einfach tolle Trainings und super Trainer."
 
     - title: "Das sagt unser Trainingsteilnehmer<br/>Thomas Abbrederis, Vaduz"
-      logo: "images/testimonials/lgt_logo.png"
+      logo: "images/testimonials/lgt.png"
       text: "Durch die Schulung konnten wir das Know-how im Bereich moderner Container Technologie praxisnah mit der zur Verfügung gestellten Openshift Plattform vertiefen. Durch die sehr kompetenten Trainer konnte der Respekt vor den neuen Container Technologien reduziert werden und damit den Schulungsteilnehmern für die Zukunft eine sehr gute Basis gelegt werden."
 
     - title: "Das sagt unser Trainingsteilnehmer<br/>Michael Rudiger, Solothurn"
-      logo: "images/testimonials/10centris.png"
+      logo: "images/testimonials/centris.png"
       text: "Das Training war sehr hilfreich und gab mir einen super Einblick in die Welt von Prometheus. Dank den hands-on Labs konnte ich mein Wissen gleich anwenden. Die Trainer waren sehr kompetent und hilfsbereit, die Workshops technisch toll umgesetzt."
 
     - title: "Das sagt unsere Trainingsteilnehmer<br/>Roland Egli, Solothurn"
@@ -152,17 +151,17 @@ partner:
   enable: true
   title: "Unsere Partner"
   item:
-    - logo: "images/partner/puzzle_logo@2x.png"
+    - logo: "images/partner/puzzle-itc.png"
       text: "Puzzle ITC deckt als innovativer IT-Dienstleister den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei wird konsequent auf Open Source Technologien sowie modernste Methoden gesetzt. Verschiedene interdisziplinäre Teams arbeitet an Projekten in den Bereichen Beratung, Applikationen, Delivery, Infrastruktur und eigenen Open Source Lösungen."
       URL: "https://puzzle.ch"
       label: "puzzle.ch"
 
-    - logo: "images/partner/appuio_logo@2x.png"
+    - logo: "images/partner/appuio.png"
       text: "APPUiO ist die führende, auf Kubernetes basierende Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes unterstützt APPUiO den DevOps-Ansatz. So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt."
       URL: "https://www.appuio.ch"
       label: "appuio.ch"
 
-    - logo: "images/partner/kubernetes_logo@2x.png"
+    - logo: "images/partner/kubernetes-kcsp.png"
       text: "KCSP ist eine Initiative der Cloud Native Computing Foundation. Die CNCF dient als herstellerneutrale Heimat für viele der am schnellsten wachsenden Open Source Projekte, darunter Kubernetes, Prometheus und Envoy. Sie fördert die Open Source und Cloud Native Welt und unterstützt die Community Rund um diese Technologien."
       URL: "https://www.cncf.io"
       label: "cncf.io"
@@ -173,6 +172,6 @@ partner:
       label: "arch.cloud"
 
     - logo: "images/partner/bespinian.png"
-      text: "bespinian ist ein Start-up aus Bern, das Software und Cloud Computing liebt. Als \"Cloud Native Citizens\" sind sie auf verschiedenen Cloud Plattformen zu Hause und helfen ihren Kunden in enger Zusammenarbeit, neue Software in der Cloud zu bauen oder bestehende in die Cloud zu bringen."
+      text: 'bespinian ist ein Start-up aus Bern, das Software und Cloud Computing liebt. Als "Cloud Native Citizens" sind sie auf verschiedenen Cloud Plattformen zu Hause und helfen ihren Kunden in enger Zusammenarbeit, neue Software in der Cloud zu bauen oder bestehende in die Cloud zu bringen.'
       URL: "https://bespinian.io"
       label: "bespinian.io"

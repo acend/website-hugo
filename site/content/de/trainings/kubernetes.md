@@ -121,7 +121,7 @@ testimonials:
   enable: true
   testimonial:
     - title : "Das sagt unser Trainingsteilnehmer<br/>Corsin Decurtins, Zürich"
-      logo : "images/testimonials/netceterea_logo.png"
+      logo : "images/testimonials/netceterea.png"
       text : "Wir konnten in mehreren Schulungen das Know-How, unserer Entwickler in ganz Europa, im Bereich Kubernetes aufbauen. Dies hilft uns auch in Zukunft, unsere Kunden mit innovativen Softwarelösungen zu  beliefern. Einfach tolle Trainings und super Trainer."
         
 ---
