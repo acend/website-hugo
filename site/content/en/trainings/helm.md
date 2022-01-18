@@ -111,7 +111,7 @@ testimonials:
   enable: true
   testimonial:
     - title : "Here’s what our clients say about our trainings:<br/>Matthias Summer, Austria"
-      logo : "images/testimonials/adcubum_logo.png"
+      logo : "images/testimonials/adcubum.png"
       text : "I really enjoyed the training, and I learned several things that helped me with my daily tasks. You could tell that the trainers had a lot of practical experience with and passion for the technology. They also supported us well and gave us useful advice."
     
     - title: "Here’s what our clients say about our trainings:<br/>Nathanael Weber, Bern"
