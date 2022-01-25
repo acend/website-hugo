@@ -111,7 +111,7 @@ trainers:
     
     - title : "Nemanja Kostic"
       designation : "Trainer, arch.cloud"
-      abstract : "EHe has spent the last 20 years in the IT industry drinking coffee and pretending to know what he is doing."
+      abstract : "He has spent the last 20 years in the IT industry drinking coffee and pretending to know what he is doing."
       image : "images/team/AC_Nemanja_Kostic@2x.jpg"
       linkedin : "https://www.linkedin.com/in/nemanjakostic/"
 
