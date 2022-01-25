@@ -11,7 +11,7 @@ abstract: "eBPF-basiertes Networking"
 main_title: "eBPF-basiertes Networking"
 
 personen: 
-  daten : ""
+  daten : "09.03.22"
   preis : "CHF 1200"
 
 headerimages:
@@ -85,12 +85,18 @@ trainers:
   enable: true
   title : "Lerne deine Trainer kennen"
   trainer:
+
     - title : "Sebastian Plattner"
       image : "images/team/AC_Seba@2x.jpg"
       designation : "Trainer"
       abstract : "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
+
+    - title : "Gabriel Graf"
+      image : "images/team/AC_Gabriel_Graf@2x.jpg"
+      designation : "Trainer"
+      abstract : "Er ist unser Weltenbummler und schon von klein auf überall auf der Welt zu Hause. Und so richtig daheim ist er natürlich in der Cloud Native Welt."
       
       
 # testimonials
