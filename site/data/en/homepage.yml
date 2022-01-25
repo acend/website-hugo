@@ -20,7 +20,7 @@ slideshow:
       img1: "images/trainings/ACEND_Adventure_TopHill@2x.jpg"
       img2: "images/trainings/ACEND_Poi@2x.jpg"
       img3: "images/trainings/ACEND_CodeP@2x.jpg"
-    
+
     - ubertitle: "Training offer"
       title: "Serverless"
       subtitle: "Basics"
@@ -35,10 +35,10 @@ slideshow:
       subtitle: "Basics"
       URL: "/en/trainings/terraform-azure/"
       label: "Discover"
-      img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
-      img2 : "images/trainings/ACEND_Yup@2x.jpg"
-      img3 : "images/trainings/ACEND_Code_Yup@2x.jpg"
-    
+      img1: "images/trainings/ACEND_Adventure_Desert@2x.jpg"
+      img2: "images/trainings/ACEND_Yup@2x.jpg"
+      img3: "images/trainings/ACEND_Code_Yup@2x.jpg"
+
     - ubertitle: "Training offer"
       title: "Container & Kubernetes"
       subtitle: "Basics"
@@ -56,7 +56,7 @@ slideshow:
       img1: "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
       img2: "images/trainings/ACEND_Philip@2x.jpg"
       img3: "images/trainings/ACEND_CodeD@2x.jpg"
-    
+
     - ubertitle: "Training offer"
       title: "OpenShift 4 Operations"
       subtitle: "Advanced"
@@ -106,7 +106,7 @@ trainings:
         - title: "Prometheus"
           slug: "prometheus"
         - title: "Serverless"
-          slug: "serverless"          
+          slug: "serverless"
 
 # testimonial
 testimonials:
@@ -114,46 +114,45 @@ testimonials:
   title: "Testimonials"
   testimonial:
     - title: "Here’s what our clients say about our trainings:<br/>Matthias Summer, Austria"
-      logo: "images/testimonials/adcubum_logo.png"
+      logo: "images/testimonials/adcubum.png"
       text: "I really enjoyed the training, and I learned several things that helped me with my daily tasks. You could tell that the trainers had a lot of practical experience with and passion for the technology. They also supported us well and gave us useful advice."
 
     - title: "Here’s what our clients say about our trainings:<br/>Corsin Decurtins, Zurich"
-      logo: "images/testimonials/netceterea_logo.png"
+      logo: "images/testimonials/netceterea.png"
       text: "Over the course of a number of sessions, our developers all over Europe were able to build up their know-how in Kubernetes. This also helps us to deliver innovative software solutions to our clients in the future. Simply great trainings and fantastic trainers."
 
     - title: "Here’s what our clients say about our trainings:<br/>Thomas Abbrederis, Vaduz"
-      logo: "images/testimonials/lgt_logo.png"
+      logo: "images/testimonials/lgt.png"
       text: "Through the training, we were able to deepen the know-how in the area of modern container technology in a practical way with the Openshift platform provided. The very competent trainers were able to reduce the respect for the new container technologies and thus provide the training participants with a very good baseline for the future."
 
     - title: "Here’s what our clients say about our trainings:<br/>Michael Rudiger, Solothurn"
-      logo: "images/testimonials/10centris.png"
+      logo: "images/testimonials/centris.png"
       text: "The training was very helpful and gave me a great insight into the world of Prometheus. Thanks to the hands-on labs, I was able to apply my knowledge right away. The trainers were very competent and helpful, the workshops were technically great."
 
     - title: "Here’s what our clients say about our trainings: <br/>Roland Egli, Solothurn"
       logo: "images/testimonials/kt-solothurn.png"
       text: "Thank you very much for the wonderful certificate. The training was very educational and the exchange with the other trainees I found very valuable. Great organization."
-    
+
     - title: "Here’s what our clients say about our trainings:<br/>Nathanael Weber, Bern"
       logo: "images/testimonials/mtrail.png"
       text: "The training was exceptionally well tailored to our needs. The practical exercises were just difficult enough that more questions about Helm arose and were answered competently by the instructor. Many thanks acend for this experience!"
-
 
 # partner
 partner:
   enable: true
   title: "Our Partners"
   item:
-    - logo: "images/partner/puzzle_logo@2x.png"
+    - logo: "images/partner/puzzle-itc.png"
       text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on open source technologies as well as the most modern methods. Different interdisciplinary teams work on projects regarding consulting, applications, delivery, infrastructure and open source solutions."
       URL: "https://puzzle.ch"
       label: "puzzle.ch"
 
-    - logo: "images/partner/appuio_logo@2x.png"
+    - logo: "images/partner/appuio.png"
       text: "APPUiO is the leading Kubernetes based container platform for the design, development and operations of applications. Based on reliable open source concepts, such as CRI-O and Kubernetes, APPUiO supports the DevOps approach. Development, deployment and operation processes are accelerated through automation and self-service. The cooperation between software developers and business organization is also improved."
       URL: "https://www.appuio.ch"
       label: "appuio.ch"
 
-    - logo: "images/partner/kubernetes_logo@2x.png"
+    - logo: "images/partner/kubernetes-kcsp.png"
       text: "KCSP is an initiative from the Cloud Native Computing Foundation. The CNCF serves as a vendor neutral home for many of the fastest growing open source projects, including Kubernetes, Prometheus, and Envoy. It promotes the open source and cloud native world and supports the community around these technologies."
       URL: "https://www.cncf.io"
       label: "cncf.io"
@@ -164,6 +163,6 @@ partner:
       label: "arch.cloud"
 
     - logo: "images/partner/bespinian.png"
-      text: "bespinian is a start-up from Bern that loves software and cloud computing. As \"Cloud Native Citizens\" they are at home on different cloud platforms and help their customers in close collaboration to build new software in the cloud or to bring existing ones to the cloud."
+      text: 'bespinian is a start-up from Bern that loves software and cloud computing. As "Cloud Native Citizens" they are at home on different cloud platforms and help their customers in close collaboration to build new software in the cloud or to bring existing ones to the cloud.'
       URL: "https://bespinian.io/"
       label: "bespinian.io"

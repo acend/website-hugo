@@ -103,7 +103,7 @@ testimonials:
   enable: true
   testimonial:
     - title : "Here’s what our clients say about our trainings:<br/>Thomas Abbrederis, Vaduz"
-      logo : "images/testimonials/lgt_logo.png"
+      logo : "images/testimonials/lgt.png"
       text : "Through the training, we were able to deepen the know-how in the area of modern container technology in a practical way with the OpenShift platform provided. The very competent trainers were able to reduce the respect for the new container technologies and thus provide the training participants with a very good baseline for the future."
 
 ---
