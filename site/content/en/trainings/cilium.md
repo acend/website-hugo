@@ -6,7 +6,7 @@ draft: false
 weight: 3
 subtitle: "Basics"
 categories: ["Basics", "Kubernetes"]
-duration: "1 Tag"
+duration: "1 Day"
 abstract: "eBPF-based networking"
 main_title: "eBPF-based networking"
 
@@ -35,7 +35,7 @@ accordion:
 <li>Understand the basics of Kubernetes networking</li>
 <li>Understanding and applying the basic concepts of Cilium and Hubble</li>
 <li>Practical application of the most important Cillium features</li>
-          </ul>"
+</ul>"
  
         - title : "Prerequisites"
           icon : "2"
@@ -43,7 +43,7 @@ accordion:
           "<ul>
 <li>Participants need a laptop with direct access to the Internet</li>
 <li>A current, local Minikube installation (<a href=\"https://minikube.sigs.k8s.io/docs/start/\">minikube.sigs.k8s.io</a>) on the corresponding work device</li>
-          </ul>"
+</ul>"
 
         - title : "Target Audience"
           icon : "3"
@@ -51,7 +51,7 @@ accordion:
           "<ul>
 <li>Our training is aimed at people who already have knowledge and experience in operating a Kubernetes platform</li>
 <li>Participants should have experience in using the command line</li>
-          </ul>"
+</ul>"
 
         - title : "Conditions"
           icon : "4"
@@ -61,7 +61,7 @@ accordion:
 <li>Group classes consisting of 8 to 24 participants</li>
 <li>Includes catering and documentation</li>
 <li>Discounts available for groups of 12 participants or more</li>
-          </ul>"
+</ul>"
 
 # Trainingsinhalt
 trainingsinhalt: 
