@@ -11,7 +11,7 @@ abstract: "eBPF-basiertes Networking"
 main_title: "eBPF-basiertes Networking"
 
 personen: 
-  daten : ""
+  daten : "09.03.22"
   preis : "CHF 1200"
 
 headerimages:
@@ -85,7 +85,7 @@ trainers:
   enable: true
   title : "Lerne deine Trainer kennen"
   trainer:
-  
+
     - title : "Sebastian Plattner"
       image : "images/team/AC_Seba@2x.jpg"
       designation : "Trainer"
