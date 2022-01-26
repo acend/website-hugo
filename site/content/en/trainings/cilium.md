@@ -62,7 +62,7 @@ accordion:
 # Trainingsinhalt
 trainingsinhalt: 
     title : "Content"
-    text : "Our trainings consist of varied presentations and hands-on labs to convey their content in an exciting way.<br/>.
+    text : "Our trainings consist of varied presentations and hands-on labs to convey their content in an exciting way.\n\n
 We are also happy to make reference to your infrastructure in consultation. If there is a need for additional content, we can make adjustments at your request."
 
     liste1:
