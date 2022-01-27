@@ -21,7 +21,7 @@ headerimages:
   
 
 main_text: "
-Cilium ist ein Open-Source eBPF-basiertes Networking, Security und Observability Plugin für Kubernetes und weitere Container-Orchestrierungs-Tools.\n\n 
+Cilium ist ein Open Source eBPF-basiertes Networking, Security und Observability Plugin für Kubernetes und weitere Container-Orchestrierungs-Tools.\n\n
 Dieses eintägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in Cilium, einem eBFP basierten Network, Observability und Security Stack für die Cloud und auf on-premise Infrastruktur.
 "
 
@@ -40,7 +40,7 @@ accordion:
           icon : "2"
           content : "<ul>
 <li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
-<li>Eine aktuelle, lokale Minikube installation (<a href=\"https://minikube.sigs.k8s.io/docs/start/\">minikube.sigs.k8s.io</a>) auf dem entsprechenden Arbeitsgerät</li>
+<li>Eine aktuelle, lokale Minikube Installation (<a href=\"https://minikube.sigs.k8s.io/docs/start/\">minikube.sigs.k8s.io</a>)</li>
 </ul>"
 
         - title : "Zielpublikum"
@@ -68,16 +68,16 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
     liste1:
       title: "Cilium Basics"
       liste:
-        - el: "Einführung Linux & Kubernetes Networking"
+        - el: "Einführung in Linux & Kubernetes Networking"
         - el: "Grundlagen eBPF"
         - el: "Container Network Interface"
         - el: "Cilium Systems Architektur"
-        - el: "Kubernetes & Cilium Network Policy"
+        - el: "Kubernetes & Cilium Network Policies"
         - el: "Hubble & Hubble UI"
-        - el: "Cilium Clustermesh"
+        - el: "Cilium Cluster Mesh"
         - el: "Cilium Deployment"
         - el: "Cilium Troubleshooting"
-        - el: "Cilium ServiceMesh"
+        - el: "Cilium Service Mesh"
 
 
 # trainer

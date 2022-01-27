@@ -21,7 +21,7 @@ headerimages:
   
 
 main_text: "
-Cilium is an open-source eBPF-based networking, security and observability plugin for Kubernetes and other container orchestration tools.\n\n 
+Cilium is an open source eBPF-based networking, security and observability plugin for Kubernetes and other container orchestration tools.\n\n 
 This one-day training in English or German provides a practical and clear introduction to Cilium, an eBFP-based networking, observability and security stack for cloud and on-premise infrastructure.
 "
 
@@ -31,7 +31,7 @@ accordion:
         - title : "Outcomes"
           icon : "1"
           content : "<ul>
-<li>Understand the basics of Kubernetes networking</li>
+<li>Getting to know the basics of Kubernetes networking</li>
 <li>Understanding and applying the basic concepts of Cilium and Hubble</li>
 <li>Practical application of the most important Cillium features</li>
 </ul>"
@@ -40,7 +40,7 @@ accordion:
           icon : "2"
           content : "<ul>
 <li>Participants need a laptop with direct access to the Internet</li>
-<li>A current, local Minikube installation (<a href=\"https://minikube.sigs.k8s.io/docs/start/\">minikube.sigs.k8s.io</a>) on the corresponding work device</li>
+<li>A current, local minikube installation (<a href=\"https://minikube.sigs.k8s.io/docs/start/\">minikube.sigs.k8s.io</a>)</li>
 </ul>"
 
         - title : "Target Audience"
@@ -68,16 +68,16 @@ We are also happy to make reference to your infrastructure in consultation. If t
     liste1:
       title: "Cilium Basics"
       liste:
-        - el: "Introduction Linux & Kubernetes Networking"
-        - el: "eBPF Basics"
+        - el: "Introduction to Linux & Kubernetes networking"
+        - el: "eBPF basics"
         - el: "Container Network Interface"
-        - el: "Cilium Systems Architecture"
-        - el: "Kubernetes & Cilium Network Policy"
+        - el: "Cilium systems architecture"
+        - el: "Kubernetes & Cilium network policies"
         - el: "Hubble & Hubble UI"
-        - el: "Cilium Clustermesh"
-        - el: "Cilium Deployment"
-        - el: "Cilium Troubleshooting"
-        - el: "Cilium ServiceMesh"
+        - el: "Cilium Cluster Mesh"
+        - el: "Cilium deployment"
+        - el: "Cilium troubleshooting"
+        - el: "Cilium Service Mesh"
 
 
 # trainer
