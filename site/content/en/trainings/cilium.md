@@ -21,7 +21,6 @@ headerimages:
   
 
 main_text: "
-Cilium is an open source eBPF-based networking, security and observability plugin for Kubernetes and other container orchestration tools.\n\n 
 This one-day training in English or German provides a practical and clear introduction to Cilium, an eBFP-based networking, observability and security stack for cloud and on-premise infrastructure.
 "
 
