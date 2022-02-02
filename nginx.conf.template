@@ -91,6 +91,41 @@ server {
         proxy_pass   ${BACKEND_URL}/;
     }
 
+    #
+    # REDIRECTS
+    #
+    # Renaming trainings
+    location = /trainings/terraform-azure/ {
+        return 301 /trainings/terraform/;
+    }
+    location = /trainings/openshift/ {
+        return 301 /trainings/container-openshift/;
+    }
+    location = /trainings/openshift4ops/ {
+        return 301 /trainings/openshift-4-operations/;
+    }
+    location = /trainings/kubernetes/ {
+        return 301 /trainings/container-kubernetes/;
+    }
+    location = /trainings/argocd/ {
+        return 301 /trainings/argo-cd/;
+    }
+    location = /en/trainings/terraform-azure/ {
+        return 301 /en/trainings/terraform/;
+    }
+    location = /en/trainings/openshift/ {
+        return 301 /en/trainings/container-openshift/;
+    }
+    location = /en/trainings/openshift4ops/ {
+        return 301 /en/trainings/openshift-4-operations/;
+    }
+    location = /en/trainings/kubernetes/ {
+        return 301 /en/trainings/container-kubernetes/;
+    }
+    location = /en/trainings/argocd/ {
+        return 301 /en/trainings/argo-cd/;
+    }
+
     # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
     #
     #location ~ \.php$ {
