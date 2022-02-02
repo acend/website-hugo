@@ -40,6 +40,15 @@ slideshow:
       img3: "images/trainings/ACEND_Code_Yup@2x.jpg"
 
     - ubertitle: "Training offer"
+      title: "Cilium"
+      subtitle: "Basics"
+      URL: "/en/trainings/cilium/"
+      label: "Discover"
+      img1: "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"
+      img2: "images/trainings/ACEND_Lena@2x.jpg"
+      img3: "images/trainings/ACEND_CodeD@2x.jpg"
+
+    - ubertitle: "Training offer"
       title: "Container & Kubernetes"
       subtitle: "Basics"
       URL: "/en/trainings/container-kubernetes/"
@@ -107,6 +116,8 @@ trainings:
           slug: "prometheus"
         - title: "Serverless"
           slug: "serverless"
+        - title: "Cilium"
+          slug: "cilium"          
 
 # testimonial
 testimonials:

@@ -8,13 +8,13 @@ slug:
 subtitle: "Basics"
 categories: ["Basics", "Spezialisierte Trainings"]
 
-duration: "1 Tag"
+duration: "2 Tage"
 abstract : "Write, Plan and Apply. IaC made easy."
 main_title : "Write, Plan and Apply. IaC made easy."
 
 personen: 
-  daten : "22.03.22"
-  preis : "CHF 1200"
+  daten : "22.03.22, 23.03.22"
+  preis : "CHF 2200"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Desert@2x.jpg"
@@ -23,7 +23,7 @@ headerimages:
       
 main_text: "
 Um seine Infrastruktur deklarativ als Code zu verwalten, bietet Terraform einen breiten Funktionsumfang an. Die Konfigurationsdateien, welche typischerweise in einem Git Repository gespeichert sind, werden von Terraform als Single Source of Truth verwendet. Anhand dieser Dateien wird beispielsweie Infrastruktur aufgebaut oder es werden ganze Applikationen konfiguriert.\n\n
-Dieses eintägige Training auf Deutsch oder Englisch bietet einen klar verständlichen Einstieg in Terraform und einen praktischen Umsetzungsteil auf Azure."
+Dieses zweitägige Training auf Deutsch oder Englisch bietet einen klar verständlichen Einstieg in Terraform und einen praktischen Umsetzungsteil auf Azure."
 
 accordion:
     enable : true
@@ -53,7 +53,7 @@ accordion:
         - title : "Konditionen"
           icon : "4"
           content : "
-<li>CHF 1200 / Person für einen Tag</li>
+<li>CHF 2200 / Person für 2 Tage</li>
 <li>Gruppen von 8 bis 24 Personen</li>
 <li>Inklusive Verpflegung, Unterlagen und Trainingsinfrastruktur in der Cloud</li>
 <li>Rabatt ab 12 Personen</li>

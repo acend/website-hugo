@@ -11,7 +11,7 @@ abstract: "OpenShift 4 - Operations Mastery für System Engineers."
 main_title: "OpenShift 4 - Operations Mastery für System Engineers."
 
 personen: 
-  daten : "19.01.22, 20.01.22"
+  daten : "16.11.22, 17.11.22"
   preis : "CHF 2200"
 
 headerimages:
