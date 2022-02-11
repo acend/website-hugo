@@ -42,12 +42,12 @@ team:
   title: "Die Personen hinter acend"
   team_member:
     
-    - title : "Andreas Gehrig"
-      designation : "Trainer, arch.cloud"
-      abstract : "Er ist immer mit seinem Notebook unterwegs, schreibt Software und entwirft Cloud-Architekturen."
+    - title: "Andreas Gehrig"
+      image: "images/team/AC_Andreas_Gehrig@2x.jpg"
+      designation: "Trainer, arch.cloud"
+      abstract: "Er ist immer mit seinem Notebook unterwegs, schreibt Software und entwirft Cloud-Architekturen."
       experience: "Seit seiner Lehre als Applikationsentwickler hat Andreas für mehrere grosse Organisationen wie die Schweizer Börse, den Nasdaq oder Fisch Asset Management gearbeitet. Seit mehr als drei Jahren ist er inzwischen als selbstständiger Software und Cloud Architect für arch.cloud tätig."
-      image : "images/team/AC_Andreas_Gehrig@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/andreasgehrig/"      
+      linkedin: "https://www.linkedin.com/in/andreasgehrig/"      
     
     - title: "Benjamin Affolter"
       image: "images/team/AC_Benji@2x.jpg"
@@ -57,12 +57,12 @@ team:
       linkedin: "https://www.linkedin.com/in/benjamin-affolter/"
       twitter: "https://twitter.com/bliemli"
     
-    - title : "Christian Haller"
-      image : "images/team/AC_Christian_Haller@2x.jpg"
-      designation : "Trainer, Puzzle ITC"
-      abstract : "Als Ausgleich zum hektischen Container-Alltag, macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
+    - title: "Christian Haller"
+      image: "images/team/AC_Christian_Haller@2x.jpg"
+      designation: "Trainer, Puzzle ITC"
+      abstract: "Als Ausgleich zum hektischen Container-Alltag, macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
       experience: "Nach seinem Studium in Informatik hat Christian fast 10 Jahre Projekt- und Betriebserfahrung gesammelt als Systems Engineer im Netzwerk- und Security-Bereich. Seit mehr als Seit mehr als 3 Jahren ist er nun bei Puzzle als Consultant im Bereich Container und Cloud Native Technologien unterwegs."
-      linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
+      linkedin: "https://www.linkedin.com/in/christian-haller-0a637493"
     
     - title : "Christian Schlatter"
       image : "images/team/AC_Christian_Schlatter@2x.jpg"
