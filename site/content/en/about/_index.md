@@ -41,7 +41,6 @@ team:
   enable: true
   title: "The People Behind acend"
   team_member:
-    
     - title : "Andreas Gehrig"
       designation : "Trainer, arch.cloud"
       abstract : "He is always on the road with his notebook, writing software and designing cloud architectures."
@@ -165,7 +164,7 @@ team:
       linkedin: "https://www.linkedin.com/in/raffael-hertle-22882b157/"
       twitter: "https://twitter.com/g1raffi"     
  
-     - title : "Reto Kupferschmid"
+    - title : "Reto Kupferschmid"
       designation : "Trainer, Puzzle ITC"
       abstract : "True to the motto, what doesn't fit is made to fit, as an engineer he solves all challenges in no time at all."
       experience: "After his apprenticeship as a computer scientist (2014), Reto attended the HF while working. As a systems engineer, he was already able to gain a lot of experience, which he has been constantly expanding for over 3 years at Puzzle. His heart beats for monitoring and automation - he is equipped with several certifications."
