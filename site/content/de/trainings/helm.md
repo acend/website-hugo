@@ -21,7 +21,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeB@2x.jpg"
       
 
-main_text: "Dieses halbtägige Training auf Deutsch oder Englisch bietet einen praktischen und klar 
+main_text: "Dieses eintägige Training auf Deutsch oder Englisch bietet einen praktischen und klar 
 verständlichen Einstieg zu Helm, dem bekanntesten Paketmanager für Applikationen auf 
 Kubernetes. Mittels Helm können auch komplexe Applikationen auf Container Plattformen definiert, 
 installiert, verwaltet und betrieben werden.\n\n 

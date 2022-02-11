@@ -11,7 +11,7 @@ abstract: "eBPF-basiertes Networking"
 main_title: "eBPF-basiertes Networking"
 
 personen: 
-  daten : "09.03.22"
+  daten : "09.03.22 CET"
   preis : "CHF 1200"
 
 headerimages:

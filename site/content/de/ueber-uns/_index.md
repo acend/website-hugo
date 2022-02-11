@@ -41,6 +41,14 @@ team:
   enable: true
   title: "Die Personen hinter acend"
   team_member:
+    
+    - title: "Andreas Gehrig"
+      image: "images/team/AC_Andreas_Gehrig@2x.jpg"
+      designation: "Trainer, arch.cloud"
+      abstract: "Er ist immer mit seinem Notebook unterwegs, schreibt Software und entwirft Cloud-Architekturen."
+      experience: "Seit seiner Lehre als Applikationsentwickler hat Andreas für mehrere grosse Organisationen wie die Schweizer Börse, den Nasdaq oder Fisch Asset Management gearbeitet. Seit mehr als drei Jahren ist er inzwischen als selbstständiger Software und Cloud Architect für arch.cloud tätig."
+      linkedin: "https://www.linkedin.com/in/andreasgehrig/"      
+    
     - title: "Benjamin Affolter"
       image: "images/team/AC_Benji@2x.jpg"
       designation: "Trainer"
@@ -48,6 +56,21 @@ team:
       experience: "Nebst der Erarbeitung von neuen und der Durchführung von bestehenden Trainings, arbeitet Benj seit über 5 Jahren bei Puzzle ITC und ist dort als Consultant und Architekt für verschiedenste Firmen im Bereich Container und Cloud Native unterwegs. Er hat nebst einem Bachelor in IT (2015) verschiedene Zertifizierungen, wie den RHCA und den CKA gemacht, die ihn perfekt als Trainer ausrüsten."
       linkedin: "https://www.linkedin.com/in/benjamin-affolter/"
       twitter: "https://twitter.com/bliemli"
+    
+    - title: "Christian Haller"
+      image: "images/team/AC_Christian_Haller@2x.jpg"
+      designation: "Trainer, Puzzle ITC"
+      abstract: "Als Ausgleich zum hektischen Container-Alltag, macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
+      experience: "Nach seinem Studium in Informatik hat Christian fast 10 Jahre Projekt- und Betriebserfahrung gesammelt als Systems Engineer im Netzwerk- und Security-Bereich. Seit mehr als Seit mehr als 3 Jahren ist er nun bei Puzzle als Consultant im Bereich Container und Cloud Native Technologien unterwegs."
+      linkedin: "https://www.linkedin.com/in/christian-haller-0a637493"
+    
+    - title : "Christian Schlatter"
+      image : "images/team/AC_Christian_Schlatter@2x.jpg"
+      designation : "Trainer, Puzzle ITC"
+      abstract : "Er reist nicht nur gerne durch die reale Welt, sondern entdeckt auch in der Cloud Native Landscape neue Orte"
+      experience: "Während seines Bachelorstudiums in Informatik (2014) hat Christian als Software Entwickler zahlreiche Erfahrungen mit Java und Go gesammelt. Seit 2020 arbeitet er als Consultant bei Puzzle und hilft den Kunden mit Cloud Native Technologien, ihre Software-Entwicklung zu enabeln."
+      linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
+
 
     - title: "Christoph Aymon"
       image: "images/team/AC_Chrigu@2x.jpg"
@@ -72,6 +95,14 @@ team:
       linkedin: "https://www.linkedin.com/in/david-kilchenmann/"
       twitter: "https://twitter.com/DKilchenmann"
       email: "dave@acend.ch"
+      
+    - title : "Gabriel Koch"
+      designation : "Trainer, bespinian"
+      abstract : "Obwohl er Vegetarier ist, haben seine Erklärungen zu Cloud Technologien viel Fleisch am Knochen."
+      image : "images/team/AC_Gabriel_Koch@2x.jpg"
+      experience: "Nach seiner Lehre als Applikationsentwickler bei der AXA hat Gabriel während 10 Jahren in verschiedenen Positionen als Engineer im Unternehmen weitergearbeitet. Seit Anfang 2021 ist er bei Bespinian als Consultant für Kubernetes- und Serverless-Themen tätig. Parallel zu seiner Arbeit hat er seinen Bachelor in Informatik gemacht und ist nun im Masterstudium mit Fokus auf Observability in Distributed Cloud Environments."
+      linkedin : "https://www.linkedin.com/in/gabriel-koch-ch"
+      twitter : "https://twitter.com/elessar_ch"      
 
     - title: "Johann Gyger"
       image: "images/team/AC_Johann@2x.jpg"
@@ -81,6 +112,14 @@ team:
       linkedin: "https://www.linkedin.com/in/johanngyger/"
       twitter: "https://twitter.com/johanngyger"
 
+    - title : "Lena Fuhrimann"
+      designation : "Trainerin, bespinian"
+      abstract : "Den Kopf immer in den Wolken, man beachte nur ihre Haare. Lena liebt es, Software zu modernisieren und mit neuen Technologien zu arbeiten. Sie benutzt übrigens Arch."
+      experience: "Lena hat nach ihrem Studium in Business Innovation bei Swisscom Erfahrungen als Cloud Engineer gesammelt. Nach einer weiteren Station als Technical Lead bei einem Start-up, hat sie schliesslich 2019 gemeinsam mit This die Firma bespinian gegründet. Sie ist im Besitz verschiedener Zertifikate von AWS, Cloud Foundry und mehr."
+      image : "images/team/AC_Lena_Fuhrimann@2x.jpg"
+      linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
+      twitter : "https://twitter.com/mastertinner"
+
     - title: "Marcel Groner"
       image: "images/team/AC_Marcel@2x.jpg"
       designation: "Finance & Experience"
@@ -89,6 +128,28 @@ team:
       linkedin: "https://www.linkedin.com/in/marcelgroner/"
       twitter: "https://twitter.com/mar73cel"
 
+    - title : "Martin Abegglen"
+      designation : "Trainer, Puzzle ITC"
+      abstract : "Wenn er nicht damit beschäftigt ist, Tee zu trinken und die Wolken zu bestaunen, liebt er es, die Clouds mit Cloud Native Technologien zu beobachten und für Observability zu sorgen."
+      experience: "Nach seiner Lehre als Infomatiker (2009) hat Martin als System Engineer bei der SBB gearbeitet und war am Aufbau der damals grössten OpenShift Plattform Europas beteiligt. Nach einem Sprachaufenthalt in China startete er bei Puzzle im Container Umfeld und ist dort seit 2017 als Consultant bei verschiedenen Kunden tätig. Er hat nicht nur ein Diplom in Mandarin sondern auch noch den RHCE."
+      image : "images/team/AC_Martin_Abegglen@2x.jpg"
+      linkedin : "https://www.linkedin.com/in/martin-abegglen-%E5%AE%89%E9%A9%AC%E4%B8%81-171941150/"
+
+    - title : "Mathis Kretz "
+      designation : "Trainer, bespinian"
+      abstract : "Wenn er nicht gerade Microservices deployt oder anderen zeigt, wie man das macht, kocht er, am liebsten mit Feuer."
+      experience: "Nach seinem Doktortitel in Informatik hat Mathis als Software Engineer bei verschiedenen Firmen gearbeitet und besonders als Head of Cloud Empowerment bei Swisscom viel Knowhow im Cloud Umfeld gesammelt. 2019 haben Lena und Mathis die Firma Bespinian gegründet, wo sie seither als Consultants in verschiedenen Themen unterwegs sind. Mathis hat ein Zertifikat als CKAD."
+      image : "images/team/AC_Mathis_Kretz@2x.jpg"
+      linkedin : "https://www.linkedin.com/in/mathiskretz/"
+      twitter : "https://twitter.com/mathis_kretz"
+
+    - title : "Nemanja Kostic"
+      designation : "Trainer, arch.cloud"
+      abstract : "Er hat die letzten 20 Jahre in der IT-Branche Kaffee getrunken und so getan, als wüsste er, was er tut."
+      experience: "Nemanja ist CO-Founder von arch.cloud und als AWS Solution Architect tätig. Er ist neunfach AWS-zertifiziert und hat einen Master in Information Technology."
+      image : "images/team/AC_Nemanja_Kostic@2x.jpg"
+      linkedin : "https://www.linkedin.com/in/nemanjakostic/"
+
     - title: "Philipp Grossenbacher"
       image: "images/team/AC_Phippu@2x.jpg"
       designation: "Experience"
@@ -96,6 +157,21 @@ team:
       experience: "Nach seinem Bachelor in Informatik hat Philipp mehrere Jahre Erfahrung in den IT-Abteilungen grosser Versicherungs- und Bankdienstleister gesammelt. Im 2021 hat er ein EMBA in Digital Business abgeschlossen, hauptberuflich arbeitet er als Product Owner bei der Mobiliar."
       linkedin: "https://www.linkedin.com/in/philipp-grossenbacher/"
       twitter: "https://twitter.com/philogros"
+      
+    - title : "Raffael Hertle"
+      image : "images/team/AC_Raffael_Hertle@2x.jpg"
+      designation : "Trainer"
+      abstract : "Verkleidet sich gerne für die Fasnacht, sieht aber bei den Cloud Native Technologien gerne hinter die Masken"
+      experience: "Von Sarnen hat ihn das Informatikstudium an die Uni nach Bern gezogen. Seit dem Abschluss arbeitet Raffael als Software Engineer, wobei ihn dort die neuen Frameworks und Cloud Native Technologien wie Quarkus am meisten faszinieren."
+      linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
+      twitter : "https://twitter.com/g1raffi"
+
+    - title : "Reto Kupferschmid"
+      designation : "Trainer, Puzzle ITC"
+      abstract : "Ganz nach dem Motto, was nicht passt wird passend gemacht, löst er als Engineer alle Herausforderungen im Handumdrehen."
+      experience: "Reto hat nach seiner Lehre als Informatiker (2014) berufsbegleitend die HF besucht. Als System Engineer konnte er bereits viele Erfahrungen sammeln, die er seit über 3 Jahren bei Puzzle stetig erweitert. Sein Herz schlägt für die Themen Monitoring und Automatisierung - er ist mit mehreren Zertifizierungen gerüstet."
+      image : "images/team/AC_Reto_Kupferschmid@2x.jpg"
+      twitter : "https://twitter.com/reti_k"
 
     - title: "Sebastian Plattner"
       image: "images/team/AC_Seba@2x.jpg"
