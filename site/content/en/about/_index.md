@@ -41,6 +41,14 @@ team:
   enable: true
   title: "The People Behind acend"
   team_member:
+    
+    - title : "Andreas Gehrig"
+      designation : "Trainer, arch.cloud"
+      abstract : "He is always on the road with his notebook, writing software and designing cloud architectures."
+      experience: "Since his apprenticeship as an application developer, Andreas worked for several large organizations, such as the Swiss Stock Exchange, Nasdaq or Fisch Asset Management. He has now been working as an independent software and cloud architect for arch.cloud for more than three years."
+      image : "images/team/AC_Andreas_Gehrig@2x.jpg"
+      linkedin : "https://www.linkedin.com/in/andreasgehrig/"   
+
     - title: "Benjamin Affolter"
       image: "images/team/AC_Benji@2x.jpg"
       designation: "Trainer"
@@ -48,6 +56,13 @@ team:
       experience: "In addition to developing new trainings and conducting existing ones, Benj has been working at Puzzle ITC for over 5 years, where he is a consultant and architect for various companies in the field of containers and cloud native. He has a bachelor's degree in IT (2015) and various certifications, such as the RHCA and the CKA, which equip him perfectly as a trainer."
       linkedin: "https://www.linkedin.com/in/benjamin-affolter/"
       twitter: "https://twitter.com/bliemli"
+
+    - title : "Christian Haller"
+      image : "images/team/AC_Christian_Haller@2x.jpg"
+      designation : "Trainer, Puzzle ITC"
+      abstract : "To balance out his hectic day-to-day container life, he makes his sourdough pizza by hand. And then eats it himself right away."
+      experience: "After his studies in computer science, Christian gained almost 10 years of project and operational experience as a systems engineer in the network and security area. For more than 3 years he has now been working for Puzzle as a consultant in the area of containers and cloud native technologies."
+      linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
 
     - title: "Christian Schlatter"
       image: "images/team/AC_Christian_Schlatter@2x.jpg"
@@ -80,6 +95,14 @@ team:
       twitter: "https://twitter.com/DKilchenmann"
       email: "dave@acend.ch"
       
+    - title : "Gabriel Koch"
+      designation : "Trainer, bespinian"
+      abstract : "Although he's a vegetarian, his explanations of cloud technologies have a lot of meat on the bone."
+      image : "images/team/AC_Gabriel_Koch@2x.jpg"
+      experience: "After his apprenticeship as an application developer at AXA, Gabriel worked for 10 years in various positions as an engineer in the company. Since the beginning of 2021, he has been working for Bespinian as a consultant for Kubernetes and serverless topics. In parallel to his work, he did his bachelor's degree in computer science and is now working on his master's degree with focus on observability in distributed cloud environments."
+      linkedin : "https://www.linkedin.com/in/gabriel-koch-ch"
+      twitter : "https://twitter.com/elessar_ch"      
+      
     - title: "Johann Gyger"
       image: "images/team/AC_Johann@2x.jpg"
       designation: "Trainer"
@@ -88,14 +111,44 @@ team:
       linkedin: "https://www.linkedin.com/in/johanngyger/"
       twitter: "https://twitter.com/johanngyger"
     
+    - title : "Lena Fuhrimann"
+      designation : "Trainer, bespinian"
+      abstract : "Head always in the clouds, just look at her hair. Lena loves modernizing software and working with new technologies. She uses Arch btw."
+      image : "images/team/AC_Lena_Fuhrimann@2x.jpg"
+      experience: "After her studies in business innovation, Lena gained experience as a cloud engineer at Swisscom. After another stint as technical lead at a startup, she finally founded bespinian together with This in 2019. She holds various certifications from AWS, Cloud Foundry and more."
+      linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
+      twitter : "https://twitter.com/mastertinner"    
+    
     - title: "Marcel Groner"
       image: "images/team/AC_Marcel@2x.jpg"
       designation: "Finance & Experience"
       abstract: "Our number’s whizz counts altitudinal differences in his free time – and has climbed many mountain tops in the process."
-      experience: "In 1999, Marcel founded Puzzle ITC together with friends directly after his IT studies. Until today, he is  working there full-time as CFO. In addition to his work as CFO, he has also completed an MAS in Online Marketing Management. "
+      experience: "In 1999, Marcel founded Puzzle ITC together with friends directly after his IT studies. Until today, he is  working there full-time as CFO. In addition to his work as CFO, he has also completed an MAS in Online Marketing Management."
       linkedin: "https://www.linkedin.com/in/marcelgroner/"
       twitter: "https://twitter.com/mar73cel"
       
+    - title : "Martin Abegglen"
+      designation : "Trainer, Puzzle ITC"
+      abstract : "When he's not busy drinking tea and gazing at the sky, he loves watching the clouds with cloud native technologies and providing observability."
+      image : "images/team/AC_Martin_Abegglen@2x.jpg"
+      experience: "After his apprenticeship as an computer scientist (2009), Martin worked as a systems engineer at SBB and was involved in building the largest OpenShift platform in Europe at the time. After a language stay in China, he started at Puzzle in the container environment and has been working there as a consultant for various customers since 2017. He not only has a diploma in Mandarin but also the RHCE."
+      linkedin : "https://www.linkedin.com/in/martin-abegglen-%E5%AE%89%E9%A9%AC%E4%B8%81-171941150/"      
+      
+    - title : "Mathis Kretz"
+      designation : "Trainer, bespinian"
+      abstract : "When he is not deploying microservices or showing others how to do it, he is cooking, preferably with fire."
+      image : "images/team/AC_Gabriel_Koch@2x.jpg"
+      experience: "After his PhD in computer science, Mathis worked as a software engineer at various companies and gained a lot of know-how in the cloud environment, especially as Head of Cloud Empowerment at Swisscom. In 2019, Lena and Mathis founded Bespinian, where they have been working as consultants in various topics ever since. Mathis has a certification as CKAD."
+      linkedin : "https://www.linkedin.com/in/mathiskretz/"
+      twitter : "https://twitter.com/mathis_kretz"      
+    
+    - title : "Nemanja Kostic"
+      designation : "Trainer, arch.cloud"
+      abstract : "He has spent the last 20 years in the IT industry drinking coffee and pretending to know what he is doing."
+      experience: "Nemanja is CO-Founder of arch.cloud and works as an AWS Solution Architect. He has nine AWS certifications and a master in information technology."
+      image : "images/team/AC_Nemanja_Kostic@2x.jpg"
+      linkedin : "https://www.linkedin.com/in/nemanjakostic/"    
+    
     - title: "Philipp Grossenbacher"
       image: "images/team/AC_Phippu@2x.jpg"
       designation: "Experience"
@@ -111,6 +164,13 @@ team:
       experience: "From Sarnen, he studied computer science at the University of Bern. Since graduating, Raffael has been working as a software engineer, where he is most fascinated by the new frameworks and cloud native technologies such as Quarkus."
       linkedin: "https://www.linkedin.com/in/raffael-hertle-22882b157/"
       twitter: "https://twitter.com/g1raffi"     
+ 
+     - title : "Reto Kupferschmid"
+      designation : "Trainer, Puzzle ITC"
+      abstract : "True to the motto, what doesn't fit is made to fit, as an engineer he solves all challenges in no time at all."
+      experience: "After his apprenticeship as a computer scientist (2014), Reto attended the HF while working. As a systems engineer, he was already able to gain a lot of experience, which he has been constantly expanding for over 3 years at Puzzle. His heart beats for monitoring and automation - he is equipped with several certifications."
+      image : "images/team/AC_Reto_Kupferschmid@2x.jpg"
+      twitter : "https://twitter.com/reti_k"
  
     - title: "Sebastian Plattner"
       image: "images/team/AC_Seba@2x.jpg"
