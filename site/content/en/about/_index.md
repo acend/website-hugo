@@ -103,6 +103,14 @@ team:
       experience: "After his bachelor's degree in computer science, Philipp gained several years of experience in the IT departments of large insurance and banking service providers. In 2021 he completed an EMBA in Digital Business, full-time he works as a Product Owner at the Mobiliar."
       linkedin: "https://www.linkedin.com/in/philipp-grossenbacher/"
       twitter: "https://twitter.com/philogros"
+      
+    - title: "Raffael Hertle"
+      image: "images/team/AC_Raffael_Hertle@2x.jpg"
+      designation: "Trainer, Puzzle ITC"
+      abstract: "Likes to dress up for carnival, but likes to look behind the masks when it comes to cloud native technologies"
+      experience: "From Sarnen, he studied computer science at the University of Bern. Since graduating, Raffael has been working as a software engineer, where he is most fascinated by the new frameworks and cloud native technologies such as Quarkus."
+      linkedin: "https://www.linkedin.com/in/raffael-hertle-22882b157/"
+      twitter: "https://twitter.com/g1raffi"     
  
     - title: "Sebastian Plattner"
       image: "images/team/AC_Seba@2x.jpg"
