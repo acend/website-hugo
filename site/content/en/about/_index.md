@@ -158,7 +158,7 @@ team:
       
     - title: "Raffael Hertle"
       image: "images/team/AC_Raffael_Hertle@2x.jpg"
-      designation: "Trainer, Puzzle ITC"
+      designation: "Trainer"
       abstract: "Likes to dress up for carnival, but likes to look behind the masks when it comes to cloud native technologies"
       experience: "From Sarnen, he studied computer science at the University of Bern. Since graduating, Raffael has been working as a software engineer, where he is most fascinated by the new frameworks and cloud native technologies such as Quarkus."
       linkedin: "https://www.linkedin.com/in/raffael-hertle-22882b157/"
