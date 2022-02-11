@@ -49,6 +49,13 @@ team:
       linkedin: "https://www.linkedin.com/in/benjamin-affolter/"
       twitter: "https://twitter.com/bliemli"
 
+    - title: "Christian Schlatter"
+      image: "images/team/AC_Christian_Schlatter@2x.jpg"
+      designation: "Trainer, Puzzle ITC"
+      abstract: "Not only does he enjoy traveling through the real world, but he also discovers new places in the Cloud Native Landscape"
+      experience: "During his bachelor studies in computer science (2014), Christian gained a lot of experience with Java and Go as a software developer. Since 2020, he has been working as a consultant at Puzzle, helping customers to enable their software development with cloud native technologies."
+      linkedin: "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
+
     - title: "Christoph Aymon"
       image: "images/team/AC_Chrigu@2x.jpg"
       designation: "Trainer"
