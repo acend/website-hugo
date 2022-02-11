@@ -98,7 +98,7 @@ other = "Phone"
 other = "Message"
 
 [agb_check]
-other= "I have read and accept the <a href=\"/en/privacy\" target=\"_blank\" rel=\"noopener\">Privacy Policy</a> and register for a paid training, which will be held at CET times."
+other= "I have read and accept the <a href=\"/en/privacy\" target=\"_blank\" rel=\"noopener\">Privacy Policy</a> and register for a paid training, which will be held at CET times, usually from 9am to 5PM."
 
 [send]
 other = "Send"
