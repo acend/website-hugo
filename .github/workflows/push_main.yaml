@@ -68,16 +68,3 @@ jobs:
           WEBSITE_NAMESPACE: 'acend-website'
         run: |
           kubectl rollout restart deployment/${WEBSITE_HELM_RELEASE}-acend-website --kubeconfig $HOME/.kube/config --namespace $WEBSITE_NAMESPACE
-      - name: Run Lighthouse test
-        uses: treosh/lighthouse-ci-action@v8
-        with:
-          urls: |
-            https://acend.ch
-            https://acend.ch/trainings/
-            https://acend.ch/trainings/kubernetes/
-            https://acend.ch/en/
-            https://acend.ch/en/trainings/
-            https://acend.ch/en/trainings/helm/
-          uploadArtifacts: true
-          temporaryPublicStorage: false
-          runs: 2

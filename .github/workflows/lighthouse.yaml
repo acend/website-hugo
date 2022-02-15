@@ -1,0 +1,33 @@
+name: Lighthous Tests
+
+on: 
+  workflow_dispatch:
+    inputs:
+      runs:
+        description: Amount of Lighthouse Runs
+        default: "2"
+        required: true
+
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - 
+        name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      - name: Run Lighthouse test
+        uses: treosh/lighthouse-ci-action@v8
+        with:
+          urls: |
+            https://acend.ch
+            https://acend.ch/trainings/
+            https://acend.ch/trainings/kubernetes/
+            https://acend.ch/en/
+            https://acend.ch/en/trainings/
+            https://acend.ch/en/trainings/helm/
+          uploadArtifacts: true
+          temporaryPublicStorage: false
+          runs: ${{ github.event.inputs.runs }}
