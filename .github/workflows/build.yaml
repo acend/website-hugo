@@ -33,7 +33,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            quay.io/acend/website-hugo:staging
             quay.io/acend/website-hugo:pr-${{ github.event.pull_request.number }}
       -
         name: 'Install Helm'
