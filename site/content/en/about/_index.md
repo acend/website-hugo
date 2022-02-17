@@ -94,6 +94,13 @@ team:
       twitter: "https://twitter.com/DKilchenmann"
       email: "dave@acend.ch"
       
+    - title: "Gabriel Graf"
+      image: "images/team/AC_Gabriel_Graf@2x.jpg"
+      designation: "Trainer"
+      abstract: "He is our globetrotter and has been at home all over the world from an early age. And of course, he is really at home in the Cloud Native world."
+      experience: "Since graduating with a degree in Business Informatics FH in 2007, Gabriel has worked for several years in IT at various companies as a developer, firewall, systems and cloud engineer.
+      Continuing education is always important to him, so in addition to CISSP, RHCE and CKA, he also completed a CAS in Advanced Data Science. Since 2016, he has been working for Swiss Mobiliar, where he is involved in the development and operation of large container platforms."
+
     - title : "Gabriel Koch"
       designation : "Trainer, bespinian"
       abstract : "Although he's a vegetarian, his explanations of cloud technologies have a lot of meat on the bone."

@@ -71,7 +71,6 @@ team:
       experience: "Während seines Bachelorstudiums in Informatik (2014) hat Christian als Software Entwickler zahlreiche Erfahrungen mit Java und Go gesammelt. Seit 2020 arbeitet er als Consultant bei Puzzle und hilft den Kunden mit Cloud Native Technologien, ihre Software-Entwicklung zu enabeln."
       linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
 
-
     - title: "Christoph Aymon"
       image: "images/team/AC_Chrigu@2x.jpg"
       designation: "Trainer"
@@ -95,7 +94,14 @@ team:
       linkedin: "https://www.linkedin.com/in/david-kilchenmann/"
       twitter: "https://twitter.com/DKilchenmann"
       email: "dave@acend.ch"
-      
+
+    - title: "Gabriel Graf"
+      image: "images/team/AC_Gabriel_Graf@2x.jpg"
+      designation: "Trainer"
+      abstract: "Er ist unser Weltenbummler und schon von klein auf überall auf der Welt zu Hause. Und so richtig daheim ist er natürlich in der Cloud Native Welt."
+      experience: "Seit seinem Abschluss als Wirtschaftsinformatiker FH 2007 arbeitet Gabriel mehrere Jahre in der IT verschiedener Unternehmen als Entwickler, Firewall, Systems und Cloud Engineer.
+      Weiterbildung ist ihm stets wichtig, so absolvierte er neben CISSP, RHCE und CKA auch noch einen CAS in Advanced Data Science. Seit 2016 ist er bei der Schweizerischen Mobiliar und arbeite dort am Aufbau und Betrieb von grossen Container Plattformen mit."
+
     - title : "Gabriel Koch"
       designation : "Trainer, bespinian"
       abstract : "Obwohl er Vegetarier ist, haben seine Erklärungen zu Cloud Technologien viel Fleisch am Knochen."
@@ -153,7 +159,7 @@ team:
     - title: "Philipp Grossenbacher"
       image: "images/team/AC_Phippu@2x.jpg"
       designation: "Experience"
-      abstract: "Er verantwortet unsere Special-Effects. Böse Zungen behaupten es war der Meistertitel seines Lieblingsclubs, der bei ihm die Lust auf das Unerwartete entfacht hat."
+      abstract: "Er verantwortet unsere Special-Effects. Böse Zungen behaupten es war der lang ersehnte Meistertitel seines Lieblingsclubs, der bei ihm die Lust auf das Unerwartete entfacht hat."
       experience: "Nach seinem Bachelor in Informatik hat Philipp mehrere Jahre Erfahrung in den IT-Abteilungen grosser Versicherungs- und Bankdienstleister gesammelt. Im 2021 hat er ein EMBA in Digital Business abgeschlossen, hauptberuflich arbeitet er als Product Owner bei der Mobiliar."
       linkedin: "https://www.linkedin.com/in/philipp-grossenbacher/"
       twitter: "https://twitter.com/philogros"
