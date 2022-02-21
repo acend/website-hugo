@@ -19,7 +19,7 @@ jobs:
         with:
           submodules: recursive
       - name: Run Lighthouse test
-        uses: treosh/lighthouse-ci-action@v8
+        uses: treosh/lighthouse-ci-action@v9
         with:
           urls: |
             https://acend.ch
