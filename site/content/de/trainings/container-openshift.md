@@ -11,8 +11,7 @@ abstract: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis
 main_title: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
 
 personen: 
-  daten : "23.02.22, 24.02.22"
-  #daten : "12.10.22, 13.10.22"
+  daten : "19.10.22, 20.10.22"
   preis : "CHF 1900"
 
 headerimages:

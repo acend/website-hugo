@@ -99,7 +99,7 @@ other = "Telefon"
 other = "Nachricht"
 
 [agb_check]
-other= "Ich habe die <a href=\"/datenschutz\" target=\"_blank\" rel=\"noopener\">Nutzungsbedingungen</a> der Website gelesen, bin damit einverstanden und melde mich für ein kostenpflichtiges Training an, welches zu CET Zeit durchgeführt wird."
+other= "Ich habe die <a href=\"/datenschutz\" target=\"_blank\" rel=\"noopener\">Nutzungsbedingungen</a> der Website gelesen, bin damit einverstanden und melde mich für ein kostenpflichtiges Training an, welches in der CET Zeitzone durchgeführt wird."
 
 [send]
 other = "Senden"

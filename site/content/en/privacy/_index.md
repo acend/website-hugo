@@ -16,7 +16,7 @@ This privacy policy is based on the EU General Data Protection Regulation (GDPR)
 
 Responsible for the data processing, which we describe here, are the contacts listed below. If you have concerns regarding data protection, you can contact us at the following address:
 
-www.acend.ch    
+acend.ch    
 acend gmbh    
 Belpstrasse 37    
 3007 Bern

@@ -17,7 +17,7 @@ Diese Datenschutzerklärung richtet sich nach der EU Datenschutz-Grundverordnung
 
 Für die in dieser Datenschutzerklärung abgebildete Datenverarbeitung verantwortlich sind folgende Kontakte. Bei datenschutzrechtlichen Anliegen kannst du dich an die genannten Adressen richten.
 
-Für www.acend.ch
+acend.ch
 acend gmbh
 Belpstrasse 37
 3007 Bern
