@@ -121,7 +121,6 @@ testimonials:
   enable: true
   testimonial:
     - title : "Here’s what our clients say about our trainings:<br/>Corsin Decurtins, Zurich"
-      image : "images/trainings/ACEND_Jeremy@4x.jpg"
       logo : "images/testimonials/netceterea.png"
       text : "Over the course of a number of sessions, our developers all over Europe were able to build up their know-how in Kubernetes. This also helps us to deliver innovative software solutions to our clients in the future. Simply great trainings and fantastic trainers."       
       
