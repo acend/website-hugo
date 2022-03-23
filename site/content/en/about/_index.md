@@ -95,7 +95,7 @@ team:
       email: "dave@acend.ch"
   
     - title: "David Schneider"
-      image: "images/team/AC_Dave-2@2x.jpg"
+      image: "images/team/AC_Dave_Schneider@2x.jpg"
       designation: "Trainer, Puzzle ITC"
       abstract: "Our gopher is an explorer. Especially of new hip technologies, as well as of fine hoppy variations under the arbors of Bern's old town."
       experience: "During his apprenticeship at Hewlett-Packard, he already came into contact with open source technologies from Red Hat and middleware topics. After further studies at the FHNW as BSc in Computer Science he dives deep into the Cloud Native world and works with topics like Vault, Kubernetes and OAuth."
