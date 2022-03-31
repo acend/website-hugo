@@ -67,13 +67,13 @@ trainingsinhalt:
       title: "Go Basics"
       liste:
         - el: "Einführung, Geschichte und Einsatzgebiete von Go"
-        - el: "- Ökosystem & Tooling"
-        - el: "- Syntax und Sprachkonstrukte"
-        - el: "- Error Handling"
-        - el: "- Standard Library (net/http, os, encoding/json, etc.)"
-        - el: "- Testing"
-        - el: "- Concurrency & Multithreading"
-        - el: "- Release Code / Packaging"
+        - el: "Ökosystem & Tooling"
+        - el: "Syntax und Sprachkonstrukte"
+        - el: "Error Handling"
+        - el: "Standard Library (net/http, os, encoding/json, etc.)"
+        - el: "Testing"
+        - el: "Concurrency & Multithreading"
+        - el: "Release Code / Packaging"
 
 
 # trainer

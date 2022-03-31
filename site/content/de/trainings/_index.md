@@ -9,7 +9,7 @@ lead:
 
 filtertitle: "Das passende Training für dich"
 categories:
-  ["Kubernetes", "Delivery CI/CD", "Spezialisierte Trainings", "Basics", "Advanced"]
+  ["Kubernetes", "Delivery CI/CD", "Spezialisierte Trainings", "Programming" "Basics", "Advanced"]
 ---
 
 acend steht für eine abenteuerlustige und aussergewöhnliche Lehr- und Lernerfahrung. Als Plattform vermitteln wir Wissen hands-on und stellen dafür hervorragende Rahmenbedingungen sicher.<br/>
