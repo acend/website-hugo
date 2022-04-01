@@ -22,15 +22,6 @@ slideshow:
       img3: "images/trainings/ACEND_CodeP@2x.jpg"
 
     - ubertitle: "Trainingsangebot"
-      title: "Serverless"
-      subtitle: "Basics"
-      URL: "/trainings/serverless/"
-      label: "Mehr erfahren"
-      img1: "images/trainings/ACEND_Adventure_Dream@2x.jpg"
-      img2: "images/trainings/ACEND_Aschi@2x.jpg"
-      img3: "images/trainings/ACEND_CodeT@2x.jpg"
-
-    - ubertitle: "Trainingsangebot"
       title: "Terraform on Azure"
       subtitle: "Basics"
       URL: "/trainings/terraform/"
@@ -118,6 +109,12 @@ trainings:
           slug: "serverless"
         - title: "Cilium"
           slug: "cilium"
+
+    - title: "Programming"
+      text: "\"Hello World\" & mehr in Cloud Native"
+      trainings:
+        - title: "Go"
+          slug: "go"
 
 # testimonial
 testimonials:

@@ -95,7 +95,7 @@ team:
       email: "dave@acend.ch"
   
     - title: "David Schneider"
-      image: "images/team/AC_Dave-2@2x.jpg"
+      image: "images/team/AC_Dave_Schneider@2x.jpg"
       designation: "Trainer, Puzzle ITC"
       abstract: "Our gopher is an explorer. Especially of new hip technologies, as well as of fine hoppy variations under the arbors of Bern's old town."
       experience: "During his apprenticeship at Hewlett-Packard, he already came into contact with open source technologies from Red Hat and middleware topics. After further studies at the FHNW as BSc in Computer Science he dives deep into the Cloud Native world and works with topics like Vault, Kubernetes and OAuth."
@@ -155,7 +155,7 @@ team:
     - title : "Mathis Kretz"
       designation : "Trainer, bespinian"
       abstract : "When he is not deploying microservices or showing others how to do it, he is cooking, preferably with fire."
-      image : "images/team/AC_Gabriel_Koch@2x.jpg"
+      image : "images/team/AC_Mathis_Kretz@2x.jpg"
       experience: "After his PhD in computer science, Mathis worked as a software engineer at various companies and gained a lot of know-how in the cloud environment, especially as Head of Cloud Empowerment at Swisscom. In 2019, Lena and Mathis founded Bespinian, where they have been working as consultants in various topics ever since. Mathis has a certification as CKAD."
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz"      

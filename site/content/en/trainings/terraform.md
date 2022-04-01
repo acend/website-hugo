@@ -13,7 +13,7 @@ abstract : "Write, Plan and Apply. IaC made easy."
 main_title : "Write, Plan and Apply. IaC made easy."
 
 personen: 
-  daten : "22.03.22, 23.03.22"
+  daten : ""
   preis : "CHF 2200"
 
 headerimages:
