@@ -93,7 +93,13 @@ team:
       linkedin: "https://www.linkedin.com/in/david-kilchenmann/"
       twitter: "https://twitter.com/DKilchenmann"
       email: "dave@acend.ch"
-      
+  
+    - title: "David Schneider"
+      image: "images/team/AC_Dave_Schneider@2x.jpg"
+      designation: "Trainer, Puzzle ITC"
+      abstract: "Our gopher is an explorer. Especially of new hip technologies, as well as of fine hoppy variations under the arbors of Bern's old town."
+      experience: "During his apprenticeship at Hewlett-Packard, he already came into contact with open source technologies from Red Hat and middleware topics. After further studies at the FHNW as BSc in Computer Science he dives deep into the Cloud Native world and works with topics like Vault, Kubernetes and OAuth."
+
     - title: "Gabriel Graf"
       image: "images/team/AC_Gabriel_Graf@2x.jpg"
       designation: "Trainer"
@@ -124,7 +130,13 @@ team:
       experience: "After her studies in business innovation, Lena gained experience as a cloud engineer at Swisscom. After another stint as technical lead at a startup, she finally founded bespinian together with This in 2019. She holds various certifications from AWS, Cloud Foundry and more."
       linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
       twitter : "https://twitter.com/mastertinner"    
-    
+
+    - title : "Lorenz Bischof"
+      image : "images/team/AC_Lorenz@2x.jpg"
+      designation : "Trainer, Puzzle ITC"
+      abstract : "In the calm lies the power. Lorenz shines with his calm and level-headed manner when it comes to the most complex topics in the IT world."
+      experience: "Lorenz comes from the Puzzle ITC informatics forge. After his apprenticeship at Puzzle, he expanded his knowledge at the Bern University of Applied Sciences with a BSc of Science in Computer Science, which he then used in various customer projects. Among them are projects in the cloud environment with container technologies, automation and monitoring."
+
     - title: "Marcel Groner"
       image: "images/team/AC_Marcel@2x.jpg"
       designation: "Finance & Experience"
@@ -143,7 +155,7 @@ team:
     - title : "Mathis Kretz"
       designation : "Trainer, bespinian"
       abstract : "When he is not deploying microservices or showing others how to do it, he is cooking, preferably with fire."
-      image : "images/team/AC_Gabriel_Koch@2x.jpg"
+      image : "images/team/AC_Mathis_Kretz@2x.jpg"
       experience: "After his PhD in computer science, Mathis worked as a software engineer at various companies and gained a lot of know-how in the cloud environment, especially as Head of Cloud Empowerment at Swisscom. In 2019, Lena and Mathis founded Bespinian, where they have been working as consultants in various topics ever since. Mathis has a certification as CKAD."
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz"      

@@ -95,6 +95,12 @@ team:
       twitter: "https://twitter.com/DKilchenmann"
       email: "dave@acend.ch"
 
+    - title: "David Schneider"
+      image: "images/team/AC_Dave_Schneider@2x.jpg"
+      designation: "Trainer, Puzzle ITC"
+      abstract: "Unser Gopher ist ein Entdecker. Besonders von neuen hippen Technologien, sowie auch von feinen hopfigen Variationen unter der Lauben der Berner Altstadt."
+      experience: "Bereits in seiner Lehre bei Hewlett-Packard kommt er mit Open Source Technologien von Red Hat und Middleware Themen in Berührung. Nach einem weiteren Studium an der FHNW als BSc in Informatik taucht er tief in die Cloud Native Welt ein und arbeitet mit Themen wie Vault, Kubernetes und OAuth."
+            
     - title: "Gabriel Graf"
       image: "images/team/AC_Gabriel_Graf@2x.jpg"
       designation: "Trainer"
@@ -125,6 +131,12 @@ team:
       image : "images/team/AC_Lena_Fuhrimann@2x.jpg"
       linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
       twitter : "https://twitter.com/mastertinner"
+
+    - title : "Lorenz Bischof"
+      image : "images/team/AC_Lorenz@2x.jpg"
+      designation : "Trainer, Puzzle ITC"
+      abstract : "In der Ruhe liegt die Kraft. Lorenz glänzt mit seiner ruhigen und besonnenen Art bei den komplexesten Themen in der IT-Welt."
+      experience: "Lorenz kommt aus der Puzzle ITC Informatik-Schmiede. Nach seiner Lehre bei Puzzle, erweiterte er sein Wissen an der Berner Fachhochschule mit dem BSc of Science in Informatik, welches er dann in verschiedenen Kundenprojekten einsetzen durfte. Darunter gehören Projekte im Cloud Umfeld mit Container Technologien, Automatisierungen und Monitoring."
 
     - title: "Marcel Groner"
       image: "images/team/AC_Marcel@2x.jpg"
