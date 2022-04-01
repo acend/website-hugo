@@ -111,7 +111,7 @@ trainings:
           slug: "cilium"
 
     - title: "Programming"
-      text: "\"Hello World\" 6 mehr in Cloud Native"
+      text: "\"Hello World\" & mehr in Cloud Native"
       trainings:
         - title: "Go"
           slug: "go"
