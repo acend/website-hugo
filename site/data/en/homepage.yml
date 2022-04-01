@@ -117,7 +117,13 @@ trainings:
         - title: "Serverless"
           slug: "serverless"
         - title: "Cilium"
-          slug: "cilium"          
+          slug: "cilium"  
+
+    - title: "Programming"
+      text: "\"Hello World\" 6 more in Cloud Native"
+      trainings:
+        - title: "Go"
+          slug: "go"        
 
 # testimonial
 testimonials:
