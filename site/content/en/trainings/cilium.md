@@ -12,7 +12,7 @@ main_title: "eBPF-based networking"
 
 personen: 
   daten : "30.06.22 CET"
-  preis : "CHF 1200"
+  preis : "CHF 1100"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"
