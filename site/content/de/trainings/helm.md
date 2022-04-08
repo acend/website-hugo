@@ -13,7 +13,7 @@ main_title : "Ein praktischer Einstieg in den bekanntesten Paketmanager für App
 
 personen: 
   daten : ""
-  preis : "CHF 1000"
+  preis : "CHF 1100"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lava@2x.jpg"

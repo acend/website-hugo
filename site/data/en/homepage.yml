@@ -22,13 +22,13 @@ slideshow:
       img3: "images/trainings/ACEND_CodeP@2x.jpg"
 
     - ubertitle: "Training offer"
-      title: "Terraform on Azure"
+      title: "Go"
       subtitle: "Basics"
-      URL: "/en/trainings/terraform/"
+      URL: "/en/trainings/go/"
       label: "Discover"
-      img1: "images/trainings/ACEND_Adventure_Desert@2x.jpg"
-      img2: "images/trainings/ACEND_Yup@2x.jpg"
-      img3: "images/trainings/ACEND_Code_Yup@2x.jpg"
+      img1: "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"
+      img2: "images/trainings/ACEND_Mats@2x.jpg"
+      img3: "images/trainings/ACEND_CodeT@2x.jpg"         
 
     - ubertitle: "Training offer"
       title: "Cilium"

@@ -14,7 +14,7 @@ main_title : "A practical introduction to the best-known Package Manager for app
 
 personen: 
   daten : ""
-  preis : "CHF 1000"
+  preis : "CHF 1100"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lava@2x.jpg"
