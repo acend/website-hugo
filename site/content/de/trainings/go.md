@@ -11,7 +11,7 @@ abstract: "Einführung in Go für Software Entwickler, Architekten und DevOps En
 main_title: "Einführung in Go für Software Entwickler, Architekten und DevOps Engineers."
 
 personen: 
-  daten : ""
+  daten : "22.06.22"
   preis : "CHF 1100"
 
 headerimages:
@@ -85,7 +85,7 @@ trainers:
     - title: "David Schneider"
       image: "images/team/AC_Dave_Schneider@2x.jpg"
       designation: "Trainer, Puzzle ITC"
-      abstract: "Unser Gopher ist ein Entdecker. Besonders von neuen hippen Technologien, sowie auch von feinen hopfigen Variationen unter der Lauben der Berner Altstadt."
+      abstract: "Unser Gopher ist ein Entdecker. Besonders von neuen hippen Technologien, sowie auch von feinen hopfigen Variationen unter den Lauben der Berner Altstadt."
 
     - title : "Lorenz Bischof"
       image : "images/team/AC_Lorenz@2x.jpg"

@@ -98,7 +98,7 @@ team:
     - title: "David Schneider"
       image: "images/team/AC_Dave_Schneider@2x.jpg"
       designation: "Trainer, Puzzle ITC"
-      abstract: "Unser Gopher ist ein Entdecker. Besonders von neuen hippen Technologien, sowie auch von feinen hopfigen Variationen unter der Lauben der Berner Altstadt."
+      abstract: "Unser Gopher ist ein Entdecker. Besonders von neuen hippen Technologien, sowie auch von feinen hopfigen Variationen unter den Lauben der Berner Altstadt."
       experience: "Bereits in seiner Lehre bei Hewlett-Packard kommt er mit Open Source Technologien von Red Hat und Middleware Themen in Berührung. Nach einem weiteren Studium an der FHNW als BSc in Informatik taucht er tief in die Cloud Native Welt ein und arbeitet mit Themen wie Vault, Kubernetes und OAuth."
             
     - title: "Gabriel Graf"
