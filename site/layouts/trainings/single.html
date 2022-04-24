@@ -39,7 +39,7 @@
   <div class="container">
     <div  class="row">
 
-      <div data-scroll class="col-md-8 col-xl-9  py-5">
+      <div data-scroll class="col-md-8 col-xl-9  pt-5">
         {{ if .Params.kooperation.enable }}
           <div class="mb-3">{{ .Params.kooperation.subtitle | safeHTML }}</div>
         {{ end }}
@@ -203,6 +203,27 @@
     </div>
   </div>
 </section>
+
+
+  
+  <!-- video -->
+  {{ if  .Params.video.enable }}
+  {{ with  .Params.video }}
+  <section data-scroll class="section mb-5  pb-3 py-md-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-1">
+          <h3 class="mb-4-5  ">{{ .title  | markdownify }}</h3>
+          <div class="video-container">
+            <iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/{{  .youtubeID }}?modestbranding=1&playsinline=1&color=white" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+  <!-- /video -->
 
 {{ if .Params.kooperation.enable }}
   {{ with .Params.kooperation }}
