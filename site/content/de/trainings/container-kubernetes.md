@@ -12,7 +12,7 @@ abstract : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasi
 main_title : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
 
 personen: 
-  daten : "10.05.22, 11.05.22"
+  daten : "15.11.22, 16.11.22"
   preis : "CHF 1900"
 
 headerimages:
