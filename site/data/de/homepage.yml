@@ -3,7 +3,7 @@ about:
   enable: true
   title: "Cloud Native Trainings Schweiz - acend gmbh"
   content: "Kaum ein Gefühl beflügelt Entwicklungen so sehr wie die Freude, etwas Neues entdeckt zu haben. Lass uns diesen Moment gemeinsam erleben."
-  description: "Wir bieten Cloud Native Trainings mit Experten, welche diese Technologien täglich nutzen. Schulungen mit einer einzigartigen Experience und viel handson.“
+  description: "Wir bieten Cloud Native Trainings mit Experten, welche diese Technologien täglich nutzen. Schulungen mit einer einzigartigen Experience und viel handson."
   button:
     enable: false
     label: "Mehr erfahren"
