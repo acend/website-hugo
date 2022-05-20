@@ -1,5 +1,6 @@
 ---
 title: "Serverless"
+seo_title: "Serverless – Die Welt von Function as a Service (FaaS) in AWS Lambda"
 description: "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS."
 date: 2021-10-12T12:14:34+06:00
 draft: false
