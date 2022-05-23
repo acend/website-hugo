@@ -1,5 +1,6 @@
 ---
-title: "The world of Function as a Service (FaaS) in AWS Lambda"
+title: "Serverless"
+seo_title: "The world of Function as a Service (FaaS) in AWS Lambda."
 description: "The Serverless Training brings you closer to Function as a Service (FaaS). Together we create best practices functions in AWS Lambda."
 date: 2021-10-12T12:14:34+06:00
 draft: false
