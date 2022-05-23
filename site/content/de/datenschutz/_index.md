@@ -1,6 +1,7 @@
 ---
 translationKey: "Datenschutz"
 title: "Datenschutz"
+seo_title: "Datenschutzerklärung acend gmbh"
 date: 2020-09-02T19:50:08+02:00
 draft: false
 ---

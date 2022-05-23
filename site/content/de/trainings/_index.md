@@ -1,6 +1,8 @@
 ---
-title: "Trainings"
-description: "Wir eröffnen neue Zugänge zu Cloud Native und Open Source."
+title: "Cloud Native Trainings mit Experten - Kubernetes, OpenShift, Argo CD."
+seo_title: "Cloud Native Trainings mit Experten - Kubernetes, OpenShift, Argo CD."
+description: "Cloud Native Trainings mit einer einzigartigen Experience. Von Kubernetes über Prometheus bis hin zu Cilium. "
+
 draft: false
 
 lead:

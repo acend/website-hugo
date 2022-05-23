@@ -1,8 +1,10 @@
 # about
 about:
   enable: true
-  title: "Experience knowledge"
+  title: "Cloud Native Trainings Switzerland - acend gmbh"
+  seo_title: "Cloud Native Trainings Switzerland - acend gmbh"
   content: "The joy of discovering new things is the main driver of development and growth. Let’s experience this moment together."
+  description: "We offer Cloud Native training with experts who use these technologies every day. Trainings with a unique experience and a lot of handson."
   button:
     enable: false
     label: "Discover"

@@ -1,6 +1,7 @@
 ---
 title: "Container & OpenShift"
-description: "Container and OpenShift – from theory to practice in no time."
+seo_title: "A practical introduction to the world of OpenShift and containers."
+description: "The training shows you the concepts of OpenShift through hands-on labs. You will learn how to use OpenShift in a fun way."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 2
