@@ -1,6 +1,7 @@
 ---
 title: "Go"
-description: "Einführung in Go für Software Entwickler, Architekten und DevOps Engineers."
+seo_title: "GO die effiziente kompilierte Cloud Native Programmiersprache."
+description: "In diesem Training lernst du die Open Source Programmiersprache Go kennen. Zudem zeigen wir, wie du pragmatisch Anwendungen im Container Umfeld entwickeln kannst."
 date: 2022-03-30T12:16:39+06:00
 draft: false
 weight: 3

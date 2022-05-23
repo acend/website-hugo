@@ -1,5 +1,6 @@
 ---
-title: "Cloud Native Trainings mit Experten - Kubernetes, OpenShift, Argo CD"
+title: "Cloud Native Trainings with experts - Kubernetes, OpenShift, Argo CD."
+seo_title: "Cloud Native Trainings with experts - Kubernetes, OpenShift, Argo CD."
 description: "Cloud Native Training with a Unique Experience. From Kubernetes to Prometheus to Cilium."
 draft: false
 

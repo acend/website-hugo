@@ -1,6 +1,7 @@
 ---
 title: "Helm"
-description: "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
+seo_title: "Mit Helm paketierst du deine Applikation für Kubernetes."
+description: "Wir geben dir einen praktischen Einstieg in den bekanntesten Paketmanager für Apps auf Kubernetes."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 5

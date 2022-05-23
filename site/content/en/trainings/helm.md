@@ -1,6 +1,7 @@
 ---
 title: "Helm"
-description: "A practical introduction to the best-known Package Manager for applications on Kubernetes."
+seo_title: "With Helm, you package your application for Kubernetes."
+description: "We'll give you a hands-on introduction to the most popular package manager for apps on Kubernetes. "
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 5

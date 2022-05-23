@@ -1,6 +1,7 @@
 ---
 title: "Cilium"
-description: "eBPF-based networking"
+seo_title: "The Cloud Native CNI based on eBPF for full speed."
+description: "With this training you will learn how to use Cilium and how to use eBFP based networking for observability and security in the cloud."
 date: 2020-04-12T12:16:39+06:00
 draft: false
 weight: 3

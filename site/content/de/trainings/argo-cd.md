@@ -1,6 +1,7 @@
 ---
 title: "Argo CD"
-description: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
+seo_title: "ArgoCD erlaubt GitOps und deployt deine App auf Kubernetes."
+description: "Das Argo CD Training gibt dir einen Einblick in die Welt von Continious Delivery und GitOps auf Kubernetes."
 date: 2021-05-12T12:14:34+06:00
 draft: false
 weight: 7

@@ -1,5 +1,6 @@
 ---
 title: "Impressum"
+seo_title: "Impressum - acend gmbh, Belpstrasse 37, 3007 Bern"
 date: 2020-09-02T13:43:28+02:00
 draft: false
 ---
