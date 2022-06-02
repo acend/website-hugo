@@ -19,10 +19,10 @@ removePathAccents = "true"
     weight = 1
     languageCode = "de-ch"
     contentDir = "content/de"
-    title = "acend gmbh – experience knowledge"
+    title = "Cloud Native Trainings Schweiz - acend gmbh"
     # meta description
     author = "acend gmbh"
-    description = "Wir eröffnen neue Zugänge zu Cloud Native und Open Source"
+    description = "Wir bieten Cloud Native Trainings mit Experten, welche diese Technologien täglich nutzen. Schulungen mit einer einzigartigen Experience und viel handson."
 
     # menu
     [[languages.de.menu.main]]
@@ -43,10 +43,10 @@ removePathAccents = "true"
   [languages.en]
     languageCode = "en-en"
     contentDir = "content/en"
-    title = "acend gmbh – experience knowledge"
+    title = "Cloud Native Trainings Switzerland - acend gmbh"
     languageName = "English"
     weight = 2
-    description = "We are opening up new approaches to cloud native and open source"
+    description = "We offer Cloud Native training with experts who use these technologies every day. Trainings with a unique experience and a lot of handson."
 
     # menu
     [[languages.en.menu.main]]
