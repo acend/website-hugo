@@ -122,3 +122,6 @@ other = "Themen"
 
 [selectTopic]
 other = "Bitte auswählen..."
+
+[faqLink]
+other = "/faq/"
