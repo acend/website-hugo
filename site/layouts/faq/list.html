@@ -1,0 +1,81 @@
+{{ define "main" }}
+
+{{ with .Params.lead }}
+  {{ partial "lead.html" . }}
+{{ end }}
+
+
+<div class="wide-banner text-white bg-primary pattern py-5 mb-5">
+    
+  <div data-scroll class="container my-lg-5">
+    <div class="row">
+      <div class="col-11 col-lg-10 mx-md-auto">
+ 
+        <div class="h4">{{.Params.main_title | markdownify}}</div>
+        <p class="lead-big">{{.Params.lead_text | markdownify}}</p>
+  
+ 
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  <div class="container mb-5 pt-5 sticky-top">
+    <div class="row">
+      <div class="col offset-1">
+
+        <div class="input-group border-top topics-selector-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text text-white bg-primary rounded-0 border-0">{{ i18n "topics" }}</span>
+          </div>
+          <select class="custom-select topic-selector border-0 pl-md-4">
+            <option  disabled selected>{{ i18n "selectTopic" }}</option>
+            {{ with .Params.topics }}
+            {{ range .item }}
+            <option value="#{{ .title | urlize}}">{{ .title | markdownify}}</option>
+            {{ end }}
+            {{ end }}
+          </select>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+
+<div class="container">
+  {{ with .Params.topics }}
+    {{ range .item }}
+    <h2 id="{{ .title | urlize}}">{{ .title | markdownify}}</h2>
+
+    <div class="row">
+      <div class="col offset-1">
+        <p class="pr-md-5">{{ .abstract | markdownify}}</p>
+      
+        <div data-scroll class="accordion my-5 border-bottom">
+          {{ range .questions.item }}  
+          <a role="button" class="collapsed" data-toggle="collapse" data-target="#{{ .question | urlize}}" aria-expanded="false" aria-controls="{{ .question | urlize}}">
+            <div class="accordion-header py-3 border-top d-flex align-items-center">
+              <h4 class="accordion-title_ bold m-0">{{ .question | markdownify}}</h4>
+                <div class="icon-plus ml-auto mr-3"></div>
+            </div>
+          </a>
+          <div id="{{ .question | urlize}}" class="collapse" aria-labelledby="heading" data-parent_="#mainAccordion">
+          <div class="pb-5  pr-5  ml-3  ml-lg-5 pl-4 pl-lg-3 entry-content">{{ .answer | safeHTML }}</div>
+        </div>
+        {{ end }}
+        </div>
+
+      </div>
+    </div>
+    {{ end }}
+  {{ end }}
+
+</div>
+
+
+
+
+{{ end }}

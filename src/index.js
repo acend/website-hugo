@@ -11,6 +11,7 @@ import Sticky from "sticky-js";
 import home from "./js/home";
 import trainings from "./js/trainings";
 import about from "./js/about";
+import faq from "./js/faq";
 
 import { map, lerp, getMousePos, calcWinsize, getRandomNumber } from './js/utils';
 
@@ -74,6 +75,7 @@ $(window).on('load', function () {
   home();
   trainings();
   about();
+  faq();
  
 
 	// Background-images

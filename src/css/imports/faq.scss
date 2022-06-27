@@ -1,0 +1,10 @@
+.sticky-top{
+  top: 4rem;  
+    &[stuck] {
+    box-shadow: 0 0 16px black;
+  }
+}
+
+.topics-selector-group {
+  background: var(--primary-light);
+}
