@@ -1,6 +1,7 @@
 ---
 translationKey: "ueber-uns"
 title: "Über uns"
+seo_title: "Unser Ziel ist es, IT-Schulungen zu revolutionieren - acend gmbh"
 description: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren. Wir sind spezialisiert auf Container-Technologien und weitere OpenSource Technologien im Cloud Native Bereich."
 draft: false
 

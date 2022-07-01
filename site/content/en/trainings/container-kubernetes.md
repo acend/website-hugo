@@ -1,9 +1,10 @@
 ---
 title: "Container & Kubernetes"
-description: "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
+seo_title: "Learn the right way to use Kubernetes in practice."
+description: "Hands On you will learn what Kubernetes is, how to work with it and how using it can make everyday life in your company easier and more efficient."
 date: 2019-05-12T12:14:34+06:00
 draft: false
-weight: 4
+weight: 1
 slug: 
 subtitle: "Basics"
 categories: ["Basics", "Kubernetes"]
@@ -12,7 +13,7 @@ abstract : "From the basics to self-deployed, Container-based applications on Ku
 main_title : "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
 
 personen: 
-  daten : "10.05.22, 11.05.22"
+  daten : "15.11.22, 16.11.22"
   preis : "CHF 1900"
 
 headerimages:

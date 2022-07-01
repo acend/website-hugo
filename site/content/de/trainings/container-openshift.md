@@ -1,6 +1,7 @@
 ---
 title: "Container & OpenShift"
-description: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
+seo_title: "Einen praktischen Einstieg in die Welt von OpenShift und Container."
+description: "Das Training zeigt dir mittels Hands-on Labs die Konzepte von OpenShift auf. Dabei lernst du auf spielerische Art wie du OpenShift richtig einsetzen kannst."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 2

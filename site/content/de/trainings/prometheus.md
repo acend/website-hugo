@@ -1,6 +1,7 @@
 ---
 title: "Prometheus"
-description: "Prometheus – Einstieg in die moderne Monitoring Plattform."
+seo_title: "Prometheus monitoring und alerting für Cloud Native Applikationen."
+description: "In diesem Training zeigen wir dir wie du deine Cloud Native Applikationen mit hilfe von Prometheus monitoren kannst und die wesentlichen Alerts definierst."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 6

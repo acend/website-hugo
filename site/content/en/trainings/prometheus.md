@@ -1,6 +1,7 @@
 ---
 title: "Prometheus"
-description: "Prometheus – Introduction to the modern monitoring platform."
+seo_title: "Prometheus monitoring and alerting for cloud native applications."
+description: "In this training we will show you how to monitor your cloud native applications using Prometheus and define the essential alerts."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 6
