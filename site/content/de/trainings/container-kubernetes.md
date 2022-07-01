@@ -4,7 +4,7 @@ seo_title: "Lernen den richtigen Umgang mit Kubernetes in der Praxis."
 description: "Hands On lernst du was Kubernetes ist, wie du damit arbeitest und wie der Einsatz der Alltag in deinem Unternehmen vereinfacht und effizienter gestaltet."
 date: 2019-03-12T12:14:34+06:00
 draft: false
-weight: 4
+weight: 1
 slug: 
 subtitle: "Basics"
 categories: ["Basics", "Kubernetes"]
