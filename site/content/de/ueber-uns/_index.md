@@ -30,12 +30,6 @@ subtopic_4:
   title: "Teil der Community werden"
   text: "Wir begreifen uns als Teil der wachsenden Schweizer Cloud Native Community und laden dich ein, dich anzuschliessen. Deswegen pflegen wir den Austausch während und nach unseren Trainings."
 
-# video
-video:
-  enable: true
-  title: "CNCF & acend"
-  youtubeID: "vJreoafRiE4"  
-
 # quote
 quote:
   text: "Die Menschen und ihre Kompetenzen verhelfen Unternehmen zu Erfolg. Wir vermitteln unseren TeilnehmerInnen neues Wissen und unterstützen sie dabei, sich mit neuen Ansätzen weiterzuentwickeln."
