@@ -12,7 +12,7 @@ abstract: "Introduction to Go for software developers, architects and DevOps eng
 main_title: "Introduction to Go for software developers, architects and DevOps engineers."
 
 personen: 
-  daten : "22.06.22"
+  daten : ""
   preis : "CHF 1100"
 
 headerimages:

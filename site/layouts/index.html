@@ -34,9 +34,9 @@
 
   <!-- about -->
   <section  class="section section-about my-5">
-    <div data-scroll  class="wide-banner text-white bg-primary pattern pt-5 ">
+    <div class="wide-banner text-white bg-primary pattern pt-5 ">
     
-    <div class="container">
+    <div data-scroll class="container">
       <div class="row">
         <div class="col-11 col-lg-10 mx-md-auto">
           {{ with $data.homepage.about }}
@@ -134,6 +134,28 @@
     </div>
   </section>
   <!-- /trainings -->
+  
+  <!-- video -->
+  {{ if  $data.homepage.video.enable }}
+  {{ with  $data.homepage.video }}
+  <section class="section my-5 py-4 py-lg-5">
+    <div class="container">
+      <div data-scroll class="row">
+        <div class="col-lg-3 mb-3 offset-1">
+          <h5>{{  .title | markdownify }}</h5> 
+          <p>{{  .text | markdownify }}</p>
+        </div>
+        <div  class="col-11 col-lg-7 offset-1 offset-lg-0 mb-3">
+          <div class="video-container">
+            <iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/{{  .youtubeID }}?modestbranding=1&playsinline=1&color=white&controls=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+  <!-- /video -->
   
   <!-- testimonials -->
 {{ if  $data.homepage.testimonials.enable }}

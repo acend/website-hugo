@@ -39,7 +39,7 @@
   <div class="container">
     <div  class="row">
 
-      <div data-scroll class="col-md-8 col-xl-9  py-5">
+      <div data-scroll class="col-md-8 col-xl-9  pt-5">
         {{ if .Params.kooperation.enable }}
           <div class="mb-3">{{ .Params.kooperation.subtitle | safeHTML }}</div>
         {{ end }}
@@ -54,9 +54,9 @@
             {{ if .Params.accordion.enable }}
             <div data-scroll id="mainAccordion" class="accordion my-5 border-bottom">
               {{ with .Params.accordion }}
-                {{ range .item }}
+                {{ range $index, $element := .item }}
 
-                <a role="button" class="collapsed" data-toggle="collapse" data-target="#{{ .title | urlize}}" aria-expanded="false" aria-controls="{{ .title | urlize}}">
+                <a role="button" class="collapsed" data-toggle="collapse" data-target="#{{ .title | urlize}}" aria-expanded="{{ if (eq $index 0) }}true{{ else }}false{{ end }}" aria-controls="{{ .title | urlize}}">
                     <div class="accordion-header py-3 border-top d-flex align-items-center">
                         {{ if eq .icon "1" }}
                         <svg class="icon mr-3 mr-lg-4" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Ziel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Ziel_RGB_Schwarz" transform="translate(9 6)" fill="#000" fill-rule="nonzero"><path id="Path" d="M4 52H0V0h45.8L31.56 17.98l14.31 17.6H8V27h4v4.58h25.46L26.44 18.02 37.53 4H4z"/></g></g></svg>
@@ -73,7 +73,7 @@
                         <div class="icon-plus ml-auto mr-3"></div>
                     </div>
                   </a>
-                <div id="{{ .title | urlize}}" class="collapse" aria-labelledby="heading" data-parent="#mainAccordion">
+                <div id="{{ .title | urlize}}" class="collapse {{ if (eq $index 0) }} show {{ end }}" aria-labelledby="heading" data-parent="#mainAccordion">
                   <div class="pb-5  pr-5  ml-3  ml-lg-5 pl-4 pl-lg-3 entry-content">{{ .content | safeHTML }}</div>
                  </div>
 
@@ -203,6 +203,27 @@
     </div>
   </div>
 </section>
+
+
+  
+  <!-- video -->
+  {{ if  .Params.video.enable }}
+  {{ with  .Params.video }}
+  <section data-scroll class="section mb-5  pb-3 py-md-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-1">
+          <h3 class="mb-4-5  ">{{ .title  | markdownify }}</h3>
+          <div class="video-container">
+            <iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/{{  .youtubeID }}?modestbranding=1&playsinline=1&color=white" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+  <!-- /video -->
 
 {{ if .Params.kooperation.enable }}
   {{ with .Params.kooperation }}
