@@ -89,11 +89,6 @@ trainingsinhalt:
           - el: "AKS / LoadBalancer"
           - el: "MariaDB und Demo Applikation"
 
-# video
-video:
-  enable: true
-  title: "Einfach erklärt: Container und Kubernetes"
-  youtubeID: "jxodluTaz4g"
 
 # Kooperation
 kooperation:

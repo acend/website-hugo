@@ -86,6 +86,12 @@ trainingsinhalt:
         - el: "Debugging"
         - el: "Go Templating"
 
+# video
+video:
+  enable: true
+  title: "Einfach erklärt: Was ist Helm und was passiert im Training"
+  youtubeID: "S_z12JWMAAs"
+
 # trainer
 trainers:
   enable: true

@@ -103,9 +103,10 @@ trainings:
 # video
 video:
   enable: true
-  title: "Ein Titel hier"
-  text: "Hier ein tolles Video das euch einen einfachen Überblick gibt zur Verwendung unseres Produktes."
-  youtubeID: "jxodluTaz4g"
+  title: "acend <3 Cloud Native"
+  text: "David erklärt dir unsere \"reason to be\" in weniger als 30 Sekunden."
+  youtubeID: "BReegJE0HaI"
+
 
 # testimonial
 testimonials:

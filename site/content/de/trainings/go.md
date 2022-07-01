@@ -76,6 +76,12 @@ trainingsinhalt:
         - el: "Concurrency & Multithreading"
         - el: "Release Code / Packaging"
 
+# video
+video:
+  enable: true
+  title: "Mehr von Go und David per Video"
+  youtubeID: "sYhw3rUzIcw"
+
 
 # trainer
 trainers:
