@@ -82,7 +82,7 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
 # video
 video:
   enable: true
-  title: "Was Observability ist und warum es auch für deine Firma wichtig ist"
+  title: "Einfach erklärt: Was ist Observability?"
   youtubeID: "FrQKfrMH_nU"
 
 
