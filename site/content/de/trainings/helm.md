@@ -89,7 +89,7 @@ trainingsinhalt:
 # video
 video:
   enable: true
-  title: "Einfach erklärt: Was ist Helm und was passiert im Training"
+  title: "Einfach erklärt: Das Helm Basics Training"
   youtubeID: "S_z12JWMAAs"
 
 # trainer
