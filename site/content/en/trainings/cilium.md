@@ -40,7 +40,6 @@ accordion:
           icon : "2"
           content : "<ul>
 <li>Participants need a laptop with direct access to the Internet</li>
-<li>A current, local minikube installation (<a href=\"https://minikube.sigs.k8s.io/docs/start/\">minikube.sigs.k8s.io</a>)</li>
 </ul>"
 
         - title : "Target Audience"
