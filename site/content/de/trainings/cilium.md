@@ -12,7 +12,7 @@ abstract: "eBPF-basiertes Networking"
 main_title: "eBPF-basiertes Networking"
 
 personen: 
-  daten : "30.06.22 CET"
+  daten : ""
   preis : "CHF 1100"
 
 headerimages:
@@ -40,7 +40,6 @@ accordion:
           icon : "2"
           content : "<ul>
 <li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
-<li>Eine aktuelle, lokale Minikube Installation (<a href=\"https://minikube.sigs.k8s.io/docs/start/\">minikube.sigs.k8s.io</a>)</li>
 </ul>"
 
         - title : "Zielpublikum"

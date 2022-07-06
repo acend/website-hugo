@@ -13,7 +13,7 @@ abstract: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 main_title: "Anwendungsbereitstellung und -betrieb der nächsten Generation."
 
 personen: 
-  daten : "06.07.22"
+  daten : ""
   preis : "CHF 1100"
 
 headerimages:

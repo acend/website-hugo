@@ -89,6 +89,7 @@ trainingsinhalt:
           - el: "AKS / LoadBalancer"
           - el: "MariaDB und Demo Applikation"
 
+
 # Kooperation
 kooperation:
   enable: true
