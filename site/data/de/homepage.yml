@@ -30,7 +30,7 @@ slideshow:
       label: "Mehr erfahren"
       img1: "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"
       img2: "images/trainings/ACEND_Mats@2x.jpg"
-      img3: "images/trainings/ACEND_CodeT@2x.jpg"      
+      img3: "images/trainings/ACEND_CodeT@2x.jpg"
 
     - ubertitle: "Trainingsangebot"
       title: "Cilium"
@@ -40,7 +40,7 @@ slideshow:
       img1: "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"
       img2: "images/trainings/ACEND_Lena@2x.jpg"
       img3: "images/trainings/ACEND_CodeD@2x.jpg"
-      
+
     - ubertitle: "Trainingsangebot"
       title: "Container & Kubernetes"
       subtitle: "Basics"
@@ -58,7 +58,6 @@ slideshow:
       img1: "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
       img2: "images/trainings/ACEND_Philip@2x.jpg"
       img3: "images/trainings/ACEND_CodeD@2x.jpg"
-
 
 # trainings
 trainings:
@@ -96,10 +95,18 @@ trainings:
           slug: "cilium"
 
     - title: "Programming"
-      text: "\"Hello World\" & mehr in Cloud Native"
+      text: '"Hello World" & mehr in Cloud Native'
       trainings:
         - title: "Go"
           slug: "go"
+
+# video
+video:
+  enable: true
+  title: "acend <3 Cloud Native"
+  text: "David erklärt dir unsere \"reason to be\" in weniger als 30 Sekunden."
+  youtubeID: "BReegJE0HaI"
+
 
 # testimonial
 testimonials:

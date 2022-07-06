@@ -107,15 +107,7 @@ team:
       designation: "Trainer"
       abstract: "Er ist unser Weltenbummler und schon von klein auf überall auf der Welt zu Hause. Und so richtig daheim ist er natürlich in der Cloud Native Welt."
       experience: "Seit seinem Abschluss als Wirtschaftsinformatiker FH 2007 arbeitet Gabriel mehrere Jahre in der IT verschiedener Unternehmen als Entwickler, Firewall, Systems und Cloud Engineer.
-      Weiterbildung ist ihm stets wichtig, so absolvierte er neben CISSP, RHCE und CKA auch noch einen CAS in Advanced Data Science. Seit 2016 ist er bei der Schweizerischen Mobiliar und arbeite dort am Aufbau und Betrieb von grossen Container Plattformen mit."
-
-    - title : "Gabriel Koch"
-      designation : "Trainer, bespinian"
-      abstract : "Obwohl er Vegetarier ist, haben seine Erklärungen zu Cloud Technologien viel Fleisch am Knochen."
-      image : "images/team/AC_Gabriel_Koch@2x.jpg"
-      experience: "Nach seiner Lehre als Applikationsentwickler bei der AXA hat Gabriel während 10 Jahren in verschiedenen Positionen als Engineer im Unternehmen weitergearbeitet. Seit Anfang 2021 ist er bei Bespinian als Consultant für Kubernetes- und Serverless-Themen tätig. Parallel zu seiner Arbeit hat er seinen Bachelor in Informatik gemacht und ist nun im Masterstudium mit Fokus auf Observability in Distributed Cloud Environments."
-      linkedin : "https://www.linkedin.com/in/gabriel-koch-ch"
-      twitter : "https://twitter.com/elessar_ch"      
+      Weiterbildung ist ihm stets wichtig, so absolvierte er neben CISSP, RHCE und CKA auch noch einen CAS in Advanced Data Science. Seit 2016 ist er bei der Schweizerischen Mobiliar und arbeite dort am Aufbau und Betrieb von grossen Container Plattformen mit."   
 
     - title: "Johann Gyger"
       image: "images/team/AC_Johann@2x.jpg"
