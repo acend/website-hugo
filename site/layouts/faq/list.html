@@ -19,8 +19,9 @@
     </div>
   </div>
   </div>
+ 
 
-
+  {{ if .Params.topic_selector }}
 
   <div class="container mb-5 pt-5 sticky-top">
     <div class="row">
@@ -32,38 +33,37 @@
           </div>
           <select class="custom-select topic-selector border-0 pl-md-4">
             <option  disabled selected>{{ i18n "selectTopic" }}</option>
-            {{ with .Params.topics }}
-            {{ range .item }}
-            <option value="#{{ .title | urlize}}">{{ .title | markdownify}}</option>
-            {{ end }}
+            {{ range .Pages }}
+            <option value="#{{ .Title | urlize}}">{{ .Title | markdownify}}</option>
             {{ end }}
           </select>
         </div>
-  
+        
       </div>
     </div>
   </div>
+  {{ end }}
+  
+ 
 
-
-<div class="container">
-  {{ with .Params.topics }}
-    {{ range .item }}
-    <h2 id="{{ .title | urlize}}">{{ .title | markdownify}}</h2>
+<div class="container faq-content">
+  {{ range .Pages }}
+    <h2 id="{{ .Title | urlize}}">{{ .Title | markdownify}}</h2>
 
     <div class="row">
       <div class="col offset-1">
-        <p class="pr-md-5">{{ .abstract | markdownify}}</p>
+        <p class="pr-md-5">{{ .Params.abstract | markdownify}}</p>
       
         <div data-scroll class="accordion my-5 border-bottom">
-          {{ range .questions.item }}  
-          <a role="button" class="collapsed" data-toggle="collapse" data-target="#{{ .question | urlize}}" aria-expanded="false" aria-controls="{{ .question | urlize}}">
+          {{ range .Pages }}  
+          <a role="button" class="collapsed" data-toggle="collapse" data-target="#{{ .Title | urlize}}" aria-expanded="false" aria-controls="{{ .Title | urlize}}">
             <div class="accordion-header py-3 border-top d-flex align-items-center">
-              <h4 class="accordion-title_ bold m-0">{{ .question | markdownify}}</h4>
+              <h4 class="accordion-title_ bold m-0">{{ .Title | markdownify}}</h4>
                 <div class="icon-plus ml-auto mr-3"></div>
             </div>
           </a>
-          <div id="{{ .question | urlize}}" class="collapse" aria-labelledby="heading" data-parent_="#mainAccordion">
-          <div class="pb-5  pr-5  ml-3  ml-lg-5 pl-4 pl-lg-3 entry-content">{{ .answer | safeHTML }}</div>
+          <div id="{{ .Title | urlize}}" class="collapse" aria-labelledby="heading" data-parent_="#mainAccordion">
+          <div class="pb-5  pr-5  ml-3  ml-lg-5 pl-4 pl-lg-3 entry-content">{{ .Content | safeHTML  }}</div>
         </div>
         {{ end }}
         </div>
@@ -71,7 +71,7 @@
       </div>
     </div>
     {{ end }}
-  {{ end }}
+ 
 
 </div>
 

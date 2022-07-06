@@ -1,3 +1,5 @@
+import  Flickity from 'flickity';
+
 export default function() {
 
   
@@ -52,5 +54,57 @@ export default function() {
    }
  
   }
+
+
+  if ($('.faq-content .carousel').length) {
+		
+		$('.faq-content .slides').each(function(){
+
+
+      //$('<div class="img-caption"><div class="c-caption"></div><div class="carousel-status"></div></div>').insertAfter($(this).find('.carousel'));
+
+			var flkty = new Flickity( $(this).find('.carousel')[0], { // eslint-disable-line no-unused-vars
+				lazyLoad: 2,
+				//prevNextButtons: false,
+				pageDots: false,
+			//	autoPlay: $(this).hasClass('auto-play') ? 3000 : false,
+				wrapAround: true ,
+				cellAlign: 'left',
+			});
+			
+      /*
+			flkty.on( 'staticClick', function(  ) {
+				flkty.selectedIndex == flkty.cells.length - 1  ? flkty.select( 0 ) : flkty.next();
+
+			});
+*/
+			var $this = $(this);
+			var carouselStatus = $(this).find('.carousel-status')[0];
+			var carouselCaption = $(this).find('.c-caption')[0];
+			
+			flkty.on( 'select', function() {
+				var slideNumber = flkty.selectedIndex + 1;
+				carouselStatus.textContent = slideNumber + '/' + flkty.slides.length;
+				carouselCaption.textContent = $this.find('.is-selected .caption').text() ? $this.find('.is-selected .caption').text() : $this.find('.carousel-cell:first-child .caption').text();
+			});
+
+      $(this).find('.button--previous').on( 'click', function() {
+				flkty.previous();
+			});
+			// next
+			$(this).find('.button--next').on( 'click', function() {
+				flkty.next();
+			});
+			
+
+		});
+	}
+
+
+  $('.faq-content .collapse').on('show.bs.collapse', function () {
+    //trigger resize for setting carousel size
+    window.dispatchEvent(new Event('resize'));
+    console.log('collapse')
+  });
  
 }
