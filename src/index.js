@@ -55,6 +55,7 @@ ScrollOut({
   //root.style.setProperty('--color', colors[randomColor]);
   root.style.setProperty('--shadowColor', 'rgba('+colors[randomColor].split(' ').join(',')+', 0.3)');
   root.style.setProperty('--primary-opaque', 'rgba('+colors[randomColor].split(' ').join(',')+', 0.96)');
+  root.style.setProperty('--primary-opaque-light', 'rgba('+colors_light[randomColor].split(' ').join(',')+', 0.75)');
 
 
   $('.navbar-collapse').on('show.bs.collapse', function(){

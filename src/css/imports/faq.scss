@@ -37,6 +37,7 @@
   }
 
   .slides {
+    position: relative;
     font-size: 80%;
     //font-weight: 400;
     margin-bottom: 2rem;
@@ -53,9 +54,29 @@
     padding-right: 2rem;
   }
 
-  .flickity-button-icon {
-    path {
+  .flickity-prev-next-button {
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+
+    box-shadow: none !important;
+    border-radius: 0;
+    background: var(--primary-opaque-light);
+    width: 40px;
+    height: 40px;
+    //opacity: 0.9;
+
+    &.previous {
+      left: -1rem;
+    }
+    &.next {
+      right: -1rem;
+    }
+
+    polygon {
       fill: var(--primary);
     }
   }
+
+  
 }

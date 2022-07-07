@@ -60,14 +60,13 @@ export default function() {
 		
 		$('.faq-content .slides').each(function(){
 
+      var $this = $(this);
 
-      //$('<div class="img-caption"><div class="c-caption"></div><div class="carousel-status"></div></div>').insertAfter($(this).find('.carousel'));
-
-			var flkty = new Flickity( $(this).find('.carousel')[0], { // eslint-disable-line no-unused-vars
+			var flkty = new Flickity( $this.find('.carousel')[0], { // eslint-disable-line no-unused-vars
 				lazyLoad: 2,
-				//prevNextButtons: false,
+				prevNextButtons: false,
 				pageDots: false,
-			//	autoPlay: $(this).hasClass('auto-play') ? 3000 : false,
+			//	autoPlay: $this.hasClass('auto-play') ? 3000 : false,
 				wrapAround: true ,
 				cellAlign: 'left',
 			});
@@ -78,9 +77,8 @@ export default function() {
 
 			});
 */
-			var $this = $(this);
-			var carouselStatus = $(this).find('.carousel-status')[0];
-			var carouselCaption = $(this).find('.c-caption')[0];
+			var carouselStatus = $this.find('.carousel-status')[0];
+			var carouselCaption = $this.find('.c-caption')[0];
 			
 			flkty.on( 'select', function() {
 				var slideNumber = flkty.selectedIndex + 1;
@@ -88,11 +86,11 @@ export default function() {
 				carouselCaption.textContent = $this.find('.is-selected .caption').text() ? $this.find('.is-selected .caption').text() : $this.find('.carousel-cell:first-child .caption').text();
 			});
 
-      $(this).find('.button--previous').on( 'click', function() {
+      $this.find('.flickity-button.previous').on( 'click', function() {
 				flkty.previous();
 			});
 			// next
-			$(this).find('.button--next').on( 'click', function() {
+			$this.find('.flickity-button.next').on( 'click', function() {
 				flkty.next();
 			});
 			
