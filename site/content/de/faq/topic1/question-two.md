@@ -1,10 +1,16 @@
 ---
-title: "Frage 2 zum Thema 1?"
+title: "How do I get my credly badge?"
 draft: false
 weight: 2
 ---
 
-Was bisher geschah: Die Idee zu acend entstand 2019 an einem Samy Deluxe Konzert.
-Hier fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren. Gesagt, getan. Heute können wir dir lehrreiche, unterhaltsame und bereichernde Trainings anbieten, die dir als unvergessliches Erlebnis in Erinnerung bleiben!
+For badges we work together with [credly](https://info.credly.com/), so after the training you will receive an email from credly. Usually this happens within 24 hours. 
+The slideshow below explains the necessary procedure step by step. 
 
-Was bisher geschah: Die Idee zu acend entstand 2019 an einem Samy Deluxe Konzert. Hier fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren. Gesagt, getan. Heute können wir dir lehrreiche, unterhaltsame und bereichernde Trainings anbieten, die dir als unvergessliches Erlebnis in Erinnerung bleiben!
+{{< faq-slider >}}
+{{< slider-img src="images/faq/credlyBadges-1.png" caption="Bildlegende 1" >}}
+{{< slider-img src="images/faq/credlyBadges-2.png" caption="Bildlegende 2" >}}
+{{< slider-img src="images/faq/credlyBadges-3.png" caption="Bildlegende 3" >}}
+{{< slider-img src="images/faq/credlyBadges-4.png" caption="Bildlegende 4" >}}
+{{< /faq-slider >}}
+
