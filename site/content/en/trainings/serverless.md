@@ -96,13 +96,7 @@ trainers:
   enable: true
   title : "Meet your trainers"
   trainer:
-    - title : "Gabriel Koch"
-      designation : "Trainer, bespinian"
-      abstract : "Although he's a vegetarian, his explanations of cloud technologies have a lot of meat on the bone."
-      image : "images/team/AC_Gabriel_Koch@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/gabriel-koch-ch"
-      twitter : "https://twitter.com/elessar_ch"
-    
+      
     - title : "Lena Fuhrimann"
       designation : "Trainer, bespinian"
       abstract : "Head always in the clouds, just look at her hair. Lena loves modernizing software and working with new technologies. She uses Arch btw."

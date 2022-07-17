@@ -107,14 +107,6 @@ team:
       abstract: "He is our globetrotter and has been at home all over the world from an early age. And of course, he is really at home in the Cloud Native world."
       experience: "Since graduating with a degree in Business Informatics FH in 2007, Gabriel has worked for several years in IT at various companies as a developer, firewall, systems and cloud engineer.
       Continuing education is always important to him, so in addition to CISSP, RHCE and CKA, he also completed a CAS in Advanced Data Science. Since 2016, he has been working for Swiss Mobiliar, where he is involved in the development and operation of large container platforms."
-
-    - title : "Gabriel Koch"
-      designation : "Trainer, bespinian"
-      abstract : "Although he's a vegetarian, his explanations of cloud technologies have a lot of meat on the bone."
-      image : "images/team/AC_Gabriel_Koch@2x.jpg"
-      experience: "After his apprenticeship as an application developer at AXA, Gabriel worked for 10 years in various positions as an engineer in the company. Since the beginning of 2021, he has been working for Bespinian as a consultant for Kubernetes and serverless topics. In parallel to his work, he did his bachelor's degree in computer science and is now working on his master's degree with focus on observability in distributed cloud environments."
-      linkedin : "https://www.linkedin.com/in/gabriel-koch-ch"
-      twitter : "https://twitter.com/elessar_ch"      
       
     - title: "Johann Gyger"
       image: "images/team/AC_Johann@2x.jpg"
