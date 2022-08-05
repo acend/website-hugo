@@ -12,7 +12,7 @@ abstract: "Einführung in Go für Software Entwickler, Architekten und DevOps En
 main_title: "Einführung in Go für Software Entwickler, Architekten und DevOps Engineers."
 
 personen: 
-  daten : "22.06.22"
+  daten : ""
   preis : "CHF 1100"
 
 headerimages:
@@ -75,6 +75,12 @@ trainingsinhalt:
         - el: "Testing"
         - el: "Concurrency & Multithreading"
         - el: "Release Code / Packaging"
+
+# video
+video:
+  enable: true
+  title: "Mehr von Go und David per Video"
+  youtubeID: "sYhw3rUzIcw"
 
 
 # trainer

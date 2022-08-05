@@ -4,7 +4,7 @@ seo_title: "With Helm, you package your application for Kubernetes."
 description: "We'll give you a hands-on introduction to the most popular package manager for apps on Kubernetes. "
 date: 2019-05-12T12:14:34+06:00
 draft: false
-weight: 5
+weight: 4
 slug: 
 thumbnail: "images/trainings/ACEND_Adyna@2x.jpg"
 subtitle: "Basics"
