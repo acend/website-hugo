@@ -79,6 +79,12 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
         - el: "Deep Dive PromQL mit Prometheus Co-Founder Julius Volz"
         - el: "Hands-on Labs mit vielen Beispielen aus der Praxis" 
 
+# video
+video:
+  enable: true
+  title: "Einfach erklärt: Was ist Observability?"
+  youtubeID: "FrQKfrMH_nU"
+
 
 # Kooperation
 kooperation:

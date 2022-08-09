@@ -4,7 +4,7 @@ seo_title: "Auf was zu achten ist für einen langfirstigen OpenShift Betrieb."
 description: "Im Openshift 4 Operations Training geben wir dir unsere langjährige Betriebs-Erfahrung weiter und du lernst wie häufige Probleme gelöst werden können."
 date: 2019-05-12T12:14:34+06:00
 draft: false
-weight: 3
+weight: 4
 subtitle: "Advanced"
 categories: ["Advanced", "Kubernetes"]
 duration: "2 Tage"

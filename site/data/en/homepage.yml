@@ -30,7 +30,7 @@ slideshow:
       label: "Discover"
       img1: "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"
       img2: "images/trainings/ACEND_Mats@2x.jpg"
-      img3: "images/trainings/ACEND_CodeT@2x.jpg"         
+      img3: "images/trainings/ACEND_CodeT@2x.jpg"
 
     - ubertitle: "Training offer"
       title: "Cilium"
@@ -58,7 +58,6 @@ slideshow:
       img1: "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
       img2: "images/trainings/ACEND_Philip@2x.jpg"
       img3: "images/trainings/ACEND_CodeD@2x.jpg"
-
 
 # trainings
 trainings:
@@ -93,13 +92,20 @@ trainings:
         - title: "Serverless"
           slug: "serverless"
         - title: "Cilium"
-          slug: "cilium"  
+          slug: "cilium"
 
     - title: "Programming"
-      text: "\"Hello World\" & more in Cloud Native"
+      text: '"Hello World" & more in Cloud Native'
       trainings:
         - title: "Go"
-          slug: "go"        
+          slug: "go"
+
+# video
+video:
+  enable: true
+  title: "Ein Titel hier"
+  text: "Hier ein tolles Video das euch einen einfachen Überblick gibt zur Verwendung unseres Produktes."
+  youtubeID: "M7lc1UVf-VE"
 
 # testimonial
 testimonials:

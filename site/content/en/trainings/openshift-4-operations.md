@@ -4,7 +4,7 @@ seo_title: "What to look for in a long term OpenShift operation."
 description: "In the Openshift 4 Operations Training we share our many years of operational experience with you and you learn how to solve common problems."
 date: 2019-06-12T12:14:34+06:00
 draft: false
-weight: 3
+weight: 6
 subtitle: "Advanced"
 categories: ["Advanced", "Kubernetes"]
 duration: "2 Days"

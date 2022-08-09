@@ -4,7 +4,7 @@ seo_title: "Die Welt von Function as a Service (FaaS) in AWS Lambda."
 description: "Das Serverless Training bringt dir Function as a Service (FaaS) näher. Gemeinsam Best erstellen wir Best Practices Functions in AWS Lambda."
 date: 2021-10-12T12:14:34+06:00
 draft: false
-weight: 1
+weight: 7
 slug: 
 subtitle: "Basics"
 categories: ["Basics", "Spezialisierte Trainings"]
@@ -99,13 +99,6 @@ trainers:
   enable: true
   title : "Lerne deine Trainer:innen kennen"
   trainer:
-    - title : "Gabriel Koch"
-      designation : "Trainer, bespinian"
-      abstract : "Obwohl er Vegetarier ist, haben seine Erklärungen zu Cloud Technologien viel Fleisch am Knochen."
-      image : "images/team/AC_Gabriel_Koch@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/gabriel-koch-ch"
-      twitter : "https://twitter.com/elessar_ch"
-    
     
     - title : "Lena Fuhrimann"
       designation : "Trainerin, bespinian"
