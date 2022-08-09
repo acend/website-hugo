@@ -139,6 +139,11 @@ partner:
       text: "As an innovative IT service provider, Puzzle ITC covers the entire cycle of business-relevant applications and infrastructures, exclusively focusing on open source technologies as well as the most modern methods. Different interdisciplinary teams work on projects regarding consulting, applications, delivery, infrastructure and open source solutions."
       URL: "https://puzzle.ch"
       label: "puzzle.ch"
+    
+    - logo: "images/partner/kubernetes-ktp.png"
+      text: "KTP is an initiative of the Cloud Native Computing Foundation. We have been recognized by them as a Kubernetes Training Partner (KTP). This is a group of vetted training providers who have extensive experience with training on cloud native technologies."
+      URL: "https://www.cncf.io"
+      label: "cncf.io"
 
     - logo: "images/partner/appuio.png"
       text: "APPUiO is the leading Kubernetes based container platform for the design, development and operations of applications. Based on reliable open source concepts, such as CRI-O and Kubernetes, APPUiO supports the DevOps approach. Development, deployment and operation processes are accelerated through automation and self-service. The cooperation between software developers and business organization is also improved."
