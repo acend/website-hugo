@@ -1,6 +1,6 @@
 ---
-title: "FAQ Thema B Titel"
+title: "Slack & bleib mit uns in Kontakt"
 draft: false
 weight: 1
-abstract: "Hier geht es um folgendes Thema: Einführung in Go für Software Entwickler, Architekten und DevOps Engineers."
+abstract: "Informationen über Slack und wie Du auch sonst mit uns im Kontakt bleiben kannst."
 ---

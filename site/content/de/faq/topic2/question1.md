@@ -1,10 +1,10 @@
 ---
-title: "Frage 1 zum Thema 2?"
+title: "Wie bleiben wir in Kontakt?"
 draft: false
 weight: 1
 ---
 
-Was bisher geschah: Die Idee zu acend entstand 2019 an einem Samy Deluxe Konzert.
-Hier fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren. Gesagt, getan. Heute können wir dir lehrreiche, unterhaltsame und bereichernde Trainings anbieten, die dir als unvergessliches Erlebnis in Erinnerung bleiben!
-
-Was bisher geschah: Die Idee zu acend entstand 2019 an einem Samy Deluxe Konzert. Hier fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren. Gesagt, getan. Heute können wir dir lehrreiche, unterhaltsame und bereichernde Trainings anbieten, die dir als unvergessliches Erlebnis in Erinnerung bleiben!
+Du hast verschiedene Möglichkeiten mit uns in Kontakt zu bleiben:
+1) Kontaktiere uns direkt via hello@acend.ch oder https://acend.ch/kontakt/
+2) Abonniere unseren Newsletter: https://acend.ch/#newsletter
+3) Kommuniziere mit uns in der acend Slack Community
