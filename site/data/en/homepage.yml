@@ -102,7 +102,7 @@ trainings:
 
 # video
 video:
-  enable: true
+  enable: false
   title: "Ein Titel hier"
   text: "Hier ein tolles Video das euch einen einfachen Überblick gibt zur Verwendung unseres Produktes."
   youtubeID: "M7lc1UVf-VE"
