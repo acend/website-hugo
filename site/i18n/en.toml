@@ -112,3 +112,15 @@ other = "This page does not exist."
 
 [text404]
 other = "Continue to home page"
+
+#––––––––––––––––
+# Page FAQ
+
+[topics]
+other = "Topics"
+
+[selectTopic]
+other = "Bitte auswählen..."
+
+[faqLink]
+other = "/en/faq/"

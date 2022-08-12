@@ -1,0 +1,82 @@
+.sticky-top{
+  top: 4rem;  
+    &[stuck] {
+    box-shadow: 0 0 16px black;
+  }
+}
+
+.topics-selector-group {
+  background: var(--primary-light);
+}
+
+.faq-content {
+  .carousel {
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+  }
+
+  .carousel-cell {
+    width: 90%;
+    margin-right: 1rem;
+
+    .caption {
+      display: none;
+    }
+  }
+
+  .carousel-cell-image {
+    max-width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.4s;
+
+    &.flickity-lazyloaded,
+    &.flickity-lazyerror {
+      opacity: 1;
+    }
+  }
+
+  .slides {
+    position: relative;
+    font-size: 80%;
+    //font-weight: 400;
+    margin-bottom: 2rem;
+  }
+
+  .img-caption {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .carousel-status {
+    margin-left: auto;
+  }
+  .c-caption {
+    padding-right: 2rem;
+  }
+
+  .flickity-prev-next-button {
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+
+    box-shadow: none !important;
+    border-radius: 0;
+    background: var(--primary-opaque-light);
+    width: 40px;
+    height: 40px;
+    //opacity: 0.9;
+
+    &.previous {
+      left: -1rem;
+    }
+    &.next {
+      right: -1rem;
+    }
+
+    polygon {
+      fill: var(--primary);
+    }
+  }
+
+  
+}

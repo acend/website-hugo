@@ -113,3 +113,15 @@ other = "Diese Seite haben wir leider nicht gefunden."
 
 [text404]
 other = "Weiter zur Startseite"
+
+#––––––––––––––––
+# Page FAQ
+
+[topics]
+other = "Themen"
+
+[selectTopic]
+other = "Bitte auswählen..."
+
+[faqLink]
+other = "/faq/"
