@@ -1,16 +1,17 @@
 ---
-title: "How do I get my credly badge?"
+title: "Wie erhalte ich meinen Credly-Badge?"
 draft: false
 weight: 2
 ---
 
-For badges we work together with **[credly](https://info.credly.com/)**, so after the training you will receive an email from credly. Usually this happens within 24 hours.<br>
-The slideshow below explains the necessary procedure step by step. 
+Bei den Badges arbeiten wir mit **[credly](https://info.credly.com/)** zusammen. Nach dem Training wirst Du deshalb  auch eine E-Mail von credly erhalten. In der Regel geschieht dies innerhalb von 24 Stunden. 
+Die Slideshow unten erklärt das Verfahren Schritt für Schritt.
+
 {{< faq-slider >}}
-{{< slider-img src="images/faq/credly-xmail.png" caption="This is how the mail from credly looks like. To accept the badge you have to click the button \"Accept your badge\"" >}}
-{{< slider-img src="images/faq/credly-xsignin.png" caption="If you don't have a credly account yet, you can register. This service is free of charge." >}}
-{{< slider-img src="images/faq/credly-xaccept.png" caption="Now you can accept the acend badge as a logged in credly user." >}}
-{{< slider-img src="images/faq/credly-xlinkedin.png" caption="If you like you can share the badge on social media." >}}
-{{< slider-img src="images/faq/credly-xall.png" caption="Never Stop Learning and earn some more badges ;)." >}}
+{{< slider-img src="images/faq/credly-xmail.png" caption="So sieht die Mail von credly aus. Um den Ausweis zu akzeptieren, müssen Sie auf die Schaltfläche \"Accept your badge\"" >}} klicken.
+{{< slider-img src="images/faq/credly-xsignin.png" caption="Wenn Sie noch kein credly-Konto haben, können Sie sich kostenlos registrieren." >}}
+{{< slider-img src="images/faq/credly-xaccept.png" caption="Jetzt können Sie als angemeldeter credly-Benutzer den acend-Badge annehmen." >}}
+{{< slider-img src="images/faq/credly-xlinkedin.png" caption="Falls Du möchtest, kannst Du den Badge auf Social media teilen." >}}
+{{< slider-img src="images/faq/credly-xall.png" caption="Never Stop Learning und verdiene dir noch mehr Badges ;)." >}}
 {{< /faq-slider >}}
 

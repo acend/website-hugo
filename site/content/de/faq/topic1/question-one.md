@@ -1,7 +1,7 @@
 ---
-title: "How do I get my certificate?"
+title: "Wie erhalte ich mein Zertifikat?"
 draft: false
 weight: 1
 ---
 
-After the training you will receive an email from us with your personal certificate attached. Usually this happens within 24 hours. 
+Nach dem Training erhältst Du von uns eine E-Mail mit Deinem persönlichen Zertifikat im Anhang. In der Regel geschieht dies innerhalb von 24 Stunden. 
