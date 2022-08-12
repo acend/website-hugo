@@ -10,7 +10,7 @@ lead:
 
 filtertitle: "The right training for you"
 categories:
-  ["Kubernetes", "Delivery CI/CD", "Specialized trainings", "Basics", "Advanced"]
+  ["Kubernetes", "Delivery CI/CD", "Specialized trainings", "Programming", "Basics", "Advanced"]
 ---
 
 acend stands for adventurous and extraordinary teaching and learning experiences. As a platform, we teach hands-on knowledge in the best possible setting.<br/>
