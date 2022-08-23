@@ -13,6 +13,17 @@
       <div class="col-lg-9 offset-lg-3">
             <form id="adress" action="/backend/form" method="POST" >
 
+              <div class="mb-4">
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="anmeldung_fest" name="fest" value="fest" class="custom-control-input" required>
+                    <label class="custom-control-label" for="anmeldung_fest">Bin am Fest dabei</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="anmeldung_giveaway" name="fest" value="giveaway" class="custom-control-input">
+                    <label class="custom-control-label" for="anmeldung_giveaway">Gerne nur das Giveaway</label>
+                  </div>
+                </div>
+              
               <input type="text" id="vorname" name="vorname" placeholder="Vorname *" class="form-control form-control-lg  mb-4" required>
 
               <input type="text" id="name" name="name" placeholder="Name *" class="form-control form-control-lg  mb-4" required>
