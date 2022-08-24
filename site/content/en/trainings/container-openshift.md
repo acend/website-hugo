@@ -105,12 +105,11 @@ trainers:
       linkedin : "https://www.linkedin.com/in/benjamin-affolter"
       twitter : "https://twitter.com/bliemli"
 
-    - title : "Thomas Philipona"
-      image : "images/team/AC_Thoemu@2x.jpg"
-      designation : "Co-Founder & Trainer"
-      abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
-      twitter : "https://twitter.com/tphilipona"
+    - title : "Christian Haller"
+      image : "images/team/AC_Christian_Haller@2x.jpg"
+      designation : "Trainer, Puzzle ITC"
+      abstract : "To balance out his hectic day-to-day container life, he makes his sourdough pizza by hand. And then eats it himself right away."
+      linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
       
       
 # testimonials
