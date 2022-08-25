@@ -91,20 +91,20 @@ trainers:
   enable: true
   title : "Meet two of Your Trainers"
   trainer:
-    - title : "Benjamin Affolter"
-      image : "images/team/AC_Benji@2x.jpg"
-      designation : "Trainer"
-      abstract : "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
-      twitter : "https://twitter.com/bliemli"
+    - title : "Thomas Philipona"
+      image : "images/team/AC_Thoemu@2x.jpg"
+      designation : "Co-Founder & Trainer"
+      abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
+      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
+      twitter : "https://twitter.com/tphilipona"
     
     
-    - title : "Daniel Strohecker"
-      image : "images/team/AC_Daenu@2x.jpg"
+    - title : "Raffael Hertle"
+      image : "images/team/AC_Raffael_Hertle@2x.jpg"
       designation : "Trainer"
-      abstract : "He’s been picking up speed on his bike as of late. He can slow down, though, and make sure our clients proceed through our trainings on sure feet."
-      linkedin : "https://www.linkedin.com/in/dstrohecker/"
-      twitter : "https://twitter.com/sybnex"
+      abstract : "Likes to dress up for carnival, but likes to look behind the masks when it comes to cloud native technologies"
+      linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
+      twitter : "https://twitter.com/g1raffi"
 
 
 # testimonials
