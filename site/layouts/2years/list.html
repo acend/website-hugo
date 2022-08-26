@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+{{ with .Params.lead }}
+  {{ partial "lead.html" . }}
+{{ end }}
+
+
+<!-- adresse -->
+<section class="section contact-form my-5">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-9 offset-lg-3">
+            <form id="adress" action="/backend/form" method="POST" >
+
+              <div class="mb-4">
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="anmeldung_fest" name="fest" value="fest" class="custom-control-input" required>
+                    <label class="custom-control-label" for="anmeldung_fest">Bin am Fest dabei</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="anmeldung_giveaway" name="fest" value="giveaway" class="custom-control-input">
+                    <label class="custom-control-label" for="anmeldung_giveaway">Gerne nur die Überraschung</label>
+                  </div>
+                </div>
+              
+              <input type="text" id="vorname" name="vorname" placeholder="Vorname *" class="form-control form-control-lg  mb-4" required>
+
+              <input type="text" id="name" name="name" placeholder="Name *" class="form-control form-control-lg  mb-4" required>
+
+              <input type="email" id="email" name="email" placeholder="E-Mail *" class="form-control form-control-lg mb-4" required>
+
+              <input type="text" id="strasse" name="strasse" placeholder="Strasse" class="form-control form-control-lg mb-4">
+
+              <input type="text" id="plz" name="plz" placeholder="PLZ" class="form-control form-control-lg mb-4">
+
+              <input type="text" id="ort" name="ort" placeholder="Ort" class="form-control form-control-lg mb-4">
+
+              <input type="hidden" id="2years" name="2years" value="2years">
+
+              <button class="btn btn-outline-primary  py-3 px-5 ">{{ i18n "send" }}</button>
+
+          </form>
+       </div>
+    </div>
+  </div>
+</section>
+<!-- /adresse -->
+
+
+
+{{ end }}
