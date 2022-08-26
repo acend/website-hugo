@@ -102,13 +102,20 @@ trainers:
   enable: true
   title : "Lerne zwei deiner Trainer kennen"
   trainer:
-    - title : "Johann Gyger"
-      image : "images/team/AC_Johann@2x.jpg"
-      designation : "Trainer"
-      abstract : "Stille Wasser sind tief und tief taucht er auch in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund ist er aber lieber im Thunersee als im Meer."
-      linkedin : "https://www.linkedin.com/in/johanngyger/"
-      twitter : "https://twitter.com/johanngyger"
+    #- title : "Johann Gyger"
+    #  image : "images/team/AC_Johann@2x.jpg"
+    #  designation : "Trainer"
+    #  abstract : "Stille Wasser sind tief und tief taucht er auch in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund ist er aber lieber im Thunersee als im Meer."
+    #  linkedin : "https://www.linkedin.com/in/johanngyger/"
+    #  twitter : "https://twitter.com/johanngyger"
       
+    - title : "Daniel Strohecker"
+      image : "images/team/AC_Daenu@2x.jpg"
+      designation : "Trainer"
+      abstract : "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
+      linkedin : "https://www.linkedin.com/in/dstrohecker/"
+      twitter : "https://twitter.com/sybnex"
+
     - title : "Sebastian Plattner"
       image : "images/team/AC_Seba@2x.jpg"
       designation : "Trainer"
