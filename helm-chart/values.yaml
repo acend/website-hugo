@@ -17,7 +17,7 @@ ingress:
       more_set_headers "Strict-Transport-Security: max-age=31536000; includeSubDomains";
       more_set_headers "Content-Security-Policy: default-src 'self' https://*.acend.ch";
       more_set_headers "Content-Security-Policy: frame-src 'self' https://*.youtube.com";
-      more_set_headers "Content-Security-Policy: frame-src 'self' https://www.youtube-nocookie.com";
+      more_set_headers "Content-Security-Policy: script-src 'self' https://www.youtube-nocookie.com";
       more_set_headers "X-Frame-Options: SAMEORIGIN";
       more_set_headers "X-Content-Type-Options: nosniff";
       more_set_headers "Referrer-Policy: no-referrer-when-downgrade";
