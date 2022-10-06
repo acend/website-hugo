@@ -1,9 +1,10 @@
 ---
 title: "Terraform on Azure"
-description: "Write, Plan and Apply. IaC made easy."
+seo_title: "Your Infrastructure as Code IaC with Terraform on Azure."
+description: "The Terraform training uses real-world examples to show how Infrastructure as Code (IaC) is applied on Azure, GCP or AWS."
 date: 2021-11-01T12:14:34+06:00
 draft: false
-weight: 1
+weight: 8
 slug: 
 subtitle: "Basics"
 categories: ["Basics", "Delivery CI/CD"]

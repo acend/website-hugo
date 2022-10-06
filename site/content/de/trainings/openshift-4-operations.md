@@ -1,9 +1,10 @@
 ---
 title: "OpenShift 4 Operations"
-description: "OpenShift 4 - Operations Mastery für System Engineers."
+seo_title: "Auf was zu achten ist für einen langfirstigen OpenShift Betrieb."
+description: "Im Openshift 4 Operations Training geben wir dir unsere langjährige Betriebs-Erfahrung weiter und du lernst wie häufige Probleme gelöst werden können."
 date: 2019-05-12T12:14:34+06:00
 draft: false
-weight: 3
+weight: 4
 subtitle: "Advanced"
 categories: ["Advanced", "Kubernetes"]
 duration: "2 Tage"
@@ -121,7 +122,7 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-     - title : "Das sagt unsere Trainingsteilnehmer<br/>Roland Egli, Solothurn"
+     - title : "Das sagt unser Trainingsteilnehmer<br/>Roland Egli, Solothurn"
        logo : "images/testimonials/kt-solothurn.png"
        text : "Herzlichen Dank für das wunderbare Zertifikat. Das Training war sehr lernreich und der Austausch mit den anderen Trainees empfand ich als sehr wertvoll. Toll organisiert."
       

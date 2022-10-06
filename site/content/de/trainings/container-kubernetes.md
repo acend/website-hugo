@@ -1,9 +1,10 @@
 ---
 title: "Container & Kubernetes"
-description: "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
+seo_title: "Lernen den richtigen Umgang mit Kubernetes in der Praxis."
+description: "Hands On lernst du was Kubernetes ist, wie du damit arbeitest und wie der Einsatz der Alltag in deinem Unternehmen vereinfacht und effizienter gestaltet."
 date: 2019-03-12T12:14:34+06:00
 draft: false
-weight: 4
+weight: 1
 slug: 
 subtitle: "Basics"
 categories: ["Basics", "Kubernetes"]
@@ -12,7 +13,7 @@ abstract : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasi
 main_title : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
 
 personen: 
-  daten : "10.05.22, 11.05.22"
+  daten : "15.11.22, 16.11.22"
   preis : "CHF 1900"
 
 headerimages:
@@ -101,13 +102,20 @@ trainers:
   enable: true
   title : "Lerne zwei deiner Trainer kennen"
   trainer:
-    - title : "Johann Gyger"
-      image : "images/team/AC_Johann@2x.jpg"
-      designation : "Trainer"
-      abstract : "Stille Wasser sind tief und tief taucht er auch in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund ist er aber lieber im Thunersee als im Meer."
-      linkedin : "https://www.linkedin.com/in/johanngyger/"
-      twitter : "https://twitter.com/johanngyger"
+    #- title : "Johann Gyger"
+    #  image : "images/team/AC_Johann@2x.jpg"
+    #  designation : "Trainer"
+    #  abstract : "Stille Wasser sind tief und tief taucht er auch in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund ist er aber lieber im Thunersee als im Meer."
+    #  linkedin : "https://www.linkedin.com/in/johanngyger/"
+    #  twitter : "https://twitter.com/johanngyger"
       
+    - title : "Daniel Strohecker"
+      image : "images/team/AC_Daenu@2x.jpg"
+      designation : "Trainer"
+      abstract : "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
+      linkedin : "https://www.linkedin.com/in/dstrohecker/"
+      twitter : "https://twitter.com/sybnex"
+
     - title : "Sebastian Plattner"
       image : "images/team/AC_Seba@2x.jpg"
       designation : "Trainer"

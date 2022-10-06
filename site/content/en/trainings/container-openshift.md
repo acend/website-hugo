@@ -1,6 +1,7 @@
 ---
 title: "Container & OpenShift"
-description: "Container and OpenShift – from theory to practice in no time."
+seo_title: "A practical introduction to the world of OpenShift and containers."
+description: "The training shows you the concepts of OpenShift through hands-on labs. You will learn how to use OpenShift in a fun way."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 2
@@ -104,12 +105,11 @@ trainers:
       linkedin : "https://www.linkedin.com/in/benjamin-affolter"
       twitter : "https://twitter.com/bliemli"
 
-    - title : "Thomas Philipona"
-      image : "images/team/AC_Thoemu@2x.jpg"
-      designation : "Co-Founder & Trainer"
-      abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
-      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
-      twitter : "https://twitter.com/tphilipona"
+    - title : "Christian Haller"
+      image : "images/team/AC_Christian_Haller@2x.jpg"
+      designation : "Trainer, Puzzle ITC"
+      abstract : "To balance out his hectic day-to-day container life, he makes his sourdough pizza by hand. And then eats it himself right away."
+      linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
       
       
 # testimonials

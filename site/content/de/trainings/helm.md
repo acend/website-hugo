@@ -1,9 +1,10 @@
 ---
 title: "Helm"
-description: "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
+seo_title: "Mit Helm paketierst du deine Applikation für Kubernetes."
+description: "Wir geben dir einen praktischen Einstieg in den bekanntesten Paketmanager für Apps auf Kubernetes."
 date: 2019-05-12T12:14:34+06:00
 draft: false
-weight: 5
+weight: 4
 slug:
 subtitle: "Basics"
 categories: ["Basics", "Delivery CI/CD"]
@@ -13,7 +14,7 @@ main_title : "Ein praktischer Einstieg in den bekanntesten Paketmanager für App
 
 personen: 
   daten : ""
-  preis : "CHF 1000"
+  preis : "CHF 1100"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lava@2x.jpg"
@@ -85,25 +86,30 @@ trainingsinhalt:
         - el: "Debugging"
         - el: "Go Templating"
 
+# video
+video:
+  enable: true
+  title: "Einfach erklärt: Das Helm Basics Training"
+  youtubeID: "S_z12JWMAAs"
+
 # trainer
 trainers:
   enable: true
   title : "Lerne zwei deiner Trainer kennen"
   trainer:
-    - title : "Benjamin Affolter"
-      image : "images/team/AC_Benji@2x.jpg"
+    - title : "Thomas Philipona"
+      image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Trainer"
-      abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
-      twitter : "https://twitter.com/bliemli"
+      abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
+      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
+      twitter : "https://twitter.com/tphilipona"    
     
-    
-    - title : "Daniel Strohecker"
-      image : "images/team/AC_Daenu@2x.jpg"
+    - title : "Raffael Hertle"
+      image : "images/team/AC_Raffael_Hertle@2x.jpg"
       designation : "Trainer"
-      abstract : "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
-      linkedin : "https://www.linkedin.com/in/dstrohecker/"
-      twitter : "https://twitter.com/sybnex"
+      abstract : "Verkleidet sich gerne für die Fasnacht, sieht aber bei den Cloud Native Technologien gerne hinter die Masken"
+      linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
+      twitter : "https://twitter.com/g1raffi"
 
 
 # testimonials

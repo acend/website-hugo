@@ -1,9 +1,10 @@
 ---
 title: "Helm"
-description: "A practical introduction to the best-known Package Manager for applications on Kubernetes."
+seo_title: "With Helm, you package your application for Kubernetes."
+description: "We'll give you a hands-on introduction to the most popular package manager for apps on Kubernetes. "
 date: 2019-05-12T12:14:34+06:00
 draft: false
-weight: 5
+weight: 4
 slug: 
 thumbnail: "images/trainings/ACEND_Adyna@2x.jpg"
 subtitle: "Basics"
@@ -14,7 +15,7 @@ main_title : "A practical introduction to the best-known Package Manager for app
 
 personen: 
   daten : ""
-  preis : "CHF 1000"
+  preis : "CHF 1100"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lava@2x.jpg"
@@ -90,20 +91,20 @@ trainers:
   enable: true
   title : "Meet two of Your Trainers"
   trainer:
-    - title : "Benjamin Affolter"
-      image : "images/team/AC_Benji@2x.jpg"
-      designation : "Trainer"
-      abstract : "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
-      linkedin : "https://www.linkedin.com/in/benjamin-affolter"
-      twitter : "https://twitter.com/bliemli"
+    - title : "Thomas Philipona"
+      image : "images/team/AC_Thoemu@2x.jpg"
+      designation : "Co-Founder & Trainer"
+      abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
+      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
+      twitter : "https://twitter.com/tphilipona"
     
     
-    - title : "Daniel Strohecker"
-      image : "images/team/AC_Daenu@2x.jpg"
+    - title : "Raffael Hertle"
+      image : "images/team/AC_Raffael_Hertle@2x.jpg"
       designation : "Trainer"
-      abstract : "He’s been picking up speed on his bike as of late. He can slow down, though, and make sure our clients proceed through our trainings on sure feet."
-      linkedin : "https://www.linkedin.com/in/dstrohecker/"
-      twitter : "https://twitter.com/sybnex"
+      abstract : "Likes to dress up for carnival, but likes to look behind the masks when it comes to cloud native technologies"
+      linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
+      twitter : "https://twitter.com/g1raffi"
 
 
 # testimonials

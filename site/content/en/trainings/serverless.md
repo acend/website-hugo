@@ -1,9 +1,10 @@
 ---
 title: "Serverless"
-description: "Level up your serverless game - Hands-on best practices for serverless and FaaS."
+seo_title: "The world of Function as a Service (FaaS) in AWS Lambda."
+description: "The Serverless Training brings you closer to Function as a Service (FaaS). Together we create best practices functions in AWS Lambda."
 date: 2021-10-12T12:14:34+06:00
 draft: false
-weight: 1
+weight: 7
 slug: 
 subtitle: "Basics"
 categories: ["Basics", "Specialized trainings"]
@@ -95,13 +96,7 @@ trainers:
   enable: true
   title : "Meet your trainers"
   trainer:
-    - title : "Gabriel Koch"
-      designation : "Trainer, bespinian"
-      abstract : "Although he's a vegetarian, his explanations of cloud technologies have a lot of meat on the bone."
-      image : "images/team/AC_Gabriel_Koch@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/gabriel-koch-ch"
-      twitter : "https://twitter.com/elessar_ch"
-    
+      
     - title : "Lena Fuhrimann"
       designation : "Trainer, bespinian"
       abstract : "Head always in the clouds, just look at her hair. Lena loves modernizing software and working with new technologies. She uses Arch btw."

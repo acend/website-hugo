@@ -1,6 +1,7 @@
 ---
 title: "Prometheus"
-description: "Prometheus – Einstieg in die moderne Monitoring Plattform."
+seo_title: "Prometheus monitoring und alerting für Cloud Native Applikationen."
+description: "In diesem Training zeigen wir dir wie du deine Cloud Native Applikationen mit hilfe von Prometheus monitoren kannst und die wesentlichen Alerts definierst."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 6
@@ -78,6 +79,12 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
         - el: "Deep Dive PromQL mit Prometheus Co-Founder Julius Volz"
         - el: "Hands-on Labs mit vielen Beispielen aus der Praxis" 
 
+# video
+video:
+  enable: true
+  title: "Einfach erklärt: Was ist Observability?"
+  youtubeID: "FrQKfrMH_nU"
+
 
 # Kooperation
 kooperation:
@@ -95,11 +102,26 @@ trainers:
   title : "Lerne deine Trainer kennen"
   trainer:
 
-    - title : "Christoph Aymon"
+
+
+    - title : "Thomas Philipona"
+      image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Trainer"
-      abstract : "Sitzt er nicht konzentriert vor dem Computer, dann am ehesten in einem schnellen Auto – er dreht nur auf dem Nürburgring Extrarunden."
-      image : "images/team/AC_Chrigu@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/christoph-aymon"
+      abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
+      linkedin : "https://www.linkedin.com/in/thomas-philipona-thun"
+      twitter : "https://twitter.com/tphilipona"
+
+    - title : "Christian Haller"
+      image : "images/team/AC_Christian_Haller@2x.jpg"
+      designation : "Trainer, Puzzle ITC"
+      abstract : "Als Ausgleich zum hektischen Container-Alltag, macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
+      linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
+      
+    #- title : "Christoph Aymon"
+    #  designation : "Trainer"
+    #  abstract : "Sitzt er nicht konzentriert vor dem Computer, dann am ehesten in einem schnellen Auto – er dreht nur auf dem Nürburgring Extrarunden."
+    #  image : "images/team/AC_Chrigu@2x.jpg"
+    #  linkedin : "https://www.linkedin.com/in/christoph-aymon"
 
     - title : "Julius Volz"
       designation : "Trainer, PromLabs"
@@ -108,17 +130,17 @@ trainers:
       linkedin : "https://www.linkedin.com/in/julius-volz/"
       twitter: "https://twitter.com/juliusvolz"
 
-    - title : "Martin Abegglen"
-      designation : "Trainer, Puzzle ITC"
-      abstract : "Wenn er nicht damit beschäftigt ist, Tee zu trinken und die Wolken zu bestaunen, liebt er es, die Clouds mit Cloud Native Technologien zu beobachten und für Observability zu sorgen."
-      image : "images/team/AC_Martin_Abegglen@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/martin-abegglen-%E5%AE%89%E9%A9%AC%E4%B8%81-171941150/"
+    #- title : "Martin Abegglen"
+    #  designation : "Trainer, Puzzle ITC"
+    #  abstract : "Wenn er nicht damit beschäftigt ist, Tee zu trinken und die Wolken zu bestaunen, liebt er es, die Clouds mit Cloud Native Technologien zu beobachten und für Observability zu sorgen."
+    #  image : "images/team/AC_Martin_Abegglen@2x.jpg"
+    #  linkedin : "https://www.linkedin.com/in/martin-abegglen-%E5%AE%89%E9%A9%AC%E4%B8%81-171941150/"
       
-    - title : "Reto Kupferschmid"
-      designation : "Trainer, Puzzle ITC"
-      abstract : "Ganz nach dem Motto, was nicht passt wird passend gemacht, löst er als Engineer alle Herausforderungen im Handumdrehen."
-      image : "images/team/AC_Reto_Kupferschmid@2x.jpg"
-      twitter : "https://twitter.com/reti_k"
+    #- title : "Reto Kupferschmid"
+    #  designation : "Trainer, Puzzle ITC"
+    # abstract : "Ganz nach dem Motto, was nicht passt wird passend gemacht, löst er als Engineer alle Herausforderungen im Handumdrehen."
+    # image : "images/team/AC_Reto_Kupferschmid@2x.jpg"
+    # twitter : "https://twitter.com/reti_k"
       
       
 # testimonials

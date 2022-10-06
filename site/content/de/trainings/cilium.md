@@ -1,9 +1,10 @@
 ---
 title: "Cilium"
-description: "eBPF-basiertes Networking"
+seo_title: "Das Cloud Native CNI basierend auf eBPF für volle Geschwindigkeit."
+description: "Mit diesem Training lernst du wie du Cilium einsetzen kannst und wie du eBFP basiertes Networking für Observability und Security in der Cloud nutzen kannst."
 date: 2020-04-12T12:16:39+06:00
 draft: false
-weight: 3
+weight: 4
 subtitle: "Basics"
 categories: ["Basics", "Kubernetes"]
 duration: "1 Tag"
@@ -11,8 +12,8 @@ abstract: "eBPF-basiertes Networking"
 main_title: "eBPF-basiertes Networking"
 
 personen: 
-  daten : "" #"09.03.22 CET"
-  preis : "CHF 1200"
+  daten : ""
+  preis : "CHF 1100"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"
@@ -39,7 +40,6 @@ accordion:
           icon : "2"
           content : "<ul>
 <li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
-<li>Eine aktuelle, lokale Minikube Installation (<a href=\"https://minikube.sigs.k8s.io/docs/start/\">minikube.sigs.k8s.io</a>)</li>
 </ul>"
 
         - title : "Zielpublikum"
@@ -102,7 +102,7 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-     - title : "Das sagt unsere Trainingsteilnehmer<br/>Roland Egli, Solothurn"
+     - title : "Das sagt unser Trainingsteilnehmer<br/>Roland Egli, Solothurn"
        logo : "images/testimonials/kt-solothurn.png"
        text : "Herzlichen Dank für das wunderbare Zertifikat. Das Training war sehr lernreich und der Austausch mit den anderen Trainees empfand ich als sehr wertvoll. Toll organisiert."
       

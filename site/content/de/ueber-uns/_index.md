@@ -1,6 +1,7 @@
 ---
 translationKey: "ueber-uns"
 title: "Über uns"
+seo_title: "Unser Ziel ist es, IT-Schulungen zu revolutionieren - acend gmbh"
 description: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren. Wir sind spezialisiert auf Container-Technologien und weitere OpenSource Technologien im Cloud Native Bereich."
 draft: false
 
@@ -98,7 +99,7 @@ team:
     - title: "David Schneider"
       image: "images/team/AC_Dave_Schneider@2x.jpg"
       designation: "Trainer, Puzzle ITC"
-      abstract: "Unser Gopher ist ein Entdecker. Besonders von neuen hippen Technologien, sowie auch von feinen hopfigen Variationen unter der Lauben der Berner Altstadt."
+      abstract: "Unser Gopher ist ein Entdecker. Besonders von neuen hippen Technologien, sowie auch von feinen hopfigen Variationen unter den Lauben der Berner Altstadt."
       experience: "Bereits in seiner Lehre bei Hewlett-Packard kommt er mit Open Source Technologien von Red Hat und Middleware Themen in Berührung. Nach einem weiteren Studium an der FHNW als BSc in Informatik taucht er tief in die Cloud Native Welt ein und arbeitet mit Themen wie Vault, Kubernetes und OAuth."
             
     - title: "Gabriel Graf"
@@ -106,15 +107,7 @@ team:
       designation: "Trainer"
       abstract: "Er ist unser Weltenbummler und schon von klein auf überall auf der Welt zu Hause. Und so richtig daheim ist er natürlich in der Cloud Native Welt."
       experience: "Seit seinem Abschluss als Wirtschaftsinformatiker FH 2007 arbeitet Gabriel mehrere Jahre in der IT verschiedener Unternehmen als Entwickler, Firewall, Systems und Cloud Engineer.
-      Weiterbildung ist ihm stets wichtig, so absolvierte er neben CISSP, RHCE und CKA auch noch einen CAS in Advanced Data Science. Seit 2016 ist er bei der Schweizerischen Mobiliar und arbeite dort am Aufbau und Betrieb von grossen Container Plattformen mit."
-
-    - title : "Gabriel Koch"
-      designation : "Trainer, bespinian"
-      abstract : "Obwohl er Vegetarier ist, haben seine Erklärungen zu Cloud Technologien viel Fleisch am Knochen."
-      image : "images/team/AC_Gabriel_Koch@2x.jpg"
-      experience: "Nach seiner Lehre als Applikationsentwickler bei der AXA hat Gabriel während 10 Jahren in verschiedenen Positionen als Engineer im Unternehmen weitergearbeitet. Seit Anfang 2021 ist er bei Bespinian als Consultant für Kubernetes- und Serverless-Themen tätig. Parallel zu seiner Arbeit hat er seinen Bachelor in Informatik gemacht und ist nun im Masterstudium mit Fokus auf Observability in Distributed Cloud Environments."
-      linkedin : "https://www.linkedin.com/in/gabriel-koch-ch"
-      twitter : "https://twitter.com/elessar_ch"      
+      Weiterbildung ist ihm stets wichtig, so absolvierte er neben CISSP, RHCE und CKA auch noch einen CAS in Advanced Data Science. Seit 2016 ist er bei der Schweizerischen Mobiliar und arbeite dort am Aufbau und Betrieb von grossen Container Plattformen mit."   
 
     - title: "Johann Gyger"
       image: "images/team/AC_Johann@2x.jpg"

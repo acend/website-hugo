@@ -1,6 +1,7 @@
 ---
 title: "Go"
-description: "Einführung in Go für Software Entwickler, Architekten und DevOps Engineers."
+seo_title: "GO die effiziente kompilierte Cloud Native Programmiersprache."
+description: "In diesem Training lernst du die Open Source Programmiersprache Go kennen. Zudem zeigen wir, wie du pragmatisch Anwendungen im Container Umfeld entwickeln kannst."
 date: 2022-03-30T12:16:39+06:00
 draft: false
 weight: 3
@@ -75,6 +76,12 @@ trainingsinhalt:
         - el: "Concurrency & Multithreading"
         - el: "Release Code / Packaging"
 
+# video
+video:
+  enable: true
+  title: "Mehr von Go und David per Video"
+  youtubeID: "sYhw3rUzIcw"
+
 
 # trainer
 trainers:
@@ -85,7 +92,7 @@ trainers:
     - title: "David Schneider"
       image: "images/team/AC_Dave_Schneider@2x.jpg"
       designation: "Trainer, Puzzle ITC"
-      abstract: "Unser Gopher ist ein Entdecker. Besonders von neuen hippen Technologien, sowie auch von feinen hopfigen Variationen unter der Lauben der Berner Altstadt."
+      abstract: "Unser Gopher ist ein Entdecker. Besonders von neuen hippen Technologien, sowie auch von feinen hopfigen Variationen unter den Lauben der Berner Altstadt."
 
     - title : "Lorenz Bischof"
       image : "images/team/AC_Lorenz@2x.jpg"
@@ -97,7 +104,7 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-     - title : "Das sagt unsere Trainingsteilnehmer<br/>Roland Egli, Solothurn"
+     - title : "Das sagt unser Trainingsteilnehmer<br/>Roland Egli, Solothurn"
        logo : "images/testimonials/kt-solothurn.png"
        text : "Herzlichen Dank für das wunderbare Zertifikat. Das Training war sehr lernreich und der Austausch mit den anderen Trainees empfand ich als sehr wertvoll. Toll organisiert."
       
