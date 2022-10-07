@@ -12,7 +12,7 @@ abstract: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis
 main_title: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
 
 personen: 
-  daten : "19.10.22, 20.10.22"
+  daten : ""
   preis : "CHF 1900"
 
 headerimages:
@@ -92,7 +92,11 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
         - el: "Troubleshooting"
         - el: "Cloud PaaS Überblick"
 
-
+# video
+video:
+  enable: true
+  title: "Mehr von OpenShift und Benj per Video"
+  youtubeID: "LCYisgEU0bY"
 
 
 # trainer
