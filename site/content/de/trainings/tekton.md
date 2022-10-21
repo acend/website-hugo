@@ -7,7 +7,7 @@ draft: false
 weight: 3
 slug: 
 subtitle: "Basics"
-categories: ["Basics", "Delivery CI/CD"]
+categories: ["Basics", "Spezialisierte Trainings"]
 duration: "1 Tag"
 abstract: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
 main_title: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
