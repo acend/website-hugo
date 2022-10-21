@@ -79,14 +79,16 @@ trainings:
       trainings:
         - title: "Argo CD"
           slug: "argo-cd"
-        - title: "Helm"
-          slug: "helm"
+        - title: "Tekton"
+          slug: "tekton"
         - title: "Terraform on Azure"
           slug: "terraform"
 
     - title: "Specialized trainings"
       text: "Exciting technologies from the CNCF landscape"
       trainings:
+        - title: "Helm"
+          slug: "helm"      
         - title: "Prometheus"
           slug: "prometheus"
         - title: "Serverless"

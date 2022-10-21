@@ -7,7 +7,7 @@ draft: false
 weight: 3
 slug: 
 subtitle: "Basics"
-categories: ["Basics", "Spezialisierte Trainings"]
+categories: ["Basics", "Delivery CI/CD"]
 duration: "1 Tag"
 abstract: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
 main_title: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
@@ -51,9 +51,9 @@ accordion:
         - title : "Konditionen"
           icon : "4"
           content : "
-<li>CHF 1200 / Person für 1 Tag (zwei Halbtage)</li>
+<li>CHF 1200 / Person für einen Tag (oder zwei Halbtage)</li>
 <li>Gruppen von 8–24 Personen</li>
-<li>Inklusive Verpflegung, Unterlagen und Cluster in der Cloud</li>
+<li>Inklusive Verpflegung und Unterlagen</li>
 <li>Rabatt ab 12 Personen</li>
 </ul>"
 
