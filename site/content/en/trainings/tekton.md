@@ -21,8 +21,7 @@ headerimages:
   img2 : "images/trainings/ACEND_Lara@2x.jpg"
   img3 : "images/trainings/ACEND_CodeDe@2x.jpg"
   
-
-main_text: "With Tekton, the Kubernetes ecosystem gets a flexible way to integrate continuous integration and continuous delivery systems. With a modular approach, Steps, Tasks and Pipelines become standardized cloud-native resources. In Tekton Basics training, you'll get a chance to see for yourself how the CI/CD world is seamlessly integrated into cloud-centric environments."
+main_text: "With Tekton, the Kubernetes ecosystem gets a flexible way to integrate continuous integration and continuous delivery systems. Based on a modular approach, Steps, Tasks and Pipelines become standardized cloud-native resources. In the Tekton Basics training, you'll get a chance to see for yourself how the CI/CD world is seamlessly integrated into your cloud-native environments."
 
 accordion:
     enable : true
