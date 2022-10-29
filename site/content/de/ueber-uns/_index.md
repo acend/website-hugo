@@ -56,7 +56,7 @@ team:
       abstract: "Bringt Struktur ins Chaos - liebt es Abläufe zu optimieren und kann keine Minute still sitzen wen Musik läuft."
       experience: "Nach der Lehre als Informatikerin und einigen weiteren Stationen in der IT hat Anna einen Abstecher in die Fliegerei gemacht. Sie betreute sowohl die Serverlandschaft der Edelweiss Air, wie auch die Passagiere über den Wolken.
       Danach folgten weitere spannende Jahre als System Engineer bei HRM Systems und die Weiterbildung zur Projektleiterin. Seit vier Jahren ist Anna bei Puzzle ITC, schaut das alle Container und CICD Engineers, wie auch die Kunden happy sind."
-      linkedin: "https://www.linkedin.com/in/anna-pfeifhofer-902495183/
+      linkedin: "https://www.linkedin.com/in/anna-pfeifhofer-902495183/"
     
     - title: "Benjamin Affolter"
       image: "images/team/AC_Benji@2x.jpg"
