@@ -146,13 +146,6 @@ team:
       linkedin: "https://www.linkedin.com/in/marcelgroner/"
       twitter: "https://twitter.com/mar73cel"
       
-    - title : "Martin Abegglen"
-      designation : "Trainer, Puzzle ITC"
-      abstract : "When he's not busy drinking tea and gazing at the sky, he loves watching the clouds with cloud native technologies and providing observability."
-      image : "images/team/AC_Martin_Abegglen@2x.jpg"
-      experience: "After his apprenticeship as an computer scientist (2009), Martin worked as a systems engineer at SBB and was involved in building the largest OpenShift platform in Europe at the time. After a language stay in China, he started at Puzzle in the container environment and has been working there as a consultant for various customers since 2017. He not only has a diploma in Mandarin but also the RHCE."
-      linkedin : "https://www.linkedin.com/in/martin-abegglen-%E5%AE%89%E9%A9%AC%E4%B8%81-171941150/"      
-      
     - title : "Mathis Kretz"
       designation : "Trainer, bespinian"
       abstract : "When he is not deploying microservices or showing others how to do it, he is cooking, preferably with fire."
