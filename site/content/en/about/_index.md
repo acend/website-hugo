@@ -49,6 +49,14 @@ team:
       image : "images/team/AC_Andreas_Gehrig@2x.jpg"
       linkedin : "https://www.linkedin.com/in/andreasgehrig/"   
 
+    - title: "Anna Pfeifhofer"
+      image: "images/team/AC_Anna@2x.jpg"
+      designation: "Sales"
+      abstract: "Brings structure to chaos - loves to optimize processes and can't sit still for a minute when music is playing."
+      experience: "After her apprenticeship as an IT specialist and several other positions in IT, Anna took a detour into aviation. She looked after the server landscape of Edelweiss Air as well as the passengers above the clouds.
+      This was followed by further exciting years as a system engineer at HRM Systems and further training as a project manager. For the last four years Anna has been at Puzzle ITC, making sure that all containers and CI/CD engineers, as well as the customers, are happy."
+      linkedin: "https://www.linkedin.com/in/anna-pfeifhofer-902495183/"
+
     - title: "Benjamin Affolter"
       image: "images/team/AC_Benji@2x.jpg"
       designation: "Trainer"
