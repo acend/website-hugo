@@ -48,7 +48,15 @@ team:
       designation: "Trainer, arch.cloud"
       abstract: "Er ist immer mit seinem Notebook unterwegs, schreibt Software und entwirft Cloud-Architekturen."
       experience: "Seit seiner Lehre als Applikationsentwickler hat Andreas für mehrere grosse Organisationen wie die Schweizer Börse, den Nasdaq oder Fisch Asset Management gearbeitet. Seit mehr als drei Jahren ist er inzwischen als selbstständiger Software und Cloud Architect für arch.cloud tätig."
-      linkedin: "https://www.linkedin.com/in/andreasgehrig/"      
+      linkedin: "https://www.linkedin.com/in/andreasgehrig/"    
+  
+    - title: "Anna Pfeifhofer"
+      image: "images/team/AC_Anna@2x.jpg"
+      designation: "Sales"
+      abstract: "Bringt Struktur ins Chaos - liebt es Abläufe zu optimieren und kann keine Minute still sitzen wen Musik läuft."
+      experience: "Nach der Lehre als Informatikerin und einigen weiteren Stationen in der IT hat Anna einen Abstecher in die Fliegerei gemacht. Sie betreute sowohl die Serverlandschaft der Edelweiss Air, wie auch die Passagiere über den Wolken.
+      Danach folgten weitere spannende Jahre als System Engineer bei HRM Systems und die Weiterbildung zur Projektleiterin. Seit vier Jahren ist Anna bei Puzzle ITC, schaut das alle Container und CICD Engineers, wie auch die Kunden happy sind."
+      linkedin: "https://www.linkedin.com/in/anna-pfeifhofer-902495183/
     
     - title: "Benjamin Affolter"
       image: "images/team/AC_Benji@2x.jpg"
@@ -138,13 +146,6 @@ team:
       experience: "Marcel hat 1999 direkt nach seinem IT-Studium zusammen mit Freunden die Firma Puzzle ITC gegründet. Bis heute ist er da auch hauptberuflich als CFO tätig. Neben seiner Tätigkeit als CFO hat er noch ein MAS in Online Marketing Management gemacht."
       linkedin: "https://www.linkedin.com/in/marcelgroner/"
       twitter: "https://twitter.com/mar73cel"
-
-    - title : "Martin Abegglen"
-      designation : "Trainer, Puzzle ITC"
-      abstract : "Wenn er nicht damit beschäftigt ist, Tee zu trinken und die Wolken zu bestaunen, liebt er es, die Clouds mit Cloud Native Technologien zu beobachten und für Observability zu sorgen."
-      experience: "Nach seiner Lehre als Infomatiker (2009) hat Martin als System Engineer bei der SBB gearbeitet und war am Aufbau der damals grössten OpenShift Plattform Europas beteiligt. Nach einem Sprachaufenthalt in China startete er bei Puzzle im Container Umfeld und ist dort seit 2017 als Consultant bei verschiedenen Kunden tätig. Er hat nicht nur ein Diplom in Mandarin sondern auch noch den RHCE."
-      image : "images/team/AC_Martin_Abegglen@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/martin-abegglen-%E5%AE%89%E9%A9%AC%E4%B8%81-171941150/"
 
     - title : "Mathis Kretz "
       designation : "Trainer, bespinian"
