@@ -1,206 +1,23 @@
-{{ define "main" }}
-{{ $data := index .Site.Data .Site.Language.Lang }}
+<style>
+  .image-gallery {overflow: auto; margin-left: -1%!important;}
+  .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
+  .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
+  .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+  .image-gallery li a img {width: 100%; display: block;}
+</style>
 
-{{ if  $data.homepage.slideshow.enable }}
-{{ with  $data.homepage.slideshow }}
-<div class="main-carousel mb-6">
-    {{ range .item }}
-    <div  class="carousel-cell container p-0 py-md-5">
-        <div class="d-flex images">
-          <div class="img-container mt-5" id="l1">
-              {{ partial "img-srcset.html" (dict "img" .img1 "size" 200) }}
-          </div>
-          <div class="img-container" id="l2">
-              {{ partial "img-srcset.html" (dict "img" .img2 "size" 600) }}
-          </div>
-          <div class="img-container align-self-end mb-5" id="l3">
-              {{ partial "img-srcset.html" (dict "img" .img3 "size" 300) }}
-          </div>
-        </div>
-
-      <div class="row w-100">
-        <div class="col-11 col-lg-5 bg-primary p-4 pl-5 p-md-5 text-white h-100 box ">
-            <div class="h4">{{.ubertitle }}</div>
-            <h3 class="lead-big mb-0">{{.title }}</h3>
-            {{ if .subtitle}} <div class="category mb-3 mb-lg-4">{{.subtitle }}</div> {{ end }}
-           {{ if .URL}} <a href="{{ .URL | relURL }}" class="btn btn-outline-light   py-3 px-5">{{.label}}</a> {{ end }}
-        </div>
-      </div>
-    </div>
-    {{ end }}
-  </div>
-  {{ end }}
-  {{ end }}
-
-  <!-- about -->
-  <section  class="section section-about my-5">
-    <div class="wide-banner text-white bg-primary pattern pt-5 ">
-    
-    <div data-scroll class="container">
-      <div class="row">
-        <div class="col-11 col-lg-10 mx-md-auto">
-          {{ with $data.homepage.about }}
-          <div class="h4">{{.title}}</div>
-          <p class="lead-big">{{.content | markdownify}}</p>
-          {{ if .button.enable }}
-            {{ with .button }}
-            <a href="{{ .URL | absURL }}" class="btn btn-outline-light">{{.label}}</a>
-            {{ end }}
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>
-    </div>
-    </div>
-    <div class="container images">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-2 d-flex align-items-start ">
-            <div data-scroll  class="img-1">
-            {{ partial "img-srcset.html" (dict "img" "images/home/ACEND_Workshop_Laptop@4x.jpg" "size" 330) }}
-          </div>
-          <div data-scroll class="img-2">
-            {{ partial "img-srcset.html" (dict "img" "images/home/ACEND_Workshop_Teacher_Supports@4x.jpg" "size" 600) }}
-          </div>
-        </div>      
-        
-      </div>
-    </div>
-
-  </section>
-  <!-- /about -->
-  
-  <!-- trainings -->
-  <section class="section section mt-5 mb-6">
-    <div class="container">
-        {{ with  $data.homepage.trainings }}
-        <h2  data-scroll  class="mb-3">{{ .title }}</h2>
-        <div class="row">
-          <div  data-scroll  class="col-10 col-lg-9 offset-1 mb-5">
-            <p>{{ .text | markdownify }}</p>
-          </div>
-        </div>  
-        
-        <div class="row mx-0">
-          <div class="col-lg-10 offset-1">
-          {{ range .categories }}
-          
-          <div data-scroll class="row mb-4">
-            <div class="col-lg-3 text-white bg-primary px-4 pt-4 pb-2">
-              <h5>{{ .title }}</h5>
-              <p class="small">{{ .text }}</p>
-            </div>
-            <div class="col-lg-9 bg-primarylight px-4 pt-4 pb-2">
-              <div class="row">
-                
-                {{ range .trainings }}
-                <div class="col-sm-6 col-lg-4">
-                  <a href="{{ i18n "trainingsLink" }}{{ .slug }}" class="box-link border-top d-flex pr-3 py-3 mb-3">
-                    <div class="d-flex  align-items-center">
-                      <svg class="icon img-fluid mr-2 ml-1 my-1 flex-shrink-0 icon-diplom" width="40" height="40" version="1.1" viewBox="0 0 32 36" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g transform="translate(-19 -18)" fill="#07475B" fill-rule="nonzero"><g transform="translate(15 16)"><g transform="translate(4.4949 2.5)"><path d="m26.161 15h2.5v15.425h-16.906v-7.3375c0.96135-0.82479 1.6861-1.8904 2.1-3.0875h12.275v-2.5h-11.875c-0.023132-0.85752-0.19879-1.7041-0.51875-2.5h9.8938v-2.5h-11.619c-0.94103-0.89575-2.1111-1.5143-3.3813-1.7875v-8.2125h11.875v5h-8.75v2.5h19.538l-8.2875-10h-16.875v10.625c-2.775 0.38711-5.0642 2.3674-5.8468 5.0578-0.78256 2.6904 0.087329 5.5896 2.2218 7.4047v11.681l4.625-2.8938 4.625 2.8938v-1.875h19.338l0.0375-20.394h-5l0.03125 2.5zm-3.1938-11.119 3 3.6188h-3v-3.6188zm-15.838 9.1688c2.5543 0 4.625 2.0707 4.625 4.625s-2.0707 4.625-4.625 4.625c-2.5543 0-4.625-2.0707-4.625-4.625 0.0034429-2.5529 2.0721-4.6216 4.625-4.625zm-2.125 17.181v-5.7562c1.3836 0.43315 2.8664 0.43315 4.25 0v5.7562l-2.125-1.3438-2.125 1.3438z"/><rect x="20.505" y="22.5" width="5.625" height="2.5"/></g></g></g></g></svg>
-                      <h6 class="mb-0">{{ .title }}</h6>
-                  </div>
-                  </a>
-                </div>
-                
-                {{ end }}
-                
-              </div> 
-            </div>
-          </div> 
-
-
-
-          {{ end }}
-        </div>
-      </div>
-      
-      {{ end }}
-
-
-      <div class="text-center  mt-4 mb-6">
-        <a href="{{ i18n "trainingsLink" }}" class="btn btn-outline-primary  py-3 px-5 ">{{ i18n "showAllTrainings" }}</a>
-    </div>
-
-  <!--
-      <div class="row">
-        <div class="col-lg-11 offset-lg-1">
-          {{ $t := where .Site.RegularPages "Section" "trainings"}}
-          {{ range $t }}
-          {{ partial "box-training" . }} 
-          {{ end }}
-        </div>
-      </div> 
- -->
-    </div>
-  </section>
-  <!-- /trainings -->
-  
-  <!-- video -->
-  {{ if  $data.homepage.video.enable }}
-  {{ with  $data.homepage.video }}
-  <section class="section my-5 py-4 py-lg-5">
-    <div class="container">
-      <div data-scroll class="row">
-        <div class="col-lg-3 mb-3 offset-1">
-          <h5>{{  .title | markdownify }}</h5> 
-          <p>{{  .text | markdownify }}</p>
-        </div>
-        <div  class="col-11 col-lg-7 offset-1 offset-lg-0 mb-3">
-          <div class="video-container">
-            <iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube-nocookie.com/embed/{{  .youtubeID }}?modestbranding=1&playsinline=1&color=white&controls=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-    </div>
-    </div>
-  </section>
-  {{ end }}
-  {{ end }}
-  <!-- /video -->
-  
-  <!-- testimonials -->
-{{ if  $data.homepage.testimonials.enable }}
-{{ with  $data.homepage.testimonials }}
-
-  {{ partial "testimonials.html" . }}
+{{ $dir := string (.Get "gallery_dir") }}
+<ul class="image-gallery">
+{{ range (readDir (print "/static" $dir)) }}
+{{- $image := resources.Get (printf "%s/%s" $dir .Name) -}}
+{{- $imageurl := printf "%s/%s" $dir .Name -}}
+{{- $imagetitle := index (split .Name ".") 0 -}}
+  <li>
+    <a href="{{ ($image.Fit "1600x1600 q50").Permalink }}" title="{{ $imagetitle }}" class="lightbox-image">
+      <img src="{{ ($image.Fill "300x300 q50").Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
+      <span>{{ $imagetitle }}</span>
+    </a>
+  </li>
 
 {{ end }}
-{{ end }}
-<!-- /testimonials -->
-  
-  <!-- partner -->
-  {{ if  $data.homepage.partner.enable }}
-  {{ with  $data.homepage.partner }}
-  <section class="section my-5">
-    <div class="container">
-        <h2  data-scroll class="mb-3">{{  .title | markdownify }}</h2>
-        <div class="row">
-          <div data-scroll class="col-11 col-lg-10 offset-lg-1 mb-3">
-              <div class="row_ partner-carousel">
- 
-              {{ range .item }}
-                  <div class="carousel-cell mb-4 mr-4">
-                      <div class="mb-3 bg-primary p-4 text-center">
-                          {{- $image := .logo  -}}
-                          {{ partial "img-srcset.html" (dict "img" $image "size" 400) }}
-                        </div>
-                      <p>
-                          {{  .text | markdownify }}
-                      </p>
-
-                      {{ if .URL}} <a href="{{ .URL | absURL }}" class="link-border"  target="_blank" rel="noopener">{{.label}}</a> {{ end }}
-                  </div>
-                  {{ end }}
-              </div>
-        </div>
-      </div>
-      
-    </div>
-  </section>
-  <!-- /partner -->
-  
-{{ end }}
-{{ end }}
-
-{{ partial "banner-anmelden.html" . }}
-
-{{ end }}
+</ul>
