@@ -13,7 +13,8 @@ abstract : "From the basics to self-deployed, Container-based applications on Ku
 main_title : "From the basics to self-deployed, Container-based applications on Kubernetes in two days."
 
 personen: 
-  daten : "15.11.22, 16.11.22"
+  #daten : "15.11.22, 16.11.22"
+  daten : ""
   preis : "CHF 1900"
 
 headerimages:
