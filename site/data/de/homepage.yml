@@ -84,7 +84,7 @@ trainings:
         - title: "Terraform on Azure"
           slug: "terraform"
 
-    - title: "Spezialisierte Trainings"
+    - title: "Ergänzende Trainings"
       text: "Spannende Technologien aus der CNCF Landscape"
       trainings:
         - title: "Helm"
@@ -96,18 +96,18 @@ trainings:
         - title: "Cilium"
           slug: "cilium"
 
-    - title: "Programming"
+    - title: "Programmierung"
       text: '"Hello World" & mehr in Cloud Native'
       trainings:
         - title: "Go"
           slug: "go"
 
 # video
-video:
-  enable: true
-  title: "acend <3 Cloud Native"
-  text: "David erklärt dir unsere \"reason to be\" in weniger als 30 Sekunden."
-  youtubeID: "BReegJE0HaI"
+#video:
+#  enable: true
+#  title: "acend <3 Cloud Native"
+#  text: "David erklärt dir unsere \"reason to be\" in weniger als 30 Sekunden."
+#  youtubeID: "BReegJE0HaI"
 
 
 # testimonial

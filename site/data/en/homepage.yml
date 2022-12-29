@@ -84,7 +84,7 @@ trainings:
         - title: "Terraform on Azure"
           slug: "terraform"
 
-    - title: "Specialized trainings"
+    - title: "Additional trainings"
       text: "Exciting technologies from the CNCF landscape"
       trainings:
         - title: "Helm"
@@ -103,11 +103,11 @@ trainings:
           slug: "go"
 
 # video
-video:
-  enable: false
-  title: "Ein Titel hier"
-  text: "Hier ein tolles Video das euch einen einfachen Überblick gibt zur Verwendung unseres Produktes."
-  youtubeID: "M7lc1UVf-VE"
+# video:
+  # enable: false
+  # title: "Ein Titel hier"
+  # text: "Hier ein tolles Video das euch einen einfachen Überblick gibt zur Verwendung unseres Produktes."
+  # youtubeID: "M7lc1UVf-VE"
 
 # testimonial
 testimonials:
