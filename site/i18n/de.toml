@@ -102,7 +102,7 @@ other = "Telefon"
 other = "Nachricht"
 
 [agb_check]
-other= 'Ich habe die <b><a href="/datenschutz/" target=\"_blank\" rel=\"noopener\">Nutzungsbedingungen</a> </b> der Website gelesen, bin damit einverstanden und melde mich für ein <b>kostenpflichtiges</b> Training an, welches in der <b>CET Zeitzone</b> durchgeführt wird.'
+other= 'Ich habe die <u><b><a href="/datenschutz/" target=\"_blank\" rel=\"noopener\">Nutzungsbedingungen</a></b></u> der Website gelesen, bin damit einverstanden und melde mich für ein <b>kostenpflichtiges</b> Training an, welches in der <b>CET Zeitzone</b> durchgeführt wird.'
 
 [send]
 other = "Senden"
@@ -112,7 +112,7 @@ other = "Senden"
 # Kontaktformular
 
 [agb_check_contact]
-other = 'Ich habe die <b><a href="/datenschutz/" target=\"_blank\" rel=\"noopener\">Nutzungsbedingungen</a> </b> der Website gelesen und bin damit einverstanden.'
+other = 'Ich habe die <u><b><a href="/datenschutz/" target=\"_blank\" rel=\"noopener\">Nutzungsbedingungen</a></b></u> der Website gelesen und bin damit einverstanden.'
 
 
 #––––––––––––––––
