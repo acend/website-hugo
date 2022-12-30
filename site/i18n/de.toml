@@ -47,6 +47,9 @@ other = "Trainingsberatung unter"
 [trainingsberatungTime]
 other = "Mo – Fr von 8.30 – 17.00h"
 
+[phonenumber]
+other = '<a href"tel:+41313702220">+41 31 370 22 20</a>'
+
 [impressum]
 other = "Impressum"
 
