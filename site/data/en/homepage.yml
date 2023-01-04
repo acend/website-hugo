@@ -18,7 +18,7 @@ slideshow:
       title: "Argo CD"
       subtitle: "Basics"
       URL: "/en/trainings/argo-cd/"
-      label: "Discover"
+      label: "View training now"
       img1: "images/trainings/ACEND_Adventure_TopHill@2x.jpg"
       img2: "images/trainings/ACEND_Poi@2x.jpg"
       img3: "images/trainings/ACEND_CodeP@2x.jpg"
@@ -27,7 +27,7 @@ slideshow:
       title: "Go"
       subtitle: "Basics"
       URL: "/en/trainings/go/"
-      label: "Discover"
+      label: "View training now"
       img1: "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"
       img2: "images/trainings/ACEND_Mats@2x.jpg"
       img3: "images/trainings/ACEND_CodeT@2x.jpg"
@@ -36,7 +36,7 @@ slideshow:
       title: "Cilium"
       subtitle: "Basics"
       URL: "/en/trainings/cilium/"
-      label: "Discover"
+      label: "View training now"
       img1: "images/trainings/ACEND_Adventure_Lena-Ontop@2x.jpg"
       img2: "images/trainings/ACEND_Lena@2x.jpg"
       img3: "images/trainings/ACEND_CodeD@2x.jpg"
@@ -45,7 +45,7 @@ slideshow:
       title: "Container & Kubernetes"
       subtitle: "Basics"
       URL: "/en/trainings/container-kubernetes/"
-      label: "Discover"
+      label: "View training now"
       img1: "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
       img2: "images/trainings/ACEND_Jeremy@2x.jpg"
       img3: "images/trainings/ACEND_CodeA@2x.jpg"
@@ -54,7 +54,7 @@ slideshow:
       title: "Container & OpenShift"
       subtitle: "Basics"
       URL: "/en/trainings/container-openshift/"
-      label: "Discover"
+      label: "View training now"
       img1: "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
       img2: "images/trainings/ACEND_Philip@2x.jpg"
       img3: "images/trainings/ACEND_CodeD@2x.jpg"
@@ -84,7 +84,7 @@ trainings:
         - title: "Terraform on Azure"
           slug: "terraform"
 
-    - title: "Specialized trainings"
+    - title: "Additional trainings"
       text: "Exciting technologies from the CNCF landscape"
       trainings:
         - title: "Helm"
@@ -103,11 +103,11 @@ trainings:
           slug: "go"
 
 # video
-video:
-  enable: false
-  title: "Ein Titel hier"
-  text: "Hier ein tolles Video das euch einen einfachen Überblick gibt zur Verwendung unseres Produktes."
-  youtubeID: "M7lc1UVf-VE"
+# video:
+  # enable: false
+  # title: "Ein Titel hier"
+  # text: "Hier ein tolles Video das euch einen einfachen Überblick gibt zur Verwendung unseres Produktes."
+  # youtubeID: "M7lc1UVf-VE"
 
 # testimonial
 testimonials:
