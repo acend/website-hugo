@@ -298,7 +298,7 @@
                       </div>'>
                       
                       <div class="mb-2 bg-primary p-4 text-center">
-                          {{ partial "img-srcset.html" (dict "img" .logo "size" 230) }}
+                          {{ partial "img-srcset.html" (dict "img" .logo "size" 230 "alt" .title) }}
                         </div>
                       </a>
                       <h5>{{  .title | markdownify }}</h5>

@@ -6,13 +6,13 @@
     <div class="d-flex images">
         {{ with .Params.headerimages }}
         <div class="img-container mt-5" id="l1">
-            {{ partial "img-srcset.html" (dict "img" .img1 "size" 200) }}
+            {{ partial "img-srcset.html" (dict "img" .img1 "size" 200 "lazy" false) }}
         </div>
         <div class="img-container" id="l2">
-            {{ partial "img-srcset.html" (dict "img" .img2 "size" 600) }}
+            {{ partial "img-srcset.html" (dict "img" .img2 "size" 600 "lazy" false) }}
         </div>
         <div class="img-container align-self-end mb-5" id="l3">
-            {{ partial "img-srcset.html" (dict "img" .img3 "size" 300) }}
+            {{ partial "img-srcset.html" (dict "img" .img3 "size" 300 "lazy" false) }}
         </div>
          {{ end }}
         </div>
