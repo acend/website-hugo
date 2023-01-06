@@ -6,7 +6,7 @@ date: 2020-04-12T12:16:39+06:00
 draft: false
 weight: 4
 subtitle: "Basics"
-categories: ["Basics", "Kubernetes"]
+categories: ["Basics", "Additional trainings"]
 duration: "1 Day"
 abstract: "eBPF-based networking"
 main_title: "eBPF-based networking"
@@ -47,6 +47,7 @@ accordion:
           content : "<ul>
 <li>Our training is aimed at people who already have knowledge and experience in operating a Kubernetes platform</li>
 <li>Participants should have experience in using the command line</li>
+<li>We offer the training in German or English</li>
 </ul>"
 
         - title : "Conditions"

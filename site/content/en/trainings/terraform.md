@@ -49,6 +49,7 @@ accordion:
           icon : "3"
           content : "
 <li>Our training is aimed at people who already have some prior knowledge of Kubernetes and Azure (knowing and using resource types)</li>
+<li>We offer the training in German or English</li>
 "
 
         - title : "Conditions"

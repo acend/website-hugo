@@ -49,6 +49,7 @@ accordion:
           content : "<ul>
 <li>Our training is aimed at system engineers, OpenShift engineers and everyhone who wants to learn about the operational aspects of OpenShift 4</li>
 <li>Basic knowledge of container technologies as well as OpenShift or Kubernetes is a prerequisite</li>
+<li>We offer the training in German or English</li>
 </ul>"
 
         - title : "Conditions"

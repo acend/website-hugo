@@ -7,7 +7,7 @@ draft: false
 weight: 7
 slug: 
 subtitle: "Basics"
-categories: ["Basics", "Specialized trainings"]
+categories: ["Basics", "Additional trainings"]
 
 duration: "1 Day"
 abstract : "Level up your serverless game - Hands-on best practices for serverless and FaaS."
@@ -50,6 +50,7 @@ accordion:
           content : "
 <li>Our training is primarily aimed at developers who want to learn about this new world and its advantages and disadvantages</li>
 <li>Participants should have experience with a common programming language, but this is not a strict requirement</li>
+<li>We offer the training in German or English</li>
 "
 
         - title : "Conditions"

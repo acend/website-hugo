@@ -46,6 +46,7 @@ accordion:
           icon : "3"
           content : "<ul>
 <li>Our training is aimed at people who have basic programming skills.</li>
+<li>We offer the training in German or English</li>
 </ul>"
         - title : "Conditions"
           icon : "4"

@@ -6,7 +6,7 @@ date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 6
 subtitle: "Basics"
-categories: ["Basics", "Spezialisierte Trainings"]
+categories: ["Basics", "Ergänzende Trainings"]
 duration: "2 Tage"
 abstract: "Prometheus – Einstieg in die moderne Monitoring Plattform."
 main_title: "Prometheus – Einstieg in die moderne Monitoring Plattform."
@@ -48,6 +48,7 @@ accordion:
           icon : "3"
           content : "<ul>
 <li>Unser Training richtet sich an Software Developers, System Engineers, Architects und alle, die Prometheus verstehen und für das Monitoring einsetzen möchten</li>
+<li>Das Training bieten wir in Deutsch oder Englisch an</li>
 </ul>"
 
         - title : "Konditionen"

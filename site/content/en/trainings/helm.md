@@ -8,7 +8,7 @@ weight: 4
 slug: 
 thumbnail: "images/trainings/ACEND_Adyna@2x.jpg"
 subtitle: "Basics"
-categories: ["Basics", "Specialized trainings"]
+categories: ["Basics", "Additional trainings"]
 duration: "1 Day"
 abstract : "A practical introduction to the best-known Package Manager for applications on Kubernetes."
 main_title : "A practical introduction to the best-known Package Manager for applications on Kubernetes."
@@ -49,6 +49,7 @@ accordion:
           content : "<ul>
 <li>Our training is designed for people who already have prior knowledge of container technologies</li>
 <li>We recommend attending the Container & Kubernetes Basics or the Container & OpenShift Basics training before registering for this course</li>
+<li>We offer the training in German or English</li>
 </ul>"
 
         - title : "Conditions"

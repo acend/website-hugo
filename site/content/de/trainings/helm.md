@@ -7,7 +7,7 @@ draft: false
 weight: 4
 slug:
 subtitle: "Basics"
-categories: ["Basics", "Spezialisierte Trainings"]
+categories: ["Basics", "Ergänzende Trainings"]
 duration: "1 Tag"
 abstract : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
 main_title : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
@@ -51,6 +51,7 @@ accordion:
           content : "<ul>
 <li>Unser Training richtet sich an Personen, welche bereits Vorkenntnisse im Bereich von Container-Technologien besitzen</li>
 <li>Ein vorgängiger Besuch des Trainings Container & Kubernetes Basics oder Container & OpenShift Basics wird empfohlen</li>
+<li>Das Training bieten wir in Deutsch oder Englisch an</li>
 </ul>"
 
         - title : "Konditionen"

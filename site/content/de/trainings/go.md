@@ -48,6 +48,7 @@ accordion:
           icon : "3"
           content : "<ul>
 <li>Unser Training richtet sich an Personen, welche über grundlegende Programmierkenntnisse verfügen.</li>
+<li>Das Training bieten wir in Deutsch oder Englisch an</li>
 </ul>"
 
         - title : "Konditionen"

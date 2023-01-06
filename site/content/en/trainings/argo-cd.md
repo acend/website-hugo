@@ -48,6 +48,7 @@ accordion:
           content : "<ul>
 <li>Our training is aimed at people who already have prior knowledge of container technologies, Git and Kubernetes</li>
 <li>A prior attendance of the Container & Kubernetes Basics or the Container & OpenShift Basics training is recommended</li>
+<li>We offer the training in German or English</li>
 </ul>"
 
         - title : "Conditions"

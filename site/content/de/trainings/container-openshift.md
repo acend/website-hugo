@@ -47,6 +47,7 @@ accordion:
           content : "<ul>
 <li>Unser Training richtet sich an Personen aus dem Software und System Engineering</li>
 <li>Es sind keine Vorkenntnisse mit Container-Technologien oder OpenShift notwendig</li>
+<li>Das Training bieten wir in Deutsch oder Englisch an</li>
 </ul>"
 
         - title : "Konditionen"

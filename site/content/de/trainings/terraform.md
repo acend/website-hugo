@@ -47,8 +47,8 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "
-<li>Unser Training richtet sich an Personen, welche bereits leichte Vorkenntnisse im Bereich von Kubernetes und Azure besitzen (Kennen und anwenden von Ressourcentypen)
-</li>
+<li>Unser Training richtet sich an Personen, welche bereits leichte Vorkenntnisse im Bereich von Kubernetes und Azure besitzen (Kennen und anwenden von Ressourcentypen)</li>
+<li>Das Training bieten wir in Deutsch oder Englisch an</li>
 "
 
         - title : "Konditionen"
