@@ -15,6 +15,9 @@ import faq from "./js/faq";
 
 import { map, lerp, getMousePos, calcWinsize, getRandomNumber } from './js/utils';
 
+// lazy sizes for image loading
+import 'lazysizes';
+
 //jQuery(document).ready(() => {
 
 

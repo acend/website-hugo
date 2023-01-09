@@ -2,7 +2,7 @@
              <div class="container">
                 <div class="row">
                     
-                <div class="  col-lg-10 offset-lg-1">
+                <div class="  col-lg-10 offset-lg-1  px-lg-0">
                 <div class="testimonial-carousel bg-primary text-white">
                             {{ range .testimonial }}
 
@@ -13,7 +13,7 @@
 
                         {{ if .logo }}
                             <div class="ml-auto">
-                                {{ partial "img-srcset.html" (dict "img" .logo "size" 100) }}
+                                {{ partial "img-srcset.html" (dict "img" .logo "size" 100 ) }}
                             </div>
                         {{ end }}
                     </div>
