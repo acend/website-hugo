@@ -3,7 +3,7 @@ about:
   enable: true
   title: "Cloud Native Trainings Schweiz - acend gmbh"
   seo_title: "Cloud Native Trainings Schweiz - acend gmbh"
-  content: "Kaum ein Gefühl beflügelt Entwicklungen so sehr wie die Freude, etwas Neues entdeckt zu haben. Lass uns diesen Moment gemeinsam erleben."
+  content: "acend bietet dir praxisorientierte Cloud Native Trainings, bei denen dir mehr als nur das technische Know-how in Erinnerung bleiben wird. Von Engineers für Engineers."
   description: "Wir bieten Cloud Native Trainings mit Experten, welche diese Technologien täglich nutzen. Schulungen mit einer einzigartigen Experience und viel handson."
   button:
     enable: false
@@ -71,8 +71,8 @@ trainings:
           slug: "container-kubernetes"
         - title: "Container & OpenShift"
           slug: "container-openshift"
-        - title: "OpenShift 4 Operations"
-          slug: "openshift-4-operations"
+        - title: "OpenShift Operations"
+          slug: "openshift-operations"
 
     - title: "Delivery CI/CD"
       text: "Definition und Entwicklung von Apps"

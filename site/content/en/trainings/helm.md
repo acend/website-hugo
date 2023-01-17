@@ -83,8 +83,11 @@ trainingsinhalt:
         - el: "Debugging"
         - el: "Go templating"
         
-
-
+# video
+video:
+  enable: true
+  title: "Simply explained: The Helm Basics Training"
+  youtubeID: "S_z12JWMAAs"
 
 # trainer
 trainers:

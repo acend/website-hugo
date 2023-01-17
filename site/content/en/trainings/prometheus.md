@@ -87,6 +87,11 @@ kooperation:
   link: "https://puzzle.ch"
   linktext: "puzzle.ch"
 
+# video
+video:
+  enable: true
+  title: "Simply explained: What is Observability?"
+  youtubeID: "FrQKfrMH_nU"
 
 # trainer
 trainers:

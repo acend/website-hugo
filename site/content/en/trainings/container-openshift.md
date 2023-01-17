@@ -90,8 +90,11 @@ trainingsinhalt:
         - el: "Troubleshooting"
         - el: "Cloud PaaS overview"
 
-
-
+# video
+video:
+  enable: true
+  title: "More about OpenShift and Benj via video"
+  youtubeID: "LCYisgEU0bY"
 
 # trainer
 trainers:
