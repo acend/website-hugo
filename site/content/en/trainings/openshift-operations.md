@@ -66,7 +66,7 @@ trainingsinhalt:
     text : "Our trainings consist of varied presentations and hands-on labs to convey their content in an exciting way. We are also happy to make reference to your infrastructure in consultation with you. If there is a need for additional content, we can make adjustments at your request."
 
     liste1:
-      title: "OpenShift Operations Overview"
+      title: "OpenShift Overview"
       liste:
         - el: "Architecture"
         - el: "Cluster components and roles"
@@ -99,7 +99,7 @@ trainingsinhalt:
 # video
 video:
   enable: true
-  title: "OpenShift Operations for the challenges of Day-2-operations"
+  title: "Our training for the challenges of Day-2-operations"
   youtubeID: "O_tkvOW52E0"
 
 # trainer

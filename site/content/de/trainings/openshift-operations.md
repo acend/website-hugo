@@ -69,7 +69,7 @@ trainingsinhalt:
     text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln.<br/>
 Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
     liste1:
-      title: "OpenShift Operations Overview"
+      title: "OpenShift Overview"
       liste:
         - el: "Architekur"
         - el: "Cluster-Komponenten und -Rollen"
@@ -102,7 +102,7 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
 # video
 video:
   enable: true
-  title: "OpenShift Operations für die Herausforderungen im Day 2-Betrieb"
+  title: "Das Training für die Challenges im Day-2-Betrieb"
   youtubeID: "O_tkvOW52E0"
 
 # trainer
