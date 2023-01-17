@@ -96,7 +96,11 @@ trainingsinhalt:
         - el: "CNCF Landscape"
         - el: "Cloud PaaS overview"
 
-
+# video
+video:
+  enable: true
+  title: "More about Kubernetes and Daniel on video"
+  youtubeID: "F7x6brO8STc"
 
 # trainer
 trainers:

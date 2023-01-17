@@ -1,15 +1,15 @@
 ---
-title: "OpenShift 4 Operations"
+title: "OpenShift Operations"
 seo_title: "Auf was zu achten ist für einen langfirstigen OpenShift Betrieb."
-description: "Im Openshift 4 Operations Training geben wir dir unsere langjährige Betriebs-Erfahrung weiter und du lernst wie häufige Probleme gelöst werden können."
+description: "Im Openshift Operations Training geben wir dir unsere langjährige Betriebs-Erfahrung weiter und du lernst wie häufige Probleme gelöst werden können."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 4
 subtitle: "Advanced"
 categories: ["Advanced", "Kubernetes"]
 duration: "2 Tage"
-abstract: "OpenShift 4 - Operations Mastery für System Engineers."
-main_title: "OpenShift 4 - Operations Mastery für System Engineers."
+abstract: "OpenShift - Operations Mastery für System Engineers."
+main_title: "OpenShift - Operations Mastery für System Engineers."
 
 personen: 
   daten : ""
@@ -22,7 +22,7 @@ headerimages:
   
 
 main_text: "
-Mit OpenShift 4 verspricht Red Hat eine Kubernetes-Lösung, die mit «automated operations» und weiteren Vorzügen für Betrieb und Entwicklung auftrumpft.\n\n 
+Mit OpenShift verspricht Red Hat eine Kubernetes-Lösung, die mit «automated operations» und weiteren Vorzügen für Betrieb und Entwicklung auftrumpft.\n\n 
 Dieses zweitägige Training auf Deutsch oder Englisch bietet eine praktische und klar verständliche Übersicht über die Herausforderungen im Day 2-Betrieb. Unsere Trainer kommen aus der Praxis und sind erfahrene OpenShift Engineers.
 "
 
@@ -32,8 +32,8 @@ accordion:
         - title : "Trainingsziele"
           icon : "1"
           content : "<ul>
-<li>OpenShift 4 Architektur und Komponenten kennenlernen</li>
-<li>Den eigenen OpenShift 4 Cluster installieren</li>
+<li>OpenShift Architektur und Komponenten kennenlernen</li>
+<li>Den eigenen OpenShift Cluster installieren</li>
 <li>Unterbruchsfreie Day 2-Operations Tasks meistern</li>
 <li>Monitoring und Troubleshooting Know-how vertiefen</li>
 </ul>"
@@ -49,7 +49,7 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "<ul>
-<li>Unser Training richtet sich an System Engineers, OpenShift Engineers und alle, die die Betriebsaspekte von OpenShift 4 kennenlernen wollen</li>
+<li>Unser Training richtet sich an System Engineers, OpenShift Engineers und alle, die die Betriebsaspekte von OpenShift kennenlernen wollen</li>
 <li>Grundkenntnisse mit Container-Technologien sowie OpenShift oder Kubernetes werden vorausgesetzt</li>
 <li>Ein vorgängiger Besuch des Trainings Container & OpenShift Basics wird empfohlen</li>
 </ul>"
@@ -69,7 +69,7 @@ trainingsinhalt:
     text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln.<br/>
 Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
     liste1:
-      title: "OpenShift 4 Overview"
+      title: "OpenShift Operations Overview"
       liste:
         - el: "Architekur"
         - el: "Cluster-Komponenten und -Rollen"
@@ -98,6 +98,12 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
           - el: "Pod wird OOM Killed"
           - el: "Netzwerkprobleme"
           - el: "Surprise..."
+
+# video
+video:
+  enable: true
+  title: "OpenShift Operations für die Herausforderungen im Day 2-Betrieb"
+  youtubeID: "O_tkvOW52E0"
 
 # trainer
 trainers:

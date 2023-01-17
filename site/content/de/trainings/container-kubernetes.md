@@ -101,7 +101,7 @@ trainingsinhalt:
 # video
 video:
   enable: true
-  title: "Mehr von OpenShift und Daniel per Video"
+  title: "Mehr von Kubernetes und Daniel per Video"
   youtubeID: "F7x6brO8STc"
 
 # trainer
