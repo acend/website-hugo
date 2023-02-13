@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+{{ with .Params.lead }}
+  {{ partial "lead.html" . }}
+{{ end }}
+
+
+
+<!-- trainigs -->
+<section class="section">
+  <div class="container">
+    
+    
+    
+      <div class="row my-5">
+        <div class="col-lg-8 offset-lg-1">
+          {{ .Content }}
+        </div>
+ 
+      </div>
+      
+ 
+
+
+
+    <div class="row my-5">
+        <div class="col-lg-10 offset-lg-1">
+          {{ range .Data.Pages }}
+           
+              {{ partial "content-blog" . }} 
+       
+            {{ end }}
+        </div>
+    </div>
+  </div>
+</section>
+<!-- /portfolio -->
+
+{{ partial "banner-anmelden.html" . }}
+
+
+{{ end }}

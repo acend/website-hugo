@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+
+<section class="section py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-1">
+
+        
+        <div class="h4 mb-3">{{ .Params.subtitle | markdownify }}</div>
+        <h1 class="h2">{{ .Title | markdownify }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section data-sticky-container class="section mb-5 mt-lg-5">
+  <div class="container">
+    <div  class="row">
+      <div class="col-lg-8 offset-lg-1">
+ 
+    
+        <div class="entry-content">
+                  {{ .Content | safeHTML}}
+        </div>
+            
+      </div>
+
+      </div>
+    </div>
+ 
+</section>
+
+
+  
+  
+  
+
+{{ end }}

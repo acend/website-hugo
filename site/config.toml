@@ -3,7 +3,7 @@ baseurl = "/"
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+disableKinds = ["RSS", "taxonomyTerm"]
 
 defaultContentLanguage = "de"
 removePathAccents = "true"
@@ -36,9 +36,16 @@ removePathAccents = "true"
     weight = 2
     
     [[languages.de.menu.main]]
+    URL = "/blog/"
+    name = "Blog"
+    weight = 3
+
+    [[languages.de.menu.main]]
     URL = "/kontakt/"
     name = "Kontakt"
-    weight = 3
+    weight = 4
+
+ 
  
   [languages.en]
     languageCode = "en-en"
@@ -58,11 +65,29 @@ removePathAccents = "true"
     URL = "/en/about/"
     name = "About"
     weight = 2
+
+    [[languages.en.menu.main]]
+    URL = "/en/blog/"
+    name = "Blog"
+    weight = 3
     
     [[languages.en.menu.main]]
     URL = "/en/contact/"
     name = "Contact"
-    weight = 3
+    weight = 4
+
+ 
+
+
+[Taxonomies]
+    [languages.de.taxonomies]
+        author = "authors"
+        category = "kategorien"
+    [languages.en.taxonomies]
+        author = "authors"
+        category = "categories"
+
+
 
 
 # default parameters
