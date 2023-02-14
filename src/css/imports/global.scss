@@ -146,7 +146,8 @@ h3,
 .accordion-title,
 .footer-section h5,
 .paragraph-lg,
-.quote {
+.quote,
+.lead {
   font-size: 1.375rem;
 
   @include media-breakpoint-up(md) {
@@ -356,3 +357,25 @@ a {
     width: 100%;
     height: 100%;
 }
+
+.caption {
+  font-size: 80%;
+}
+
+pre {
+  background: var(--primary-light);
+  color: var(--primary);
+  padding: 1rem 1rem 0;
+
+  @include media-breakpoint-up(lg) {
+    padding: 2rem 3rem 1rem;
+  }
+}
+
+code {
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+
+

@@ -11,11 +11,9 @@ authors:
 
 subtitle: "Basics"
 categories: ["Basics", "Delivery CI/CD"]
-duration: "1 Tag"
-abstract: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
-main_title: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
-
+lead: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
 post_img: "images/home/ACEND_Workshop_Teacher_Supports@4x.jpg"
+post_img_caption: "Optionale Bildlegende..."
 ---
 
 Hier kommt dann der ganze Lauftext
@@ -24,11 +22,22 @@ Bei den Badges arbeiten wir mit **[credly](https://info.credly.com/)** zusammen.
 Die Slideshow unten erklärt das Verfahren Schritt für Schritt.
 
 {{< faq-slider >}}
-{{< slider-img src="images/faq/credly-xmail.png" caption="So sieht die Mail von credly aus. Um den Ausweis zu akzeptieren, müssen Sie auf die Schaltfläche \"Accept your badge\"" >}} klicken.
+{{< slider-img src="images/faq/credly-xmail.png" caption="So sieht die Mail von credly aus. Um den Ausweis zu akzeptieren, müssen Sie auf die Schaltfläche \"Accept your badge\" klicken." >}}
 {{< slider-img src="images/faq/credly-xsignin.png" caption="Wenn Sie noch kein credly-Konto haben, können Sie sich kostenlos registrieren." >}}
 {{< slider-img src="images/faq/credly-xaccept.png" caption="Jetzt können Sie als angemeldeter credly-Benutzer den acend-Badge annehmen." >}}
 {{< slider-img src="images/faq/credly-xlinkedin.png" caption="Falls Du möchtest, kannst Du den Badge auf Social media teilen." >}}
 {{< slider-img src="images/faq/credly-xall.png" caption="Never Stop Learning und verdiene dir noch mehr Badges ;)." >}}
 {{< /faq-slider >}}
 
-Und hier ein neuer Absatz
+##### Titel
+
+{{< youtube id="F7x6brO8STc" >}}
+
+Hier zeigen wir euch mal etwas an einem Beispiel:
+
+```
+$(".anmelde-toggler").click(function(){
+  $('.sticky').toggleClass('d-none');
+});
+
+```

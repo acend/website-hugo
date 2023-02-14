@@ -32,7 +32,7 @@
           
             <div class="mt-auto d-flex align-items-end">
               <div class="mr-auto">
-                <a class="link-border" href="{{ .Permalink | safeURL }}">{{ i18n "readMore" }}</a> 
+                <a class="link-border" href="{{ .Permalink | safeURL }}">{{ i18n "readMorePost" }}</a> 
               </div>
             
                   <div class="author small d-flex align-items-center">
@@ -43,7 +43,7 @@
                       <a href="{{ .Permalink }}">{{ .Params.name }}</a>
                       
                       <div class="rounded-circle  overflow-hidden ml-2">
-                        {{ partial "img-srcset.html" (dict "img" .Params.photo "size" 50  ) }}
+                        {{ partial "img-srcset.html" (dict "img" .Params.photo "size" 40  ) }}
                       </div>
                         
                         
