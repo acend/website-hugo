@@ -92,7 +92,7 @@
           </div>
         </div>
         
-        <div class="border-top py-5">
+        <div class="border-top py-5  mb-5">
 
         {{- range .Params.authors }}
         {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
@@ -163,9 +163,67 @@
 
 
 
+     
+
+    <div class="row">
+
+      {{ range first 3 (shuffle (where (where .Site.RegularPages "Section" "blog") "Title" "!=" .Title )) }}
+      
+      <div class="col-md-4">
+        <a href="{{ .RelPermalink }}">
+
+          {{ with .Params.post_img }}
+            {{ partial "img-srcset.html" (dict "img" . "size" 500  ) }}
+          {{ end }}
+
+          <div class="d-flex  mb-2  mt-2 small">
+            <div>
+              {{ range $key, $value := .Params.categories }}
+                <span class="mb-3 mr-3">{{ $value }}</span> 
+              {{ end }}
+            </div>
+           
+              {{ if .Date }}
+              <div class="ml-auto nowrap">{{ .Date.Format "01.02.2006" }}</div>
+              {{ end }}
+       
+          </div>
+
+
+              <h5 class="mb-4">{{ .Title }}</h5>
+
+
+
+        </a>
+
+        <div class="author small d-flex align-items-center">
+
+          {{- range .Params.authors }}
+          {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+
+          <a href="{{ .Permalink }}">{{ .Params.name }}</a>
+          
+          <div class="rounded-circle  overflow-hidden ml-2">
+            {{ partial "img-srcset.html" (dict "img" .Params.photo "size" 40  ) }}
+          </div>
+            
+            
+          {{ end }}
+        {{ end }}
       </div>
+
+
+      </div>
+      {{ end }}
+
     </div>
+
   </div>
+</div>
+  </div>
+
+
+
 </footer>
 
 
