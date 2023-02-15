@@ -169,7 +169,7 @@
 
       {{ range first 3 (shuffle (where (where .Site.RegularPages "Section" "blog") "Title" "!=" .Title )) }}
       
-      <div class="col-md-4 d-flex flex-column">
+      <div class="col-md-4 d-flex flex-column mb-5">
         <a href="{{ .RelPermalink }}">
 
           {{ with .Params.post_img }}

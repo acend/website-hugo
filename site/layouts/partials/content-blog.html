@@ -3,7 +3,7 @@
 
   <div class="row">
 
-    <div class="col-lg-4 py-4 py-lg-5">
+    <div class="col-md-4 py-4 py-md-5">
 
      {{with .Params.post_img }}
       {{ partial "img-srcset.html" (dict "img" . "size" 500  ) }}
@@ -11,11 +11,11 @@
 
     </div>
 
-    <div  class="col-lg-8">
+    <div  class="col-md-8">
 
     
 
-      <div class="px-4 py-4 py-lg-5 d-flex flex-column h-100">
+      <div class="px-4 pb-4 py-md-5 d-flex flex-column h-100">
         <div class="d-flex  mb-2 small">
           <div>
             {{ range $key, $value := .Params.categories }}
@@ -28,14 +28,14 @@
             {{ end }}
      
         </div>
-        <a  href="{{ .Permalink | safeURL }}"> <h2 class="h3 mb-4 pr-5 mr-5">{{ .Title }}</h2></a>
+        <a  href="{{ .Permalink | safeURL }}"> <h2 class="h3 mb-4 pr-md-5 mr-md-5">{{ .Title }}</h2></a>
           
-            <div class="mt-auto d-flex align-items-end">
+            <div class="mt-auto d-flex flex-column flex-md-row align-items-end">
               <div class="mr-auto">
                 <a class="link-border" href="{{ .Permalink | safeURL }}">{{ i18n "readMorePost" }}</a> 
               </div>
             
-                  <div class="author small d-flex align-items-center">
+                  <div class="author small d-flex align-items-center  mt-4 mt-md-0">
 
                       {{- range .Params.authors }}
                       {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
