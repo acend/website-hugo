@@ -167,9 +167,15 @@
 
     <div class="row">
 
-      {{ range first 3 (shuffle (where (where .Site.RegularPages "Section" "blog") "Title" "!=" .Title )) }}
+      <div class="col-md-3 h6 mb-5">
+        {{ i18n "morePosts" }}
+
+      </div>
+
+
+      {{ range first 2 (shuffle (where (where .Site.RegularPages "Section" "blog") "Title" "!=" .Title )) }}
       
-      <div class="col-md-4 d-flex flex-column mb-5">
+      <div class="col-md  d-flex flex-column mb-5">
         <a href="{{ .RelPermalink }}">
 
           {{ with .Params.post_img }}

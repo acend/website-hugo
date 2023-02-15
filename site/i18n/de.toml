@@ -145,6 +145,9 @@ other = "/faq/"
 [morePostsFrom]
 other = "Weitere Beiträge von"
 
+[morePosts]
+other = "Weitere Beiträge"
+
 [readMorePost]
 other = "Weiterlesen"
 

@@ -140,6 +140,9 @@ other = "/en/faq/"
 [morePostsFrom]
 other = "More posts by"
 
+[morePosts]
+other = "More posts"
+
 [readMorePost]
 other = "Read more"
 

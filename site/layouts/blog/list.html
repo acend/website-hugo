@@ -25,13 +25,24 @@
 
     <div class="row my-5">
         <div class="col-lg-10 offset-lg-1">
-          {{ range .Data.Pages }}
+          {{ range (.Paginator 10).Pages }}
            
               {{ partial "content-blog" . }} 
        
             {{ end }}
         </div>
     </div>
+    
+    <div class="row my-5">
+        <div class="col-lg-10 offset-lg-1 d-flex">
+          
+         
+          {{ template "_internal/pagination.html" . }}
+        </div>
+    </div>
+
+
+
   </div>
 </section>
 <!-- /portfolio -->

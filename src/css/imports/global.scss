@@ -369,7 +369,7 @@ a {
 pre {
   background: var(--primary-light);
   color: var(--primary);
-  padding: 1rem 1rem 0;
+  padding: 2rem 0.5rem 1rem;
 
   @include media-breakpoint-up(lg) {
     padding: 2rem 3rem 1rem;
@@ -381,5 +381,33 @@ code {
   color: var(--primary);
 }
 
+.pagination {
+  margin: auto;
+}
 
+.page-link {
+  border-radius: 0 !important;
+  color: var(--primary);
+  border-color: var(--primary);
 
+  &:hover {
+    z-index: 2;
+    color: var(--primary);
+    text-decoration: none;
+    background-color: var(--primary-light);
+    border-color: var(--primary);
+  }
+}
+
+.page-item {
+  &.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+
+  &.disabled {
+    display: none;
+  }
+}
