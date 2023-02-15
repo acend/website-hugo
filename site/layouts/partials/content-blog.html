@@ -28,7 +28,7 @@
             {{ end }}
      
         </div>
-            <h2 class="h3 mb-4 pr-5 mr-5">{{ .Title }}</h2>
+        <a  href="{{ .Permalink | safeURL }}"> <h2 class="h3 mb-4 pr-5 mr-5">{{ .Title }}</h2></a>
           
             <div class="mt-auto d-flex align-items-end">
               <div class="mr-auto">

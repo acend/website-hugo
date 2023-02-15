@@ -9,8 +9,7 @@ slug:
 authors:
   - David Kilchenmann
 
-subtitle: "Basics"
-categories: ["Basics", "Delivery CI/CD"]
+categories: ["Basics"]
 lead: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
 post_img: "images/home/ACEND_Workshop_Teacher_Supports@4x.jpg"
 post_img_caption: "Optionale Bildlegende..."

@@ -169,7 +169,7 @@
 
       {{ range first 3 (shuffle (where (where .Site.RegularPages "Section" "blog") "Title" "!=" .Title )) }}
       
-      <div class="col-md-4">
+      <div class="col-md-4 d-flex flex-column">
         <a href="{{ .RelPermalink }}">
 
           {{ with .Params.post_img }}
@@ -189,24 +189,21 @@
        
           </div>
 
-
-              <h5 class="mb-4">{{ .Title }}</h5>
-
-
+              <h6 class="mb-4">{{ .Title }}</h6>
 
         </a>
 
-        <div class="author small d-flex align-items-center">
+        <div class="author small d-flex align-items-center mt-auto">
 
           {{- range .Params.authors }}
           {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
 
-          <a href="{{ .Permalink }}">{{ .Params.name }}</a>
-          
-          <div class="rounded-circle  overflow-hidden ml-2">
+          <div class="rounded-circle  overflow-hidden mr-2">
             {{ partial "img-srcset.html" (dict "img" .Params.photo "size" 40  ) }}
           </div>
             
+          <a href="{{ .Permalink }}">{{ .Params.name }}</a>
+          
             
           {{ end }}
         {{ end }}

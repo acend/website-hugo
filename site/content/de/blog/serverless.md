@@ -6,13 +6,14 @@ date: 2021-10-12T12:14:34+06:00
 draft: false
 weight: 7
 slug:
-subtitle: "Basics"
-categories: ["Basics", "Spezialisierte Trainings"]
 
-abstract: "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS"
-main_title: "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS"
+authors:
+  - David Kilchenmann
 
+categories: ["Basics"]
+lead: "Kubernetes-eigene CI-/CD-Bausteine der nächsten Generation."
 post_img: "images/home/ACEND_Workshop_Teacher_Supports@4x.jpg"
+post_img_caption: "Optionale Bildlegende..."
 ---
 
 Hier kommt dann der ganze Lauftext
