@@ -130,7 +130,7 @@ team:
       image : "images/team/AC_Lena_Fuhrimann@2x.jpg"
       experience: "After her studies in business innovation, Lena gained experience as a cloud engineer at Swisscom. After another stint as technical lead at a startup, she finally founded bespinian together with This in 2019. She holds various certifications from AWS, Cloud Foundry and more."
       linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
-      twitter : "https://twitter.com/mastertinner"    
+      twitter : "https://twitter.com/the_cloudlena"    
 
     - title : "Lorenz Bischof"
       image : "images/team/AC_Lorenz@2x.jpg"
@@ -196,7 +196,7 @@ team:
       image: "images/team/AC_Thoemu@2x.jpg"
       designation: "Trainer"
       abstract: "He’s been in the IT world for years – and he discovers everything else on his bicycle."
-      experience: "Thomas has played a formative role at Puzzle since 2011: After his bachelor's degree in Computer Science, first as a Software Engineer and PL, later as Head of Middleware he was able to establish the topic of Kubernetes at Puzzle, among other things. Since 2015, he has been part of the management team in the role of CTO."
+      experience: "Thomas has played a formative role at Puzzle since 2011: After his bachelor's degree in Computer Science, first as a Software Engineer and PL, later as Head of Middleware he was able to establish the topic of Kubernetes at Puzzle, among other things. He was the CTO for several years and then founded his own company ROKT in 2022. In his new role, as a cloud consultant, he helps customers on their way into the cloud."
       linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter: "https://twitter.com/tphilipona"
 
