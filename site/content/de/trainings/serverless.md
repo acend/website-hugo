@@ -105,7 +105,7 @@ trainers:
       abstract : "Den Kopf immer in den Wolken, man beachte nur ihre Haare. Lena liebt es, Software zu modernisieren und mit neuen Technologien zu arbeiten. Sie benutzt übrigens Arch."
       image : "images/team/AC_Lena_Fuhrimann@2x.jpg"
       linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
-      twitter : "https://twitter.com/mastertinner"
+      twitter : "https://twitter.com/the_cloudlena"
     
     - title : "Mathis Kretz "
       designation : "Trainer, bespinian"

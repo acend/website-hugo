@@ -102,12 +102,12 @@ trainers:
       abstract : "Head always in the clouds, just look at her hair. Lena loves modernizing software and working with new technologies. She uses Arch btw."
       image : "images/team/AC_Lena_Fuhrimann@2x.jpg"
       linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
-      twitter : "https://twitter.com/mastertinner"
+      twitter : "https://twitter.com/the_cloudlena"
       
     - title : "Mathis Kretz"
       designation : "Trainer, bespinian"
       abstract : "When he is not deploying microservices or showing others how to do it, he is cooking, preferably with fire."
-      image : "images/team/AC_Gabriel_Koch@2x.jpg"
+      image : "images/team/AC_Mathis_Kretz@2x.jpg"
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz"
 
