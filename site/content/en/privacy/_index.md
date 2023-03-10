@@ -19,8 +19,8 @@ Responsible for the data processing, which we describe here, are the contacts li
 
 acend.ch    
 acend gmbh    
-Belpstrasse 37    
-3007 Bern
+Sickingerstrasse 10
+3014 Bern
 
 datenschutz@acend.ch   
 Ph. +41 31 370 22 20
