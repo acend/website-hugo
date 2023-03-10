@@ -38,9 +38,16 @@
            <!-- <button class="btn btn-filter btn-reset ml-auto">Reset</button> -->
           </div>
             <div class="filterlist mb-8 " >
-              {{ range $key, $value := .Params.categories }}
+              <div>
+                {{ range $key, $value := .Params.categories }}
                 <button class="btn btn-filter mr-3 mb-3" data-filter="{{ (replace $value "/" "-") | urlize }}">{{ $value }}</button>
-              {{ end }}
+                {{ end }}
+              </div>
+              <div>
+                <button class="btn btn-filter mr-3 mb-3" data-filter="basics">Basics</button>
+                <button class="btn btn-filter mr-3 mb-3" data-filter="advanced">Advanced</button>
+       
+              </div>
             </div>
         </div>
       </div>
