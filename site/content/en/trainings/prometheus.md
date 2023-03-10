@@ -6,7 +6,7 @@ date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 6
 subtitle: "Basics"
-categories: ["Basics", "Specialized trainings"]
+categories: ["Basics", "Additional trainings"]
 duration: "2 Days"
 abstract: "Prometheus – Introduction to the modern monitoring platform."
 main_title: "Prometheus – Introduction to the modern monitoring platform."

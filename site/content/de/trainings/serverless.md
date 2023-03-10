@@ -7,7 +7,7 @@ draft: false
 weight: 7
 slug: 
 subtitle: "Basics"
-categories: ["Basics", "Spezialisierte Trainings"]
+categories: ["Basics", "Ergänzende Trainings"]
 
 duration: "1 Tag"
 abstract : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS"
