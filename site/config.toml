@@ -22,7 +22,7 @@ removePathAccents = "true"
     title = "Cloud Native Trainings Schweiz - acend gmbh"
     # meta description
     author = "acend gmbh"
-    description = "Wir bieten Cloud Native Trainings mit Experten, welche diese Technologien täglich nutzen. Schulungen mit einer einzigartigen Experience und viel handson."
+    description = "acend bietet dir praxisorientierte Cloud Native Trainings, bei denen dir mehr als nur das technische Know-how in Erinnerung bleiben wird. Von Engineers für Engineers."
 
     # menu
     [[languages.de.menu.main]]
@@ -53,7 +53,7 @@ removePathAccents = "true"
     title = "Cloud Native Trainings Switzerland - acend gmbh"
     languageName = "English"
     weight = 2
-    description = "We offer Cloud Native training with experts who use these technologies every day. Trainings with a unique experience and a lot of handson."
+    description = "acend offers you practice-oriented Cloud Native trainings. You will remember more than technical know-how. From Engineer to Engineer."
 
     # menu
     [[languages.en.menu.main]]
@@ -102,7 +102,7 @@ twitterimage = "images/acend-og.jpg"
 # contact info
 phone = '<a href="tel:+41313702220">+41 31 370 22 20</a>'
 name = "**acend gmbh**"
-address = "Belpstrasse 37, 3007 Bern"
+address = "Sickingerstrasse 10, 3014 Bern"
 email = "hello@acend.ch"
 
 
@@ -127,8 +127,9 @@ form_action = "/backend/form"
 
 # social site
 [params.social]
-linkedin = "https://www.linkedin.com/company/acend-ch/"
+linkedin = "https://www.linkedin.com/company/acendch/"
 twitter = "https://www.twitter.com/acendch"
+youtube = "https://www.youtube.com/@acendch"
 
 [imaging]
 quality = 50

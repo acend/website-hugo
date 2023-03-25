@@ -70,7 +70,7 @@ team:
       image: "images/team/AC_Christian_Haller@2x.jpg"
       designation: "Trainer, Puzzle ITC"
       abstract: "Als Ausgleich zum hektischen Container-Alltag, macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
-      experience: "Nach seinem Studium in Informatik hat Christian fast 10 Jahre Projekt- und Betriebserfahrung gesammelt als Systems Engineer im Netzwerk- und Security-Bereich. Seit mehr als Seit mehr als 3 Jahren ist er nun bei Puzzle als Consultant im Bereich Container und Cloud Native Technologien unterwegs."
+      experience: "Nach seinem Studium in Informatik hat Christian fast 10 Jahre Projekt- und Betriebserfahrung gesammelt als Systems Engineer im Netzwerk- und Security-Bereich. Seit mehr als 3 Jahren ist er nun bei Puzzle als Consultant im Bereich Container und Cloud Native Technologien unterwegs."
       linkedin: "https://www.linkedin.com/in/christian-haller-0a637493"
     
     - title : "Christian Schlatter"
@@ -197,7 +197,7 @@ team:
       image: "images/team/AC_Thoemu@2x.jpg"
       designation: "Trainer"
       abstract: "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
-      experience: "Thömu spielt bei Puzzle seit 2011 eine prägende Rolle: Nach seinem Bachelorstudium in Computer Science zuerst als Software Engineer und PL, später konnte er als Head of Middleware u.a. das Thema Kubernetes bei Puzzle etablieren. Seit 2015 ist er in der Rolle des CTO in der Geschäftsleitung."
+      experience: "Thömu spielt bei Puzzle seit 2011 eine prägende Rolle: Nach seinem Bachelorstudium in Computer Science zuerst als Software Engineer und PL, später konnte er als Head of Middleware u.a. das Thema Kubernetes bei Puzzle etablieren. Er war danach mehrere Jahre CTO und gründete im 2022 seine eigene Firma ROKT. Dort hilft er als Cloud Consultant den Kund:innen auf dem Weg in die Cloud."
       linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter: "https://twitter.com/tphilipona"
 

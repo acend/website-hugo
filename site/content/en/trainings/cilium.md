@@ -6,7 +6,7 @@ date: 2020-04-12T12:16:39+06:00
 draft: false
 weight: 4
 subtitle: "Basics"
-categories: ["Basics", "Kubernetes"]
+categories: ["Basics", "Additional trainings"]
 duration: "1 Day"
 abstract: "eBPF-based networking"
 main_title: "eBPF-based networking"

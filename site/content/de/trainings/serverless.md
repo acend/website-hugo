@@ -7,7 +7,7 @@ draft: false
 weight: 7
 slug: 
 subtitle: "Basics"
-categories: ["Basics", "Spezialisierte Trainings"]
+categories: ["Basics", "Ergänzende Trainings"]
 
 duration: "1 Tag"
 abstract : "Level up your Serverless Game - Hands-on Best Practices für Serverless und FaaS"
@@ -105,7 +105,7 @@ trainers:
       abstract : "Den Kopf immer in den Wolken, man beachte nur ihre Haare. Lena liebt es, Software zu modernisieren und mit neuen Technologien zu arbeiten. Sie benutzt übrigens Arch."
       image : "images/team/AC_Lena_Fuhrimann@2x.jpg"
       linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
-      twitter : "https://twitter.com/mastertinner"
+      twitter : "https://twitter.com/the_cloudlena"
     
     - title : "Mathis Kretz "
       designation : "Trainer, bespinian"
