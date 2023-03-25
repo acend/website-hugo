@@ -135,3 +135,24 @@ other = "Bitte auswählen..."
 
 [faqLink]
 other = "/faq/"
+
+
+
+
+#––––––––––––––––
+# Blog
+
+[morePostsFrom]
+other = "Weitere Beiträge von"
+
+[morePosts]
+other = "Weitere Beiträge"
+
+[readMorePost]
+other = "Weiterlesen"
+
+[published]
+other = "Veröffentlicht"
+
+[shareLink]
+other = "Beitrag teilen"

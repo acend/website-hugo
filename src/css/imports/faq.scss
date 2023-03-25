@@ -9,7 +9,7 @@
   background: var(--primary-light);
 }
 
-.faq-content {
+.entry-content {
   .carousel {
     margin-bottom: 0.5rem;
     margin-top: 2rem;
@@ -53,6 +53,7 @@
   .c-caption {
     padding-right: 2rem;
   }
+
 
   .flickity-prev-next-button {
     @include media-breakpoint-down(sm) {

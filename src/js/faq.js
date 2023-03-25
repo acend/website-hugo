@@ -56,9 +56,9 @@ export default function() {
   }
 
 
-  if ($('.faq-content .carousel').length) {
+  if ($('.entry-content .carousel').length) {
 		
-		$('.faq-content .slides').each(function(){
+		$('.entry-content .slides').each(function(){
 
       var $this = $(this);
 
@@ -99,7 +99,7 @@ export default function() {
 	}
 
 
-  $('.faq-content .collapse').on('show.bs.collapse', function () {
+  $('.entry-content .collapse').on('show.bs.collapse', function () {
     //trigger resize for setting carousel size
     window.dispatchEvent(new Event('resize'));
     console.log('collapse')

@@ -146,7 +146,8 @@ h3,
 .accordion-title,
 .footer-section h5,
 .paragraph-lg,
-.quote {
+.quote,
+.lead {
   font-size: 1.375rem;
 
   @include media-breakpoint-up(md) {
@@ -169,6 +170,10 @@ h4,
 
 .small-bold {
   font-family: "TTFirsNeue-Medium", sans-serif;
+  font-size: 14px;
+}
+
+.small {
   font-size: 14px;
 }
 
@@ -355,4 +360,54 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.caption {
+  font-size: 80%;
+}
+
+pre {
+  background: var(--primary-light);
+  color: var(--primary);
+  padding: 2rem 0.5rem 1rem;
+
+  @include media-breakpoint-up(lg) {
+    padding: 2rem 3rem 1rem;
+  }
+}
+
+code {
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+.pagination {
+  margin: auto;
+}
+
+.page-link {
+  border-radius: 0 !important;
+  color: var(--primary);
+  border-color: var(--primary);
+
+  &:hover {
+    z-index: 2;
+    color: var(--primary);
+    text-decoration: none;
+    background-color: var(--primary-light);
+    border-color: var(--primary);
+  }
+}
+
+.page-item {
+  &.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+
+  &.disabled {
+    display: none;
+  }
 }
