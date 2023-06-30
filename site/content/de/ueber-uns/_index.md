@@ -155,13 +155,6 @@ team:
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz"
 
-    - title : "Nemanja Kostic"
-      designation : "Trainer, arch.cloud"
-      abstract : "Er hat die letzten 20 Jahre in der IT-Branche Kaffee getrunken und so getan, als wüsste er, was er tut."
-      experience: "Nemanja ist CO-Founder von arch.cloud und als AWS Solution Architect tätig. Er ist neunfach AWS-zertifiziert und hat einen Master in Information Technology."
-      image : "images/team/AC_Nemanja_Kostic@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/nemanjakostic/"
-
     - title: "Philipp Grossenbacher"
       image: "images/team/AC_Phippu@2x.jpg"
       designation: "Experience"
@@ -177,13 +170,6 @@ team:
       experience: "Von Sarnen hat ihn das Informatikstudium an die Uni nach Bern gezogen. Seit dem Abschluss arbeitet Raffael als Software Engineer, wobei ihn dort die neuen Frameworks und Cloud Native Technologien wie Quarkus am meisten faszinieren."
       linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
       twitter : "https://twitter.com/g1raffi"
-
-    - title : "Reto Kupferschmid"
-      designation : "Trainer, Puzzle ITC"
-      abstract : "Ganz nach dem Motto, was nicht passt wird passend gemacht, löst er als Engineer alle Herausforderungen im Handumdrehen."
-      experience: "Reto hat nach seiner Lehre als Informatiker (2014) berufsbegleitend die HF besucht. Als System Engineer konnte er bereits viele Erfahrungen sammeln, die er seit über 3 Jahren bei Puzzle stetig erweitert. Sein Herz schlägt für die Themen Monitoring und Automatisierung - er ist mit mehreren Zertifizierungen gerüstet."
-      image : "images/team/AC_Reto_Kupferschmid@2x.jpg"
-      twitter : "https://twitter.com/reti_k"
 
     - title: "Sebastian Plattner"
       image: "images/team/AC_Seba@2x.jpg"
