@@ -112,11 +112,12 @@ trainers:
       image : "images/team/AC_Andreas_Gehrig@2x.jpg"
       linkedin : "https://www.linkedin.com/in/andreasgehrig/"    
     
-    - title : "Nemanja Kostic"
-      designation : "Trainer, arch.cloud"
-      abstract : "Er hat die letzten 20 Jahre in der IT-Branche Kaffee getrunken und so getan, als wüsste er, was er tut."
-      image : "images/team/AC_Nemanja_Kostic@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/nemanjakostic/"
+    - title : "Daniel Strohecker"
+      image : "images/team/AC_Daenu@2x.jpg"
+      designation : "Trainer"
+      abstract : "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
+      linkedin : "https://www.linkedin.com/in/dstrohecker/"
+      twitter : "https://twitter.com/sybnex"
 
 
 # testimonials
