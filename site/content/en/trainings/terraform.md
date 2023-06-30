@@ -110,11 +110,12 @@ trainers:
       image : "images/team/AC_Andreas_Gehrig@2x.jpg"
       linkedin : "https://www.linkedin.com/in/andreasgehrig/"    
     
-    - title : "Nemanja Kostic"
-      designation : "Trainer, arch.cloud"
-      abstract : "He has spent the last 20 years in the IT industry drinking coffee and pretending to know what he is doing."
-      image : "images/team/AC_Nemanja_Kostic@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/nemanjakostic/"
+    - title : "Daniel Strohecker"
+      image : "images/team/AC_Daenu@2x.jpg"
+      designation : "Trainer"
+      abstract : "He’s been picking up speed on his bike as of late. He can slow down, though, and make sure our clients proceed through our trainings on sure feet."
+      linkedin : "https://www.linkedin.com/in/dstrohecker/"
+      twitter : "https://twitter.com/sybnex"
 
 
 # testimonials
