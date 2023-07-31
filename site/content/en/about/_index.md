@@ -57,6 +57,13 @@ team:
       This was followed by further exciting years as a system engineer at HRM Systems and further training as a project manager. For the last four years Anna has been at Puzzle ITC, making sure that all containers and CI/CD engineers, as well as the customers, are happy."
       linkedin: "https://www.linkedin.com/in/anna-pfeifhofer-902495183/"
 
+    - title: "Beat Schärz"
+      image: "images/team/AC_Beat_Schaerz@2x.jpg"
+      designation: "Trainer"
+      abstract: "Not only does Beat have an iron discipline when it comes to sports, but he also steels his brain by constantly building up new knowledge."
+      experience: "After his apprenticeship as a computer scientist, Beat immediately completed a bachelor's degree in computer science while working. From Linux Engineering at DXC, he now works in the Kubernetes environment at Puzzle. There he accompanies many customers on their way to Kubernetes and also Observability, which is his passion."
+      linkedin: "https://www.linkedin.com/in/beat-sch%C3%A4rz/"
+
     - title: "Benjamin Affolter"
       image: "images/team/AC_Benji@2x.jpg"
       designation: "Trainer"
@@ -85,7 +92,15 @@ team:
       abstract: "When he’s not concentrated on a computer screen, you’re most likely to find him in a fast car – he only does extra laps on the Nürburgring."
       experience: "Already in 1996 Christoph started in the IT department of the Mobiliar, where he gained experience in many areas. At the same time, he completed his studies at the University of Bern with a Master's degree in IT. Since 2021 he is an architect and responsible for topics like observability, containers, messaging and other technologies."
       linkedin: "https://www.linkedin.com/in/christoph-aymon/"
-          
+
+    - title: "Christoph Raafllaub"
+      image: "images/team/AC_Christoph_Raaflaub@2x.jpg"
+      designation: "Trainer"
+      abstract: "He has visited many places with his RV, and when it comes to the Cloud Native Landscape, he is also an experienced and knowledgeable guide."
+      experience: "Christoph has been working in IT for 20 years, so almost no problem can surprise him anymore. He started as a software developer and graduated as a computer science engineer FH on the side. Today he works in the CI/CD area at Puzzle ITC. There he accompanies many customers on their way to qualitative pipelines."
+      linkedin: "https://www.linkedin.com/in/chrira/"
+      twitter: "https://twitter.com/chrira"
+
     - title: "Daniel Strohecker"
       image: "images/team/AC_Daenu@2x.jpg"
       designation: "Trainer"

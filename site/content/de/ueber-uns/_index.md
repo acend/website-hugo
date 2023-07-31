@@ -97,8 +97,8 @@ team:
     - title: "Christoph Raafllaub"
       image: "images/team/AC_Christoph_Raaflaub@2x.jpg"
       designation: "Trainer"
-      abstract: "Mit seinem Wohnmobil hat er schon viele Orte besucht, auch wenn es um die Cloud Native Landscape geht, ist er ein erfahrener und ortskundiger Resieführer."
-      experience: "Christoph arbeitet seit 20 Jahren in der IT, wodurch ihn fast kein Problem mehr überraschen kann. Gestartet als Softwareentwickler, nebenbei den Abschluss als Informatik Ingenieur FH gemacht, arbeitet er heute im CI/CD Bereich bei Puzzle ITC. Dort begleitet er viele Kunden auf dem Weg zu qualitativen Pipelines"
+      abstract: "Mit seinem Wohnmobil hat er schon viele Orte besucht, auch wenn es um die Cloud Native Landscape geht, ist er ein erfahrener und ortskundiger Reiseführer."
+      experience: "Christoph arbeitet seit 20 Jahren in der IT, wodurch ihn fast kein Problem mehr überraschen kann. Gestartet als Softwareentwickler, nebenbei den Abschluss als Informatik Ingenieur FH gemacht, arbeitet er heute im CI/CD Bereich bei Puzzle ITC. Dort begleitet er viele Kunden auf dem Weg zu qualitativen Pipelines."
       linkedin: "https://www.linkedin.com/in/chrira/"
       twitter: "https://twitter.com/chrira"
 
