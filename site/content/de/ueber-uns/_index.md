@@ -69,7 +69,7 @@ team:
       image: "images/team/AC_Benji@2x.jpg"
       designation: "Trainer"
       abstract: "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      experience: "Nebst der Erarbeitung von neuen und der Durchführung von bestehenden Trainings, arbeitet Benj seit über 5 Jahren bei Puzzle ITC und ist dort als Consultant und Architekt für verschiedenste Firmen im Bereich Container und Cloud Native unterwegs. Er hat nebst einem Bachelor in IT (2015) verschiedene Zertifizierungen, wie den RHCA und den CKA gemacht, die ihn perfekt als Trainer ausrüsten."
+      experience: "Nebst der Erarbeitung von neuen und der Durchführung von bestehenden Trainings, hat Benj über 7 Jahre bei Puzzle ITC als Architekt für verschiedenste Firmen im Bereich Container und Cloud Native viele Erfahrungen gesammelt. Seit 2023 unterstützt er die Kunden bei ROKT.  Er hat nebst einem Bachelor in IT (2015) verschiedene Zertifizierungen, wie den RHCA und den CKA gemacht, die ihn perfekt als Trainer ausrüsten."
       linkedin: "https://www.linkedin.com/in/benjamin-affolter/"
       twitter: "https://twitter.com/bliemli"
     

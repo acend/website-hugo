@@ -68,7 +68,7 @@ team:
       image: "images/team/AC_Benji@2x.jpg"
       designation: "Trainer"
       abstract: "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
-      experience: "In addition to developing new trainings and conducting existing ones, Benj has been working at Puzzle ITC for over 5 years, where he is a consultant and architect for various companies in the field of containers and cloud native. He has a bachelor's degree in IT (2015) and various certifications, such as the RHCA and the CKA, which equip him perfectly as a trainer."
+      experience: "Besides developing new and delivering existing trainings, Benj has gained a lot of experience over 7 years at Puzzle ITC as an architect for various companies in the container and cloud native space. He has been supporting customers at ROKT since 2023.  He has a bachelor's degree in IT (2015) and several certifications, such as the RHCA and the CKA, which equip him perfectly as a trainer."
       linkedin: "https://www.linkedin.com/in/benjamin-affolter/"
       twitter: "https://twitter.com/bliemli"
 
