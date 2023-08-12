@@ -60,7 +60,7 @@ team:
 
     - title: "Beat Schärz"
       image: "images/team/AC_Beat_Schaerz@2x.jpg"
-      designation: "Trainer"
+      designation: "Trainer, Puzzle ITC"
       abstract: "Nicht nur beim Sport hat Beat eine eiserne Disziplin, auch mit dem stetigen Aufbauen von neuem Wissen stählt er sein Gehirn."
       experience: "Nach der Informatiker-Lehre hat Beat ohne Unterbruch gleich berufsbegleitend den Bachelor in Informatik angehängt. Vom Linux Engineering bei DXC, ist er heute bei Puzzle im Kubernetes Umfeld gelandet. Dort begleitet er viele Kunden auf dem Weg zu Kubernetes und auch Observability, was seine Leidenschaft ist."
       linkedin: "https://www.linkedin.com/in/beat-sch%C3%A4rz/"
@@ -82,7 +82,7 @@ team:
     
     - title : "Christian Schlatter"
       image : "images/team/AC_Christian_Schlatter@2x.jpg"
-      designation : "Trainer, Puzzle ITC"
+      designation : "Trainer"
       abstract : "Er reist nicht nur gerne durch die reale Welt, sondern entdeckt auch in der Cloud Native Landscape neue Orte"
       experience: "Während seines Bachelorstudiums in Informatik (2014) hat Christian als Software Entwickler zahlreiche Erfahrungen mit Java und Go gesammelt. Seit 2020 arbeitet er als Consultant bei Puzzle und hilft den Kunden mit Cloud Native Technologien, ihre Software-Entwicklung zu enabeln."
       linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
@@ -96,7 +96,7 @@ team:
 
     - title: "Christoph Raafllaub"
       image: "images/team/AC_Christoph_Raaflaub@2x.jpg"
-      designation: "Trainer"
+      designation: "Trainer, Puzzle ITC"
       abstract: "Mit seinem Wohnmobil hat er schon viele Orte besucht, auch wenn es um die Cloud Native Landscape geht, ist er ein erfahrener und ortskundiger Reiseführer."
       experience: "Christoph arbeitet seit 20 Jahren in der IT, wodurch ihn fast kein Problem mehr überraschen kann. Gestartet als Softwareentwickler, nebenbei den Abschluss als Informatik Ingenieur FH gemacht, arbeitet er heute im CI/CD Bereich bei Puzzle ITC. Dort begleitet er viele Kunden auf dem Weg zu qualitativen Pipelines."
       linkedin: "https://www.linkedin.com/in/chrira/"

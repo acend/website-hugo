@@ -59,7 +59,7 @@ team:
 
     - title: "Beat Schärz"
       image: "images/team/AC_Beat_Schaerz@2x.jpg"
-      designation: "Trainer"
+      designation: "Trainer, Puzzle ITC"
       abstract: "Not only does Beat have an iron discipline when it comes to sports, but he also steels his brain by constantly building up new knowledge."
       experience: "After his apprenticeship as a computer scientist, Beat immediately completed a bachelor's degree in computer science while working. From Linux Engineering at DXC, he now works in the Kubernetes environment at Puzzle. There he accompanies many customers on their way to Kubernetes and also Observability, which is his passion."
       linkedin: "https://www.linkedin.com/in/beat-sch%C3%A4rz/"
@@ -81,7 +81,7 @@ team:
 
     - title: "Christian Schlatter"
       image: "images/team/AC_Christian_Schlatter@2x.jpg"
-      designation: "Trainer, Puzzle ITC"
+      designation: "Trainer"
       abstract: "Not only does he enjoy traveling through the real world, but he also discovers new places in the Cloud Native Landscape"
       experience: "During his bachelor studies in computer science (2014), Christian gained a lot of experience with Java and Go as a software developer. Since 2020, he has been working as a consultant at Puzzle, helping customers to enable their software development with cloud native technologies."
       linkedin: "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
@@ -95,7 +95,7 @@ team:
 
     - title: "Christoph Raafllaub"
       image: "images/team/AC_Christoph_Raaflaub@2x.jpg"
-      designation: "Trainer"
+      designation: "Trainer, Puzzle ITC"
       abstract: "He has visited many places with his RV, and when it comes to the Cloud Native Landscape, he is also an experienced and knowledgeable guide."
       experience: "Christoph has been working in IT for 20 years, so almost no problem can surprise him anymore. He started as a software developer and graduated as a computer science engineer FH on the side. Today he works in the CI/CD area at Puzzle ITC. There he accompanies many customers on their way to qualitative pipelines."
       linkedin: "https://www.linkedin.com/in/chrira/"
