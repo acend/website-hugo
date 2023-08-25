@@ -46,17 +46,19 @@ accordion:
 trainingsinhalt: 
     title : "Content"
     text : "Our trainings consist of varied presentations and hands-on labs in order to teach content in an appealing fashion. We are happy to discuss the possibility of tailoring the content to your infrastructure. Should you require additional contents, we can adapt the program to your needs."
+
     liste1:
-      title: "MicroServices Basics"
+      title: "Tekton Basics"
       liste:
-        - el: "Introduction Architectural Patterns"
-        - el: "Hands-On: Monolithic Applications"
-        - el: "Migration Strategies"
-        - el: "Hands-On: REST MicroServices"
-        - el: "Cloud Patterns"
-        - el: "Hands-On: Event Driven Architectures"
-        - el: "Observability and Deployments"
-        - el: "Hands-On: CDC Pattern"
+        - el: "Simple pipeline example"
+        - el: "Integration in OpenShift"
+        - el: "Tekton in a cloud native world"
+        - el: "Building Docker images"
+        - el: "CI/CD deep dive"
+        - el: "Complex pipeline"
+        - el: "Advanced delivery pipeline"
+        - el: "Harmony GitOps / CI/CD principles"
+        - el: "Supply chain (Tekton chains)"
 
 
 # trainer
