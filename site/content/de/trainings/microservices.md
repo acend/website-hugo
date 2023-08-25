@@ -2,9 +2,10 @@
 title: "MicroServices"
 seo_title: "Praxisorientierter Einstieg in MicroServices"
 description: "In diesem Training erhältst Du einen Hands-On-First Approach für dein Einstieg und Ueberblick in die Welt der MicroServices."
-date: 2023-08-25T12:16:39+06:00
+date: 2022-06-25T12:16:39+06:00
 draft: false
-weight: 4
+weight: 10
+slug: 
 subtitle: "Basics"
 categories: ["Basics", "Ergänzende Trainings"]
 duration: "1 Tag"
@@ -41,7 +42,7 @@ accordion:
           icon : "2"
           content : "<ul>
 <li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
-<li>Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig</li>
+<li>Lokale Admin-Rechte oder ein Terminal mit Verbindungsmöglichkeit via SSH sind zusätzlich nötig</li>
 <li>Eine Docker Installation wird vorausgesetzt</li>
 </ul>"
 
@@ -92,6 +93,7 @@ trainers:
       designation : "Trainer, Puzzle ITC"
       abstract : "Er reist nicht nur gerne durch die reale Welt, sondern entdeckt auch in der Cloud Native Landscape neue Orte"
       linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
+
     - title : "Raffael Hertle"
       image : "images/team/AC_Raffael_Hertle@2x.jpg"
       designation : "Trainer"
