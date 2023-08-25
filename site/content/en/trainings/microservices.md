@@ -68,13 +68,13 @@ trainingsinhalt:
       title: "MicroServices Basics"
       liste:
         - el: "Introduction Architectural Patterns"
-        - el: "Hands-On\: Monolitic Applications"
+        - el: "Hands-On - Monolitic Applications"
         - el: "Migration Strategies"
-        - el: ""
+        - el: "Hands-On - REST MicroServices"
         - el: "Cloud Patterns"
-        - el: ""
+        - el: "Hands-On - Event Driven Architectures"
         - el: "Observability and Deployments"
-        - el: ""
+        - el: "Hands-On - CDC Pattern"
 
 
 # trainer
