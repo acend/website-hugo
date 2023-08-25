@@ -2,7 +2,7 @@
 title: "MicroServices"
 seo_title: "Practice-oriented introduction to MicroServices"
 description: "In this training you will get a hands-on-first approach for your entry and overview into the world of MicroServices."
-date: 2023-08-25T12:16:39+06:00
+date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 10
 subtitle: "Basics"
@@ -21,48 +21,31 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeT@2x.jpg"
   
 
-main_text: "
-In this training we go on a journey, we start with monolithic architectures and dive together into the world of MicroServices. With a hands-on-first approach, various approaches will be shown along with their opportunities, threats and also best practices. After the trip, terms like MicroServices, Event-Driven Architectures, Observability, Fault Tolerance, etc. are no longer unfamiliar words to us!
-"
+main_text: ""
 
 accordion:
     enable : true
     item:
         - title : "Outcomes"
           icon : "1"
-          content : "<ul>
-<li>Understand architecture patterns</li>
-<li>Know migration options with advantages and disadvantages</li>
-<li>Know and understand fault tolerance, event-driven architecture, change data capture patterns</li>
-<li>Know modern observability stacks</li>
-</ul>"
+          content : ""
+          
         - title : "Prerequisites"
           icon : "2"
-          content : "<ul>
-<li>Participants will need a laptop with direct access to the Internet</li>
-<li>Additionally, local admin rights or access to a terminal (in the browser) are required</li>
-<li>A Docker installation is required</li>
-</ul>"
+          content : ""
+
         - title : "Target audience"
           icon : "3"
-          content : "<ul>
-<li>Our training is aimed at people who already have previous knowledge in the area of Java software development and architecture</li>
-<li>Furthermore, basic know-how in relation to containers and container platforms is an advantage</li>
-</ul>"
+          content : ""
+
         - title : "Conditions"
           icon : "4"
-          content : "<ul>
-<li>CHF 1200 / participant for one day</li>
-<li>Group sessions consisting of 8 to 24 participants</li>
-<li>Includes catering and documentation </li>
-<li>Discounts available for groups of 12 participants or more</li>
-</ul>"
+          content : ""
 
 # Trainingsinhalt
 trainingsinhalt: 
     title : "Content"
     text : "Our trainings consist of varied presentations and hands-on labs in order to teach content in an appealing fashion. We are happy to discuss the possibility of tailoring the content to your infrastructure. Should you require additional contents, we can adapt the program to your needs."
-
     liste1:
       title: "MicroServices Basics"
       liste:
@@ -81,7 +64,6 @@ trainers:
   enable: true
   title : "Meet two of your trainers"
   trainer:
-  
     - title : "Christian Schlatter"
       image : "images/team/AC_Christian_Schlatter@2x.jpg"
       designation : "Trainer, Puzzle ITC"
