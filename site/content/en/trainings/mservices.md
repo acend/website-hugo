@@ -4,7 +4,7 @@ seo_title: "Practice-oriented introduction to MicroServices"
 description: "In this training you will get a hands-on-first approach for your entry and overview into the world of MicroServices."
 date: 2023-08-25T12:16:39+06:00
 draft: false
-weight: 4
+weight: 10
 subtitle: "Basics"
 categories: ["Basics", "Additional trainings"]
 duration: "1 Day"
@@ -74,7 +74,6 @@ trainingsinhalt:
         - el: "Hands-On: Event Driven Architectures"
         - el: "Observability and Deployments"
         - el: "Hands-On: CDC Pattern"
-        - 
 
 
 # trainer
