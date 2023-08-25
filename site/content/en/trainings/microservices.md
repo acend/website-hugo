@@ -67,15 +67,14 @@ trainingsinhalt:
     liste1:
       title: "MicroServices Basics"
       liste:
-        - el: "Simple pipeline example"
-        - el: "Integration in OpenShift"
-        - el: "Tekton in a cloud native world"
-        - el: "Building Docker images"
-        - el: "CI/CD deep dive"
-        - el: "Complex pipeline"
-        - el: "Advanced delivery pipeline"
-        - el: "Harmony GitOps / CI/CD principles"
-        - el: "Supply chain (Tekton chains)"
+        - el: "Introduction Architectural Patterns"
+        - el: "Hands-On\: Monolitic Applications"
+        - el: "Migration Strategies"
+        - el: ""
+        - el: "Cloud Patterns"
+        - el: ""
+        - el: "Observability and Deployments"
+        - el: ""
 
 
 # trainer
