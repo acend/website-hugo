@@ -17,9 +17,9 @@ personen:
   preis : "CHF 1900"
 
 headerimages:
-  img1 : "images/trainings/ACEND_Hicham-Bike@2x.jpg"
+  img1 : "images/trainings/ACEND_Adventure_Hicham-Bike@2x.jpg"
   img2 : "images/trainings/ACEND_Hicham@2x.jpg"
-  img3 : "images/trainings/ACEND_CodeT@2x.jpg"
+  img3 : "images/trainings/ACEND_CodeB@2x.jpg"
   
 
 main_text: "
@@ -89,7 +89,7 @@ kooperation:
   logo: "images/partner/puzzle-itc.png"
   text: "Puzzle ITC deckt als innovativer IT-Dienstleister den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei wird konsequent auf Open Source Technologien sowie modernste Methoden gesetzt. Verschiedene interdisziplinäre Teams arbeitet an Projekten in den Bereichen Beratung, Applikationen, Delivery, Infrastruktur und eigenen Open Source Lösungen."
   link: "https://puzzle.ch"
-  linktext: "bespinian.io"
+  linktext: "Puzzle ITC"
 
 # trainer
 trainers:
