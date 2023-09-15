@@ -28,26 +28,6 @@ Ansible ist ein Open-Source-Werkzeug zur Automatisierung, Orchestrierung und all
 Das Kickstart-Training gibt einen Einblick in die Technologie und zeigt anhand von Hands-on-Labs, wie sich Ansible effizient nutzen lässt.
 "
 
-Voraussetzungen
-Notebook (oder vergleichbares Endgerät) mit aktuellem Web-Browser, um auf die von Puzzle bereitgestellte, Cloud-basierte Lab-Umgebung zuzugreifen
-(bei Online-Teilnahme) Internetzugang für Web-Konferenz und Zugriff auf Cloud-basierte Lab-Umgebung
-Grundlegende Linux-Kenntnisse
-
-Sprache
-Der Kurs wird auf Deutsch durchgeführt. Die Lab-Unterlagen stehen auf Englisch zur Verfügung.
-
-
-
-
-
-
-Voraussetzungen
-
-Internetzugang, um auf die von Puzzle bereitgestellte, cloudbasierte Lab-Umgebung zuzugreifen
-Einen modernen Browser
-Grundlegenden Linux-Kenntnisse
-
-
 accordion:
     enable : true
     item:
