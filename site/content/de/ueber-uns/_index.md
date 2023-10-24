@@ -57,12 +57,19 @@ team:
       experience: "Nach der Lehre als Informatikerin und einigen weiteren Stationen in der IT hat Anna einen Abstecher in die Fliegerei gemacht. Sie betreute sowohl die Serverlandschaft der Edelweiss Air, als auch die Passagiere über den Wolken.
       Danach folgten weitere spannende Jahre als System Engineer bei HRM Systems und die Weiterbildung zur Projektleiterin. Seit vier Jahren ist Anna bei Puzzle ITC, schaut, dass alle Container und CI/CD Engineers, wie auch die Kunden happy sind."
       linkedin: "https://www.linkedin.com/in/anna-pfeifhofer-902495183/"
-    
+
+    - title: "Beat Schärz"
+      image: "images/team/AC_Beat_Schaerz@2x.jpg"
+      designation: "Trainer, Puzzle ITC"
+      abstract: "Nicht nur beim Sport hat Beat eine eiserne Disziplin, auch mit dem stetigen Aufbauen von neuem Wissen stählt er sein Gehirn."
+      experience: "Nach der Informatiker-Lehre hat Beat ohne Unterbruch gleich berufsbegleitend den Bachelor in Informatik angehängt. Vom Linux Engineering bei DXC, ist er heute bei Puzzle im Kubernetes Umfeld gelandet. Dort begleitet er viele Kunden auf dem Weg zu Kubernetes und auch Observability, was seine Leidenschaft ist."
+      linkedin: "https://www.linkedin.com/in/beat-sch%C3%A4rz/"
+
     - title: "Benjamin Affolter"
       image: "images/team/AC_Benji@2x.jpg"
       designation: "Trainer"
       abstract: "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      experience: "Nebst der Erarbeitung von neuen und der Durchführung von bestehenden Trainings, arbeitet Benj seit über 5 Jahren bei Puzzle ITC und ist dort als Consultant und Architekt für verschiedenste Firmen im Bereich Container und Cloud Native unterwegs. Er hat nebst einem Bachelor in IT (2015) verschiedene Zertifizierungen, wie den RHCA und den CKA gemacht, die ihn perfekt als Trainer ausrüsten."
+      experience: "Nebst der Erarbeitung von neuen und der Durchführung von bestehenden Trainings, hat Benj über 7 Jahre bei Puzzle ITC als Architekt für verschiedenste Firmen im Bereich Container und Cloud Native viele Erfahrungen gesammelt. Seit 2023 unterstützt er die Kunden bei ROKT.  Er hat nebst einem Bachelor in IT (2015) verschiedene Zertifizierungen, wie den RHCA und den CKA gemacht, die ihn perfekt als Trainer ausrüsten."
       linkedin: "https://www.linkedin.com/in/benjamin-affolter/"
       twitter: "https://twitter.com/bliemli"
     
@@ -75,7 +82,7 @@ team:
     
     - title : "Christian Schlatter"
       image : "images/team/AC_Christian_Schlatter@2x.jpg"
-      designation : "Trainer, Puzzle ITC"
+      designation : "Trainer"
       abstract : "Er reist nicht nur gerne durch die reale Welt, sondern entdeckt auch in der Cloud Native Landscape neue Orte"
       experience: "Während seines Bachelorstudiums in Informatik (2014) hat Christian als Software Entwickler zahlreiche Erfahrungen mit Java und Go gesammelt. Seit 2020 arbeitet er als Consultant bei Puzzle und hilft den Kunden mit Cloud Native Technologien, ihre Software-Entwicklung zu enabeln."
       linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
@@ -86,6 +93,15 @@ team:
       abstract: "Sitzt er nicht konzentriert vor dem Computer, dann am ehesten in einem schnellen Auto – er dreht nur auf dem Nürburgring Extrarunden."
       experience: "Bereits 1996 startete Christoph in der IT der Mobiliar, wo er in vielen Bereichen Erfahrung sammelte. Zeitgleich absolvierte er sein Studium an der Universität Bern mit dem Abschluss als Master in IT. Seit 2021 ist er Architekt und für Themen wie Observability, Container, Messaging und weitere Technologien zuständig."
       linkedin: "https://www.linkedin.com/in/christoph-aymon/"
+
+    - title: "Christoph Raafllaub"
+      image: "images/team/AC_Christoph_Raaflaub@2x.jpg"
+      designation: "Trainer, Puzzle ITC"
+      abstract: "Mit seinem Wohnmobil hat er schon viele Orte besucht, auch wenn es um die Cloud Native Landscape geht, ist er ein erfahrener und ortskundiger Reiseführer."
+      experience: "Christoph arbeitet seit 20 Jahren in der IT, wodurch ihn fast kein Problem mehr überraschen kann. Gestartet als Softwareentwickler, nebenbei den Abschluss als Informatik Ingenieur FH gemacht, arbeitet er heute im CI/CD Bereich bei Puzzle ITC. Dort begleitet er viele Kunden auf dem Weg zu qualitativen Pipelines."
+      linkedin: "https://www.linkedin.com/in/chrira/"
+      twitter: "https://twitter.com/chrira"
+
 
     - title: "Daniel Strohecker"
       image: "images/team/AC_Daenu@2x.jpg"
@@ -155,13 +171,6 @@ team:
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz"
 
-    - title : "Nemanja Kostic"
-      designation : "Trainer, arch.cloud"
-      abstract : "Er hat die letzten 20 Jahre in der IT-Branche Kaffee getrunken und so getan, als wüsste er, was er tut."
-      experience: "Nemanja ist CO-Founder von arch.cloud und als AWS Solution Architect tätig. Er ist neunfach AWS-zertifiziert und hat einen Master in Information Technology."
-      image : "images/team/AC_Nemanja_Kostic@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/nemanjakostic/"
-
     - title: "Philipp Grossenbacher"
       image: "images/team/AC_Phippu@2x.jpg"
       designation: "Experience"
@@ -177,13 +186,6 @@ team:
       experience: "Von Sarnen hat ihn das Informatikstudium an die Uni nach Bern gezogen. Seit dem Abschluss arbeitet Raffael als Software Engineer, wobei ihn dort die neuen Frameworks und Cloud Native Technologien wie Quarkus am meisten faszinieren."
       linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
       twitter : "https://twitter.com/g1raffi"
-
-    - title : "Reto Kupferschmid"
-      designation : "Trainer, Puzzle ITC"
-      abstract : "Ganz nach dem Motto, was nicht passt wird passend gemacht, löst er als Engineer alle Herausforderungen im Handumdrehen."
-      experience: "Reto hat nach seiner Lehre als Informatiker (2014) berufsbegleitend die HF besucht. Als System Engineer konnte er bereits viele Erfahrungen sammeln, die er seit über 3 Jahren bei Puzzle stetig erweitert. Sein Herz schlägt für die Themen Monitoring und Automatisierung - er ist mit mehreren Zertifizierungen gerüstet."
-      image : "images/team/AC_Reto_Kupferschmid@2x.jpg"
-      twitter : "https://twitter.com/reti_k"
 
     - title: "Sebastian Plattner"
       image: "images/team/AC_Seba@2x.jpg"

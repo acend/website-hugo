@@ -95,6 +95,8 @@ trainings:
           slug: "serverless"
         - title: "Cilium"
           slug: "cilium"
+        - title: "MicroServices"
+          slug: "microservices"        
 
     - title: "Programmierung"
       text: '"Hello World" & mehr in Cloud Native'

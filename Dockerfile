@@ -1,4 +1,4 @@
-FROM klakegg/hugo:0.107.0-ext-ubuntu AS builder
+FROM klakegg/hugo:0.111.3-ext-ubuntu AS builder
 
 # Add package.json before rest of repo for caching
 COPY package.json package-lock.json .nvmrc /src/
@@ -8,7 +8,7 @@ COPY . /src
 
 RUN npm run build
 
-FROM nginxinc/nginx-unprivileged:1.23-alpine
+FROM nginxinc/nginx-unprivileged:1.25-alpine
 EXPOSE 8080
 # The URL of the backend service, see https://github.com/acend/website-backend
 ENV BACKEND_URL=http://acend-website-backend:8000
