@@ -7,7 +7,7 @@ draft: false
 weight: 10
 slug: 
 subtitle: "Basics"
-categories: ["Basics", "Ergänzende Trainings"]
+categories: ["Basics", "Programming"]
 duration: "1 Tag"
 abstract: "Praxisorientierter Einstieg in MicroServices"
 main_title: "Praxisorientierter Einstieg in MicroServices"
@@ -89,7 +89,7 @@ trainers:
   
     - title : "Christian Schlatter"
       image : "images/team/AC_Christian_Schlatter@2x.jpg"
-      designation : "Trainer, Puzzle ITC"
+      designation : "Trainer"
       abstract : "Er reist nicht nur gerne durch die reale Welt, sondern entdeckt auch in der Cloud Native Landscape neue Orte"
       linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
 

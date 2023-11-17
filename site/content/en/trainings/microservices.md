@@ -6,7 +6,7 @@ date: 2023-08-25T12:16:39+06:00
 draft: false
 weight: 4
 subtitle: "Basics"
-categories: ["Basics", "Additional trainings"]
+categories: ["Basics", "Programming"]
 duration: "1 Day"
 abstract: "Practice-oriented introduction to MicroServices"
 main_title: "Practice-oriented introduction to MicroServices"
