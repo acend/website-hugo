@@ -98,15 +98,15 @@ trainers:
   trainer:
   
     - title : "Philippe Schmid"
-      image : "images/team/AC_Platzhalter@2x.jpg"
+      image : "images/team/AC_Philippe@2x.jpg"
       designation : "Trainer, Puzzle ITC"
-      abstract : "Er wird noch einen Text erhalten"
+      abstract : "Philippe hat bereits zahlreiche Läufe und Marathons absolviert. In der Informatik mag er derartige Anstrengungen nicht, daher automatisiert er alles, was möglich ist."
       linkedin : "https://www.linkedin.com/in/philippe-schmid-52644127b/"
 
     - title : "Lukas Grimm"
-      image : "images/team/AC_Platzhalter@2x.jpg"
+      image : "images/team/AC_Lukas@2x.jpg"
       designation : "Trainer, Puzzle ITC"
-      abstract : "Er natürlich auch"
+      abstract : "Lukas braut selber Bier, ist System Engineer und Pädagoge. Damit stellt er den perfekten Archetyp eines acend Trainers dar."
       linkedin : "https://www.linkedin.com/in/grimmlukas/"
       twitter : "https://twitter.com/ombre"
       
