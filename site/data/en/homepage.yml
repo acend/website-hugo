@@ -95,14 +95,16 @@ trainings:
           slug: "serverless"
         - title: "Cilium"
           slug: "cilium"
-        - title: "MicroServices"
-          slug: "microservices"          
+        - title: "Ansible"
+          slug: "ansible"              
 
     - title: "Programming"
       text: '"Hello World" & more in Cloud Native'
       trainings:
         - title: "Go"
           slug: "go"
+        - title: "MicroServices"
+          slug: "microservices"       
 
 # video
 # video:
