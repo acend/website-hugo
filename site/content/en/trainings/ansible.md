@@ -23,8 +23,8 @@ headerimages:
   
 
 main_text: "
-This two-day training course is aimed at IT professionals from the fields of system administration, architecture and software development who want to acquire a sound basic knowledge of Ansible.\n\n
-Ansible is an open source tool for the automation, orchestration and general configuration and administration of computers. It combines software distribution, ad-hoc command execution and configuration management. The servers are managed via SSH, among other things, and no additional software is required on the system to be managed.\n\n
+This two-day training course is aimed at IT professionals from the fields of system administration, architecture and software development who want to acquire a sound basic knowledge of Ansible.\n
+Ansible is an open source tool for the automation, orchestration and general configuration and administration of computers. It combines software distribution, ad-hoc command execution and configuration management. The servers are managed via SSH, among other things, and no additional software is required on the system to be managed.\n
 The Kickstart training provides an insight into the technology and uses hands-on labs to show how Ansible can be used efficiently.
 "
 
@@ -56,7 +56,7 @@ accordion:
         - title : "Conditions"
           icon : "4"
           content : "<ul>
-<li>CHF 1900 / participant for two day</li>
+<li>CHF 1900 / participant for two days</li>
 <li>Group classes consisting of 8 to 24 participants</li>
 <li>Includes catering and documentation</li>
 <li>Discounts available for groups of 12 participants or more</li>
@@ -65,7 +65,7 @@ accordion:
 # Trainingsinhalt
 trainingsinhalt: 
     title : "Content"
-    text : "Our training sessions consist of varied presentations and hands-on labs to convey their content in an exciting way.\n\n
+    text : "Our training sessions consist of varied presentations and hands-on labs to convey their content in an exciting way.\n
 We are also happy to refer to your infrastructure in consultation. If further content is required, we can make adjustments at your request."
 
     liste1:
@@ -98,13 +98,13 @@ trainers:
   trainer:
   
     - title : "Philippe Schmid"
-      image : "images/team/AC_Platzhalter@2x.jpg"
+      image : "images/team/AC_Philippe@2x.jpg"
       designation : "Trainer, Puzzle ITC"
       abstract : "Philippe has already completed numerous runs and marathons. He doesn't like this kind of effort in IT, so he automates everything that is possible."
       linkedin : "https://www.linkedin.com/in/philippe-schmid-52644127b/"
 
     - title : "Lukas Grimm"
-      image : "images/team/AC_Platzhalter@2x.jpg"
+      image : "images/team/AC_Lukas@2x.jpg"
       designation : "Trainer, Puzzle ITC"
       abstract : "Lukas brews his own beer, is a systems engineer and an educator. This makes him the perfect archetype of an acend trainer."
       linkedin : "https://www.linkedin.com/in/grimmlukas/"
