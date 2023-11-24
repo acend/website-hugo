@@ -167,6 +167,11 @@ partner:
       URL: "https://www.cncf.io"
       label: "cncf.io"
 
+    - logo: "images/partner/rokt.png"
+      text: "ROKT helps businesses get all the way to the top. More specifically: Into the cloud. With advice at eye-level and technological solutions that unlock untapped potential."
+      URL: "https://rokt.cloud/"
+      label: "rokt.cloud/"      
+
     - logo: "images/partner/arch-cloud.png"
       text: "Engineering cloud native solutions is their passion. They support customers in the cloud transformation. Not only in architecture, infrastructure and software development, but also in the appropriate strategy and organization."
       URL: "https://arch.cloud/"
