@@ -56,7 +56,7 @@ accordion:
         - title : "Konditionen"
           icon : "4"
           content : "<ul>
-<li>CHF 1000 / Person für einen Tag</li>
+<li>CHF 1100 / Person für einen Tag</li>
 <li>Gruppen von 8-24 Personen</li>
 <li>Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud</li>
 <li>Rabatt ab 12 Personen</li>
