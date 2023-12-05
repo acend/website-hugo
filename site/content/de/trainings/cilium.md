@@ -52,7 +52,7 @@ accordion:
         - title : "Konditionen"
           icon : "4"
           content : "<ul>
-<li>CHF 1200 / Person für einen Tag</li>
+<li>CHF 1100 / Person für einen Tag</li>
 <li>Gruppen von 8–24 Personen</li>
 <li>Inklusive Verpflegung und Unterlagen</li>
 <li>Rabatt ab 12 Personen</li>

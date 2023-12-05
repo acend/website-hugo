@@ -13,7 +13,7 @@ main_title: "Practice-oriented introduction to MicroServices"
 
 personen: 
   daten : ""
-  preis : "CHF 1200"
+  preis : "CHF 1100"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Nadia-Redstone@2x.jpg"
@@ -52,7 +52,7 @@ accordion:
         - title : "Conditions"
           icon : "4"
           content : "<ul>
-<li>CHF 1200 / participant for one day (or two half days).</li>
+<li>CHF 1100 / participant for one day (or two half days).</li>
 <li>Group sessions consisting of 8 to 24 participants.</li>
 <li>Includes catering and documentation.</li>
 <li>Discounts available for groups of 12 participants or more.</li>

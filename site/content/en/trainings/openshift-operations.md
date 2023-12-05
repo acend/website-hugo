@@ -54,7 +54,7 @@ accordion:
         - title : "Conditions"
           icon : "4"
           content : "<ul>
-<li>CHF 2200 / participant for 2 days</li>
+<li>CHF 2200 / participant for two days</li>
 <li>Group classes consisting of 8 to 24 participants</li>
 <li>Includes catering, documentation and an OpenShift cluster in the cloud for each participant</li>
 <li>Discounts available for groups of 12 participants or more</li>

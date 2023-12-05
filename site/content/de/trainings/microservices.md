@@ -14,7 +14,7 @@ main_title: "Praxisorientierter Einstieg in MicroServices"
 
 personen: 
   daten : ""
-  preis : "CHF 1200"
+  preis : "CHF 1100"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Nadia-Redstone@2x.jpg"
@@ -56,7 +56,7 @@ accordion:
         - title : "Konditionen"
           icon : "4"
           content : "<ul>
-<li>CHF 1200 / Person für einen Tag</li>
+<li>CHF 1100 / Person für einen Tag</li>
 <li>Gruppen von 8–24 Personen</li>
 <li>Inklusive Verpflegung und Unterlagen</li>
 <li>Rabatt ab 12 Personen</li>

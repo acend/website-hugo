@@ -52,7 +52,7 @@ accordion:
         - title : "Conditions"
           icon : "4"
           content : "<ul>
-<li>CHF 1200 / participant for 1 day</li>
+<li>CHF 1200 / participant for one day</li>
 <li>Group classes consisting of 8 to 24 participants</li>
 <li>Includes catering and documentation</li>
 <li>Discounts available for groups of 12 participants or more</li>
