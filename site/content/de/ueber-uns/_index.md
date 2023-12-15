@@ -89,7 +89,7 @@ team:
 
     - title: "Christof Lüthi"
       image: "images/team/AC_ChristofLuethi@2x.jpg"
-      designation: "Trainer"
+      designation: "Trainer, Puzzle ITC"
       abstract: "Christof ist zurück von seiner Weltreise, ist viel getaucht und hat unterschiedliche Kulturen kennengelernt. Mit frischem Geist und Neugier ist er nun auf Entdeckungsreise in der Cloud Native Welt."
       experience: "Christof hat um das Jahr 2000 mit der Informatiklehre gestartet, anschliessend hat er die FH und ein MAS in Informatik an der FH Bern gemacht. Daneben hat er zuerst als System Engineer und danach lange als Software Entwickler und Architekt gearbeitet. Genau in dieser Schnittstelle im Bereich Middleware mit einer Vorliebe für Daten gefällt es ihm am besten. Seit 2019 ist er als Kafka Spezialist bei Puzzle ITC und viel im Cloud Native Umfeld bei verschiedenen Kunden unterwegs."
       linkedin: "https://www.linkedin.com/in/christof-luethi/"

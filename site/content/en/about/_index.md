@@ -86,9 +86,16 @@ team:
       experience: "During his bachelor studies in computer science (2014), Christian gained a lot of experience with Java and Go as a software developer. Since 2020, he has been working as a consultant at Puzzle, helping customers to enable their software development with cloud native technologies."
       linkedin: "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
 
+    - title: "Christof Lüthi"
+      image: "images/team/AC_ChristofLuethi@2x.jpg"
+      designation: "Trainer, Puzzle ITC"
+      abstract: "Christof is back from his trip around the world, has dived a lot and got to know different cultures. With a fresh spirit and curiosity, he is now on a journey of discovery in the Cloud Native world."
+      experience: "Christof started his IT apprenticeship around 2000, after which he completed his FH and MAS in Computer Science at Bern University of Applied Sciences. He also worked first as a systems engineer and then as a software developer and architect for many years. It is precisely this interface in the area of middleware with a preference for data that he likes best. He has been a Kafka specialist at Puzzle ITC since 2019 and works a lot in the cloud-native environment for various customers."
+      linkedin: "https://www.linkedin.com/in/christof-luethi/"
+
     - title: "Christoph Aymon"
       image: "images/team/AC_Chrigu@2x.jpg"
-      designation: "Trainer"
+      designation: "Experience"
       abstract: "When he’s not concentrated on a computer screen, you’re most likely to find him in a fast car – he only does extra laps on the Nürburgring."
       experience: "Already in 1996 Christoph started in the IT department of the Mobiliar, where he gained experience in many areas. At the same time, he completed his studies at the University of Bern with a Master's degree in IT. Since 2021 he is an architect and responsible for topics like observability, containers, messaging and other technologies."
       linkedin: "https://www.linkedin.com/in/christoph-aymon/"
@@ -153,6 +160,13 @@ team:
       abstract : "In the calm lies the power. Lorenz shines with his calm and level-headed manner when it comes to the most complex topics in the IT world."
       experience: "Lorenz comes from the Puzzle ITC informatics forge. After his apprenticeship at Puzzle, he expanded his knowledge at the Bern University of Applied Sciences with a BSc of Science in Computer Science, which he then used in various customer projects. Among them are projects in the cloud environment with container technologies, automation and monitoring."
 
+    - title : "Lukas Grimm"
+      image : "images/team/AC_Lukas@2x.jpg"
+      designation : "Trainer, Puzzle ITC"
+      abstract : "Lukas brews his own beer, is a systems engineer and an educator. This makes him the perfect archetype of an acend trainer."
+      experience: "Lukas has already studied various things: Geology, civil engineering and also has a teaching certificate. But he was always drawn back to IT, where he can now pursue his passion as a systems engineer. He has been doing this for over 10 years at Puzzle ITC, where he helps customers to set up their infrastructure automatically."
+      linkedin : "https://www.linkedin.com/in/grimmlukas/"
+
     - title: "Marcel Groner"
       image: "images/team/AC_Marcel@2x.jpg"
       designation: "Finance & Experience"
@@ -171,12 +185,19 @@ team:
     
     - title: "Philipp Grossenbacher"
       image: "images/team/AC_Phippu@2x.jpg"
-      designation: "Experience"
+      designation: "Sales & Experience"
       abstract: "He’s responsible for our special effects. Some say it was the championship run of his favorite football club that made him fall in love with pursuing the unexpected."
       experience: "After his bachelor's degree in computer science, Philipp gained several years of experience in the IT departments of large insurance and banking service providers. In 2021 he completed an EMBA in Digital Business, full-time he works as a Product Owner at the Mobiliar."
       linkedin: "https://www.linkedin.com/in/philipp-grossenbacher/"
       twitter: "https://twitter.com/philogros"
-      
+
+    - title : "Philippe Schmid"
+      image : "images/team/AC_Philippe@2x.jpg"
+      designation : "Trainer, Puzzle ITC"
+      abstract : "Philippe has already completed numerous runs and marathons. He doesn't like this kind of effort in IT, so he automates everything that is possible."
+      experience: "Having started studying computer science almost 20 years ago, Philippe has already experienced many infrastructures and Linux distributions. Since the beginning, his heart has beaten for systems engineering, where he has currently been working at Puzzle for over 10 years. His specialty is automation, currently preferably with Ansible."      
+      linkedin : "https://www.linkedin.com/in/philippe-schmid-52644127b/"
+
     - title: "Raffael Hertle"
       image: "images/team/AC_Raffael_Hertle@2x.jpg"
       designation: "Trainer"
