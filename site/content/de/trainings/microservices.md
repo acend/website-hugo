@@ -42,8 +42,9 @@ accordion:
           icon : "2"
           content : "<ul>
 <li>Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet</li>
-<li>Lokale Admin-Rechte oder ein Terminal mit Verbindungsmöglichkeit via SSH sind zusätzlich nötig</li>
-<li>Eine Docker Installation wird vorausgesetzt</li>
+<li>Lokale Admin-Rechte</li>
+<li>Maven, Java 11 oder 17, IDE, Git</li>
+<li>Eine Docker und Docker Compose Installation wird vorausgesetzt</li>
 </ul>"
 
         - title : "Zielpublikum"

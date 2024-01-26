@@ -38,8 +38,9 @@ accordion:
           icon : "2"
           content : "<ul>
 <li>Participants will need a laptop with direct access to the Internet</li>
-<li>Additionally, local admin rights or access to a terminal (in the browser) are required</li>
-<li>A Docker installation is required</li>
+<li>Additionally, local admin rights are required</li>
+<li>Maven, Java 11 or 17, IDE, Git</li>
+<li>Installed Docker Engine with Docker-Compose</li>
 </ul>"
 
         - title : "Target Audience"
