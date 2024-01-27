@@ -37,9 +37,9 @@ accordion:
         - title : "Prerequisites"
           icon : "2"
           content : "<ul>
-<li>Participants will need a laptop with direct access to the Internet</li>
+<li>Participants will need a recent notebook with free internet access</li>
 <li>Additionally, local admin rights are required</li>
-<li>Maven, Java 11 or 17, IDE, Git</li>
+<li>Already installed Maven, Java OpenJDK 11, IDE, Git</li>
 <li>Installed Docker Engine with Docker-Compose</li>
 </ul>"
 

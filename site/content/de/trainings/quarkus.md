@@ -1,20 +1,20 @@
 ---
-title: "MicroServices"
-seo_title: "Praxisorientierter Einstieg in MicroServices"
-description: "In diesem Training erhältst Du einen Hands-On-First Approach für dein Einstieg und Ueberblick in die Welt der MicroServices."
-date: 2022-06-25T12:16:39+06:00
+title: "Quarkus"
+seo_title: "Starte mit Quarkus, dem Supersonic Subatomic Java Toolkit"
+description: "Dieses zweitägige Training bietet einen praktischen und klar verständlichen Einstieg in Quarkus, dem Kubernetes Native Java Stack. Quarkus ermöglicht es leichtgewichtige Services mit Java zu implementieren und eignet sich bestens um auf Container Plattformen oder direkt in die Cloud deployed zu werden."
+date: 2024-01-25T12:16:39+06:00
 draft: false
 weight: 10
 slug: 
 subtitle: "Basics"
 categories: ["Basics", "Programming"]
-duration: "1 Tag"
-abstract: "Praxisorientierter Einstieg in MicroServices"
-main_title: "Praxisorientierter Einstieg in MicroServices"
+duration: "2 Tage"
+abstract: "Starte mit Quarkus, dem Supersonic Subatomic Java Toolkit"
+main_title: "Starte mit Quarkus, dem Supersonic Subatomic Java Toolkit"
 
 personen: 
   daten : ""
-  preis : "CHF 1100"
+  preis : "CHF 1900"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Nadia-Redstone@2x.jpg"
@@ -23,8 +23,8 @@ headerimages:
   
 
 main_text: "
-In diesem Training begeben wir uns auf eine Reise, wir starten bei den monolithischen Architekturen und tauchen gemeinsam ein in die Welt der MicroServices. Mit einem Hands-On-First Approach werden diverse Herangehensweisen mitsamt ihren Opportunitäten, Gefahren und auch Best Practices aufgezeigt. Nach der Reise sind für uns alle Begriffe wie MicroServices, Event-Driven Architectures, Observability, Fault Tolerance etc. keine Fremdwörter mehr!
-"
+Quarkus wurde geschaffen, um Java-Entwicklern die Möglichkeit zu geben, Anwendungen für eine moderne, Cloud-native Welt zu erstellen. Quarkus ist ein Kubernetes-natives Java-Framework, das auf GraalVM und HotSpot zugeschnitten ist und aus den besten Java-Bibliotheken und -Standards entwickelt wurde.\n\n 
+In diesem Training werden wir gemeinsam einen kompletten Entwicklungszyklus durchlaufen und beginnen beim Bootstrapping einer Quarkus-Anwendung bis zu deren Ausführung als Container. Immer gut begleitet von unseren praxiserprobten Trainern und mit einem guten Mix aus Theorie und Hands-on Labs."
 
 accordion:
     enable : true
@@ -32,10 +32,10 @@ accordion:
         - title : "Trainingsziele"
           icon : "1"
           content : "<ul>
-<li>Architektur Pattern verstehen</li>
-<li>Migrationsmöglichkeiten mit Vor- und Nachteilen kennen</li>
-<li>Fault Tolerance, Event-Driven Architecture, Change Data Capture Pattern kennenlernen und verstehen</li>
-<li>Moderne Observability Stacks kennen</li>
+<li>Einstieg in Quarkus</li>
+<li>Microservices mit Quarkus entwerfen und implementieren</li>
+<li>Cloud-native Applikationen builden und deployen</li>
+<li>Wartbarkeit und Transparenz von Microservices</li>
 </ul>"
  
         - title : "Voraussetzungen"
@@ -57,7 +57,7 @@ accordion:
         - title : "Konditionen"
           icon : "4"
           content : "<ul>
-<li>CHF 1100 / Person für einen Tag</li>
+<li>CHF 1900 / Person für zwei Tage</li>
 <li>Gruppen von 8–24 Personen</li>
 <li>Inklusive Verpflegung und Unterlagen</li>
 <li>Rabatt ab 12 Personen</li>
@@ -70,17 +70,19 @@ trainingsinhalt:
 Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
 
     liste1:
-      title: "MicroServices Basics"
+      title: "Quarkus Basics"
       liste:
-        - el: "Einführung in Architektur Patterns"
-        - el: "Hands-On - Monolithische Applikationen"
-        - el: "Migrationsstrategien"
-        - el: "Hands-On - REST MicroServices"
-        - el: "Cloud Patterns"
-        - el: "Hands-On - Event Driven Architekturen"
-        - el: "Observability und Deployments"
-        - el: "Hands-On - CDC Pattern"
-
+        - el: "Einführung Microservice Architektur"
+        - el: "Erste Einblicke in Quarkus"
+        - el: "MicroProfile Spezifikation kennenlernen"
+        - el: "Konfigurierbarkeit von Quarkus Applikationen"
+        - el: "RESTful Microservices mit Quarkus"
+        - el: "Containerisierung von Microservices"
+        - el: "Deployment auf Cloud Native Infrastruktur"
+        - el: "Continuous Integration and Delivery (CICD)"
+        - el: "Event Driven Architektur und Messaging mit Apache Kafka"
+        - el: "Distributed Tracing mit OpenTracing und Jaeger"
+        - el: "Monitoring der Microservices durch Metriken"
 
 # trainer
 trainers:
