@@ -216,7 +216,7 @@ team:
       twitter: "https://twitter.com/SebaPlattner"
 
     - title: "Stefan Johner"
-      image: "images/team/AC_Stefua@2x.jpg"
+      image: "images/team/AC_Stefu@2x.jpg"
       designation: "Trainer"
       abstract: "Stefan ist nicht nur im Sport ein Teamplayer. Abseits der Sportplätze bewegt er sich gerne in der Microsoft- und Cloud Native Community, um neue Trends und Leute kennenzulernen."
       experience: "Nach seinem Informatik-Studium an der BFH hat Stefan mehrere Jahre im Microsoft Cloud Ökosystem Erfahrung gesammelt. Heute arbeitet er als Product Manager bei der Mobiliar Versicherung. Er ist seit 2016 Microsoft Azure MVP und Mitorganisator des Azure Bootcamp Switzerland. 
