@@ -24,7 +24,7 @@ headerimages:
 
 main_text: "
 Quarkus wurde geschaffen, um Java-Entwicklern die Möglichkeit zu geben, Anwendungen für eine moderne, Cloud-native Welt zu erstellen. Quarkus ist ein Kubernetes-natives Java-Framework, das auf GraalVM und HotSpot zugeschnitten ist und aus den besten Java-Bibliotheken und -Standards entwickelt wurde.\n\n 
-In diesem Training werden wir gemeinsam einen kompletten Entwicklungszyklus durchlaufen und beginnen beim Bootstrapping einer Quarkus-Anwendung bis dzu deren Ausführung als Container. Immer gut begleitet von unserern praxiserprobten Trainer und mit einem guten Mix aus Theorieimpulsen und Handson-Labs."
+In diesem Training werden wir gemeinsam einen kompletten Entwicklungszyklus durchlaufen und beginnen beim Bootstrapping einer Quarkus-Anwendung bis zu deren Ausführung als Container. Immer gut begleitet von unseren praxiserprobten Trainern und mit einem guten Mix aus Theorie und Hands-on Labs."
 
 accordion:
     enable : true
@@ -33,7 +33,7 @@ accordion:
           icon : "1"
           content : "<ul>
 <li>Einstieg in Quarkus</li>
-<li>Microservices mit Quarkus entwerfen und implementieren/li>
+<li>Microservices mit Quarkus entwerfen und implementieren</li>
 <li>Cloud-native Applikationen builden und deployen</li>
 <li>Wartbarkeit und Transparenz von Microservices</li>
 </ul>"
