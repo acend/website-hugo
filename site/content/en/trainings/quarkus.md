@@ -1,16 +1,16 @@
 ---
 title: "Quarkus"
-seo_title: "Starte mit Quarkus, dem Supersonic Subatomic Java Toolkit"
-description: "Dieses zweitägige Training bietet einen praktischen und klar verständlichen Einstieg in Quarkus, dem Kubernetes Native Java Stack. Quarkus ermöglicht es leichtgewichtige Services mit Java zu implementieren und eignet sich bestens um auf Container Plattformen oder direkt in die Cloud deployed zu werden."
+seo_title: "Get started with Quarkus, the Supersonic Subatomic Java Toolkit"
+description: "This two-day training offers a practical and clear introduction to Quarkus, the Kubernetes Native Java Stack. Quarkus makes it possible to implement lightweight services with Java and is ideally suited to be deployed on container platforms or directly in the cloud."
 date: 2024-01-25T12:16:39+06:00
 draft: false
 weight: 10
 slug: 
 subtitle: "Basics"
 categories: ["Basics", "Programming"]
-duration: "2 Tage"
-abstract: "Starte mit Quarkus, dem Supersonic Subatomic Java Toolkit"
-main_title: "Starte mit Quarkus, dem Supersonic Subatomic Java Toolkit"
+duration: "2 Days"
+abstract: "Get started with Quarkus, the Supersonic Subatomic Java Toolkit"
+main_title: "Get started with Quarkus, the Supersonic Subatomic Java Toolkit"
 
 personen: 
   daten : ""
@@ -23,44 +23,44 @@ headerimages:
   
 
 main_text: "
-Quarkus wurde geschaffen, um Java-Entwicklern die Möglichkeit zu geben, Anwendungen für eine moderne, Cloud-native Welt zu erstellen. Quarkus ist ein Kubernetes-natives Java-Framework, das auf GraalVM und HotSpot zugeschnitten ist und aus den besten Java-Bibliotheken und -Standards entwickelt wurde.\n\n 
-In diesem Training werden wir gemeinsam einen kompletten Entwicklungszyklus durchlaufen und beginnen beim Bootstrapping einer Quarkus-Anwendung bis zu deren Ausführung als Container. Immer gut begleitet von unseren praxiserprobten Trainern und mit einem guten Mix aus Theorie und Hands-on Labs."
+Quarkus was created to enable Java developers to build applications for a modern, cloud-native world. Quarkus is a Kubernetes-native Java framework tailored for GraalVM and HotSpot, built from the best Java libraries and standards.\n\n 
+In this training we will go through a complete development cycle together, starting with the bootstrapping of a Quarkus application and ending with its execution as a container. Always well accompanied by our experienced trainers and with a good mix of theory and hands-on labs."
 
 accordion:
     enable : true
     item:
-        - title : "Trainingsziele"
+        - title : "Outcomes"
           icon : "1"
           content : "<ul>
-<li>Einstieg in Quarkus</li>
-<li>Microservices mit Quarkus entwerfen und implementieren</li>
-<li>Cloud-native Applikationen builden und deployen</li>
-<li>Wartbarkeit und Transparenz von Microservices</li>
+<li>Introduction to Quarkus</li>
+<li>Designing and implementing microservices with Quarkus</li>
+<li>Build and deploy cloud-native applications</li>
+<li>Maintainability and transparency of microservices</li>
 </ul>"
  
-        - title : "Voraussetzungen"
+        - title : "Prerequisites"
           icon : "2"
           content : "<ul>
-<li>Die Teilnehmenden benötigen einen aktuellen Laptop mit freiem Internetzugang</li>
-<li>Lokale Admin-Rechte</li>
-<li>Maven, Java OpenJDK 17, IDE, Git bereits installiert</li>
-<li>Installierte Docker-Engine mit Docker-Compose</li>
+<li>Participants will need a recent notebook with free internet access</li>
+<li>Additionally, local admin rights are required</li>
+<li>Already installed Maven, Java OpenJDK 17, IDE, Git</li>
+<li>Installed Docker Engine with Docker-Compose</li>
 </ul>"
 
-        - title : "Zielpublikum"
+        - title : "Target Audience"
           icon : "3"
           content : "<ul>
-<li>Unser Training richtet sich an Personen, welche bereits Vorkenntnisse im Bereich der Java Softwareentwicklung und Architektur besitzen</li>
-<li>Des Weiteren ist grundlegendes Know How im Bezug auf Container und Container Plattformen von Vorteil</li>
+<li>Our training is aimed at people who already have previous knowledge in the area of Java software development and architecture</li>
+<li>Furthermore, basic know-how in relation to containers and container platforms is an advantage</li>
 </ul>"
 
-        - title : "Konditionen"
+        - title : "Conditions"
           icon : "4"
           content : "<ul>
-<li>CHF 1900 / Person für zwei Tage</li>
-<li>Gruppen von 8–24 Personen</li>
-<li>Inklusive Verpflegung und Unterlagen</li>
-<li>Rabatt ab 12 Personen</li>
+<li>CHF 1900 / participant for two days.</li>
+<li>Group sessions consisting of 8 to 24 participants.</li>
+<li>Includes catering and documentation.</li>
+<li>Discounts available for groups of 12 participants or more.</li>
 </ul>"
 
 # Trainingsinhalt
