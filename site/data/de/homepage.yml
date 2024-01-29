@@ -105,7 +105,8 @@ trainings:
           slug: "go"
         - title: "MicroServices"
           slug: "microservices"              
-
+        - title: "Quarkus"
+          slug: "quarkus"     
 # video
 #video:
 #  enable: true

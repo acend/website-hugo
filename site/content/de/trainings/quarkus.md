@@ -43,8 +43,8 @@ accordion:
           content : "<ul>
 <li>Die Teilnehmenden benötigen einen aktuellen Laptop mit freiem Internetzugang</li>
 <li>Lokale Admin-Rechte</li>
-<li>Maven, Java OpenJDK 11, IDE, Git bereits installiert</li>
-<li>Installierte Docker-Enginge mit Docker-Compose</li>
+<li>Maven, Java OpenJDK 17, IDE, Git bereits installiert</li>
+<li>Installierte Docker-Engine mit Docker-Compose</li>
 </ul>"
 
         - title : "Zielpublikum"
@@ -89,12 +89,11 @@ trainers:
   enable: true
   title : "Lerne deine Trainer kennen"
   trainer:
-  
-    - title : "Christian Schlatter"
-      image : "images/team/AC_Christian_Schlatter@2x.jpg"
-      designation : "Trainer"
-      abstract : "Er reist nicht nur gerne durch die reale Welt, sondern entdeckt auch in der Cloud Native Landscape neue Orte"
-      linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
+    - title: "Christof Lüthi"
+      image: "images/team/AC_ChristofLuethi@2x.jpg"
+      designation: "Trainer, Puzzle ITC"
+      abstract: "Christof ist zurück von seiner Weltreise, ist viel getaucht und hat unterschiedliche Kulturen kennengelernt. Mit frischem Geist und Neugier ist er nun auf Entdeckungsreise in der Cloud Native Welt."
+      linkedin: "https://www.linkedin.com/in/christof-luethi/"      
 
     - title : "Raffael Hertle"
       image : "images/team/AC_Raffael_Hertle@2x.jpg"

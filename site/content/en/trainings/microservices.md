@@ -39,7 +39,7 @@ accordion:
           content : "<ul>
 <li>Participants will need a recent notebook with free internet access</li>
 <li>Additionally, local admin rights are required</li>
-<li>Already installed Maven, Java OpenJDK 11, IDE, Git</li>
+<li>Already installed Maven, Java OpenJDK 17, IDE, Git</li>
 <li>Installed Docker Engine with Docker-Compose</li>
 </ul>"
 
@@ -83,11 +83,11 @@ trainers:
   enable: true
   title : "Meet two of Your Trainers"
   trainer:
-    - title : "Christian Schlatter"
-      image : "images/team/AC_Christian_Schlatter@2x.jpg"
-      designation : "Trainer, Puzzle ITC"
-      abstract : "Not only does he enjoy traveling through the real world, but he also discovers new places in the Cloud Native Landscape"
-      linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
+    - title: "Christof Lüthi"
+      image: "images/team/AC_ChristofLuethi@2x.jpg"
+      designation: "Trainer, Puzzle ITC"
+      abstract: "Christof is back from his trip around the world, has dived a lot and got to know different cultures. With a fresh spirit and curiosity, he is now on a journey of discovery in the Cloud Native world."
+      linkedin: "https://www.linkedin.com/in/christof-luethi/"      
     
     - title : "Raffael Hertle"
       image : "images/team/AC_Raffael_Hertle@2x.jpg"
