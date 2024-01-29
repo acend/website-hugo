@@ -65,40 +65,40 @@ accordion:
 
 # Trainingsinhalt
 trainingsinhalt: 
-    title : "Trainingsinhalt"
-    text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu uebermitteln.<br/>
-Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf euren Wunsch hin Anpassungen vornehmen."
+    title : "Content"
+    text : "Our training sessions consist of varied presentations and hands-on labs to convey their content in an exciting way.
+We are also happy to refer to your infrastructure in consultation. If further content is required, we can make adjustments at your request."
 
     liste1:
       title: "Quarkus Basics"
       liste:
-        - el: "Einführung Microservice Architektur"
-        - el: "Erste Einblicke in Quarkus"
-        - el: "MicroProfile Spezifikation kennenlernen"
-        - el: "Konfigurierbarkeit von Quarkus Applikationen"
-        - el: "RESTful Microservices mit Quarkus"
-        - el: "Containerisierung von Microservices"
-        - el: "Deployment auf Cloud Native Infrastruktur"
+        - el: "Introduction to microservice architecture"
+        - el: "First insights into Quarkus"
+        - el: "Getting to know the MicroProfile specification"
+        - el: "Configurability of Quarkus applications"
+        - el: "RESTful microservices with Quarkus"
+        - el: "Containerization of microservices"
+        - el: "Deployment on cloud native infrastructure"
         - el: "Continuous Integration and Delivery (CICD)"
-        - el: "Event Driven Architektur und Messaging mit Apache Kafka"
-        - el: "Distributed Tracing mit OpenTracing und Jaeger"
-        - el: "Monitoring der Microservices durch Metriken"
+        - el: "Event Driven Architecture and Messaging with Apache Kafka"
+        - el: "Distributed tracing with OpenTracing and Jaeger"
+        - el: "Monitoring microservices through metrics"
 
 # trainer
 trainers:
   enable: true
-  title : "Lerne deine Trainer kennen"
+  title : "Meet two of Your Trainers"
   trainer:
     - title: "Christof Lüthi"
       image: "images/team/AC_ChristofLuethi@2x.jpg"
       designation: "Trainer, Puzzle ITC"
-      abstract: "Christof ist zurück von seiner Weltreise, ist viel getaucht und hat unterschiedliche Kulturen kennengelernt. Mit frischem Geist und Neugier ist er nun auf Entdeckungsreise in der Cloud Native Welt."
+      abstract: "Christof is back from his trip around the world, has dived a lot and got to know different cultures. With a fresh spirit and curiosity, he is now on a journey of discovery in the Cloud Native world."
       linkedin: "https://www.linkedin.com/in/christof-luethi/"      
 
     - title : "Raffael Hertle"
       image : "images/team/AC_Raffael_Hertle@2x.jpg"
       designation : "Trainer"
-      abstract : "Verkleidet sich gerne für die Fasnacht, sieht aber bei den Cloud Native Technologien gerne hinter die Masken"
+      abstract : "Likes to dress up for carnival, but likes to look behind the masks when it comes to cloud native technologies"
       linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
       twitter : "https://twitter.com/g1raffi"
       
@@ -107,8 +107,8 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-     - title : "Das sagt unser Trainingsteilnehmer<br/>Roland Egli, Solothurn"
-       logo : "images/testimonials/kt-solothurn.png"
-       text : "Herzlichen Dank für das wunderbare Zertifikat. Das Training war sehr lernreich und der Austausch mit den anderen Trainees empfand ich als sehr wertvoll. Toll organisiert."
+    - title : "Here’s what our clients say about our trainings:<br/>Matthias Summer, Austria"
+      logo : "images/testimonials/adcubum.png"
+      text : "I really enjoyed the training, and I learned several things that helped me with my daily tasks. You could tell that the trainers had a lot of practical experience with and passion for the technology. They also supported us well and gave us useful advice."     
       
 ---
