@@ -169,10 +169,10 @@ partner:
       URL: "https://www.cncf.io"
       label: "cncf.io"
 
-    - logo: "images/partner/rokt.png"
-      text: "ROKT begleitet Unternehmen ganz nach oben. Genauer gesagt: In die Cloud. Mit einer Beratung auf Augenhöhe und technologischen Lösungen, die ungenutztes Potenzial erschliessbar machen."
-      URL: "https://rokt.cloud/"
-      label: "rokt.cloud/"
+    - logo: "images/partner/tk.png"
+      text: "tim&koko begleitet Unternehmen ganz nach oben. Genauer gesagt: In die Cloud. Mit einer Beratung auf Augenhöhe und technologischen Lösungen, die ungenutztes Potenzial erschliessbar machen."
+      URL: "https://tim-koko.ch/"
+      label: "tim-koko.ch/"
 
     - logo: "images/partner/arch-cloud.png"
       text: "Engineering von Cloud Native Lösungen ist ihre Passion. Sie unterstützen Kunden in der Cloud Transformation. Nicht nur bei Architektur, Infrastruktur und Software Entwicklung, sondern auch bei der passenden Strategie und Organisation."
