@@ -69,7 +69,7 @@ team:
       image: "images/team/AC_Benji@2x.jpg"
       designation: "Trainer"
       abstract: "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
-      experience: "Nebst der Erarbeitung von neuen und der Durchführung von bestehenden Trainings, hat Benj über 7 Jahre bei Puzzle ITC als Architekt für verschiedenste Firmen im Bereich Container und Cloud Native viele Erfahrungen gesammelt. Seit 2023 unterstützt er die Kunden bei ROKT.  Er hat nebst einem Bachelor in IT (2015) verschiedene Zertifizierungen, wie den RHCA und den CKA gemacht, die ihn perfekt als Trainer ausrüsten."
+      experience: "Nebst der Erarbeitung von neuen und der Durchführung von bestehenden Trainings, hat Benj über 7 Jahre bei Puzzle ITC als Architekt für verschiedenste Firmen im Bereich Container und Cloud Native viele Erfahrungen gesammelt. Seit 2023 unterstützt er die Kunden bei tim&koko.  Er hat nebst einem Bachelor in IT (2015) verschiedene Zertifizierungen, wie den RHCA und den CKA gemacht, die ihn perfekt als Trainer ausrüsten."
       linkedin: "https://www.linkedin.com/in/benjamin-affolter/"
       twitter: "https://twitter.com/bliemli"
     
@@ -228,7 +228,7 @@ team:
       image: "images/team/AC_Thoemu@2x.jpg"
       designation: "Trainer"
       abstract: "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
-      experience: "Thömu spielt bei Puzzle seit 2011 eine prägende Rolle: Nach seinem Bachelorstudium in Computer Science zuerst als Software Engineer und PL, später konnte er als Head of Middleware u.a. das Thema Kubernetes bei Puzzle etablieren. Er war danach mehrere Jahre CTO und gründete im 2022 seine eigene Firma ROKT. Dort hilft er als Cloud Consultant den Kund:innen auf dem Weg in die Cloud."
+      experience: "Thömu spielt bei Puzzle seit 2011 eine prägende Rolle: Nach seinem Bachelorstudium in Computer Science zuerst als Software Engineer und PL, später konnte er als Head of Middleware u.a. das Thema Kubernetes bei Puzzle etablieren. Er war danach mehrere Jahre CTO und gründete im 2022 seine eigene Firma tim&koko. Dort hilft er als Cloud Consultant den Kund:innen auf dem Weg in die Cloud."
       linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter: "https://twitter.com/tphilipona"
 

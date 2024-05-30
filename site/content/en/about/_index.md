@@ -68,7 +68,7 @@ team:
       image: "images/team/AC_Benji@2x.jpg"
       designation: "Trainer"
       abstract: "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
-      experience: "Besides developing new and delivering existing trainings, Benj has gained a lot of experience over 7 years at Puzzle ITC as an architect for various companies in the container and cloud native space. He has been supporting customers at ROKT since 2023.  He has a bachelor's degree in IT (2015) and several certifications, such as the RHCA and the CKA, which equip him perfectly as a trainer."
+      experience: "Besides developing new and delivering existing trainings, Benj has gained a lot of experience over 7 years at Puzzle ITC as an architect for various companies in the container and cloud native space. He has been supporting customers at tim&koko since 2023.  He has a bachelor's degree in IT (2015) and several certifications, such as the RHCA and the CKA, which equip him perfectly as a trainer."
       linkedin: "https://www.linkedin.com/in/benjamin-affolter/"
       twitter: "https://twitter.com/bliemli"
 
@@ -227,7 +227,7 @@ team:
       image: "images/team/AC_Thoemu@2x.jpg"
       designation: "Trainer"
       abstract: "He’s been in the IT world for years – and he discovers everything else on his bicycle."
-      experience: "Thomas has played a formative role at Puzzle since 2011: After his bachelor's degree in Computer Science, first as a Software Engineer and PL, later as Head of Middleware he was able to establish the topic of Kubernetes at Puzzle, among other things. He was the CTO for several years and then founded his own company ROKT in 2022. In his new role, as a cloud consultant, he helps customers on their way into the cloud."
+      experience: "Thomas has played a formative role at Puzzle since 2011: After his bachelor's degree in Computer Science, first as a Software Engineer and PL, later as Head of Middleware he was able to establish the topic of Kubernetes at Puzzle, among other things. He was the CTO for several years and then founded his own company tim&koko in 2022. In his new role, as a cloud consultant, he helps customers on their way into the cloud."
       linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter: "https://twitter.com/tphilipona"
 
