@@ -22,7 +22,8 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeB@2x.jpg"
       
 
-main_text: "Dieses zweitägige Training bietet einen praktischen Einstieg in MLOps, das den Machine-Learning-Lebenszyklus durch Automatisierung und Standardisierung optimiert. Dies steigert Effizienz, Qualität und Geschwindigkeit bei der Modellentwicklung und -bereitstellung. Die Versionierung von Code und Daten sowie die Überwachung der Modellparameter sorgen für konsistente, reproduzierbare Ergebnisse. Continuous Integration und Continuous Deployment (CI/CD) beschleunigen die Markteinführung neuer ML-Produkte. Unser Trainerteam besteht aus Fachleuten, die sowohl in der Machine Learning-Forschung tätig sind als auch über umfangreiche Erfahrung in der praktischen Implementierung von Datenmodellen in Unternehmen verfügen.
+main_text: "Dieses zweitägige Training bietet einen praktischen Einstieg in MLOps, das den Machine-Learning-Lebenszyklus durch Automatisierung und Standardisierung optimiert. Die Versionierung von Code und Daten sowie die Überwachung der Modellparameter sorgen für konsistente, reproduzierbare Ergebnisse. Continuous Integration und Continuous Deployment (CI/CD) beschleunigen die Markteinführung neuer ML-Produkte. \n\n 
+Unser Trainerteam besteht aus Fachleuten, die sowohl in der Machine Learning-Forschung tätig sind als auch über umfangreiche Erfahrung in der praktischen Implementierung von Datenmodellen in Unternehmen verfügen.
 "
 
 accordion:
