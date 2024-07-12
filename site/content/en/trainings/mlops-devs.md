@@ -1,5 +1,5 @@
 ---
-title: "MLOps Developers"
+title: "MLOps Developer"
 sseo_title: "With MLOps, you optimize your model development and deployment of your data."
 description: "We provide you with a practical introduction and comprehensive insight into MLOps."
 date: 2019-05-12T12:14:34+06:00

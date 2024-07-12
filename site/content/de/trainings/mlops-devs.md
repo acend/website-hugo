@@ -1,5 +1,5 @@
 ---
-title: "MLOps Developers"
+title: "MLOps Developer"
 seo_title: "Mit MLOps optimierst du deine Modell-entwicklung und -bereitstellung deiner Daten."
 description: "Wir geben dir einen praktischen Einstieg und umfassenden Einblick in MLOps."
 date: 2019-05-12T12:14:34+06:00
