@@ -1,5 +1,5 @@
 ---
-title: "MLOps Developers"
+title: "MLOps Data Science"
 seo_title: "Mit MLOps optimierst du deine Modell-entwicklung und -bereitstellung deiner Daten."
 description: "Wir geben dir einen praktischen Einstieg und umfassenden Einblick in MLOps."
 date: 2019-05-12T12:14:34+06:00
@@ -17,9 +17,9 @@ personen:
   preis : "CHF 1900"
 
 headerimages:
-  img1 : "images/trainings/ACEND_Adventure_Lava@2x.jpg"
-  img2 : "images/trainings/ACEND_Adyna@2x.jpg"
-  img3 : "images/trainings/ACEND_CodeB@2x.jpg"
+  img1 : "images/trainings/ACEND_Adventure_Mats-Strasse@2x.jpg"
+  img2 : "images/trainings/ACEND_Mats@2x.jpg"
+  img3 : "images/trainings/ACEND_CodeT@2x.jpg"
       
 
 main_text: "Dieses zweitägige Training bietet einen praktischen Einstieg in MLOps, das den Machine-Learning-Lebenszyklus durch Automatisierung und Standardisierung optimiert. Die Versionierung von Code und Daten sowie die Überwachung der Modellparameter sorgen für konsistente, reproduzierbare Ergebnisse. Continuous Integration und Continuous Deployment (CI/CD) beschleunigen die Markteinführung neuer ML-Produkte.\n
@@ -32,9 +32,9 @@ accordion:
         - title : "Trainingsziele"
           icon : "1"
           content : "<ul>
-<li>Grundlagen des Machine Learning und der Datenvorbereitung verstehen</li>
-<li>Unterschiede zwischen MLOps und DevOps kennen</li>
-<li>ML-Pipelines erstellen, Modelle trainieren und optimieren</li>
+<li>Grundlagen des Machine Learning und Fachterminologie auffrischen</li>
+<li>Techniken zur Datengewinnung und -aufbereitung und -versionierung kennenlernen</li>
+<li>MLOps prozesse verstehen und entwickeln: Modelltraining und entwicklung mittels Pipelines</li>
 <li>Nutzung von DVC zur Versionierung der Daten und CML für ML-Pipelines</li>
 <li>Weitere Tools wie MLFlow und Kubeflow des MLOps Ecosystems kennenlernen</li>
 </ul>"
@@ -48,8 +48,7 @@ accordion:
         - title : "Zielpublikum"
           icon : "3"
           content : "<ul>
-<li>Unser Training richtet sich an Software Developer, welche Services aufgrund von Daten und Datenmodellen bereitstellen und bereits Vorkenntnisse im Bereich Softwareentwicklung und Architektur besitzen.</li> 
-<li>Vorkenntnisse von Software Delivery Prinzipien wie CI/CD und GIT sind von Vorteil.</li>
+<li>Unser Training richtet sich an Personen, welche mit Daten und Datenmodellen arbeiten und bereits Vorkenntnisse im Bereich Data Science besitzen und Techniken und Prozesse erlernen wollen, aus diesen Daten und Modellen Services bereitzustellen und pflegen.</li>
 </ul>"
 
         - title : "Konditionen"
@@ -70,17 +69,16 @@ trainingsinhalt:
     "
 
     liste1:
-      title: "MLOps Developer"
+      title: "MLOps Data Science"
       liste:
-        - el: "Einführung in Machine Learning (Klassifikatoren/Regressoren, Over- und Underfitting)"
-        - el: "ML Modelle: von der linearer Regression zu neuronalen Netzen"
+        - el: "Recap Machine Learning, Modelltypen und deren Anwendungsbereiche"
         - el: "Datensammeln und -aufbereiten mittels verschiedener Technikenn"
-        - el: "Mittels den aufbereiteten Daten ein Modell trainieren"
-        - el: "Nutzung von Codespaces/GitHub Actions im Free Tier"
+        - el: "Modelltraining und -tuning Code Spaces/GitHub Actions im Free Tier"
         - el: "Problemstellung: Prozess reproduzierbar und messbar machen"
         - el: "Vom Prototyp zur Pipeline"
-        - el: "Pipeline/Testing und Datenversionierung"
-        - el: "Metriken und Experimente"                
+        - el: "ML-Pipelines und Testing"
+        - el: "Datenversionierung"
+        - el: "Metriken und Experimente"  
 
 
 # trainer
@@ -106,9 +104,9 @@ trainers:
 # testimonials
 testimonials:
   enable: true
-  testimonial:
-    - title : "Das sagt unser Trainingsteilnehmer<br/>Matthias Summer, Österreich"
-      logo : "images/testimonials/adcubum.png"
-      text : "Das Training hat mir sehr gut gefallen und ich konnte einige Dinge mitnehmen, die mir bei der täglichen Arbeit helfen. Die Praxis-Erfahrung und die Leidenschaft für die Technologie war bei den Trainern spürbar. Sie haben uns auch sehr gut unterstützt und uns nützliche Tipps gegeben."
-
+  testimonial:    
+    - title: "Das sagt unsere Trainingsteilnehmer<br/>Nathanael Weber, Bern"
+      logo: "images/testimonials/mtrail.png"
+      text: "Die Ausbildung war ausserordentlich gut auf unsere Bedürfnisse zugeschnitten. Die praktischen Übungen waren gerade genug schwierig, dass sich noch weitere Fragen zu Helm ergeben haben und vom Referent kompetent beantwortet wurden. Herzlichen Dank acend für diese Erfahrung!"
+      
 ---
