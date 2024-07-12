@@ -22,7 +22,8 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeB@2x.jpg"
       
 
-main_text: "Dieses zweitägige Training auf Deutsch oder Englisch bietet einen praktischen Einstieg in MLOps. MLOps optimiert den gesamten Machine-Learning-Lebenszyklus durch Automatisierung und Standardisierung, was Effizienz, Qualität und Geschwindigkeit bei der Modellentwicklung und -bereitstellung steigert. Die Versionierung von Code und Daten sowie die Überwachung der Modellparameter sorgen für konsistente, reproduzierbare und nachvollziehbare Ergebnisse. Continuous Integration und Continuous Deployment (CI/CD) sind Bestandteile von MLOps und beschleunigen die Markteinführung neuer ML-Produkte. Unser Trainerteam, bestehend sowohl aus Fachleuten, die in der Machine Learning-Forschung tätig sind und stets die neuesten Entwicklungen kennen, wie auch aus Trainern, die über umfangreiche Erfahrung in der praktischen Implementierung von Datenmodellen in Unternehmen verfügen."
+main_text: "Dieses zweitägige Training bietet einen praktischen Einstieg in MLOps, das den Machine-Learning-Lebenszyklus durch Automatisierung und Standardisierung optimiert. Dies steigert Effizienz, Qualität und Geschwindigkeit bei der Modellentwicklung und -bereitstellung. Die Versionierung von Code und Daten sowie die Überwachung der Modellparameter sorgen für konsistente, reproduzierbare Ergebnisse. Continuous Integration und Continuous Deployment (CI/CD) beschleunigen die Markteinführung neuer ML-Produkte. Unser Trainerteam besteht aus Fachleuten, die sowohl in der Machine Learning-Forschung tätig sind als auch über umfangreiche Erfahrung in der praktischen Implementierung von Datenmodellen in Unternehmen verfügen.
+"
 
 accordion:
     enable : true
@@ -90,7 +91,7 @@ trainers:
     - title : "Sigve Haug"
       image : "images/team/AC_Platzhalter@2x.jpg"
       designation : "Trainer"
-      abstract : "Sigve ist Studienleiter am Mathematischen Institut der Uni Bern."
+      abstract : "Sigve ist Studienleiter am Mathematischen Institut (MAI) der Uni Bern."
       linkedin : "https://www.linkedin.com/in/sigve-haug-75b31b70/"
       #twitter : "https://twitter.com/tphilipona"    
     
