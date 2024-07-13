@@ -88,9 +88,9 @@ team:
 
     - title: "Christof Lüthi"
       image: "images/team/AC_ChristofLuethi@2x.jpg"
-      designation: "Trainer, Puzzle ITC"
+      designation: "Trainer, tim&koko AG"
       abstract: "Christof is back from his trip around the world, has dived a lot and got to know different cultures. With a fresh spirit and curiosity, he is now on a journey of discovery in the Cloud Native world."
-      experience: "Christof started his IT apprenticeship around 2000, after which he completed his FH and MAS in Computer Science at Bern University of Applied Sciences. He also worked first as a systems engineer and then as a software developer and architect for many years. It is precisely this interface in the area of middleware with a preference for data that he likes best. He has been a Kafka specialist at Puzzle ITC since 2019 and works a lot in the cloud-native environment for various customers."
+      experience: "Christof started his IT apprenticeship around 2000, after which he completed his FH and MAS in Computer Science at Bern University of Applied Sciences. He also worked first as a systems engineer and then as a software developer and architect for many years. It is precisely this interface in the area of middleware with a preference for data that he likes best. He has been a Kafka specialist at tim&koko since 2024 and works a lot in the cloud-native environment for various customers."
       linkedin: "https://www.linkedin.com/in/christof-luethi/"
 
     - title: "Christoph Aymon"
@@ -156,7 +156,7 @@ team:
 
     - title : "Lorenz Bischof"
       image : "images/team/AC_Lorenz@2x.jpg"
-      designation : "Trainer, Puzzle ITC"
+      designation : "Trainer, Peak Scale"
       abstract : "In the calm lies the power. Lorenz shines with his calm and level-headed manner when it comes to the most complex topics in the IT world."
       experience: "Lorenz comes from the Puzzle ITC informatics forge. After his apprenticeship at Puzzle, he expanded his knowledge at the Bern University of Applied Sciences with a BSc of Science in Computer Science, which he then used in various customer projects. Among them are projects in the cloud environment with container technologies, automation and monitoring."
 
