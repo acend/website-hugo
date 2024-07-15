@@ -91,13 +91,15 @@ trainings:
           slug: "helm"      
         - title: "Prometheus"
           slug: "prometheus"
-        - title: "Serverless"
-          slug: "serverless"
-        - title: "Cilium"
-          slug: "cilium"
         - title: "Ansible"
           slug: "ansible"        
-
+        - title: "MLOps Developer"
+          slug: "mlops-devs"
+        - title: "MLOps Data Science"
+          slug: "mlops-datascience"          
+        - title: "Cilium"
+          slug: "cilium"
+        
     - title: "Programmierung"
       text: '"Hello World" & mehr in Cloud Native'
       trainings:
