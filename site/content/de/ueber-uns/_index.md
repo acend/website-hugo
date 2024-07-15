@@ -89,9 +89,9 @@ team:
 
     - title: "Christof Lüthi"
       image: "images/team/AC_ChristofLuethi@2x.jpg"
-      designation: "Trainer, Puzzle ITC"
+      designation: "Trainer, tim&koko AG"
       abstract: "Christof ist zurück von seiner Weltreise, ist viel getaucht und hat unterschiedliche Kulturen kennengelernt. Mit frischem Geist und Neugier ist er nun auf Entdeckungsreise in der Cloud Native Welt."
-      experience: "Christof hat um das Jahr 2000 mit der Informatiklehre gestartet, anschliessend hat er die FH und ein MAS in Informatik an der FH Bern gemacht. Daneben hat er zuerst als System Engineer und danach lange als Software Entwickler und Architekt gearbeitet. Genau in dieser Schnittstelle im Bereich Middleware mit einer Vorliebe für Daten gefällt es ihm am besten. Seit 2019 ist er als Kafka Spezialist bei Puzzle ITC und viel im Cloud Native Umfeld bei verschiedenen Kunden unterwegs."
+      experience: "Christof hat um das Jahr 2000 mit der Informatiklehre gestartet, anschliessend hat er die FH und ein MAS in Informatik an der FH Bern gemacht. Daneben hat er zuerst als System Engineer und danach lange als Software Entwickler und Architekt gearbeitet. Genau in dieser Schnittstelle im Bereich Middleware mit einer Vorliebe für Daten gefällt es ihm am besten. Seit 2024 ist er als Messaging und Cloud Native Spezialist bei Tim&Koko AG und viel im Cloud Native Umfeld bei verschiedenen Kunden unterwegs."
       linkedin: "https://www.linkedin.com/in/christof-luethi/"
 
     - title: "Christoph Aymon"
@@ -157,7 +157,7 @@ team:
 
     - title : "Lorenz Bischof"
       image : "images/team/AC_Lorenz@2x.jpg"
-      designation : "Trainer, Puzzle ITC"
+      designation : "Trainer, Peak Scale"
       abstract : "In der Ruhe liegt die Kraft. Lorenz glänzt mit seiner ruhigen und besonnenen Art bei den komplexesten Themen in der IT-Welt."
       experience: "Lorenz kommt aus der Puzzle ITC Informatik-Schmiede. Nach seiner Lehre bei Puzzle, erweiterte er sein Wissen an der Berner Fachhochschule mit dem BSc of Science in Informatik, welches er dann in verschiedenen Kundenprojekten einsetzen durfte. Darunter gehören Projekte im Cloud Umfeld mit Container Technologien, Automatisierungen und Monitoring."
 
@@ -228,7 +228,7 @@ team:
       image: "images/team/AC_Thoemu@2x.jpg"
       designation: "Trainer"
       abstract: "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
-      experience: "Thömu spielt bei Puzzle seit 2011 eine prägende Rolle: Nach seinem Bachelorstudium in Computer Science zuerst als Software Engineer und PL, später konnte er als Head of Middleware u.a. das Thema Kubernetes bei Puzzle etablieren. Er war danach mehrere Jahre CTO und gründete im 2022 seine eigene Firma tim&koko. Dort hilft er als Cloud Consultant den Kund:innen auf dem Weg in die Cloud."
+      experience: "Thömu spielte bei Puzzle seit 2011 eine prägende Rolle: Nach seinem Bachelorstudium in Computer Science zuerst als Software Engineer und PL, später konnte er als Head of Middleware u.a. das Thema Kubernetes bei Puzzle etablieren. Er war danach mehrere Jahre CTO und gründete im 2022 seine eigene Firma tim&koko. Dort hilft er als Cloud Consultant den Kund:innen auf dem Weg in die Cloud."
       linkedin: "https://www.linkedin.com/in/thomas-philipona-thun/"
       twitter: "https://twitter.com/tphilipona"
 
