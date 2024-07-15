@@ -89,14 +89,14 @@ trainers:
   title : "Lerne zwei deiner Trainer kennen"
   trainer:
     - title : "Sigve Haug"
-      image : "images/team/AC_Platzhalter@2x.jpg"
+      image : "images/team/AC_Sigve@2x.jpg"
       designation : "Trainer"
       abstract : "Sigve ist Studienleiter am Mathematischen Institut (MAI) der Uni Bern."
       linkedin : "https://www.linkedin.com/in/sigve-haug-75b31b70/"
       #twitter : "https://twitter.com/tphilipona"    
     
     - title : "Iwan Imsand"
-      image : "images/team/AC_Platzhalter@2x.jpg"
+      image : "images/team/AC_IwanImsand@2x.jpg"
       designation : "Trainer"
       abstract : "Iwan mag das Zitat von Don Draper: Make it simple, but significant."
       linkedin : "https://www.linkedin.com/in/iwan-imsand-028065299/"
