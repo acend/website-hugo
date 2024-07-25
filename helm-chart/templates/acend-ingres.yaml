@@ -53,7 +53,7 @@ metadata:
   {{- with .Values.ingress.annotations }}
   annotations:
     {{- toYaml . | nindent 4 }}
-    nginx.ingress.kubernetes.io/auth-signin: https://github-oauth-proxy.acend.ch/oauth2/start?rd=website-{{ $releaseName }}.test.acend.ch
+    nginx.ingress.kubernetes.io/auth-signin: https://github-oauth-proxy.acend.ch/oauth2/start?rd=https%%3A%%2F%%2Fwebsite-{{ $releaseName }}.test.acend.ch
     nginx.ingress.kubernetes.io/auth-url: https://github-oauth-proxy.acend.ch/oauth2/auth
   {{- end }}
 spec:
