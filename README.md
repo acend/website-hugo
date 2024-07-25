@@ -12,8 +12,8 @@ You don't have to have npm installed locally with this setup
 First step, clone this repository and run:
 
 ```bash
-export HUGO_VERSION=$(grep "FROM klakegg/hugo" Dockerfile | sed 's/FROM klakegg\/hugo://g' | sed 's/ AS builder//g')
-docker run --rm --interactive -p 8080:8080 -v $(pwd):/src klakegg/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm ci"
+export HUGO_VERSION=$(sed -e '/^FROM docker.io\/floryn90\/hugo:/!d; s/.*:\(.[^ ]*\).*/\1/' Dockerfile)
+docker run --rm --interactive -p 8080:8080 -v $(pwd):/src docker.io/floryn90/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm ci"
 ```
 
 This will take some time and will install all packages necessary to run Victor Hugo and its tasks.
@@ -23,15 +23,15 @@ This will take some time and will install all packages necessary to run Victor H
 While developing your website, use:
 
 ```bash
-export HUGO_VERSION=$(grep "FROM klakegg/hugo" Dockerfile | sed 's/FROM klakegg\/hugo://g' | sed 's/ AS builder//g')
-docker run --rm --interactive -p 8080:8080 -v $(pwd):/src klakegg/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail; npm start"
+export HUGO_VERSION=$(sed -e '/^FROM docker.io\/floryn90\/hugo:/!d; s/.*:\(.[^ ]*\).*/\1/' Dockerfile)
+docker run --rm --interactive -p 8080:8080 -v $(pwd):/src docker.io/floryn90/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail; npm start"
 ```
 
 or for developing your website with `hugo server --buildDrafts --buildFuture`, use:
 
 ```bash
-export HUGO_VERSION=$(grep "FROM klakegg/hugo" Dockerfile | sed 's/FROM klakegg\/hugo://g' | sed 's/ AS builder//g')
-docker run --rm --interactive -p 8080:8080 -v $(pwd):/src klakegg/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm run preview"
+export HUGO_VERSION=$(sed -e '/^FROM docker.io\/floryn90\/hugo:/!d; s/.*:\(.[^ ]*\).*/\1/' Dockerfile)
+docker run --rm --interactive -p 8080:8080 -v $(pwd):/src docker.io/floryn90/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm run preview"
 ```
 
 Then visit <http://localhost:8080/> _- or a new browser windows popped-up already -_ to preview your new website. Webpack Dev Server will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
@@ -87,8 +87,8 @@ First update dependency in the `package.json` file.
 Then run the following command:
 
 ```bash
-export HUGO_VERSION=$(grep "FROM klakegg/hugo" Dockerfile | sed 's/FROM klakegg\/hugo://g' | sed 's/ AS builder//g')
-docker run --rm --interactive -v $(pwd):/src klakegg/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm install"
+export HUGO_VERSION=$(sed -e '/^FROM docker.io\/floryn90\/hugo:/!d; s/.*:\(.[^ ]*\).*/\1/' Dockerfile)
+docker run --rm --interactive -v $(pwd):/src docker.io/floryn90/hugo:${HUGO_VERSION}-ci /bin/bash -c "set -euo pipefail;npm install"
 ```
 
 This will make sure, the package-lock.json file is updates accordingly.
