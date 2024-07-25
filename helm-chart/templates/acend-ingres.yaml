@@ -52,8 +52,8 @@ metadata:
   {{- with .Values.ingress.annotations }}
   annotations:
     {{- toYaml . | nindent 4 }}
-    ingress.kubernetes.io/auth-signin: https://github-oauth-proxy.acend.ch/oauth2/start?rd=$escaped_request_uri
-    ingress.kubernetes.io/auth-url: https://github-oauth-proxy.acend.ch/oauth2/auth
+    nginx.ingress.kubernetes.io/auth-signin: https://github-oauth-proxy.acend.ch/oauth2/start?rd=$escaped_request_uri
+    nginx.ingress.kubernetes.io/auth-url: https://github-oauth-proxy.acend.ch/oauth2/auth
   {{- end }}
 spec:
   ingressClassName: {{ .Values.ingress.ingressClass }}
