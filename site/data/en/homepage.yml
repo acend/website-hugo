@@ -73,6 +73,8 @@ trainings:
           slug: "container-openshift"
         - title: "OpenShift Operations"
           slug: "openshift-operations"
+        - title: "KubeVirt"
+          slug: "kubevirt"     
 
     - title: "Delivery CI/CD"
       text: "App definition and development"
