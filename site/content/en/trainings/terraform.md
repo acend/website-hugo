@@ -1,6 +1,6 @@
 ---
-title: "Terraform on Azure"
-seo_title: "Your Infrastructure as Code IaC with Terraform on Azure."
+title: "Terraform"
+seo_title: "Your Infrastructure as Code IaC with Terraform on Azure, CCP oder AWS."
 description: "The Terraform training uses real-world examples to show how Infrastructure as Code (IaC) is applied on Azure, GCP or AWS."
 date: 2021-11-01T12:14:34+06:00
 draft: false
@@ -25,7 +25,7 @@ headerimages:
 main_text: "
 To manage its infrastructure declaratively as code, Terraform offers a wide range of functionality. The configuration files, which are typically stored in a Git repository, are used by Terraform as a single source of truth. These files are used, for example, to build infrastructure or to configure entire applications.\n\n
 
-This two-days training in English or German offers a clearly understandable introduction to Terraform and a practical implementation part on Azure."
+This two-days training in English or German offers a clearly understandable introduction to Terraform and a practical hands-on implementation section on the cloud service provider of your choice (**Azure, GCP oder AWS**)."
 
 accordion:
     enable : true
@@ -42,13 +42,13 @@ accordion:
           icon : "2"
           content : "
 <li>Participants need a laptop with direct access to the internet for the training</li>
-<li>An Azure account will be provided</li>
+<li>An appropriate cloud account will be provided</li>
 "
 
         - title : "Target audience"
           icon : "3"
           content : "
-<li>Our training is aimed at people who already have some prior knowledge of Kubernetes and Azure (knowing and using resource types)</li>
+<li>Our training is aimed at people who already have some prior knowledge of Kubernetes and Cloud (knowing and using resource types)</li>
 "
 
         - title : "Conditions"
@@ -68,7 +68,7 @@ trainingsinhalt:
     We are happy to address individual questions in greater depth during the training."
 
     liste1:
-      title: "Terraform on Azure"
+      title: "Terraform"
       liste:
         - el: "Basic concepts"
         - el: "New World: Cloud Engineering"
@@ -84,9 +84,9 @@ trainingsinhalt:
         - el: "Terraform Advanced"
           liste:
           - el: "Modules, Arguments, CLI"
-        - el: "Azure Workshop"
+        - el: "Cloud Workshop"
           liste:
-          - el: "AKS / LoadBalancer"
+          - el: "Kubernetes / LoadBalancer"
           - el: "MariaDB and Demo Application"
 
 # Kooperation
