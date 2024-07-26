@@ -41,7 +41,7 @@ accordion:
           icon : "2"
           content : "
 <li>Die Teilnehmenden benötigen für das Training einen Laptop mit direktem Zugang zum Internet</li>
-<li>Ein Azure-Account wird zur Verfügung gestellt</li>
+<li>Ein entsprechender Cloud-Account wird zur Verfügung gestellt</li>
 "
 
         - title : "Zielpublikum"
