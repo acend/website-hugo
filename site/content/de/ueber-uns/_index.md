@@ -101,7 +101,7 @@ team:
       experience: "Bereits 1996 startete Christoph in der IT der Mobiliar, wo er in vielen Bereichen Erfahrung sammelte. Zeitgleich absolvierte er sein Studium an der Universität Bern mit dem Abschluss als Master in IT. Seit 2021 ist er Architekt und für Themen wie Observability, Container, Messaging und weitere Technologien zuständig."
       linkedin: "https://www.linkedin.com/in/christoph-aymon/"
 
-    - title: "Christoph Raafllaub"
+    - title: "Christoph Raaflaub"
       image: "images/team/AC_Christoph_Raaflaub@2x.jpg"
       designation: "Trainer, Puzzle ITC"
       abstract: "Mit seinem Wohnmobil hat er schon viele Orte besucht, auch wenn es um die Cloud Native Landscape geht, ist er ein erfahrener und ortskundiger Reiseführer."
