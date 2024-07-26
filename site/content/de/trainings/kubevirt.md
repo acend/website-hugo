@@ -90,7 +90,7 @@ trainers:
 
     - title: "Christof Lüthi"
       image: "images/team/AC_ChristofLuethi@2x.jpg"
-      designation: "Trainer, Puzzle ITC"
+      designation: "Trainer, Tim&Koko AG"
       abstract: "Christof ist zurück von seiner Weltreise, ist viel getaucht und hat unterschiedliche Kulturen kennengelernt. Mit frischem Geist und Neugier ist er nun auf Entdeckungsreise in der Cloud Native Welt."
       linkedin: "https://www.linkedin.com/in/christof-luethi/"    
 

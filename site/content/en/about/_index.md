@@ -88,7 +88,7 @@ team:
 
     - title: "Christof Lüthi"
       image: "images/team/AC_ChristofLuethi@2x.jpg"
-      designation: "Trainer, tim&koko AG"
+      designation: "Trainer, Tim&Koko AG"
       abstract: "Christof is back from his trip around the world, has dived a lot and got to know different cultures. With a fresh spirit and curiosity, he is now on a journey of discovery in the Cloud Native world."
       experience: "Christof started his IT apprenticeship around 2000, after which he completed his FH and MAS in Computer Science at Bern University of Applied Sciences. He also worked first as a systems engineer and then as a software developer and architect for many years. It is precisely this interface in the area of middleware with a preference for data that he likes best. He has been a Kafka specialist at tim&koko since 2024 and works a lot in the cloud-native environment for various customers."
       linkedin: "https://www.linkedin.com/in/christof-luethi/"
@@ -100,7 +100,7 @@ team:
       experience: "Already in 1996 Christoph started in the IT department of the Mobiliar, where he gained experience in many areas. At the same time, he completed his studies at the University of Bern with a Master's degree in IT. Since 2021 he is an architect and responsible for topics like observability, containers, messaging and other technologies."
       linkedin: "https://www.linkedin.com/in/christoph-aymon/"
 
-    - title: "Christoph Raafllaub"
+    - title: "Christoph Raaflaub"
       image: "images/team/AC_Christoph_Raaflaub@2x.jpg"
       designation: "Trainer, Puzzle ITC"
       abstract: "He has visited many places with his RV, and when it comes to the Cloud Native Landscape, he is also an experienced and knowledgeable guide."

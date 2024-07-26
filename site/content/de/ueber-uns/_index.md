@@ -89,7 +89,7 @@ team:
 
     - title: "Christof Lüthi"
       image: "images/team/AC_ChristofLuethi@2x.jpg"
-      designation: "Trainer, tim&koko AG"
+      designation: "Trainer, Tim&Koko AG"
       abstract: "Christof ist zurück von seiner Weltreise, ist viel getaucht und hat unterschiedliche Kulturen kennengelernt. Mit frischem Geist und Neugier ist er nun auf Entdeckungsreise in der Cloud Native Welt."
       experience: "Christof hat um das Jahr 2000 mit der Informatiklehre gestartet, anschliessend hat er die FH und ein MAS in Informatik an der FH Bern gemacht. Daneben hat er zuerst als System Engineer und danach lange als Software Entwickler und Architekt gearbeitet. Genau in dieser Schnittstelle im Bereich Middleware mit einer Vorliebe für Daten gefällt es ihm am besten. Seit 2024 ist er als Messaging und Cloud Native Spezialist bei Tim&Koko AG und viel im Cloud Native Umfeld bei verschiedenen Kunden unterwegs."
       linkedin: "https://www.linkedin.com/in/christof-luethi/"
@@ -101,7 +101,7 @@ team:
       experience: "Bereits 1996 startete Christoph in der IT der Mobiliar, wo er in vielen Bereichen Erfahrung sammelte. Zeitgleich absolvierte er sein Studium an der Universität Bern mit dem Abschluss als Master in IT. Seit 2021 ist er Architekt und für Themen wie Observability, Container, Messaging und weitere Technologien zuständig."
       linkedin: "https://www.linkedin.com/in/christoph-aymon/"
 
-    - title: "Christoph Raafllaub"
+    - title: "Christoph Raaflaub"
       image: "images/team/AC_Christoph_Raaflaub@2x.jpg"
       designation: "Trainer, Puzzle ITC"
       abstract: "Mit seinem Wohnmobil hat er schon viele Orte besucht, auch wenn es um die Cloud Native Landscape geht, ist er ein erfahrener und ortskundiger Reiseführer."

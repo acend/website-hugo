@@ -96,7 +96,7 @@ trainers:
 
     - title : "Lorenz Bischof"
       image : "images/team/AC_Lorenz@2x.jpg"
-      designation : "Trainer, Puzzle ITC"
+      designation : "Trainer, Peak Scale"
       abstract : "In der Ruhe liegt die Kraft. Lorenz glänzt mit seiner ruhigen und besonnenen Art bei den komplexesten Themen in der IT-Welt."
       
       

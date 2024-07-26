@@ -88,7 +88,7 @@ trainers:
   trainer:
     - title : "Christian Schlatter"
       image : "images/team/AC_Christian_Schlatter@2x.jpg"
-      designation : "Trainer, Puzzle ITC"
+      designation : "Trainer"
       abstract : "Not only does he enjoy traveling through the real world, but he also discovers new places in the Cloud Native Landscape"
       linkedin : "https://www.linkedin.com/in/christian-schlatter-18170a1a2/"
 
