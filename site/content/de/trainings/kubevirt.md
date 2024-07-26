@@ -107,7 +107,7 @@ trainers:
 # testimonials
 testimonials:
   enable: true
-    testimonial:
+  testimonial:
     - title: "Das sagt unsere Trainingsteilnehmer<br/>Nathanael Weber, Bern"
       logo: "images/testimonials/mtrail.png"
       text: "Die Ausbildung war ausserordentlich gut auf unsere Bedürfnisse zugeschnitten. Die praktischen Übungen waren gerade genug schwierig, dass sich noch weitere Fragen zu Helm ergeben haben und vom Referent kompetent beantwortet wurden. Herzlichen Dank acend für diese Erfahrung!"
