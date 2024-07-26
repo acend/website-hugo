@@ -83,7 +83,7 @@ trainings:
           slug: "argo-cd"
         - title: "Tekton"
           slug: "tekton"
-        - title: "Terraform on Azure"
+        - title: "Terraform"
           slug: "terraform"
 
     - title: "Ergänzende Trainings"
