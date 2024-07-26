@@ -89,7 +89,7 @@ trainings:
           slug: "helm"
         - title: "Ansible"
           slug: "ansible"               
-        - title: "Terraform on Azure"
+        - title: "Terraform"
           slug: "terraform"
 
     - title: "Additional trainings"
