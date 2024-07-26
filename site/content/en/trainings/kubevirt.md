@@ -75,6 +75,15 @@ training_content:
         - el: "Operations and lifecycle"
         - el: "Workload and live migration"
 
+# Kooperation
+kooperation:
+  enable: true
+  title: "Developed together with <strong>tim&koko</strong>"
+  subtitle: "In collaboration with <strong>tim&koko</strong>"
+  logo: "images/partner/tk.png"
+  text: "tim&koko helps businesses get all the way to the top. More specifically: Into the cloud. With advice at eye-level and technological solutions that unlock untapped potential." 
+  link: "https://tim-koko.ch/"
+  linktext: "tim&koko"
 
 # trainer
 trainers:
@@ -98,8 +107,7 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Here’s what our clients say about our trainings:<br/>Matthias Summer, Austria"
-      logo : "images/testimonials/adcubum.png"
-      text : "I really enjoyed the training, and I learned several things that helped me with my daily tasks. You could tell that the trainers had a lot of practical experience with and passion for the technology. They also supported us well and gave us useful advice."    
-        
+    - title: "Here’s what our clients say about our trainings:<br/>Nathanael Weber, Bern"
+      logo: "images/testimonials/mtrail.png"
+      text: "The training was exceptionally well tailored to our needs. The practical exercises were just difficult enough that more questions about Helm arose and were answered competently by the instructor. Many thanks acend for this experience!"
 ---

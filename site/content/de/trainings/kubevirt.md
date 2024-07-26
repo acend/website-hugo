@@ -76,6 +76,16 @@ trainingsinhalt:
         - el: "Betrieb und Lifecycle"
         - el: "Workload- und Live-Migration"
 
+# Kooperation
+kooperation:
+  enable: true
+  title: "Gemeinsam mit <strong>tim&koko</strong> erarbeitet"
+  subtitle: "In Zusammenarbeit mit <strong>tim&koko</strong>"
+  logo: "images/partner/tk.png"
+  text: "tim&koko begleitet Unternehmen ganz nach oben. Genauer gesagt: In die Cloud. Mit einer Beratung auf Augenhöhe und technologischen Lösungen, die ungenutztes Potenzial erschliessbar machen."
+  link: "https://tim-koko.ch/"
+  linktext: "tim&koko"
+  
 # trainer
 trainers:
   enable: true
@@ -98,8 +108,7 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unser Trainingsteilnehmer<br/>Corsin Decurtins, Zürich"
-      logo : "images/testimonials/netceterea.png"
-      text : "Wir konnten in mehreren Schulungen das Know-How, unserer Entwickler in ganz Europa, im Bereich Kubernetes aufbauen. Dies hilft uns auch in Zukunft, unsere Kunden mit innovativen Softwarelösungen zu  beliefern. Einfach tolle Trainings und super Trainer."
-        
+    - title: "Das sagt unsere Trainingsteilnehmer<br/>Nathanael Weber, Bern"
+      logo: "images/testimonials/mtrail.png"
+      text: "Die Ausbildung war ausserordentlich gut auf unsere Bedürfnisse zugeschnitten. Die praktischen Übungen waren gerade genug schwierig, dass sich noch weitere Fragen zu Helm ergeben haben und vom Referent kompetent beantwortet wurden. Herzlichen Dank acend für diese Erfahrung!"
 ---
