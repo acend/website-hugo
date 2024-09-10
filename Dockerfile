@@ -1,4 +1,4 @@
-FROM docker.io/floryn90/hugo:0.133.1-ext-ubuntu AS builder
+FROM docker.io/floryn90/hugo:0.134.2-ext-ubuntu AS builder
 
 # Add package.json before rest of repo for caching
 COPY package.json package-lock.json .nvmrc /src/
