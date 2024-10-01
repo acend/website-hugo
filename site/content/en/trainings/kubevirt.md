@@ -22,7 +22,8 @@ headerimages:
   img2: "images/trainings/ACEND_Jeremy@2x.jpg"
   img3: "images/trainings/ACEND_CodeA@2x.jpg"
 
-main_text: "KubeVirt enables DevOps teams to run traditional workloads from virtual machines or those that cannot be easily containerized on Kubernetes. This allows us to unify the workflows for containers and virtual machines and utilize standardized processes like GitOps.\n\n 
+main_text: "KubeVirt enables DevOps teams to run traditional workloads from virtual machines or those that cannot be easily containerized on Kubernetes. This allows us to unify the workflows for containers and virtual machines and utilize standardized processes like GitOps.\n
+We offer the training in both pure KubeVirt and the OpenShift Virtualization variant.\n\n 
 Our trainers are practitioners with hands-on experience and are certified Kubernetes administrators."
 
 
