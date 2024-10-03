@@ -214,6 +214,13 @@ team:
       linkedin: "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter: "https://twitter.com/SebaPlattner"
 
+    - title: "Simon Stettler"
+      image: "images/team/AC_Simon@2x.jpg"
+      designation: "CEO"
+      abstract: "Enjoys seeing the bigger picture and strives to bring out the best in himself and organizations. Sometimes also with beer."
+      experience: "Having spent years as a marketer, Simon transitioned into management and leadership. In addition to leading teams in the business world, he has also led teams in sports and is convinced that the athlete's mindset is highly relevant in everyday business. Since July 2024, Simon has been responsible for the further development of acend as CEO."
+      linkedin: "https://www.linkedin.com/in/simon-stettler/"
+
     - title: "Stefan Johner"
       image: "images/team/AC_Stefu@2x.jpg"
       designation: "Trainer"

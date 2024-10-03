@@ -211,9 +211,16 @@ team:
       image: "images/team/AC_Seba@2x.jpg"
       designation: "Trainer"
       abstract: "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
-      experience: "Als Consultant und Experte für Cloud Native Technologien konzipiert und baut er Kubernetes Plattformen für verschiedene Kunden von Puzzle ITC. Nach seinem Abschluss in BsC in Informatik (2017) mit der vertiefung Security leitete Sebastian ein Team im Bereich Cybersecurity bei der RUAG Schweiz AG. Verschiedene Zertifikate im Cloud Native Umfeld unterstreichen sein Fachwissen in den Bereichen Container und Kubernetes. CKA, CKAD, CKS"
+      experience: "Als Consultant und Experte für Cloud Native Technologien konzipiert und baut er Kubernetes Plattformen für verschiedene Kunden von Puzzle ITC. Nach seinem Abschluss in BsC in Informatik (2017) mit der vertiefung Security leitete Sebastian ein Team im Bereich Cybersecurity bei der RUAG Schweiz AG. Verschiedene Zertifikate im Cloud Native Umfeld unterstreichen sein Fachwissen in den Bereichen Container und Kubernetes. CKA, CKAD, CKS."
       linkedin: "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter: "https://twitter.com/SebaPlattner"
+
+    - title: "Simon Stettler"
+      image: "images/team/AC_Simon@2x.jpg"
+      designation: "CEO"
+      abstract: "Mag den Blick auf das grosse Ganze und versucht aus sich und Organisationen das Beste herauszuholen. Manchmal auch mit Bier."
+      experience: "Jahrelang als Marketer unterwegs, hat sich Simon Richtung Management und Leadership entwickelt. Neben mehreren Teams in der Arbeitswelt, hat er auch im Sport Teams angeführt und ist überzeugt, dass das Athletes Mindset im Business-Alltag hohe Relevanz hat. Seit Juli 2024 ist Simon als CEO von acend für dessen Weiterentwicklung zuständig."
+      linkedin: "https://www.linkedin.com/in/simon-stettler/"   
 
     - title: "Stefan Johner"
       image: "images/team/AC_Stefu@2x.jpg"
