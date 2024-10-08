@@ -13,7 +13,7 @@ abstract: "Next generation application delivery and operations."
 main_title: "Next generation application delivery and operations."
 
 personen: 
-  daten : "19/20.11.24"
+  daten : "20.11.24"
   preis : "CHF 1100"
 
 headerimages:
