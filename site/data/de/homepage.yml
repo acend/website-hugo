@@ -78,7 +78,7 @@ trainings:
         - title: "Prometheus"
           slug: "prometheus"                 
 
-    - title: "Effortles CI/CD"
+    - title: "Effortless CI/CD"
       text: "Cloud Native Deployment und Delivery"
       trainings:
         - title: "Argo CD"
