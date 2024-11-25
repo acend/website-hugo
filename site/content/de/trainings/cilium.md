@@ -1,7 +1,7 @@
 ---
 title: "Cilium"
 seo_title: "Das Cloud Native CNI basierend auf eBPF für volle Geschwindigkeit."
-description: "Mit diesem Training lernst du wie du Cilium einsetzen kannst und wie du eBFP basiertes Networking für Observability und Security in der Cloud nutzen kannst."
+description: "Mit diesem Training lernst du wie du Cilium einsetzen kannst und wie du eBPF basiertes Networking für Observability und Security in der Cloud nutzen kannst."
 date: 2020-04-12T12:16:39+06:00
 draft: false
 weight: 4
@@ -22,7 +22,7 @@ headerimages:
   
 
 main_text: "
-Dieses eintägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in Cilium, einem eBFP basierten Network, Observability und Security Stack für die Cloud und auf on-premise Infrastruktur.
+Dieses eintägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in Cilium, einem eBPF basierten Network, Observability und Security Stack für die Cloud und auf on-premise Infrastruktur.
 "
 
 accordion:
