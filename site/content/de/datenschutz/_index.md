@@ -25,7 +25,7 @@ Sickingerstrasse 10
 
 datenschutz@acend.ch
 
-Tel. +41 31 370 22 20
+Tel. +41 31 521 04 02
 
 ## Datenschutzbeauftragter
 
