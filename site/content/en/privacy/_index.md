@@ -23,7 +23,7 @@ Sickingerstrasse 10
 3014 Bern
 
 datenschutz@acend.ch   
-Ph. +41 31 370 22 20
+Ph. +41 31 521 04 02
 
 ## Data Protection Officer
 
