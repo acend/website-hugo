@@ -184,6 +184,13 @@ team:
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz"
 
+    - title : "Michèle Leu"
+      designation : "CGO"
+      abstract : "Mag es, in vollem Tempo neue Wege zu entdecken – ob auf dem Motorrad oder im Berufsleben."
+      experience: "Nach vielen Jahren im digitalen Marketing hat sich Michèle auf strategisches Wachstum und nachhaltige Entwicklung spezialisiert. Ihre Leidenschaft für Customer Journeys und ihre analytische Denkweise helfen dabei, neue Chancen zu erkennen und umzusetzen. Privat findet sie den perfekten Ausgleich auf langen Motorradtouren und in der Zeit mit Familie und Freunden. Seit 2024 unterstützt sie acend als CGO."
+      image : "images/team/AC_Misch@2x.jpg"
+      linkedin : "https://www.linkedin.com/in/mich%C3%A8le-leone/"
+
     - title: "Philipp Grossenbacher"
       image: "images/team/AC_Phippu@2x.jpg"
       designation: "Sales & Experience"
