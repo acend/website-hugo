@@ -181,7 +181,14 @@ team:
       image : "images/team/AC_Mathis_Kretz@2x.jpg"
       experience: "After his PhD in computer science, Mathis worked as a software engineer at various companies and gained a lot of know-how in the cloud environment, especially as Head of Cloud Empowerment at Swisscom. In 2019, Lena and Mathis founded Bespinian, where they have been working as consultants in various topics ever since. Mathis has a certification as CKAD."
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
-      twitter : "https://twitter.com/mathis_kretz"      
+      twitter : "https://twitter.com/mathis_kretz" 
+      
+    - title : "Michèle Leu"
+      designation : "CGO"
+      abstract : "Loves discovering new paths at full speed — whether on a motorcycle or in professional life."
+      experience: "After many years in digital marketing, Michèle has specialized in strategic growth and sustainable development. Her passion for customer journeys and analytical mindset helps identify and seize new opportunities. In her private life, she finds the perfect balance on long motorcycle tours and spending time with family and friends. Since 2024, she has been supporting acend as CGO."
+      image : "images/team/AC_Misch@2x.jpg"
+      linkedin : "https://www.linkedin.com/in/michèle-leone/"      
     
     - title: "Philipp Grossenbacher"
       image: "images/team/AC_Phippu@2x.jpg"
