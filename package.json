@@ -63,7 +63,7 @@
     "natives": "1.1.6"
   },
   "dependencies": {
-    "bootstrap": "^5.0.0",
+    "bootstrap": "^4.5.2",
     "flickity": "^3.0.0",
     "flickity-fade": "^1.0.0",
     "jquery": "^3.5.1",
