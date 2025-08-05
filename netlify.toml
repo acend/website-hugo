@@ -87,6 +87,6 @@
     Strict-Transport-Security = "max-age=31536000; includeSubDomains;"
     Content-Security-Policy = "default-src 'self' https://*.acend.ch; frame-src 'self' https://*.youtube.com; frame-src 'self' https://www.youtube-nocookie.com;"
     X-Frame-Options  = "SAMEORIGIN"
-    X-Content-Type-Options  = "nosniff;"
-    Referrer-Policy  = "no-referrer-when-downgrade;"
+    X-Content-Type-Options  = "nosniff"
+    Referrer-Policy  = "no-referrer-when-downgrade"
     Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=();"
