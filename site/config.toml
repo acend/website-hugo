@@ -11,7 +11,7 @@ removePathAccents = "true"
 # secuirty configuration needed since hugo 0.91, since we access the context
 [security]
   [security.funcs]
-    getenv = ['^HUGO_', 'CONTEXT']
+    getenv = ['^HUGO_', 'CONTEXT', 'URL']
 
 [languages]
   [languages.de]
