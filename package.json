@@ -18,9 +18,9 @@
     "build:hugo": "hugo version && hugo -d ../dist -s site -v",
     "build:hugo:preview": "npm run build:hugo -- -D -F",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
-    "buildng": "npm run buildng:webpack && npm run buildng:hugo",
+    "buildng": "npm run buildng:webpack && exec-bin node_modules/.bin/hugo/hugo -d ../dist -s site -v",
     "buildng:preview": "npm run buildng:webpack && npm run buildng:hugo:preview",
-    "buildng:hugo": "exec-bin node_modules/.bin/hugo/hugo version && exec-bin node_modules/.bin/hugo/hugo -d ../dist -s site -v",
+    "buildng:hugo": "exec-bin node_modules/.bin/hugo/hugo -d ../dist -s site -v",
     "buildng:hugo:preview": "npm run buildng:hugo -- -D -F",
     "buildng:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo"
