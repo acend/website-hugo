@@ -1,0 +1,35 @@
+[build]
+  publish = "dist"
+  functions = "functions"
+
+[build.environment]
+  NODE_VERSION = "22.18.0"
+  NPM_VERSION = "10.9.3"
+
+[context.production]
+  command = "npm run buildng -- --environment $TRAINING_HUGO_ENV"
+
+[context.deploy-preview]
+  command = "npm run buildng -- -b $DEPLOY_PRIME_URL --environment $TRAINING_HUGO_ENV"
+
+[context.branch-deploy]
+  command = "npm run buildng -- -b $DEPLOY_PRIME_URL --environment $TRAINING_HUGO_ENV"
+
+[context.next]
+  command = "npm run buildng"
+
+[context.next.environment]
+  HUGO_ENV = "next"
+
+[dev]
+  framework = "#custom"
+  command = "npm run start"
+  targetPort = 1313
+  port = 8888
+  publish = "public"
+  autoLaunch = false
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "connect-src * 'self';"
