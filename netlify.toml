@@ -86,9 +86,7 @@
   [headers.values]
     Content-Security-Policy = "connect-src * 'self';"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains;"
-    Content-Security-Policy = "default-src 'self' https://*.acend.ch;"
-    Content-Security-Policy = "frame-src 'self' https://*.youtube.com;"
-    Content-Security-Policy = "frame-src 'self' https://www.youtube-nocookie.com;"
+    Content-Security-Policy = "default-src 'self' https://*.acend.ch; frame-src 'self' https://*.youtube.com; frame-src 'self' https://www.youtube-nocookie.com;"
     X-Frame-Options  = "SAMEORIGIN"
     X-Content-Type-Options  = "nosniff;"
     Referrer-Policy  = "no-referrer-when-downgrade;"
