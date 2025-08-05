@@ -29,7 +29,67 @@
   publish = "public"
   autoLaunch = false
 
+[[redirects]]
+  from = "/trainings/terraform-azure/*"
+  to = "/trainings/terraform/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/trainings/openshift/*"
+  to = "/trainings/container-openshift/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/trainings/openshift4ops/*"
+  to = "/trainings/openshift-4-operations/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/trainings/kubernetes/*"
+  to = "/trainings/container-kubernetes/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/trainings/argocd/*"
+  to = "/trainings/argo-cd/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/trainings/terraform-azure/*"
+  to = "/en/trainings/terraform/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/en/trainings/openshift/*"
+  to = "/en/trainings/container-openshift/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/en/trainings/openshift4ops/*"
+  to = "/en/trainings/openshift-4-operations/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/en/trainings/kubernetes/*"
+  to = "/en/trainings/container-kubernetes/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/en/trainings/argocd/*"
+  to = "/en/trainings/argo-cd/"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
     Content-Security-Policy = "connect-src * 'self';"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains;"
+    Content-Security-Policy = "default-src 'self' https://*.acend.ch;"
+    Content-Security-Policy = "frame-src 'self' https://*.youtube.com;"
+    Content-Security-Policy = "frame-src 'self' https://www.youtube-nocookie.com;"
+    X-Frame-Options  = "SAMEORIGIN"
+    X-Content-Type-Options  = "nosniff;"
+    Referrer-Policy  = "no-referrer-when-downgrade;"
+    Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=();"
