@@ -34,7 +34,7 @@
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
     "@babel/preset-env": "^7.16.11",
     "@babel/register": "^7.17.0",
-    "@webpack-cli/serve": "^1.6.1",
+    "@webpack-cli/serve": "^3.0.0",
     "assets-webpack-plugin": "^7.1.1",
     "babel-loader": "^9.0.0",
     "clean-webpack-plugin": "^4.0.0",
