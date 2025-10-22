@@ -92,10 +92,6 @@ trainers:
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
 
-    - title : "Gabriel Graf"
-      image : "images/team/AC_Gabriel_Graf@2x.jpg"
-      designation : "Trainer"
-      abstract : "Er ist unser Weltenbummler und schon von klein auf überall auf der Welt zu Hause. Und so richtig daheim ist er natürlich in der Cloud Native Welt."
       
       
 # testimonials

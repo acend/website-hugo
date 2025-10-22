@@ -104,11 +104,12 @@ trainers:
   enable: true
   title : "Meet two of Your Trainers"
   trainer:
-    - title : "Andreas Gehrig"
-      designation : "Trainer, arch.cloud"
-      abstract : "He is always on the road with his notebook, writing software and designing cloud architectures."
-      image : "images/team/AC_Andreas_Gehrig@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/andreasgehrig/"    
+    - title : "Lena Fuhrimann"
+      designation : "Trainer, bespinian"
+      abstract : "Head always in the clouds, just look at her hair. Lena loves modernizing software and working with new technologies. She uses Arch btw."
+      image : "images/team/AC_Lena_Fuhrimann@2x.jpg"
+      linkedin : "https://www.linkedin.com/in/lena-fuhrimann/"
+      twitter : "https://twitter.com/the_cloudlena"
     
     - title : "Daniel Strohecker"
       image : "images/team/AC_Daenu@2x.jpg"

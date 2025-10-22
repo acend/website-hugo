@@ -42,13 +42,6 @@ team:
   enable: true
   title: "The People Behind acend"
   team_member:
-    - title : "Andreas Gehrig"
-      designation : "Trainer, arch.cloud"
-      abstract : "He is always on the road with his notebook, writing software and designing cloud architectures."
-      experience: "Since his apprenticeship as an application developer, Andreas worked for several large organizations, such as the Swiss Stock Exchange, Nasdaq or Fisch Asset Management. He has now been working as an independent software and cloud architect for arch.cloud for more than three years."
-      image : "images/team/AC_Andreas_Gehrig@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/andreasgehrig/"   
-
     - title: "Anna Pfeifhofer"
       image: "images/team/AC_Anna@2x.jpg"
       designation: "Sales"
@@ -63,14 +56,6 @@ team:
       abstract: "Not only does Beat have an iron discipline when it comes to sports, but he also steels his brain by constantly building up new knowledge."
       experience: "After his apprenticeship as a computer scientist, Beat immediately completed a bachelor's degree in computer science while working. From Linux Engineering at DXC, he now works in the Kubernetes environment at Puzzle. There he accompanies many customers on their way to Kubernetes and also Observability, which is his passion."
       linkedin: "https://www.linkedin.com/in/beat-sch%C3%A4rz/"
-
-    - title: "Benjamin Affolter"
-      image: "images/team/AC_Benji@2x.jpg"
-      designation: "Trainer"
-      abstract: "He only ever freezes when the temperature drops below 30 Celsius, but certainly not in the face of new technologies or the demands of the participants in his trainings."
-      experience: "Besides developing new and delivering existing trainings, Benj has gained a lot of experience over 7 years at Puzzle ITC as an architect for various companies in the container and cloud native space. He has been supporting customers at tim&koko since 2023.  He has a bachelor's degree in IT (2015) and several certifications, such as the RHCA and the CKA, which equip him perfectly as a trainer."
-      linkedin: "https://www.linkedin.com/in/benjamin-affolter/"
-      twitter: "https://twitter.com/bliemli"
 
     - title : "Christian Haller"
       image : "images/team/AC_Christian_Haller@2x.jpg"
@@ -92,13 +77,6 @@ team:
       abstract: "Christof is back from his trip around the world, has dived a lot and got to know different cultures. With a fresh spirit and curiosity, he is now on a journey of discovery in the Cloud Native world."
       experience: "Christof started his IT apprenticeship around 2000, after which he completed his FH and MAS in Computer Science at Bern University of Applied Sciences. He also worked first as a systems engineer and then as a software developer and architect for many years. It is precisely this interface in the area of middleware with a preference for data that he likes best. He has been a Kafka specialist at tim&koko since 2024 and works a lot in the cloud-native environment for various customers."
       linkedin: "https://www.linkedin.com/in/christof-luethi/"
-
-    - title: "Christoph Aymon"
-      image: "images/team/AC_Chrigu@2x.jpg"
-      designation: "Experience"
-      abstract: "When he’s not concentrated on a computer screen, you’re most likely to find him in a fast car – he only does extra laps on the Nürburgring."
-      experience: "Already in 1996 Christoph started in the IT department of the Mobiliar, where he gained experience in many areas. At the same time, he completed his studies at the University of Bern with a Master's degree in IT. Since 2021 he is an architect and responsible for topics like observability, containers, messaging and other technologies."
-      linkedin: "https://www.linkedin.com/in/christoph-aymon/"
 
     - title: "Christoph Raaflaub"
       image: "images/team/AC_Christoph_Raaflaub@2x.jpg"
@@ -130,21 +108,6 @@ team:
       designation: "Trainer, Puzzle ITC"
       abstract: "Our gopher is an explorer. Especially of new hip technologies, as well as of fine hoppy variations under the arbors of Bern's old town."
       experience: "During his apprenticeship at Hewlett-Packard, he already came into contact with open source technologies from Red Hat and middleware topics. After further studies at the FHNW as BSc in Computer Science he dives deep into the Cloud Native world and works with topics like Vault, Kubernetes and OAuth."
-
-    - title: "Gabriel Graf"
-      image: "images/team/AC_Gabriel_Graf@2x.jpg"
-      designation: "Trainer"
-      abstract: "He is our globetrotter and has been at home all over the world from an early age. And of course, he is really at home in the Cloud Native world."
-      experience: "Since graduating with a degree in Business Informatics FH in 2007, Gabriel has worked for several years in IT at various companies as a developer, firewall, systems and cloud engineer.
-      Continuing education is always important to him, so in addition to CISSP, RHCE and CKA, he also completed a CAS in Advanced Data Science. Since 2016, he has been working for Swiss Mobiliar, where he is involved in the development and operation of large container platforms."
-      
-    - title: "Johann Gyger"
-      image: "images/team/AC_Johann@2x.jpg"
-      designation: "Trainer"
-      abstract: "Still waters run deep, and he’s one to deep dive into Cloud Native technologies. As a supporter of sustainability and a climate-friendly world, he prefers Lake Thun to the ocean."
-      experience: "Johann studied Computer Science at the ETH and already has over 20 years of experience in the IT industry. He has worked for numerous well-known customers and employers as an IT architect, coach, consultant and software engineer and is a Cloud Native Ambassador."
-      linkedin: "https://www.linkedin.com/in/johanngyger/"
-      twitter: "https://twitter.com/johanngyger"
     
     - title : "Lena Fuhrimann"
       designation : "Trainer, bespinian"
@@ -182,36 +145,13 @@ team:
       experience: "After his PhD in computer science, Mathis worked as a software engineer at various companies and gained a lot of know-how in the cloud environment, especially as Head of Cloud Empowerment at Swisscom. In 2019, Lena and Mathis founded Bespinian, where they have been working as consultants in various topics ever since. Mathis has a certification as CKAD."
       linkedin : "https://www.linkedin.com/in/mathiskretz/"
       twitter : "https://twitter.com/mathis_kretz" 
-      
-    - title : "Michèle Leu"
-      designation : "CGO"
-      abstract : "Loves discovering new paths at full speed — whether on a motorcycle or in professional life."
-      experience: "After many years in digital marketing, Michèle has specialized in strategic growth and sustainable development. Her passion for customer journeys and analytical mindset helps identify and seize new opportunities. In her private life, she finds the perfect balance on long motorcycle tours and spending time with family and friends. Since 2024, she has been supporting acend as CGO."
-      image : "images/team/AC_Misch@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/michèle-leone/"      
-    
-    - title: "Philipp Grossenbacher"
-      image: "images/team/AC_Phippu@2x.jpg"
-      designation: "Sales & Experience"
-      abstract: "He’s responsible for our special effects. Some say it was the championship run of his favorite football club that made him fall in love with pursuing the unexpected."
-      experience: "After his bachelor's degree in computer science, Philipp gained several years of experience in the IT departments of large insurance and banking service providers. In 2021 he completed an EMBA in Digital Business, full-time he works as a Product Owner at the Mobiliar."
-      linkedin: "https://www.linkedin.com/in/philipp-grossenbacher/"
-      twitter: "https://twitter.com/philogros"
 
     - title : "Philippe Schmid"
       image : "images/team/AC_Philippe@2x.jpg"
       designation : "Trainer, Puzzle ITC"
       abstract : "Philippe has already completed numerous runs and marathons. He doesn't like this kind of effort in IT, so he automates everything that is possible."
       experience: "Having started studying computer science almost 20 years ago, Philippe has already experienced many infrastructures and Linux distributions. Since the beginning, his heart has beaten for systems engineering, where he has currently been working at Puzzle for over 10 years. His specialty is automation, currently preferably with Ansible."      
-      linkedin : "https://www.linkedin.com/in/philippe-schmid-52644127b/"
-
-    - title: "Raffael Hertle"
-      image: "images/team/AC_Raffael_Hertle@2x.jpg"
-      designation: "Trainer"
-      abstract: "Likes to dress up for carnival, but likes to look behind the masks when it comes to cloud native technologies"
-      experience: "From Sarnen, he studied computer science at the University of Bern. Since graduating, Raffael has been working as a software engineer, where he is most fascinated by the new frameworks and cloud native technologies such as Quarkus."
-      linkedin: "https://www.linkedin.com/in/raffael-hertle-22882b157/"
-      twitter: "https://twitter.com/g1raffi"     
+      linkedin : "https://www.linkedin.com/in/philippe-schmid-52644127b/" 
  
     - title: "Sebastian Plattner"
       image: "images/team/AC_Seba@2x.jpg"
@@ -226,16 +166,7 @@ team:
       designation: "CEO"
       abstract: "Enjoys seeing the bigger picture and strives to bring out the best in himself and organizations. Sometimes also with beer."
       experience: "Having spent years as a marketer, Simon transitioned into management and leadership. In addition to leading teams in the business world, he has also led teams in sports and is convinced that the athlete's mindset is highly relevant in everyday business. Since July 2024, Simon has been responsible for the further development of acend as CEO."
-      linkedin: "https://www.linkedin.com/in/simon-stettler/"
-
-    - title: "Stefan Johner"
-      image: "images/team/AC_Stefu@2x.jpg"
-      designation: "Trainer"
-      abstract: "Stefan is not only a team player in sport. Away from the sports fields, he likes to be active in the Microsoft and cloud native community so that he can get to know new trends and people."
-      experience: "After studying computer science at BFH, Stefan gained several years of experience in the Microsoft cloud ecosystem. Today he works as a Product Manager at Mobiliar Insurance. He has been a Microsoft Azure MVP since 2016 and co-organizer of Azure Bootcamp Switzerland. 
-      Stefan also holds an MAS in Digital Management and various Azure certifications."
-      linkedin: "https://www.linkedin.com/in/stefanjohner/"
-      twitter: "https://twitter.com/JohnerStefan"          
+      linkedin: "https://www.linkedin.com/in/simon-stettler/"        
       
     - title: "Thomas Philipona"
       image: "images/team/AC_Thoemu@2x.jpg"

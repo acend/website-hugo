@@ -94,13 +94,6 @@ trainers:
       designation: "Trainer, Tim&Koko AG"
       abstract: "Christof is back from his trip around the world, has dived a lot and got to know different cultures. With a fresh spirit and curiosity, he is now on a journey of discovery in the Cloud Native world."
       linkedin: "https://www.linkedin.com/in/christof-luethi/"      
-
-    - title : "Raffael Hertle"
-      image : "images/team/AC_Raffael_Hertle@2x.jpg"
-      designation : "Trainer"
-      abstract : "Likes to dress up for carnival, but likes to look behind the masks when it comes to cloud native technologies"
-      linkedin : "https://www.linkedin.com/in/raffael-hertle-22882b157/"
-      twitter : "https://twitter.com/g1raffi"
       
       
 # testimonials
