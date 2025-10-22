@@ -107,13 +107,7 @@ trainers:
   enable: true
   title : "Meet two of Your Trainers"
   trainer:
-    #- title : "Johann Gyger"
-    #  image : "images/team/AC_Johann@2x.jpg"
-    #  designation : "Trainer"
-    #  abstract : "Still waters run deep, and he’s one to deep dive into Cloud Native technologies. As a supporter of sustainability and a climate-friendly world, he prefers Lake Thun to the ocean."
-    #  linkedin : "https://www.linkedin.com/in/johanngyger/"
-    #  twitter : "https://twitter.com/johanngyger"
-      
+     
     - title : "Daniel Strohecker"
       image : "images/team/AC_Daenu@2x.jpg"
       designation : "Trainer"

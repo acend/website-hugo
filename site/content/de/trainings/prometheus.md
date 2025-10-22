@@ -116,31 +116,7 @@ trainers:
       designation : "Trainer, Puzzle ITC"
       abstract : "Als Ausgleich zum hektischen Container-Alltag, macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
       linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
-      
-    #- title : "Christoph Aymon"
-    #  designation : "Trainer"
-    #  abstract : "Sitzt er nicht konzentriert vor dem Computer, dann am ehesten in einem schnellen Auto – er dreht nur auf dem Nürburgring Extrarunden."
-    #  image : "images/team/AC_Chrigu@2x.jpg"
-    #  linkedin : "https://www.linkedin.com/in/christoph-aymon"
 
-    - title : "Julius Volz"
-      designation : "Trainer, PromLabs"
-      abstract : "Im Prometheus-Universum ist er quasi der Zeus und bei uns übernimmt er als Special Guest einen Teil des Trainings."
-      image : "images/team/AC_Platzhalter@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/julius-volz/"
-      twitter: "https://twitter.com/juliusvolz"
-
-    #- title : "Martin Abegglen"
-    #  designation : "Trainer, Puzzle ITC"
-    #  abstract : "Wenn er nicht damit beschäftigt ist, Tee zu trinken und die Wolken zu bestaunen, liebt er es, die Clouds mit Cloud Native Technologien zu beobachten und für Observability zu sorgen."
-    #  image : "images/team/AC_Martin_Abegglen@2x.jpg"
-    #  linkedin : "https://www.linkedin.com/in/martin-abegglen-%E5%AE%89%E9%A9%AC%E4%B8%81-171941150/"
-      
-    #- title : "Reto Kupferschmid"
-    #  designation : "Trainer, Puzzle ITC"
-    # abstract : "Ganz nach dem Motto, was nicht passt wird passend gemacht, löst er als Engineer alle Herausforderungen im Handumdrehen."
-    # image : "images/team/AC_Reto_Kupferschmid@2x.jpg"
-    # twitter : "https://twitter.com/reti_k"
       
       
 # testimonials

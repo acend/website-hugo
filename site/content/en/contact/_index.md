@@ -1,7 +1,7 @@
 ---
 translationKey: "kontakt"
 title: "Contact"
-seo_title: "Contact - Call us: +41 31 521 04 02 - acend gmbh"
+seo_title: "Contact - Call us: +41 31 370 22 00 - acend gmbh"
 description: "You can reach us here and if you have any questions, we'll be happy to have a coffee or beer with you."
 draft: false
 lead:

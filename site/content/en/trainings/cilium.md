@@ -91,11 +91,6 @@ trainers:
       abstract : "He always has his fingers on the pulse of technological developments and stays one step ahead – the more complex the problem, the bigger his motivation. And because nothing explains itself, he’ll also take care of that."
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
-
-    - title : "Gabriel Graf"
-      image : "images/team/AC_Gabriel_Graf@2x.jpg"
-      designation : "Trainer"
-      abstract : "He is our globetrotter and has been at home all over the world from an early age. And of course, he is really at home in the Cloud Native world."
       
       
 # testimonials

@@ -106,11 +106,6 @@ trainers:
   enable: true
   title : "Lerne zwei deiner Trainer kennen"
   trainer:
-    - title : "Andreas Gehrig"
-      designation : "Trainer, arch.cloud"
-      abstract : "Er ist immer mit seinem Notebook unterwegs, schreibt Software und entwirft Cloud-Architekturen."
-      image : "images/team/AC_Andreas_Gehrig@2x.jpg"
-      linkedin : "https://www.linkedin.com/in/andreasgehrig/"    
     
     - title : "Daniel Strohecker"
       image : "images/team/AC_Daenu@2x.jpg"
@@ -118,6 +113,13 @@ trainers:
       abstract : "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
       linkedin : "https://www.linkedin.com/in/dstrohecker/"
       twitter : "https://twitter.com/sybnex"
+    
+    - title : "Sebastian Plattner"
+      image : "images/team/AC_Seba@2x.jpg"
+      designation : "Trainer"
+      abstract : "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
+      linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
+      twitter : "https://twitter.com/SebaPlattner"
 
 
 # testimonials

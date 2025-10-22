@@ -1,6 +1,6 @@
 ---
 title: "Impressum"
-seo_title: "Impressum - acend gmbh, Sickingerstrasse 10, 3014 Bern"
+seo_title: "Impressum - acend gmbh, Belpstrasse 37, 3007 Bern"
 date: 2020-09-02T13:43:28+02:00
 draft: false
 ---
@@ -9,7 +9,7 @@ draft: false
 
 ##### Contents
 
-acend gmbh, Sickingerstrasse 10, 3014 Bern, hello@acend.ch<br/>
+acend gmbh, Belpstrasse 37, 3007 Bern, hello@acend.ch<br/>
 
 ##### Branding Agency (Concept & Design)
 
