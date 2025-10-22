@@ -180,11 +180,6 @@ partner:
       URL: "https://tim-koko.ch/"
       label: "tim-koko.ch/"      
 
-    - logo: "images/partner/arch-cloud.png"
-      text: "Engineering cloud native solutions is their passion. They support customers in the cloud transformation. Not only in architecture, infrastructure and software development, but also in the appropriate strategy and organization."
-      URL: "https://arch.cloud/"
-      label: "arch.cloud"
-
     - logo: "images/partner/bespinian.png"
       text: 'bespinian is a start-up from Bern that loves software and cloud computing. As "Cloud Native Citizens" they are at home on different cloud platforms and help their customers in close collaboration to build new software in the cloud or to bring existing ones to the cloud.'
       URL: "https://bespinian.io/"
