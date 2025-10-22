@@ -90,16 +90,6 @@ trainingsinhalt:
           - el: "MariaDB und Demo Applikation"
 
 
-# Kooperation
-kooperation:
-  enable: true
-  title: "Gemeinsam mit <strong>arch.cloud</strong> erarbeitet"
-  subtitle: "In Zusammenarbeit mit <strong>arch.cloud</strong>"
-  logo: "images/partner/arch-cloud.png"
-  text: "Engineering von Cloud Native Lösungen ist ihre Passion. Sie unterstützen Kunden in der Cloud Transformation. Nicht nur bei Architektur, Infrastruktur und Software Entwicklung, sondern auch bei der passenden Strategie und Organisation."
-  link: "https://arch.cloud"
-  linktext: "arch.cloud"
-
 
 # trainer
 trainers:
