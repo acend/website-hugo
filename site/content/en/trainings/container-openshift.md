@@ -106,6 +106,12 @@ trainers:
       designation : "Trainer, Puzzle ITC"
       abstract : "To balance out his hectic day-to-day container life, he makes his sourdough pizza by hand. And then eats it himself right away."
       linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
+    - title : "Daniel Strohecker"
+      image : "images/team/AC_Daenu@2x.jpg"
+      designation : "Trainer"
+      abstract : "He’s been picking up speed on his bike as of late. He can slow down, though, and make sure our clients proceed through our trainings on sure feet."
+      linkedin : "https://www.linkedin.com/in/dstrohecker/"
+      twitter : "https://twitter.com/sybnex"
       
       
 # testimonials
