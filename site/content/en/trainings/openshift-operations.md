@@ -105,7 +105,7 @@ video:
 # trainer
 trainers:
   enable: true
-  title : "Meet Your Trainers"
+  title : "Meet Your Trainer"
   trainer:
     - title : "Christian Haller"
       image : "images/team/AC_Christian_Haller@2x.jpg"

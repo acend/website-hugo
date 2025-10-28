@@ -109,6 +109,12 @@ trainers:
       designation : "Trainer, Puzzle ITC"
       abstract : "Als Ausgleich zum hektischen Container-Alltag, macht er seine Sauerteigpizza von Hand. Und isst sie dann auch gleich selber."
       linkedin : "https://www.linkedin.com/in/christian-haller-0a637493"
+    - title : "Daniel Strohecker"
+      image : "images/team/AC_Daenu@2x.jpg"
+      designation : "Trainer"
+      abstract : "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
+      linkedin : "https://www.linkedin.com/in/dstrohecker/"
+      twitter : "https://twitter.com/sybnex"
       
       
 # testimonials

@@ -82,7 +82,7 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
 # trainer
 trainers:
   enable: true
-  title : "Lerne deine Trainer kennen"
+  title : "Lerne deinen Trainer kennen"
   trainer:
 
     - title : "Sebastian Plattner"

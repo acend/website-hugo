@@ -87,7 +87,7 @@ We are also happy to refer to your infrastructure in consultation. If further co
 # trainer
 trainers:
   enable: true
-  title : "Meet two of Your Trainers"
+  title : "Meet Your Trainer"
   trainer:
     - title: "Christof Lüthi"
       image: "images/team/AC_ChristofLuethi@2x.jpg"
