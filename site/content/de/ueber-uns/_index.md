@@ -164,7 +164,7 @@ team:
 
     - title: "Simon Stettler"
       image: "images/team/AC_Simon@2x.jpg"
-      designation: "CEO"
+      designation: "Strategie, Marketing & Sales"
       abstract: "Mag den Blick auf das grosse Ganze und versucht aus sich und Organisationen das Beste herauszuholen. Manchmal auch mit Bier."
       experience: "Jahrelang als Marketer unterwegs, hat sich Simon Richtung Management und Leadership entwickelt. Neben mehreren Teams in der Arbeitswelt, hat er auch im Sport Teams angeführt und ist überzeugt, dass das Athletes Mindset im Business-Alltag hohe Relevanz hat. Seit Juli 2024 ist Simon als CEO von acend für dessen Weiterentwicklung zuständig."
       linkedin: "https://www.linkedin.com/in/simon-stettler/"       
