@@ -82,7 +82,7 @@ We are also happy to make reference to your infrastructure in consultation. If t
 # trainer
 trainers:
   enable: true
-  title : "Meet two of Your Trainers"
+  title : "Meet Your Trainer"
   trainer:
 
     - title : "Sebastian Plattner"

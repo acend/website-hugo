@@ -163,9 +163,9 @@ team:
 
     - title: "Simon Stettler"
       image: "images/team/AC_Simon@2x.jpg"
-      designation: "CEO"
+      designation: "Strategie, Marketing & Sales"
       abstract: "Enjoys seeing the bigger picture and strives to bring out the best in himself and organizations. Sometimes also with beer."
-      experience: "Having spent years as a marketer, Simon transitioned into management and leadership. In addition to leading teams in the business world, he has also led teams in sports and is convinced that the athlete's mindset is highly relevant in everyday business. Since July 2024, Simon has been responsible for the further development of acend as CEO."
+      experience: "Having spent years as a marketer, Simon transitioned into management and leadership. In addition to leading teams in the business world, he has also led teams in sports and is convinced that the athlete's mindset is highly relevant in everyday business. Since July 2024, Simon has been responsible for the further development of acend."
       linkedin: "https://www.linkedin.com/in/simon-stettler/"        
       
     - title: "Thomas Philipona"
